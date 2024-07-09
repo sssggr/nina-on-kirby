@@ -1,0 +1,32 @@
+title: Modulare Seite
+icon: layers
+
+tabs:
+  content:
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fieldsmain:
+            type: fields
+            fields:
+              modules:
+                label: Bausteine
+                type: blocks
+                fieldsets:
+                  - heading
+                  - subheading
+                  - subsubheading
+                  - subsubsubheading
+                  - bodytext
+                  - list
+                  - accordion
+                  - bigimage
+                  - hero
+      sidebar:
+        width: 1/3
+        sections:
+          files:
+            label: Übersicht der Dateien
+            type: files
+  seo: seo/page

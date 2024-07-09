@@ -1,0 +1,95 @@
+title: Home
+icon: home
+
+tabs:
+  content:
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fieldsmain:
+            type: fields
+            fields:
+              offersheadline:
+                label: Angebote-Teasergruppeüberschrift (h2)
+                type: text
+              offers:
+                label: Angebotsteaser
+                type: structure
+                fields:
+                  offerimage:
+                    label: Teaserbild
+                    type: files
+                    multiple: false
+                  offerheadline:
+                    label: Teaserüberschrift (h3)
+                    type: text
+                  offertext:
+                    label: Teasertext
+                    type: textarea
+                    buttons:
+                      - italic
+                      - bold
+                      - link
+                  offerlink:
+                    label: Teaserziel
+                    type: pages
+                    multiple: false
+                  offerbutton:
+                    label: Buttontext
+                    type: text
+              inqaheadline:
+                label: INQA-Teaserüberschrift (h2)
+                type: text
+              inqatext:
+                label: INQA-Teasertext
+                type: textarea
+                buttons:
+                      - italic
+                      - bold
+                      - link
+              inqalink:
+                label: INQA-Teaserziel
+                type: pages
+                multiple: false
+                width: 1/3
+              inqabutton:
+                label: INQA-Buttontext
+                type: text
+                width: 1/3
+              inqaimage:
+                label: INQA-Teaserbild
+                type: files
+                multiple: false
+                width: 1/3
+         
+      sidebar:
+        width: 1/3
+        sections:
+          fieldssidebar:
+            type: fields
+            fields:
+              herotext:
+                label: Hero-Text (h1)
+                type: text
+              heroimage:
+                label: Hero-Bild
+                type: files
+                multiple: false
+              herolink:
+                label: Hero-Linkziel
+                type: pages
+                multiple: false
+              herobutton:
+                label: Hero-Buttontext
+                type: text
+              topicsheadline:
+                label: Meine Themen Überschrift (h2)
+                type: text
+              topics:
+                label: Einzelne Themen
+                type: list
+          files:
+            label: Übersicht der Dateien
+            type: files
+  seo: seo/site

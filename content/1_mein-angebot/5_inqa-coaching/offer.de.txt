@@ -1,0 +1,73 @@
+Title: INQA: Förderung für KMU
+
+----
+
+Modules: [{"content":{"heading":"INQA-Coaching in Hamburg"},"id":"ca007252-f68c-4ea4-88cf-564599504d6d","isHidden":false,"type":"heading"},{"content":{"herotext":"Agil in die digitale Zukunft mit dem INQA-Förderprogramm für KMU","heroimage":["file://0LpsGEe3kJa0QiSK"]},"id":"792d9f8e-9f23-4cee-b9bf-7abd8b87ba09","isHidden":false,"type":"hero"},{"content":{"text":"Die Initiative Neue Qualität der Arbeit (INQA) ist ein Bundesprogramm für die Förderung kleiner und mittlerer Unternehmen sowie von Non-Profit-Organisationen. Beim INQA Coaching geht es darum, Unternehmen rund um das Thema Digitalisierung durch eine externe Prozessbegleitung zu unterstützen. Dabei wird auf Agilität und die Partizipation von Mitarbeitenden gesetzt.\n\nIch bin autorisierte und geprüfte INQA-Coach und begleite Unternehmen in und um Hamburg in Veränderungsprozessen. Die Förderung umfasst maximal 12 Beratungstage. Bis zu 80 Prozent meiner Beratungskosten können durch das Programm finanziert werden."},"id":"b3d925cc-b453-4ca3-b555-8e213295f75f","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Welche Vorteile bietet INQA-Coaching?","styleselect":""},"id":"7582a5ad-5e2b-4984-b920-c05c5efc2c3e","isHidden":false,"type":"subsubheading"},{"content":{"text":"INQA-Coaching bedient sich agiler Methoden und befähigt Unternehmen zum eigenständigen agilen Arbeiten. Gleichzeitig bezieht das Programm durchgehend Mitarbeitende ein, das heißt, die Beschäftigten werden bei allen Schritten konsequent beteiligt. So entstehen passgenaue und nachhaltige Lösungen für Ihr Unternehmen, die breit getragen werden und auch nach dem Ende des INQA-Coachings Bestand haben."},"id":"2178dde9-8de2-4356-ac52-a7914838d9e0","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Wer wird gefördert?","styleselect":""},"id":"64f27874-2fce-4788-bc40-d7c3c0b0c98e","isHidden":false,"type":"subsubheading"},{"content":{"text":"Das Förderprogramm richtet sich an in Deutschland ansässige KMU, die seit mindestens zwei Jahren am Markt sind, weniger als 250 Mitarbeitende beschäftigen und dabei mindestens eine Vollzeitkraft sozialversicherungspflichtig anstellen. Die Unternehmen sollten einen Jahresumsatz unter 50 Millionen Euro oder eine Bilanzsumme unter 43 Millionen Euro vorweisen und in den vergangenen drei Steuerjahren nicht mehr als 200.000 Euro an staatlichen Beihilfen, inklusive der INQA-Coaching-Förderung, erhalten haben."},"id":"e80465d3-4d17-4df8-8f41-32bb9fa22ea8","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Was sind die Förderschwerpunkte?","styleselect":""},"id":"5db5d131-4804-4274-bbef-c63105341210","isHidden":false,"type":"subsubheading"},{"content":{"text":"Das INQA-Programm definiert einige große betriebliche Gestaltungsfelder. Ich unterstütze Unternehmen als autorisierte INQA-Coach in folgenden Bereichen:"},"id":"61fa5c14-47bf-49d3-a554-ae4d5f930552","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Führung, berufliche Entwicklung &amp; Karriere</li><li>Arbeitsplatz der Zukunft, Arbeitszeit &amp; Leistungspolitik</li><li>Soziale Beziehungen &amp; Kultur</li><li>Produktionsmodell &amp; Arbeitsorganisation</li><li>Neue Geschäftsmodelle &amp; Innovationsstrategien</li></ul>","styleselect":""},"id":"10e1d8f5-2234-4600-b2f3-96a6fa5b2823","isHidden":false,"type":"list"},{"content":{"subsubheading":"Wie läuft das INQA-Coaching ab?","styleselect":""},"id":"d0cf821f-fc78-4db1-9a19-6b89b8548186","isHidden":false,"type":"subsubheading"},{"content":{"text":"Der Ablauf des INQA-Coachings gliedert sich in drei Phasen:"},"id":"130d1c6a-75e0-4e76-8078-868a1421a97c","isHidden":false,"type":"bodytext"},{"content":{"list":"<ol><li>Initialphase (Dauer: ca. 1 Monat)</li><li>Innovationsphase ( Dauer: 3-4 Monate)</li><li>Lernphase (Dauer: 1 Monat)</li></ol>","styleselect":""},"id":"27efbe54-bcd7-40ac-94eb-cb0faa669fd1","isHidden":false,"type":"list"},{"content":{"bigimage":["file://uU0NU01Q62pwz5xJ"],"styleselect":"flex"},"id":"6217c436-cb13-4609-8ed0-e8771a31e4b8","isHidden":false,"type":"bigimage"},{"content":{"text":"**Initialphase:** In dieser Phase findet die Auftragsklärung statt, das zu bearbeitende Thema wird festgelegt und der Kick-off-Workshop wird durchgeführt. In dieser Phase werden Lab-Team und Lenkungskreis gebildet.\n\n**Innovationsphase:** In diesem Abschnitt nimmt das Lab-Team seine Arbeit auf. Dieser Prozess besteht aus drei Phasen, die jeweils etwa vier Wochen dauern. Jeder Abschnitt startet mit einem Planungs-Workshop (ungefähr 4 Stunden) und endet mit einem Auswertungs-Workshop (ungefähr 1,5 Stunden). Die eigentliche Bearbeitung des gewählten Themas verbringt das Lab-Team in der Zeit dazwischen – überwiegend selbstorganisiert. Vorgesehen sind ca. zwei Stunden pro Woche in der Arbeitsphase, die jedes Teammitglied mindestens innerhalb der regulären Arbeitszeit aufwenden sollte, der*die Lab-Team-Verantwortliche mindestens 4 Stunden pro Woche.\n\n**Lernphase:** Diese Phase dient dazu, die Erfahrungen und erzielte Ergebnisse zu evaluieren. Dies geschieht im Rahmen eines Evaluations-Workshops."},"id":"2f38102e-49f7-438d-805e-0b027df59364","isHidden":false,"type":"bodytext"},{"content":{"bigimage":["file://Yn1QhglycwfZYvbO"],"styleselect":"flex"},"id":"db517421-2f99-446a-8a81-a11267030dbb","isHidden":false,"type":"bigimage"},{"content":{"text":"INQA-Coaching arbeitet mit einem Rollenkonzept, das einen Lenkungskreis, ein Lab-Team und eine*n Verantwortliche*n des Lab-Teams vorsieht.\n\nDer Lenkungskreis setzt sich aus Vertreterinnen und Vertretern der Geschäftsführung und der Beschäftigten zusammen, setzt die zentralen Themen und bewertet den Fortschritt des angestoßenen Veränderungsprozesses.\n\nDas Lab-Team setzt sich aus Beschäftigten der relevanten Organisationseinheiten zusammen. Es entwickelt und erprobt Gestaltungslösungen. Der*Die Lab-Team-Verantwortliche*r ist die zentrale Anlaufstelle für INQA-Coach und Lenkungskreis und treibt den Prozess im Lab-Team voran.\n\nEmpfohlene Besetzung des Lab-Teams: 3–6 Expert*innen aus den relevanten Bereichen, jedoch ohne Geschäftsführung. Falls es im Unternehmen eine mittlere Führungsebene gibt, kann diese im Lab-Team mitwirken, allerdings in der Rolle eines*einer fachlichen Expert*in, nicht als Führungskraft.\n\nWeitere Informationen zum Ablauf und den Förderschwerpunkten gibt es im (link: file://OfEx2ooKfs4Ffaie text: offiziellen Flyer) und auf der (link: https://www.inqa.de/DE/handeln/inqa-coaching/uebersicht.html text: INQA Website)."},"id":"c6e820f1-a9a2-4cc3-a29c-3c173e8bd39f","isHidden":false,"type":"bodytext"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: lBjO0WReDAHFb4Ui

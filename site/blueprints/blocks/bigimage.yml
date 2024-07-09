@@ -1,0 +1,17 @@
+name: Bigimage
+icon: image
+wysiwyg: true
+preview: fields
+fields:
+  bigimage:
+    label: Bild über die komplette Breite des Headers 
+    type: files
+    query: model.images
+    multiple: false
+    search: false
+    help: Default min Bildgröße 2880 x 1440 (px), optimal als Topmedium
+  styleselect:
+    label: Bildformat ändern
+    type: select
+    options:
+      flex: flexible Höhe plus feste Breite (2880 px), optimal im Fließtext 

@@ -1,0 +1,77 @@
+Title: Wirksame Führung
+
+----
+
+Teaser: 
+
+----
+
+Modules: [{"content":{"heading":"Wirksame Führung"},"id":"6db5d6b6-3dcc-4332-b237-3012638fb3ab","isHidden":false,"type":"heading"},{"content":{"heroimage":["file://telHqZabcZVdknfF"],"herotext":" Führen in agilen Organisationen – Gemeinsam wachsen und Potenziale entfalten "},"id":"be15e870-cc8d-4840-8208-cafae4b0e506","isHidden":false,"type":"hero"},{"content":{"subsubheading":""},"id":"ac03bcaa-edef-4534-b38e-cfa2a9cf97f1","isHidden":false,"type":"subsubheading"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: Q07Y5WPaWAXyjGYH

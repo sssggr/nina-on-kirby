@@ -1,0 +1,17 @@
+name: Hero
+icon: image
+wysiwyg: true
+preview: fields
+label: "{{ herotext }}"
+fields:
+  herotext:
+    label: Herotext
+    type: text
+    help: Text links auf weißem HG
+  heroimage:
+    label: Text plus Bild
+    type: files
+    query: model.images
+    multiple: false
+    search: false
+    help: Bild rechts, Bildgröße 1200 x 800 (px)

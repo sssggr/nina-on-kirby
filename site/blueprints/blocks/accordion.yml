@@ -1,0 +1,20 @@
+name: Akkordeon
+icon: angle-down
+wysiwyg: true
+preview: fields
+fields:
+  rows:
+    label: Zeilen
+    type: structure
+    fields:
+      headline:
+        label: Überschrift
+        type: text
+      answer:
+        label: Antwort
+        type: textarea
+        size: medium
+        buttons:
+          - bold
+          - italic
+          - link

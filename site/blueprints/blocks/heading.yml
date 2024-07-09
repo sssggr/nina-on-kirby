@@ -1,0 +1,9 @@
+name: Heading
+icon: h1
+wysiwyg: true       
+preview: fields
+label: "{{ heading }}"
+fields:
+  heading:
+    label: Überschrift für die Seite (nur einmal verwenden)
+    type: text

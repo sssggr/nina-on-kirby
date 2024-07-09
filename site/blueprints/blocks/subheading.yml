@@ -1,0 +1,9 @@
+name: Subheading
+icon: h2
+wysiwyg: true       
+preview: fields
+label: "{{ subheading }}"
+fields:
+  subheading:
+    label: Zwischenüberschrift in Versalien (automatisch)
+    type: text

@@ -1,5 +1,6 @@
 title: Site
 
 sections:
-  pages:
+  allpages:
+    label: Seitenüberblick
     type: pages

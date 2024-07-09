@@ -1,0 +1,15 @@
+name: Subsubheading
+icon: h3
+wysiwyg: true       
+preview: fields
+label: "{{ subsubheading }}"
+fields:
+  subsubheading:
+    label: Zwischenüberschrift mit Unterstreichung (automatisch)
+    type: text
+  styleselect:
+    label: CSS-Selektor
+    type: select
+    options:
+      offer: Angebot (rote Unterstreichung)
+  

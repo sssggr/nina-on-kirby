@@ -1,0 +1,9 @@
+name: Subsubsubheading
+icon: h4
+wysiwyg: true       
+preview: fields
+label: "{{ subsubsubheading }}"
+fields:
+  subsubsubheading:
+    label: Zwischenüberschrift Fett (gleiche Größe wie Fließtext)
+    type: text

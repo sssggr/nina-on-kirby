@@ -1,0 +1,83 @@
+Title: Kontakt
+
+----
+
+Headline: Kontakt
+
+----
+
+Text:
+
+Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+
+(email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
+
+(link: tel:+4901702610977 text: +49 (0)170 2610977)
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: QjQlA0CmqokWM3F5

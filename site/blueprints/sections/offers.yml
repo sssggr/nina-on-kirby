@@ -1,0 +1,6 @@
+type: pages
+label: Einzelnes Angebot
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: offer
+empty: No Offer yet
+sortBy: num

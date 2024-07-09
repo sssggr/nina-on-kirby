@@ -1,0 +1,184 @@
+Title: Home
+
+----
+
+Offersheadline: Mein Angebot
+
+----
+
+Offers:
+
+- 
+  offerimage:
+    - file://MyJAXBKznVTqWy16
+  offerheadline: Agile Organisationsberatung
+  offertext: >
+    In einer Welt im Wandel sind
+    zukunftsfähige Organisationen, die
+    schnell auf Veränderungen reagieren
+    können, wichtiger denn je. Ich begleite
+    Organisationen dabei sich
+    weiterzuentwickeln und Veränderungen
+    agil und aktiv zu begegnen.
+  offerlink:
+    - page://Nbs5UEkHWnP7Ctyh
+  offerbutton: mehr
+- 
+  offerimage:
+    - file://5C1Ay4lgd9C0JsPQ
+  offerheadline: Im Team agil arbeiten
+  offertext: >
+    Ihr wollt als Team eure Zusammenarbeit
+    verbessern, steht vor einer besonderen
+    Herausforderung oder wünscht euch
+    Unterstützung auf eurer Reise Richtung
+    Agilität und Selbstorganisation? Ich
+    begleite euch als Teamcoach und gestalte
+    gemeinsam mit euch nachhaltige Prozesse
+    für eine bessere Zusammenarbeit.
+  offerlink:
+    - page://lbJrFzWzs9lDEi4p
+  offerbutton: mehr
+- 
+  offerimage:
+    - file://VsBAiach0x1dQexF
+  offerheadline: Wirksame Führung
+  offertext: >
+    Teams und Organisationen, die auf
+    Agilität und sich selbst steuerende
+    Teams setzen, erfordern neue
+    Führungsansätze und Kompetenzen. Du
+    bist in einer Führungsrolle und
+    möchtest dich weiterentwickeln?
+    Gemeinsam schärfen wir deine Rolle und
+    erweitern deine Führungskompetenzen.
+  offerlink:
+    - page://lbJrFzWzs9lDEi4p
+  offerbutton: mehr
+- 
+  offerimage:
+    - file://CpyH3otVRMbREpJY
+  offerheadline: Konfliktmanagement
+  offertext: >
+    Konflikte sind in Organisationen und
+    Teams unvermeidlich. Die entscheidende
+    Frage ist deshalb wie wir mit ihnen
+    umgehen. Als zertifizierte Mediatorin
+    begleite ich die konstruktive
+    Bearbeitung von Konflikten und
+    unterstütze Teams dabei ihre eigene
+    Konfliktkompetenz zu stärken.
+  offerlink:
+    - page://QjQlA0CmqokWM3F5
+  offerbutton: mehr
+
+----
+
+Inqaheadline: Inqa-Programm
+
+----
+
+Inqatext:
+
+Agiler und digitaler werden?
+Jetzt als KMU vom INQA-Förderprogramm profitieren.
+
+----
+
+Inqalink: - page://QjQlA0CmqokWM3F5
+
+----
+
+Inqabutton: mehr
+
+----
+
+Inqaimage: - file://0Fc1KlH0qPi1gkiW
+
+----
+
+Herotext: Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+
+----
+
+Heroimage: - file://5SfTNmVF4VSKPoJh
+
+----
+
+Herolink: - page://K0rsGSuBepaBoxr9
+
+----
+
+Herobutton: Über mich
+
+----
+
+Topicsheadline: Meine Themen
+
+----
+
+Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation</li><li>Veränderungsprozesse</li><li>Führung</li><li>Konfliktmanagement</li><li>Zusammenarbeit in remote oder hybriden Settings</li><li>Softwareentwicklung</li></ul>
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Offerbutton: mehr
+
+----
+
+Text: 
+
+----
+
+Uuid: V5xVJvDDIHp0mnPr

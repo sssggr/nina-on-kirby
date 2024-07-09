@@ -1,0 +1,12 @@
+title: Angebotsübersicht
+icon: money
+
+sections:
+  drafts:
+    extends: sections/offers
+    label: Entwürfe
+    status: draft
+  listed:
+    extends: sections/offers
+    label: Veröffentlichungen
+    status: listed

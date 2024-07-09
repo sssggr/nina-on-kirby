@@ -1,0 +1,32 @@
+title: Blogübersicht
+icon: book
+
+tabs:
+  content:
+    columns:
+      left:
+        width: 1/2
+        sections:
+          fieldsmain:
+            type: fields
+            fields:
+              headline:
+                label: Meine H1
+                type: text
+              text:
+                label: Introtext
+                type: textarea
+                size: small
+      right:
+        width: 1/2
+        sections:
+          drafts:
+            extends: sections/articles
+            label: Entwürfe
+            status: draft
+          listed:
+            extends: sections/articles
+            label: Veröffentlichungen
+            status: listed
+          
+  seo: seo/page

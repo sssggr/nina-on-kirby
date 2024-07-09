@@ -1,0 +1,19 @@
+name: List
+icon: list-bullet
+wysiwyg: true
+preview: fields
+label: "{{ list }}"
+fields:
+  list:
+    label: Liste im Stil des Fließtextes
+    type: list
+    help: Markdown funktioniert hier auch. Oder Text auswählen - dann erscheint ein Auswahlmenü. Darin befidnet sich die Option für »Ordered List« oder »Unordered List«.
+    marks: true
+    nodes:
+      - bulletList
+      - orderedList
+  styleselect:
+    label: CSS-Selektor
+    type: select
+    options:
+      offer: Angebot (rote Aufzählungspunkte)

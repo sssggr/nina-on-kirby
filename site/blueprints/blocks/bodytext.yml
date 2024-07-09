@@ -1,0 +1,13 @@
+name: Fließtext
+icon: text
+wysiwyg: true
+preview: fields
+label: "{{ text }}"
+fields:
+  text:
+    label: normaler Fließtext (Markdown zur Formatierung)
+    type: textarea
+    buttons:
+      - bold
+      - italic
+      - link

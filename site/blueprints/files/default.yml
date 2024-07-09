@@ -1,0 +1,20 @@
+title: Default Image
+
+accept:
+  extension: jpg, png, pdf
+
+columns:
+  left:
+    width: 1/2
+    fields:
+      alt:
+        label: Alt Text
+        type: text
+  right:
+    width: 1/2
+    fields:
+      photo:
+        label: Foto von
+        type: text
+
+  
