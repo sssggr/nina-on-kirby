@@ -1,0 +1,94 @@
+Title: Impressum
+
+----
+
+Headline: Impressum
+
+----
+
+Text:
+
+Nina Siessegger
+Bernstorffstrasse 120
+22767 Hamburg
+
+Sales tax identification number according to § 27a UStG: DE285651285
+
+##Contact
+(email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
+
+##Picture credits
+Portrait photos by (link: https://authentische-businessfotografie.de/ text: Meike Kuether)
+
+##Webdesign
+(link: https://www.exakteaesthetik.de text: Büro für Exakte Ästhetik)
+
+##Liability for content
+The contents of my pages were created with the greatest care. However, I cannot accept any liability for the accuracy, completeness and topicality of the content. As a service provider, I am responsible for my own content on these pages in accordance with § 7 para. 1 TMG (German Telemedia Act) and general laws. However, as a service provider, I am not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. This third-party information includes, in particular, requests made by our users under the Freedom of Information Act and responses from the relevant authorities. The obligation to remove or block the use of information in accordance with general legislation remains unaffected by this. However, liability in this respect is only possible from the time of knowledge of a specific infringement. As soon as I become aware of such infringements, I will remove this content immediately.
+
+##Liability for links
+My website contains links to external websites of third parties over whose content I have no influence. Therefore, I cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If I become aware of any legal infringements, I will remove such links immediately.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

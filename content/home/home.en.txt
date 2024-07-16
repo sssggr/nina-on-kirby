@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Offersheadline: Mein Angebot
+Offersheadline: My services
 
 ----
 
@@ -74,14 +74,14 @@ Offers:
 
 ----
 
-Inqaheadline: Inqa-Programm
+Inqaheadline: INQA program
 
 ----
 
 Inqatext:
 
-Agiler und digitaler werden?
-Jetzt als KMU vom INQA-Förderprogramm profitieren.
+Becoming more agile and digital?
+Benefit now as an SME from the INQA funding program.
 
 ----
 
@@ -97,7 +97,7 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Herotext: Agile organizational consulting for sustainable companies and working environments
 
 ----
 
@@ -109,31 +109,31 @@ Herolink: - page://K0rsGSuBepaBoxr9
 
 ----
 
-Herobutton: Über mich
+Herobutton: About me
 
 ----
 
-Topicsheadline: Meine Themen
+Topicsheadline: My topics
 
 ----
 
-Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation</li><li>Veränderungsprozesse</li><li>Führung</li><li>Konfliktmanagement</li><li>Zusammenarbeit in remote oder hybriden Settings</li><li>Softwareentwicklung</li></ul>
+Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</li><li>Change processes</li><li>Leadership</li><li>Conflict management</li><li>Collaboration in remote or hybrid settings</li><li>Software development</li></ul>
 
 ----
 
-Metatemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Metatemplate: Nina Siessegger - Agile organizational consulting for sustainable companies and working environments
 
 ----
 
-Metadescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.
+Metadescription: I accompany organizations, teams and leaders in change processes and support them in shaping sustainable companies and working environments.
 
 ----
 
-Ogtemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Ogtemplate: Nina Siessegger - Agile organizational consulting for sustainable companies and working environments
 
 ----
 
-Ogdescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.
+Ogdescription: I accompany organizations, teams and leaders in change processes and support them in shaping sustainable companies and working environments.
 
 ----
 
@@ -185,7 +185,3 @@ Offerbutton: mehr
 ----
 
 Text: 
-
-----
-
-Uuid: V5xVJvDDIHp0mnPr

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'debug'  => false,
+    'debug'  => true,
     'tobimori.seo.canonicalBase' => 'https://ninasiessegger.de',
     'languages' => [
         'detect' => true

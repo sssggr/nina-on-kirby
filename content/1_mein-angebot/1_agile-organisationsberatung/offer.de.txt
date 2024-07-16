@@ -2,7 +2,15 @@ Title: Agile Organisationsberatung
 
 ----
 
-Modules: 
+Modules: [{"content":{"heading":" Agile Organisationsberatung"},"id":"8b21d100-1bbb-45a4-ac9a-d869433776ce","isHidden":false,"type":"heading"},{"content":{"herotext":"Nachhaltige Veränderungsprozesse gestalten und zukunftsfähige Organisationen entwickeln ","heroimage":["file://S9c6aAshBTXiZHaH"]},"id":"2a9d60e7-4479-467c-b820-2ba3245c235e","isHidden":false,"type":"hero"},{"content":{"text":"In einer Welt im Wandel sind Organisationen, die schnell auf Veränderungen reagieren können, wichtiger denn je. Die zunehmende Komplexität und Geschwindigkeit stellt Unternehmen und ihre Mitarbeitende vor neue Herausforderungen.\n\nAls Organisationsberaterin unterstütze ich insbesondere kleine und mittlere Unternehmen dabei, diesen Herausforderungen wirksam zu begegnen und sich weiterzuentwickeln."},"id":"e8a6591e-36ca-44e5-b994-c3878a342259","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mein Ansatz"},"id":"4a57ad7f-e9fd-490d-b341-f272399329e3","isHidden":false,"type":"subheading"},{"content":{"text":"**Partizipativ:** Ich glaube daran, dass Veränderungen am nachhaltigsten sind, wenn sie gemeinschaftlich gestaltet werden. Daher arbeite ich eng mit allen Stakeholdern zusammen, um die unterschiedlichen Perspektiven und Erfahrungen einzubeziehen.\n\n**Iterativ:** Veränderungen werden schrittweise und kontinuierlich umgesetzt, Feedback wird in den Entwicklungsprozess integriert. Dieser Ansatz der Organisationsentwicklung ermöglicht eine organische Entwicklung und bedarf keines umfangreichen Transformationsprojekts.\n\n**Individuell:** Ich verkaufe keine Frameworks oder bestimmte Methoden. Gemeinsam mit euch erarbeite ich individuelle Lösungen, die perfekt zu euren Herausforderungen und Zielen passen. Dabei bringe ich meine jahrelange Erfahrung in der Arbeit in und mit agilen Teams und Unternehmen ein.\n\n**Wirkungsvoll:** Mein Ziel ist es, die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken und flexibel auf Veränderungen reagieren zu können."},"id":"fe36dab3-c9f6-4b1b-a1e9-67880c71bfab","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Meine Leistungen"},"id":"93499fb6-42fa-421c-ba90-62a64a80ef3e","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"Die Organisation weiterentwickeln","styleselect":"offer"},"id":"cf851ed7-52f7-4972-9109-9d4041b9c932","isHidden":false,"type":"subsubheading"},{"content":{"text":"Euer Unternehmen befindet sich in einer starken Wachstums- oder Umbruchphase? Prozesse und Strukturen stoßen an ihre Grenzen? Ihr wollt dabei auf Teamarbeit und Selbstorganisation setzen? \n\n**Das erreichen wir gemeinsam: **"},"id":"16862931-491f-48bb-ae69-d970dd7ad60b","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li><strong>Mehr Klarheit:</strong> Wir durchleuchten eure Entscheidungs- und Kommunikationswege und schärfen Rollen und Verantwortlichkeiten.</li><li><strong>Notwendige Strukturen:</strong> Ich unterstütze euch dabei, die richtigen Rahmenbedingungen für Selbstorganisation und Teamarbeit zu schaffen.</li><li><strong>Neue Lösungsansätze:</strong> Mit meinem frischen Blick von außen und neuen, innovativen Perspektiven auf eure Organisation finden wir gemeinsam neue Lösungsansätze.</li></ul>","styleselect":"offer"},"id":"9a7db730-a427-4dc0-a367-930f75949833","isHidden":false,"type":"list"},{"content":{"subsubheading":"Digitale Transformationsprozesse","styleselect":"offer"},"id":"87a5b02f-dd8d-4dd5-a927-31eeb971fa13","isHidden":false,"type":"subsubheading"},{"content":{"text":"Steht die Digitalisierung eines oder mehrerer Prozesse bei euch an? Ob ihr euer Wissensmanagement, eure Kommunikation oder das Kundenerlebnis neu und digital gestalten wollt, ich begleite euch bei der Gestaltung und Umsetzung digitaler Transformationsprozesse. Gemeinsam finden wir nachhaltige Lösungen. \n\n** Das erreichen wir gemeinsam: **"},"id":"bc98f5e3-5a49-4781-853e-8e9fa4870209","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li><strong>Höhere Akzeptanz:</strong> Wir beziehen die relevanten Stakeholder ein und erreichen so eine hohe Akzeptanz der Veränderung.</li><li><strong>Nachhaltigere Ergebnisse: </strong>Die höhere Akzeptanz führt zu nachhaltigeren Ergebnissen und einer motivierteren Nutzung von neuen Prozessen und Strukturen.</li><li><strong>Das beste Ergebnis: </strong>Die Mitarbeitenden kennen die Prozesse und Herausforderungen am besten.</li></ul>","styleselect":"offer"},"id":"c138622a-5f69-4b26-abee-5441aef3948a","isHidden":false,"type":"list"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
 
 ----
 
@@ -10,7 +18,11 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.
+
+----
+
+Ogtemplate: 
 
 ----
 
@@ -18,7 +30,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription: Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.
 
 ----
 
@@ -26,23 +38,31 @@ Ogimage:
 
 ----
 
-Robotsindex: default
+Twittercardtype: 
 
 ----
 
-Robotsfollow: default
+Twitterauthor: 
 
 ----
 
-Robotsarchive: default
+Robotsindex: true
 
 ----
 
-Robotsimageindex: default
+Robotsfollow: true
 
 ----
 
-Robotssnippet: default
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
 
 ----
 

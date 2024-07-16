@@ -2,7 +2,15 @@ Title: Im Team agil arbeiten
 
 ----
 
-Modules: 
+Modules: [{"content":{"heading":" Im Team agil arbeiten "},"id":"bba8699e-48e5-456f-8ae6-b6bbf7bd3ac9","isHidden":false,"type":"heading"},{"content":{"herotext":"Mit innovativen Methoden und agilen Impulsen die Zukunft eurer Zusammenarbeit gestalten","heroimage":["file://mHnj2fXvKgM4hvVP"]},"id":"5490544b-60c5-4dc9-9ff4-496330b5f261","isHidden":false,"type":"hero"},{"content":{"text":"Ihr wollt als Team etwas bewegen und gemeinsam weiter kommen? Teamentwicklung ist der Schlüssel, um die Kommunikation, das Vertrauen und den Zusammenhalt im Team zu stärken und die Grundlage für effektive Zusammenarbeit zu schaffen. Mit individuell zugeschnittenem Ansatz unterstütze ich euch dabei, nachhaltige Veränderungen zu bewirken.\n\nKreative Methoden, agile Impulse und ein starker Fokus auf Reflexion und Selbsthilfe prägen meine Arbeit. So werden die im Team vorhandenen Ressourcen und Kompetenzen für alle Beteiligten sichtbar. Ich unterstütze dabei, diese bewusster einzusetzen und die Dialog- und Arbeitsfähigkeit nachhaltig zu fördern. Dabei setze ich auf partizipative Methoden. Denn ich bin überzeugt: Die Vielfalt der Perspektiven und die aktive Beteiligung aller Teammitglieder führen zu kreativen und guten Lösungen.\n\nIch arbeite regelmäßig mit Remote-Teams zusammen und führe alle Teamentwicklungsprozesse auch online durch."},"id":"93e7eb6f-93e3-41a7-ba3f-31dec401277e","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Meine Leistungen"},"id":"a0743260-680f-4d1a-922f-194ba587f58e","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"Agiles Arbeiten im Team","styleselect":"offer"},"id":"e034b045-1f63-4d5d-8f39-a375b7461b73","isHidden":false,"type":"subsubheading"},{"content":{"text":"Teams in agilen Kontexten, die verstärkt auf Selbstorganisation setzen wollen, stehen vor besonderen Herausforderungen. Denn die bloße Einführung agiler Methoden oder Frameworks reicht oft nicht aus. Oftmals bleibt unklar, was Agilität und Selbstorganisation im Kern bedeuten und wie diese Prinzipien im Alltag konkret umgesetzt werden können.\n\nDie Dezentralisierung von klassischen Führungsaufgaben erfordert mehr Struktur und klare Regeln, um effektiv und produktiv zusammenarbeiten zu können. Ich unterstütze euch dabei einen guten Rahmen für eure Zusammenarbeit zu schaffen. \n\n**Gemeinsam können wir folgende Themen angehen: **"},"id":"f5cdacb0-bfae-406e-b3b9-5602fee887bb","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li><strong>Agile Methoden in der Praxis:</strong> Ihr habt agile Methoden eingeführt, aber die Umsetzung hapert und stößt auf Unzufriedenheit? Wir analysieren die Herausforderungen und entwickeln gemeinsam praktikable Lösungen.</li><li><strong>Gemeinsames Verständnis schaffen:</strong> Euch fehlt ein klares Bild davon, was Agilität und Selbstorganisation für das Team bedeuten? Wir erarbeiten ein gemeinsames Verständnis und Leitbild.</li><li><strong>Agiler Einstieg:</strong> Ihr möchtet agil arbeiten, wisst aber nicht, wo ihr beginnen sollt und was für euren Kontext sinnvoll ist? Ich begleite euch bei der Einführung agiler Prinzipien und Praktiken.</li><li><strong>Verantwortung übernehmen:</strong> Ihr setzt auf Selbstorganisation und geteilte Führung, doch im Alltag wird wenig Verantwortung übernommen? Die Erarbeitung und Verteilung klarer Rollen und Aufgaben stärkt die Selbstorganisation im Team und führt dazu, dass Verantwortung übernommen werden kann.</li><li><strong>Gemeinsam Entscheidungen treffen:</strong> Ihr wollt Entscheidungen gemeinsam treffen, merkt aber, dass dies zu langwierigen und nervenaufreibenden Prozessen führt? Wir schauen uns an, wie ihr alle einbeziehen könnt und dennoch vorankommt.</li></ul>","styleselect":"offer"},"id":"a720a471-e2d1-4881-8e9f-5c19f7ce743a","isHidden":false,"type":"list"},{"content":{"subsubheading":"Team Kick-Off-Workshops","styleselect":"offer"},"id":"c5f23e13-354a-48c0-adb9-f3b987994247","isHidden":false,"type":"subsubheading"},{"content":{"text":"Für neu zusammengesetzte Teams ist es zentral eine gute Grundlage für die gemeinsame Zusammenarbeit zu schaffen. Im Rahmen eines Team Kick-Offs lernen sich alle Team-Mitglieder besser kennen, wir sprechen über eure gemeinsamen Ziele, klären Rollen im Team sowie die Spielregeln eurer Zusammenarbeit. \n\n**Das erreichen wir gemeinsam: **"},"id":"5c923c2c-b04c-4bcf-8375-e78105d11216","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li><strong>Schnelleres Kennenlernen:</strong> Die Teammitglieder lernen sich in kurzer Zeit besser kennen und bauen Vertrauen auf.</li><li><strong>Klare gemeinsame Ziele:</strong> Alle Teammitglieder haben ein gemeinsames Verständnis der Ziele und Visionen.</li><li><strong>Definierte Rollen und Spielregeln:</strong> Die Rollen und Verantwortlichkeiten im Team werden klar definiert. So können unnötige Missverständnisse und Konflikte vermieden werden.</li></ul>","styleselect":"offer"},"id":"5c2241b8-b2f7-4d8a-80a2-0f485f44deee","isHidden":false,"type":"list"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
 
 ----
 
@@ -10,7 +18,11 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.
+
+----
+
+Ogtemplate: 
 
 ----
 
@@ -18,7 +30,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription: Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.
 
 ----
 
@@ -26,23 +38,31 @@ Ogimage:
 
 ----
 
-Robotsindex: default
+Twittercardtype: 
 
 ----
 
-Robotsfollow: default
+Twitterauthor: 
 
 ----
 
-Robotsarchive: default
+Robotsindex: true
 
 ----
 
-Robotsimageindex: default
+Robotsfollow: true
 
 ----
 
-Robotssnippet: default
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
 
 ----
 

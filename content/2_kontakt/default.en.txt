@@ -8,7 +8,7 @@ Headline: Kontakt
 
 Text:
 
-Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call.
 
 (email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
 
@@ -28,7 +28,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+Metadescription: Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call.
 
 ----
 
@@ -40,7 +40,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+Ogdescription: Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call.
 
 ----
 
@@ -77,7 +77,3 @@ Robotssnippet: default
 ----
 
 Metainherit: 
-
-----
-
-Uuid: QjQlA0CmqokWM3F5

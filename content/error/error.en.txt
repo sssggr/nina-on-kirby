@@ -2,11 +2,11 @@ Title: Error
 
 ----
 
-Headline: Fehler
+Headline: Error
 
 ----
 
-Text: Hoppla - diese Seite konnte nicht gefunden werden!
+Text: Oops - this page could not be found!
 
 ----
 
@@ -71,7 +71,3 @@ Robotssnippet: default
 ----
 
 Metainherit: 
-
-----
-
-Uuid: lbJrFzWzs9lDEi4p

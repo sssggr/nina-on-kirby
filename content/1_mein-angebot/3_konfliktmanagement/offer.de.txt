@@ -18,7 +18,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Konflikte sind in Organisationen und Teams unvermeidlich. Die entscheidende Frage ist deshalb wie wir mit ihnen umgehen. Als zertifizierte Mediatorin begleite ich die konstruktive Bearbeitung von Konflikten und unterstütze Teams dabei ihre eigene Konfliktkompetenz zu stärken.
 
 ----
 
@@ -30,7 +30,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription: Konflikte sind in Organisationen und Teams unvermeidlich. Die entscheidende Frage ist deshalb wie wir mit ihnen umgehen. Als zertifizierte Mediatorin begleite ich die konstruktive Bearbeitung von Konflikten und unterstütze Teams dabei ihre eigene Konfliktkompetenz zu stärken.
 
 ----
 
