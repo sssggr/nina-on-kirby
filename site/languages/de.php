@@ -16,4 +16,5 @@ return [
         'global-von' => 'von',
         'blog-readmore' => 'weiterlesen'
     ],
+    'url' => '/'
 ];
