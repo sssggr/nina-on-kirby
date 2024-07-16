@@ -89,7 +89,7 @@ Inqalink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Inqabutton: mehr
+Inqabutton: more
 
 ----
 

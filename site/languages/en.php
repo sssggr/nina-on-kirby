@@ -11,7 +11,10 @@ return [
     'translations' => [
         'global-von' => 'by',
         'global-and' => 'and',
-        'blog-readmore' => 'read more'
+        'blog-readmore' => 'read more',
+        'footer-answer' => 'Contact me for a non-binding initial consultation.',
+        'footer-button-content' => 'Contact',
+        'footer-question' => 'Would you like to know more?'
     ],
     'url' => NULL
 ];
