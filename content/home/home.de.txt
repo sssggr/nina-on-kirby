@@ -21,7 +21,7 @@ Offers:
     weiterzuentwickeln und Veränderungen
     agil und aktiv zu begegnen.
   offerlink:
-    - page://Nbs5UEkHWnP7Ctyh
+    - page://NOuEozJlKmGpPUSC
   offerbutton: mehr
 - 
   offerimage:
@@ -37,7 +37,7 @@ Offers:
     gemeinsam mit euch nachhaltige Prozesse
     für eine bessere Zusammenarbeit.
   offerlink:
-    - page://lbJrFzWzs9lDEi4p
+    - page://mFJW5p0DxY9VQ6Zl
   offerbutton: mehr
 - 
   offerimage:
@@ -53,7 +53,7 @@ Offers:
     Gemeinsam schärfen wir deine Rolle und
     erweitern deine Führungskompetenzen.
   offerlink:
-    - page://lbJrFzWzs9lDEi4p
+    - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
 - 
   offerimage:
@@ -69,7 +69,7 @@ Offers:
     unterstütze Teams dabei ihre eigene
     Konfliktkompetenz zu stärken.
   offerlink:
-    - page://QjQlA0CmqokWM3F5
+    - page://lXaEfq0bAmw3oOsd
   offerbutton: mehr
 
 ----

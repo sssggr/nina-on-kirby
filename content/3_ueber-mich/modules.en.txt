@@ -1,4 +1,8 @@
-Title: Über mich
+Title: About me
+
+----
+
+Slug: about-me
 
 ----
 

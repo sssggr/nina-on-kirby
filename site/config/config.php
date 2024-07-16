@@ -9,19 +9,21 @@ return [
     'routes' => [
         [
             'pattern' => '(:any)',
-            'action'  => function($uid) {
+            'language' => '*',
+            'action'  => function($lang, $uid) {
                 $page = page($uid);
                 if(!$page) $page = page('mein-angebot/' . $uid);
                 if(!$page) $page = site()->errorPage();
-                return site()->visit($page);
+                return site()->visit($page, $lang);
             }
         ],
         [
             'pattern' => 'mein-angebot/(:any)',
-            'action'  => function($uid) {
-                go($uid);
+            'language' => '*',
+            'action'  => function($lang, $uid) {
+                go($lang .  '/' . $uid);
             }
-        ]
+        ],
     ]
 
 ];
