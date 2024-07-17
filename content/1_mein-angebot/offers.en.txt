@@ -1,20 +1,12 @@
-Title: Fehler
+Title: My Services
 
 ----
 
-Headline: Fehler
+Slug: my-services
 
 ----
 
-Text: Hoppla - diese Seite konnte nicht gefunden werden!
-
-----
-
-Metatitle: 
-
-----
-
-Metatemplate: 
+Text: 
 
 ----
 
@@ -23,10 +15,6 @@ Usetitletemplate: true
 ----
 
 Metadescription: 
-
-----
-
-Ogtemplate: 
 
 ----
 
@@ -39,14 +27,6 @@ Ogdescription:
 ----
 
 Ogimage: 
-
-----
-
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
 
 ----
 
@@ -71,7 +51,3 @@ Robotssnippet: default
 ----
 
 Metainherit: 
-
-----
-
-Uuid: lbJrFzWzs9lDEi4p

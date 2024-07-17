@@ -1,8 +1,12 @@
-Title: Kontakt
+Title: Contact
 
 ----
 
-Headline: Kontakt
+Slug: contact
+
+----
+
+Headline: Contact
 
 ----
 

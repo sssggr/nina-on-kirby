@@ -1,8 +1,12 @@
-Title: Impressum
+Title: Imprint
 
 ----
 
-Headline: Impressum
+Slug: imprint
+
+----
+
+Headline: Imprint
 
 ----
 

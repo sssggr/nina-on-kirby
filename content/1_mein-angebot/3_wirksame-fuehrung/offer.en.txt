@@ -1,0 +1,77 @@
+Title: Effective Leadership
+
+----
+
+Slug: effective-leadership
+
+----
+
+Modules: [{"content":{"heading":"Effective leadership"},"id":"6db5d6b6-3dcc-4332-b237-3012638fb3ab","isHidden":false,"type":"heading"},{"content":{"herotext":"Leading in agile organizations - Growing together and developing potential ","heroimage":["file://telHqZabcZVdknfF"]},"id":"be15e870-cc8d-4840-8208-cafae4b0e506","isHidden":false,"type":"hero"},{"content":{"text":"Teams and organizations that rely on self-managing teams require new leadership approaches and skills. Leadership roles are changing and the distribution of responsibility across several shoulders in particular brings with it new questions and challenges."},"id":"ac03bcaa-edef-4534-b38e-cfa2a9cf97f1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"My services"},"id":"da297930-9284-4933-b305-12e31e815bad","isHidden":false,"type":"subheading"},{"content":{"text":"In leadership sparring, I support you in finding and developing your leadership role in the agile organization.\n\n**What we achieve together: **"},"id":"12400318-a990-4bdc-8e78-d3f98fba0ff9","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Clarity and orientation: You gain clarity about your leadership role and your goals.</li><li>Skills development: You will further develop your leadership skills and strengthen your communication, conflict resolution and decision-making abilities.</li><li>Successful teamwork: You will learn what self-organized teams need to work together successfully.</li><li>High performance: You create a working environment in which teams can develop their full potential.</li></ul>","styleselect":"offer"},"id":"f109755f-d093-4bc2-98f4-dbad412e2574","isHidden":false,"type":"list"},{"content":{"text":"**This is what our collaboration looks like**\n\nWe will arrange a non-binding initial consultation in which we will talk about your specific needs. You will then receive an offer from me.\n\nWe start with 6 appointments lasting 2 hours. During the first session, we will analyze the status quo, prioritize your issues and get into the first topic area. In the following sessions, we will focus on one topic at a time. The appointment also provides space for current issues arising from day-to-day business.\n\nThe sparring sessions take place online or in my Hamburg office."},"id":"81923b57-4ae5-41c0-8986-cfa47715eca6","isHidden":false,"type":"bodytext"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Teaser: 

@@ -1,0 +1,103 @@
+Title: Privacy statement
+
+----
+
+Slug: privacy-statement
+
+----
+
+Headline: Privacy statement
+
+----
+
+Text:
+
+##Owner
+(link: page://Nbs5UEkHWnP7Ctyh text: See imprint)
+##Data collection
+No data is collected by the operator.
+##Hosting
+My host collects the following data transmitted by your browser in log files:
+
+IP address, the address of the previously visited website (referrer request header), date and time of the request, time zone difference to Greenwich Mean Time, content of the request, HTTP status code, amount of data transferred, website from which the request comes and information about the browser and operating system.
+
+This is necessary to display my website and to ensure stability and security. This corresponds to our legitimate interest within the meaning of Art. 6 para. 1 sentence 1 lit. f GDPR.
+
+There is no tracking and I have no direct access to this data, but only receive an anonymized, statistical summary. This includes the address of the previously visited page, the frequency of each page accessed and the number of unique visitors. I do not merge this data with other data.
+
+I use the following hoster for the provision of my website: GitHub Inc, 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States.
+
+This is the recipient of your personal data. It is in my legitimate interest within the meaning of Art. 6 para. 1 sentence 1 lit. f GDPR not to have to maintain a server on my premises myself. Server location is USA.
+
+Further information on objection and removal options vis-à-vis GitHub can be found at: (link: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages text: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages)
+
+You have the right to object to the processing. Whether the objection is successful must be determined as part of a balancing of interests.
+The data will be deleted as soon as the purpose of the processing no longer applies.
+
+The processing of the data specified in this section is not required by law or contract. The functionality of the website is not guaranteed without the processing.
+
+GitHub has implemented compliance measures for international data transfers. These apply to all global activities where GitHub processes personal data of natural persons in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). Further information can be found at: (link: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors text: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors)
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
