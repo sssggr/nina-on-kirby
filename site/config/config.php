@@ -13,6 +13,7 @@ return [
             'action'  => function($lang, $uid) {
                 $page = page($uid);
                 if(!$page) $page = page('mein-angebot/' . $uid);
+                if(!$page) $page = page('my-services/' . $uid);
                 if(!$page) $page = site()->errorPage();
                 return site()->visit($page, $lang);
             }
@@ -24,6 +25,20 @@ return [
                 go($lang .  '/' . $uid);
             }
         ],
+        [
+            'pattern' => 'my-services/(:any)',
+            'language' => '*',
+            'action'  => function($lang, $uid) {
+                go($lang .  '/' . $uid);
+            }
+        ],
+        [
+            'pattern' => 'en',
+            'action'  => function() {
+                go('en/home');
+            }
+        ],
+        
     ]
 
 ];
