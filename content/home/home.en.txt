@@ -95,7 +95,7 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile organizational consulting for sustainable companies and working environments
+Herotext: Agile organizational consulting for future-ready companies and workplaces of tomorrow
 
 ----
 
