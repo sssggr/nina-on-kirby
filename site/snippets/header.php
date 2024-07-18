@@ -66,12 +66,12 @@
                     <?= $item->title()->html() ?>
                   </a>
                 <?php endif ?>
-              <?php $children = $item->children()->listed(); ?>  
-              <?php if($children->isNotEmpty()): ?>
+              <?php $children = $item->children()->listed(); ?>
+              <?php if($children->isNotEmpty() && $item->title()=="Mein Angebot"): ?>
                 <ul
                   id="dropdown"
                   class="dropdown"
-                >
+                > 
                 <?php foreach($children as $child): ?>
                   <li>
                     <a

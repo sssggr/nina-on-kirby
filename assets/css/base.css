@@ -475,6 +475,7 @@ hr {
   padding: 1.25em 1em;
   position: absolute;
   display: none;
+  width: max-content;
 }
 
 .dropdown li+li {
@@ -504,7 +505,7 @@ hr {
 .dropdown li {
   padding: 0.125em 1em 0.125em 0.5em;
   border-color: var(--white);
-  width: 16em;
+  width: auto;
   text-align: left;
   line-height: 1.2;
   list-style-type: disc;
