@@ -65,3 +65,13 @@ Header set Content-Type "text/plain" "expr=-z %{CONTENT_TYPE}"
 Header set X-Content-Type-Options "nosniff"
 
 </IfModule>
+
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^ninasiessegger.de$ [NC]
+RewriteRule ^(.*)$ http://ninasiessegger.de/$1 [L,R=301]
+
+</IfModule>
