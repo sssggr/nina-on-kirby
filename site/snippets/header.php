@@ -67,7 +67,7 @@
                   </a>
                 <?php endif ?>
               <?php $children = $item->children()->listed(); ?>
-              <?php if($children->isNotEmpty() && $item->title()=="Mein Angebot"): ?>
+              <?php if($children->isNotEmpty() && $item->title()=="Mein Angebot" || $children->isNotEmpty() && $item->title()=="My Services"): ?>
                 <ul
                   id="dropdown"
                   class="dropdown"
