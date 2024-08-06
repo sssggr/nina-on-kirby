@@ -7,7 +7,7 @@
         <br>
         <?php echo t('footer-answer') ?>
       </p>
-        <a class="btn" href="kontakt">Kontakt</a>
+        <a class="btn" href="kontakt"><?php echo t('footer-button-content') ?></a>
     </div>
   <?php endif ?>
   <hr>
