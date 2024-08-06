@@ -3,6 +3,10 @@
 return [
     'debug'  => false,
     'tobimori.seo.canonicalBase' => 'https://ninasiessegger.de',
+    'oblik.git' => [
+        'repo' => 'https://github.com/sssggr/nina-on-kirby',
+        'merge' => 'main',
+    ],
     'languages' => [
         'detect' => true
     ],
