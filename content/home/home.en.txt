@@ -83,7 +83,7 @@ Benefit now as an SME from the INQA funding program.
 
 ----
 
-Inqalink: - page://QjQlA0CmqokWM3F5
+Inqalink: - page://lBjO0WReDAHFb4Ui
 
 ----
 
@@ -95,7 +95,7 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile organizational consulting for future-ready companies and workplaces of tomorrow
+Herotext: Agile organizational consulting for future-oriented companies and workplaces of tomorrow
 
 ----
 
@@ -119,19 +119,19 @@ Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</l
 
 ----
 
-Metatemplate: Nina Siessegger - Agile organizational consulting for sustainable companies and working environments
+Metatemplate: Nina Siessegger - Agile organizational consulting for future-oriented companies and working environments
 
 ----
 
-Metadescription: I accompany organizations, teams and leaders in change processes and support them in shaping sustainable companies and working environments.
+Metadescription: I accompany organizations, teams and leaders in transformation processes and support them in shaping sustainable companies and working environments.
 
 ----
 
-Ogtemplate: Nina Siessegger - Agile organizational consulting for sustainable companies and working environments
+Ogtemplate: Nina Siessegger - Agile organizational consulting for future-oriented companies and working environments
 
 ----
 
-Ogdescription: I accompany organizations, teams and leaders in change processes and support them in shaping sustainable companies and working environments.
+Ogdescription: I accompany organizations, teams and leaders in transformation processes and support them in shaping sustainable companies and working environments.
 
 ----
 

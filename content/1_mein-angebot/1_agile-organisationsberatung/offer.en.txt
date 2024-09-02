@@ -22,7 +22,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.
+Metadescription: As an organizational consultant, I support companies in shaping change processes. I like to work with agile methods. My goal is to strengthen the organization's ability for continuous development in the long term.
 
 ----
 

@@ -45,7 +45,7 @@ Offers:
   offerheadline: Wirksame Führung
   offertext: >
     Teams und Organisationen, die auf
-    Agilität und sich selbst steuerende
+    Agilität und sich selbst steuernde
     Teams setzen, erfordern neue
     Führungsansätze und Kompetenzen. Du
     bist in einer Führungsrolle und
@@ -62,7 +62,7 @@ Offers:
   offertext: >
     Konflikte sind in Organisationen und
     Teams unvermeidlich. Die entscheidende
-    Frage ist deshalb wie wir mit ihnen
+    Frage ist deshalb, wie wir mit ihnen
     umgehen. Als zertifizierte Mediatorin
     begleite ich die konstruktive
     Bearbeitung von Konflikten und
@@ -85,7 +85,7 @@ Jetzt als KMU vom INQA-Förderprogramm profitieren.
 
 ----
 
-Inqalink: - page://QjQlA0CmqokWM3F5
+Inqalink: - page://lBjO0WReDAHFb4Ui
 
 ----
 
@@ -97,7 +97,7 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Herotext: Agile Organisationsberatung für zukunftsorientierte Unternehmen und Arbeitswelten von morgen
 
 ----
 
@@ -121,19 +121,19 @@ Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation
 
 ----
 
-Metatemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Metatemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsorientierte Unternehmen und Arbeitswelten
 
 ----
 
-Metadescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.
+Metadescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsorientierte Unternehmen und Arbeitswelten zu gestalten.
 
 ----
 
-Ogtemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
+Ogtemplate: Nina Siessegger - Agile Organisationsberatung für zukunftsorientierte Unternehmen und Arbeitswelten
 
 ----
 
-Ogdescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.
+Ogdescription: Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsorientierte Unternehmen und Arbeitswelten zu gestalten.
 
 ----
 
