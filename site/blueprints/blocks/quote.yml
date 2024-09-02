@@ -1,0 +1,17 @@
+name: Quote
+icon: quote
+wysiwyg: true
+preview: fields
+label: "{{ quotetext }}"
+fields:
+  quotetext:
+    label: Zitat
+    type: textarea
+    size: big
+    buttons:
+      - bold
+      - italic
+      - link
+  citation:
+    label: Quelle
+    type: text

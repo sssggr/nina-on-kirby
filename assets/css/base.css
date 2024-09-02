@@ -75,9 +75,23 @@
 
 @font-face {
   font-family: "Objectivity";
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/Objectivity-RegularSlanted.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Objectivity";
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/Objectivity-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Objectivity";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/Objectivity-MediumSlanted.woff2) format("woff2");
 }
 
 @font-face {
@@ -100,6 +114,7 @@ body {
   background-color: var(--gray);
   font-family: "Objectivity", sans-serif;
   font-weight: 500;
+  font-style: normal;
   font-size: var(--fs-sm);
   color: var(--black);
 }
@@ -174,9 +189,28 @@ h4 {
 p {
   margin: 0 0 1em;
 }
-/* p.offer-text{
-  padding-left: var(--gutter);
-} */
+em{
+  font-style: italic;
+}
+blockquote{
+  margin: 0;
+}
+blockquote p{
+  font-weight: 400;
+  font-style: italic;
+}
+blockquote p .firstcharacter{
+  color: var(--red);;
+  float: left;
+  font-size: calc(var(--fs-sm)*4);
+  font-weight: 700;
+  line-height: calc(var(--fs-sm)*3);
+  padding-right: 8px;
+}
+blockquote + p{
+  font-weight: 700;
+  font-style: normal;
+}
 ul{
   margin: 0 0 1em;
   margin-inline-start: 0;
