@@ -37,7 +37,7 @@ Offers:
     collaboration.
   offerlink:
     - page://mFJW5p0DxY9VQ6Zl
-  offerbutton: mehr
+  offerbutton: more
 - 
   offerimage:
     - file://VsBAiach0x1dQexF

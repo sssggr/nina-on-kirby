@@ -67,7 +67,7 @@
                 class="btn"
                 href="<?= $offer->offerlink()->toPage()->url() ?>"
               >
-                <?= $page->offerbutton() ?>
+                <?= $offer->offerbutton() ?>
               </a>
             </div>
           </div>
