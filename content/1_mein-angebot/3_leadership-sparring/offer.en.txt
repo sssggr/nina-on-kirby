@@ -1,0 +1,73 @@
+Title: New Leadership
+
+----
+
+Modules: [{"content":{"heading":"New Leadership"},"id":"6db5d6b6-3dcc-4332-b237-3012638fb3ab","isHidden":false,"type":"heading"},{"content":{"herotext":"Leadership in modern organizations - Growing together and developing potential ","heroimage":["file://telHqZabcZVdknfF"]},"id":"be15e870-cc8d-4840-8208-cafae4b0e506","isHidden":false,"type":"hero"},{"content":{"text":"Whether you are taking on a leadership role for the first time or already have years of experience - the challenges in modern organizations require continuous development. As a sparring partner, I support you in acting more relaxed, effective and efficient in your leadership role."},"id":"ac03bcaa-edef-4534-b38e-cfa2a9cf97f1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"My services"},"id":"da297930-9284-4933-b305-12e31e815bad","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"Leadership Sparring","styleselect":"offer"},"id":"40f81663-d6c8-46ff-8fef-52c0dae481a7","isHidden":false,"type":"subsubheading"},{"content":{"text":"I offer you a flexible combination of leadership sparring and coaching that is tailored to your individual needs. While classic coaching focuses on stimulating your self-reflection through targeted questions, I go one step further with sparring. As your sparring partner, I actively contribute my experience and expertise. Depending on the situation and your needs, I switch flexibly between the two approaches. In this way, I provide you with optimal support in finding, reflecting on and further developing your leadership role in the organization. This combination enables us to initiate profound insight processes as well as to develop and implement concrete solution strategies.\n\n**This is what characterizes our sparring:**"},"id":"12400318-a990-4bdc-8e78-d3f98fba0ff9","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Finding solutions together: We work together to develop concrete solutions for your leadership challenges.</li><li>Critical reflection: I constructively question your existing ideas and experiences in order to develop or consolidate them</li><li>Mix of methods: I use techniques from coaching, but also contribute my experience, my specialist knowledge and concrete suggestions for solutions.</li><li>Practical orientation: Together we examine the suitability of solutions for you and your company.</li><li>Intensive support: If necessary, we can discuss difficult situations at short notice and run through various scenarios.</li></ul>","styleselect":"offer"},"id":"5da1ae7d-1ffd-4e4c-a4be-89780379fc02","isHidden":false,"type":"list"},{"content":{"text":"**What we achieve together: **"},"id":"d323b648-4f10-4304-a636-12ea01ba551d","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Clarity and orientation: You gain clarity about your leadership role and your goals.</li><li>Skills development: You will further develop your leadership skills and strengthen your communication, conflict resolution and decision-making abilities.</li><li>Successful teamwork: You will learn what self-organized teams need to work together successfully and deliver excellent results.</li></ul>","styleselect":"offer"},"id":"f109755f-d093-4bc2-98f4-dbad412e2574","isHidden":false,"type":"list"},{"content":{"text":"**This is what our collaboration looks like**\n\nWe arrange a non-binding initial call. During the call, we get to know each other and I gain a first impression of your needs. If we decide to work together, we will start with a sparring process tailored to your needs, which usually consists of 6-10 sessions of 120 minutes each. \n\nDuring the first session, we will analyze the status quo, prioritize your topics and delve into the first topic area. In the subsequent sessions, we will focus on a specific topic. The appointment also provides space for current issues arising from day-to-day business.\n\nThe sparring sessions take place online or in my Hamburg office in the Schanzenviertel district."},"id":"81923b57-4ae5-41c0-8986-cfa47715eca6","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"References & feedback","styleselect":""},"id":"71d6d7cd-5e88-467b-9fe2-16a79450a5ce","isHidden":false,"type":"subsubheading"},{"content":{"quotetext":"Working with Nina Siessegger gave me a clear view of my role as a team lead. I left every session with new energy and impulses that I was able to implement as many improvements in my everyday life. I would do leadership coaching with Nina again at any time!","citation":"Maximilian Stribeck​​​​, Engineering Lead Spaceteams"},"id":"1640a60a-2b74-40f9-b1ee-c45dc8827543","isHidden":false,"type":"quote"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Teaser: 

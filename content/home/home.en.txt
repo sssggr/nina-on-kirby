@@ -41,31 +41,25 @@ Offers:
 - 
   offerimage:
     - file://VsBAiach0x1dQexF
-  offerheadline: Effective leadership
-  offertext: >
-    Teams and organizations that rely on
-    agility and self-managing teams require
-    new leadership approaches and skills.
-    Are you in a leadership role and want to
-    develop yourself further? Together we
-    will sharpen your role and expand your
-    leadership skills.
+  offerheadline: New leadership
+  offertext: 'Whether you are taking on a leadership role for the first time or already have years of experience - the challenges in modern organizations require continuous development. As a sparring partner, I support you in acting more relaxed, effective and efficient in your leadership role.'
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: more
 - 
   offerimage:
     - file://CpyH3otVRMbREpJY
-  offerheadline: Konfliktmanagement
+  offerheadline: Conflict Mangement
   offertext: >
-    Konflikte sind in Organisationen und
-    Teams unvermeidlich. Die entscheidende
-    Frage ist deshalb wie wir mit ihnen
-    umgehen. Als zertifizierte Mediatorin
-    begleite ich die konstruktive
-    Bearbeitung von Konflikten und
-    unterstütze Teams dabei ihre eigene
-    Konfliktkompetenz zu stärken.
+    Conflicts are unavoidable in
+    organizations and teams – resolving
+    them constructively is often
+    challenging. Sometimes they can no
+    longer be resolved on their own. As a
+    certified mediator, I support you in
+    overcoming deadlocked situations and
+    using conflicts as an opportunity for
+    growth.
   offerlink:
     - page://lXaEfq0bAmw3oOsd
   offerbutton: more

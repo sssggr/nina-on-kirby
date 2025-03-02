@@ -42,16 +42,18 @@ Offers:
 - 
   offerimage:
     - file://VsBAiach0x1dQexF
-  offerheadline: Wirksame Führung
+  offerheadline: New Leadership
   offertext: >
-    Teams und Organisationen, die auf
-    Agilität und sich selbst steuernde
-    Teams setzen, erfordern neue
-    Führungsansätze und Kompetenzen. Du
-    bist in einer Führungsrolle und
-    möchtest dich weiterentwickeln?
-    Gemeinsam schärfen wir deine Rolle und
-    erweitern deine Führungskompetenzen.
+    Ob du erstmalig eine Führungsrolle
+    übernimmst oder bereits jahrelange
+    Erfahrung mitbringst – die
+    Herausforderungen in modernen
+    Organisationen erfordern kontinuierliche
+    Weiterentwicklung. Als
+    Sparringspartnerin unterstütze ich dich
+    dabei, in deiner Führungsrolle
+    entspannter, wirksamer und effektiver zu
+    agieren.
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
@@ -60,14 +62,16 @@ Offers:
     - file://CpyH3otVRMbREpJY
   offerheadline: Konfliktmanagement
   offertext: >
-    Konflikte sind in Organisationen und
-    Teams unvermeidlich. Die entscheidende
-    Frage ist deshalb, wie wir mit ihnen
-    umgehen. Als zertifizierte Mediatorin
-    begleite ich die konstruktive
-    Bearbeitung von Konflikten und
-    unterstütze Teams dabei ihre eigene
-    Konfliktkompetenz zu stärken.
+    Konflikte in Organisationen und Teams
+    gehören dazu – ihre konstruktive
+    Lösung ist allerdings oft
+    herausfordernd. Manchmal lassen sie sich
+    nicht mehr aus eigener Kraft bearbeiten.
+    Als zertifizierte Mediatorin
+    unterstütze ich euch dabei
+    festgefahrene Situationen zu überwinden
+    und Konflikte als Chance für Wachstum
+    zu nutzen.
   offerlink:
     - page://lXaEfq0bAmw3oOsd
   offerbutton: mehr

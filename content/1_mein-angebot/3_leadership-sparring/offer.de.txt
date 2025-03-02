@@ -1,0 +1,77 @@
+Title: New Leadership
+
+----
+
+Modules: [{"content":{"heading":"New Leadership "},"id":"6db5d6b6-3dcc-4332-b237-3012638fb3ab","isHidden":false,"type":"heading"},{"content":{"herotext":" Führen in modernen Organisationen – Gemeinsam wachsen und Potenziale entfalten ","heroimage":["file://telHqZabcZVdknfF"]},"id":"be15e870-cc8d-4840-8208-cafae4b0e506","isHidden":false,"type":"hero"},{"content":{"text":"Ob du erstmalig eine Führungsrolle übernimmst oder bereits jahrelange Erfahrung mitbringst – die Herausforderungen in modernen Organisationen erfordern kontinuierliche Weiterentwicklung. Als Sparringspartnerin unterstütze ich dich dabei, in deiner Führungsrolle entspannter, wirksamer und effektiver zu agieren. Ich gebe dir Impulse rund um Führung, Organisation und Transformation."},"id":"ac03bcaa-edef-4534-b38e-cfa2a9cf97f1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Meine Leistungen"},"id":"da297930-9284-4933-b305-12e31e815bad","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"Leadership Sparring","styleselect":"offer"},"id":"eb1b7eeb-6097-479c-abee-1a72ee75d5ac","isHidden":false,"type":"subsubheading"},{"content":{"text":"Ich biete dir eine flexible Kombination aus Leadership Sparring und Coaching an, die sich an deinen individuellen Bedürfnissen orientiert. Während beim klassischen Coaching der Fokus darauf liegt, durch gezielte Fragen deine Selbstreflexion anzuregen, gehe ich beim Sparring einen Schritt weiter. Als deine Sparringspartnerin bringe ich aktiv meine Erfahrung und Expertise ein. Je nach Situation und deinem Bedarf wechsle ich flexibel zwischen beiden Ansätzen. So unterstütze ich dich optimal dabei, deine Führungsrolle im Unternehmen zu finden, zu reflektieren und weiterzuentwickeln. Diese Kombination ermöglicht es uns, sowohl tiefgreifende Erkenntnisprozesse anzustoßen als auch konkrete Lösungsstrategien zu erarbeiten und umzusetzen.\n\n**Das zeichnet unser Sparring aus:**"},"id":"12400318-a990-4bdc-8e78-d3f98fba0ff9","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Gemeinsame Lösungsfindung: Wir erarbeiten zusammen konkrete Lösungen für deine Führungsherausforderungen.</li><li>Kritische Reflexion: Ich hinterfrage deine vorhandenen Ideen und Erfahrungen konstruktiv, um sie weiterzuentwickeln oder zu festigen.</li><li>Methodenmix: Ich nutze Techniken aus dem Coaching, bringe aber auch meine Erfahrungen, mein Fachwissen und konkrete Lösungsvorschläge ein.</li><li>Praxisorientierung: Gemeinsam prüfen wir die Tauglichkeit von Lösungsansätzen für dich und dein Unternehmen.</li><li>Intensive Betreuung: Bei Bedarf besprechen wir schwierige Situationen auch kurzfristig und spielen verschiedene Szenarien durch.</li></ul>","styleselect":"offer"},"id":"fb575846-0c97-4ee5-af12-1c54bee7660d","isHidden":false,"type":"list"},{"content":{"text":"**Das erreichen wir gemeinsam: **"},"id":"cf02630e-b2f2-43dd-8150-1f5e5e2767d3","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Klarheit und Orientierung: Du gewinnst Klarheit über deine Führungsrolle und deine Ziele.</li><li>Kompetenzerweiterung: Du entwickelst deine Führungskompetenzen weiter und stärkst deine Fähigkeiten in den Bereichen Kommunikation, Konfliktlösung und Entscheidungsfindung.</li><li>Erfolgreiche Teamarbeit: Du lernst, was selbstorganisierte Teams brauchen, um erfolgreich zusammenzuarbeiten und exzellente Ergebnisse zu liefern.</li></ul>","styleselect":"offer"},"id":"f109755f-d093-4bc2-98f4-dbad412e2574","isHidden":false,"type":"list"},{"content":{"text":"**So sieht unsere Zusammenarbeit aus:**\n\nWir vereinbaren ein unverbindliches Erstgespräch. Im Rahmen des Gesprächs lernen wir uns kennen und ich gewinne einen ersten Eindruck von deinem Anliegen. Entscheiden wir uns für eine Zusammenarbeit, starten wir mit einem auf deine Bedürfnisse zugeschnittenen Sparring-Prozess, der in der Regel aus 6-10 Sitzungen zu je 120 Minuten besteht. \n\nIm Rahmen des ersten Termins machen wir eine Analyse des Status quo, priorisieren deine Themen und steigen in den ersten Themenbereich ein. In den weiteren Sessions nehmen wir uns jeweils einen thematischen Schwerpunkt vor. Daneben bietet der Termin Raum für aktuelle Anliegen, die sich aus dem Tagesgeschäft ergeben.\n\nDie Sparring-Sessions finden online oder in meinem Hamburger Büro im Schanzenviertel statt."},"id":"81923b57-4ae5-41c0-8986-cfa47715eca6","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Referenzen & Feedback","styleselect":""},"id":"03a91dde-c853-4255-a799-0a328c1f951a","isHidden":false,"type":"subsubheading"},{"content":{"quotetext":"Durch die Arbeit mit Nina Siessegger habe ich einen klaren Blick auf meine Rolle als Teamlead erlangt. Ich ging aus jeder Stunde mit neuer Energie und Impulsen, die ich als viele Verbesserungen in meinem Alltag umsetzen konnte. Ich würde jederzeit wieder ein Leadership Coaching bei Nina machen!","citation":"Maximilian Stribeck​​​​, Engineering Lead Spaceteams"},"id":"45b8dd7b-e907-441b-99ce-276fea57294a","isHidden":false,"type":"quote"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Teaser: 
+
+----
+
+Uuid: Q07Y5WPaWAXyjGYH

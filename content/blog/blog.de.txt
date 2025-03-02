@@ -1,0 +1,77 @@
+Title: Blog
+
+----
+
+Headline: Blog
+
+----
+
+Text: In meinem Blog schreibe ich über Organisations- und Teamentwicklung, die Begleitung von Veränderungsprozessen, Konflikte, Führung und Zusammenarbeit.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: o9tBy3eSgvbPTEVO
