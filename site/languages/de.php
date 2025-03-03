@@ -14,7 +14,8 @@ return [
         'footer-question' => 'Du möchtest mehr erfahren?',
         'global-and' => 'und',
         'global-von' => 'von',
-        'blog-readmore' => 'weiterlesen'
+        'blog-readmore' => 'weiterlesen',
+        'date.format' => 'j.m.Y'
     ],
     'url' => '/'
 ];

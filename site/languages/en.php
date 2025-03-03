@@ -14,7 +14,8 @@ return [
         'blog-readmore' => 'read more',
         'footer-answer' => 'Contact me for a non-binding initial consultation.',
         'footer-button-content' => 'Contact',
-        'footer-question' => 'Would you like to know more?'
+        'footer-question' => 'Would you like to know more?',
+        'date.format' => 'j-m-Y'
     ],
     'url' => NULL
 ];
