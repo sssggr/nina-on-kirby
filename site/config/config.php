@@ -6,6 +6,15 @@ return [
     'languages' => [
         'detect' => true
     ],
+    'tobimori.seo.robots' => [
+        'active' => true,
+        'content' => [
+            '*' => [
+                'Allow' => ['/'],
+                'Disallow' => ['/kirby', '/panel', '/content']
+            ]
+        ]
+    ],
     'routes' => [
         [
             'pattern' => '(:any)',
