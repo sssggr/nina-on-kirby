@@ -1,0 +1,73 @@
+Title: Blog
+
+----
+
+Headline: Blog
+
+----
+
+Text: In my blog, I write about agile organizational development, teamwork, leadership, conflict resolution and supporting change processes - with insights from my professional practice.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: In my blog, I write about agile organizational development, teamwork, conflict resolution, and guiding change processes – with practical insights from my professional practice.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

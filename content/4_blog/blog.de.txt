@@ -1,0 +1,77 @@
+Title: Blog
+
+----
+
+Headline: Blog
+
+----
+
+Text: In meinem Blog schreibe ich über agile Organisationsentwicklung, Teamarbeit, Konfliktlösung und die Begleitung von Veränderungsprozessen - mit Einblicken aus meiner beruflichen Praxis.
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: In meinem Blog schreibe ich über agile Organisationsentwicklung, Teamarbeit, Konfliktlösung und die Begleitung von Veränderungsprozessen - mit praktischen Einblicken aus meiner beruflichen Praxis.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: o9tBy3eSgvbPTEVO

@@ -69,9 +69,9 @@ Header set X-Content-Type-Options "nosniff"
 
 <IfModule mod_rewrite.c>
 
-# RewriteEngine On
+RewriteEngine On
 
-# RewriteCond %{HTTP_HOST} !^ninasiessegger.de$ [NC]
-# RewriteRule ^(.*)$ http://ninasiessegger.de/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^ninasiessegger.de$ [NC]
+RewriteRule ^(.*)$ http://ninasiessegger.de/$1 [L,R=301]
 
 </IfModule>

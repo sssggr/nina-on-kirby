@@ -1,0 +1,5 @@
+Alt: Exemplary representation of 3 bounded contexts
+
+----
+
+Photo: 
