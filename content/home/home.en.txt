@@ -12,13 +12,7 @@ Offers:
   offerimage:
     - file://MyJAXBKznVTqWy16
   offerheadline: Agile organizational consulting
-  offertext: >
-    In a changing world, sustainable
-    organizations that can react quickly to
-    change are more important than ever. I
-    support organizations in their further
-    development and in facing change in an
-    agile and active way.
+  offertext: 'When organizations grow, change or realign themselves, friction, uncertainty and disorientation often arise. I support you in clarifying structures, allocating responsibility sensibly and shaping collaboration in such a way that change succeeds - in an agile, systemic and people-centered way.'
   offerlink:
     - page://NOuEozJlKmGpPUSC
   offerbutton: more
@@ -41,27 +35,14 @@ Offers:
 - 
   offerimage:
     - file://VsBAiach0x1dQexF
-  offerheadline: New leadership
-  offertext: 'Whether you are taking on a leadership role for the first time or already have years of experience - the challenges in modern organizations require continuous development. As a sparring partner, I support you in acting more relaxed, effective and efficient in your leadership role.'
+  offerheadline: >
+    Coaching for People with Responsibility
+    in Agile Organizations
+  offertext: |
+    You take on responsibility in an agile environment - whether as a specialist, a coach, or a leader?
+    I support you in gaining clarity, navigating change, and developing a leadership style that fits your context.
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
-  offerbutton: more
-- 
-  offerimage:
-    - file://CpyH3otVRMbREpJY
-  offerheadline: Conflict Mangement
-  offertext: >
-    Conflicts are unavoidable in
-    organizations and teams – resolving
-    them constructively is often
-    challenging. Sometimes they can no
-    longer be resolved on their own. As a
-    certified mediator, I support you in
-    overcoming deadlocked situations and
-    using conflicts as an opportunity for
-    growth.
-  offerlink:
-    - page://lXaEfq0bAmw3oOsd
   offerbutton: more
 
 ----
@@ -72,8 +53,8 @@ Inqaheadline: INQA program
 
 Inqatext:
 
-Becoming more agile and digital?
-Benefit now as an SME from the INQA funding program.
+**Want to improve collaboration - and get funded to do it?**
+With the INQA program, SMEs in Germany can receive up to **80% funding** for consulting on collaboration, structure and change.
 
 ----
 
@@ -81,7 +62,7 @@ Inqalink: - page://lBjO0WReDAHFb4Ui
 
 ----
 
-Inqabutton: more
+Inqabutton: Learn more
 
 ----
 
@@ -113,19 +94,19 @@ Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</l
 
 ----
 
-Metatemplate: Nina Siessegger - Agile organizational consulting for future-oriented companies and working environments
+Metatemplate: Nina Siessegger - Organizational Consulting and Coaching
 
 ----
 
-Metadescription: I accompany organizations, teams and leaders in transformation processes and support them in shaping sustainable companies and working environments.
+Metadescription: Agile consulting, team coaching and leadership development for organizations, teams and professionals navigating change. I support you in shaping future-ready collaboration, clear structures and meaningful leadership - with a systemic and agile approach.
 
 ----
 
-Ogtemplate: Nina Siessegger - Agile organizational consulting for future-oriented companies and working environments
+Ogtemplate: Nina Siessegger - Organizational Consulting and Coaching
 
 ----
 
-Ogdescription: I accompany organizations, teams and leaders in transformation processes and support them in shaping sustainable companies and working environments.
+Ogdescription: Agile consulting, team coaching and leadership development for organizations, teams and professionals navigating change. I support you in shaping future-ready collaboration, clear structures and meaningful leadership - with a systemic and agile approach.
 
 ----
 
