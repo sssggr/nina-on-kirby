@@ -348,12 +348,17 @@ hr {
   order:2;
 }
 .hero h1,
-.hero p {
+.hero h3 {
   font-size: var(--fs-lg);
   font-weight: 700;
   padding: var(--gutter);
   margin-bottom: 0;
 }
+.hero p {
+  padding-left: var(--gutter);
+  font-weight: 500;
+}
+
 .hero-text-center-vertical {
   display: flex;
   flex-direction: row;
@@ -365,6 +370,7 @@ hr {
 }
 @media (max-width: 768px) {
   .hero h1,
+  .hero h3,
   .hero p {
   padding: calc(var(--gutter) * 2);
 }
@@ -373,6 +379,9 @@ hr {
   }
   .hero-item2 {
     order: 1;
+  }
+  .hero .hero-item2 {
+    padding-top: var(--gutter);
   }
 }
 

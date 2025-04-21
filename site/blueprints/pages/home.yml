@@ -41,6 +41,9 @@ tabs:
               inqaheadline:
                 label: INQA-Teaserüberschrift (h2)
                 type: text
+              inqatextheadline:
+                label: INQA-Teasertextüberschrift
+                type: text
               inqatext:
                 label: INQA-Teasertext
                 type: textarea

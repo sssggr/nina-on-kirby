@@ -59,7 +59,7 @@
               >
             </div>
             <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-text-container">
-              <h3 class="organisationalConsulting">
+              <h3>
                 <?= $offer->offerheadline() ?>
               </h3>
               <?= $offer->offertext()->kirbytext() ?>
@@ -91,7 +91,10 @@
     <div class="row">
       <div class="col-lg-offset-1 col-lg-10 col-md-12">
         <div class="row hero">
-          <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
+          <div class="col-xs-12 col-md-7 col-sm-6 hero-item1">
+            <h3>
+              <?= $page->inqatextheadline() ?>
+            </h3>
             <?= $page->inqatext()->kirbytext() ?>
             <div class="button-container">
               <a
@@ -102,7 +105,7 @@
               </a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+          <div class="col-xs-12 col-md-5 col-sm-6 hero-item2">
             <?php $inqaimage = $page->inqaimage()->toFile(); ?>
               <img 
                 alt="<?= $inqaimage->alt() ?><?php if(V::minLength($inqaimage->photo(), 1)): ?><?php echo (' '), t('global-von'), (' ') ?><?= $inqaimage->photo() ?><?php endif ?>"

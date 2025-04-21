@@ -43,10 +43,11 @@ Inqaheadline: Inqa-Programm
 
 ----
 
-Inqatext:
+Inqatextheadline: Wollt ihr eure Zusammenarbeit verbessern und dabei gefördert werden?
 
-**Wollt ihr eure Zusammenarbeit verbessern und dabei gefördert werden?**
-Mit dem INQA-Programm können KMU bis zu **80 % Zuschuss ** erhalten: für Prozessbegleitung rund um Zusammenarbeit, Struktur und Wandel.
+----
+
+Inqatext: Mit dem INQA-Programm können KMU bis zu **80 % Zuschuss ** erhalten: für Prozessbegleitung rund um Zusammenarbeit, Struktur und Wandel.
 
 ----
 
