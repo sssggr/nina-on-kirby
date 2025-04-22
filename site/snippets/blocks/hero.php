@@ -7,9 +7,9 @@
         <div class="row hero">
           <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
             <div class="hero-text-center-vertical">
-              <p>
+              <h3>
                 <?= $block->herotext() ?>
-              </p>
+              </h3>
             </div>
           </div>
           <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
