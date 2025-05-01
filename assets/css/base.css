@@ -437,9 +437,26 @@ hr {
   text-transform: none;
   letter-spacing: normal;
 }
-article{
+article {
   margin-top: 2em;
 }
+
+article a {
+  text-decoration: none;
+}
+
+article .readmore {
+    text-decoration: none;
+    border-color: var(--blue);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+
+    &:hover{
+      border-color: var(--red);
+    }
+    
+}
+
 .blog-date {
   background-color: var(--white);
   display: inline-block;
@@ -448,7 +465,8 @@ article{
   padding: 0.5rem 1rem 0.25rem;
   text-align: center;
 }
-.blog-article-date{
+
+.blog-article-date { 
   background-color: var(--white);
   display: inline-block;
   font-size: var(--fs-sm);

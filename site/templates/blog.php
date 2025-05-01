@@ -27,11 +27,15 @@
               </p>
             </div>
             <div class="col-xs-12 col-lg-9 col-md-10">
+              <a href="<?= $article->url() ?>">
               <h2><?= $article->title()->html() ?></h2>
               <p>
                 <?= $article->teasertext() ?>
-                <a href="<?= $article->url() ?>"> <?php echo t('blog-readmore') ?></a>
+                <span class="readmore">
+                  <?php echo t('blog-readmore') ?>
+                </span>
               </p>
+              </a>
             </div>
           </div>
         </article>
