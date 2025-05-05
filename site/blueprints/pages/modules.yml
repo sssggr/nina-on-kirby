@@ -21,6 +21,7 @@ tabs:
                   - bodytext
                   - list
                   - quote
+                  - carousel
                   - accordion
                   - bigimage
                   - hero

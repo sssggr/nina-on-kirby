@@ -11,12 +11,15 @@
   <meta name="msapplication-TileColor" content="#EDEDED">
   <meta name="theme-color" content="#EDEDED">
   <script>
-  (function(H) {
-    H.className = H.className.replace(/\bno-js\b/, 'js')
-  })(document.documentElement)
+    (function(H) {
+      H.className = H.className.replace(/\bno-js\b/, 'js')
+    })(document.documentElement)
   </script>
   <?= css([
     'assets/css/vendor/flexboxgrid.min.css',
     'assets/css/base.css',
-    '@auto']) ?>
+    '@auto'
+  ]) ?>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>

@@ -881,6 +881,22 @@ footer a {
   transition: 0.2s ease;
 }
 
+/* Testimonials Carousel */
+
+.testimonial-quote .firstcharacter {
+    color: var(--red);
+    float: left;
+    font-size: calc(var(--fs-sm)*4);
+    font-weight: 700;
+    line-height: calc(var(--fs-sm)*3);
+    padding-right: 8px;
+}
+
+.testimonial-carousel .flickity-button {
+  color: white;
+  background: blue;
+}
+
 /* Accordion */
 
 .accordion-container {
