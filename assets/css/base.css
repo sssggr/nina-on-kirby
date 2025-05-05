@@ -897,6 +897,11 @@ footer a {
   background: blue;
 }
 
+.flickity-button:hover {
+  color: blue;
+  background: white;
+}
+
 /* Accordion */
 
 .accordion-container {
