@@ -883,6 +883,16 @@ footer a {
 
 /* Testimonials Carousel */
 
+.testimonial-quote p {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.testimonial-author p {
+  font-weight: 700;
+  font-style: normal;
+}
+
 .testimonial-quote .firstcharacter {
     color: var(--red);
     float: left;
