@@ -7,7 +7,7 @@
     <div id="<?= $carouselId ?>" class="testimonial-carousel">
       <?php foreach ($block->testimonials()->toStructure() as $testimonial): ?>
         <div class="carousel-cell">
-          <div class="testimonial-content col-xs-10 col-xs-offset-1">
+          <div class="testimonial-content col-md-10 col-md-offset-1 col-xs-8 col-xs-offset-2">
             <div class="testimonial-headline">
               <h3> <?= $testimonial->headline()->html() ?></h3>
             </div>
