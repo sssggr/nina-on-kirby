@@ -15,6 +15,11 @@ $withGrid = $withGrid ?? true;
       <?php foreach ($testimonials as $testimonial): ?>
         <div class="carousel-cell">
           <div class="testimonial-content col-md-10 col-md-offset-1 col-xs-8 col-xs-offset-2">
+            <?php if ($testimonial->headline()->isNotEmpty()): ?>
+              <div class="testimonial-headline">
+                <h3><?= $testimonial->headline()->html() ?></h3>
+              </div>
+            <?php endif ?>
             <div class="testimonial-quote">
               <blockquote>
                 <span class="firstcharacter">»</span>
