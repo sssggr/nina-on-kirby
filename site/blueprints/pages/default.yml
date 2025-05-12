@@ -14,4 +14,18 @@ tabs:
             label: Kompletter Text
             type: textarea
             size: large
+  calendar:
+    label: Calendar
+    sections:
+      calendarfields:
+        type: fields
+        fields:
+          calendarurl:
+            label: Google Calendar URL
+            type: url
+            help: Paste your Google Calendar link here
+          buttontext:
+            label: Button Text
+            type: text
+            help: Enter the button text (optional, otherwise translation will be used)
   seo: seo/page

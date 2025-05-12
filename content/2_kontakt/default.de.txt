@@ -10,12 +10,17 @@ Text:
 
 Hast du Interesse an einer Zusammenarbeit oder möchtest mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht, deinen Anruf oder du buchst direkt einen Termin über meinen Kalender.
 
-(link: https://calendar.app.google/vWLZeU8WvyXjazNW9 text: Hier direkt einen Termin buchen)
-
 (email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
 
-
 (link: tel:+4901702610977 text: +49 (0)170 2610977)
+
+----
+
+Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
+
+----
+
+Buttontext: Jetzt Termin vereinbaren
 
 ----
 

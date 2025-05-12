@@ -14,11 +14,17 @@ Text:
 
 Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call. You can also book an appointment directly via my calendar.
 
-(link: https://calendar.app.google/vWLZeU8WvyXjazNW9 text: Book your appointment directly here)
-
 (email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
 
 (link: tel:+4901702610977 text: +49 (0)170 2610977)
+
+----
+
+Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
+
+----
+
+Buttontext: Make an appointment now
 
 ----
 
