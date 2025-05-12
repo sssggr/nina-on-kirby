@@ -80,6 +80,19 @@
           </div>
         </div>
       </section>
+      <section class="testimonials">
+        <h2>
+          <?= $page->testimonialsheadline() ?>
+        </h2>
+        <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+            <?php snippet('blocks/carousel', [
+              'testimonials' => $page->testimonials()->toStructure(),
+              'withGrid' => false
+            ]); ?>
+      </div>
+      </div>
+      </section>
       <section>
         <h2>
           <?= $page->inqaheadline() ?>

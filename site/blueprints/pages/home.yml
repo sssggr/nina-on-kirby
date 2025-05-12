@@ -38,6 +38,33 @@ tabs:
                   offerbutton:
                     label: Buttontext
                     type: text
+              testimonialsheadline:
+                label: Testimonials Gruppenüberschrift
+                type: text
+              testimonials:
+                label: Referenzen
+                type: structure
+                empty: Noch keine Kundenstimmen hinzugefügt
+                help: Hier die einzelnen Kundenstimmen hinzufügen
+                fields:
+                  headline:
+                    label: Headline
+                    type: text
+                    width: 1/1
+                    help: Kurze Zusammenfassung des Zitats
+                  
+                  testimonial_text:
+                    label: Referenztext
+                    type: textarea
+                    size: medium
+                    buttons: false
+                    width: 1/1
+                  
+                  author_info:
+                    label: Autor Information (Name, Position, Firma)
+                    type: text
+                    width: 1/1
+                    help: "z.B.: Max Mustermann, Geschäftsführer XYZ GmbH"
               inqaheadline:
                 label: INQA-Teaserüberschrift (h2)
                 type: text

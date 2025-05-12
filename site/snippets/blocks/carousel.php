@@ -1,16 +1,20 @@
+<?php
+$testimonials = isset($block) ? $block->testimonials()->toStructure() : $testimonials;
+
+$carouselId = 'carousel-' . uniqid();
+
+$withGrid = $withGrid ?? true; 
+
+?>
+<?php if ($withGrid): ?>
 <div class="row">
   <div class="col-xs-12 col-md-offset-1 col-md-9 col-lg-offset-2 col-lg-8">
-    <?php
-    // Generiere eine eindeutige ID für dieses Carousel
-    $carouselId = 'carousel-' . $block->id();
-    ?>
+<?php endif; ?>
+
     <div id="<?= $carouselId ?>" class="testimonial-carousel">
-      <?php foreach ($block->testimonials()->toStructure() as $testimonial): ?>
+      <?php foreach ($testimonials as $testimonial): ?>
         <div class="carousel-cell">
           <div class="testimonial-content col-md-10 col-md-offset-1 col-xs-8 col-xs-offset-2">
-            <div class="testimonial-headline">
-              <h3> <?= $testimonial->headline()->html() ?></h3>
-            </div>
             <div class="testimonial-quote">
               <blockquote>
                 <span class="firstcharacter">»</span>
@@ -26,8 +30,11 @@
         </div>
       <?php endforeach ?>
     </div>
+
+<?php if ($withGrid): ?>
   </div>
 </div>
+<?php endif; ?>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {

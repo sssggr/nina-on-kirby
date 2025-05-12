@@ -4,12 +4,6 @@ preview: carousel
 wysiwyg: false
 
 fields:
-  carousel_title:
-    label: Überschrift
-    type: text
-    default: Kundinnenstimmen
-    width: 1/1
-  
   testimonials:
     label: Referenzen
     type: structure
