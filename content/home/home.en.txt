@@ -19,16 +19,8 @@ Offers:
 - 
   offerimage:
     - file://5C1Ay4lgd9C0JsPQ
-  offerheadline: Agile team development
-  offertext: >
-    Do you want to improve your
-    collaboration as a team, are you facing
-    a particular challenge or would you like
-    support on your journey towards agility
-    and self-organization? I will accompany
-    you as a team coach and work with you to
-    design sustainable processes for better
-    collaboration.
+  offerheadline: Agile team coaching
+  offertext: "Your team has untapped potential? Whether it's tough coordination processes, a lack of common understanding or tensions in the team - I'll partner with you on the journey toward more effective, clearer, and more motivating collaboration."
   offerlink:
     - page://mFJW5p0DxY9VQ6Zl
   offerbutton: more
@@ -51,10 +43,11 @@ Inqaheadline: INQA program
 
 ----
 
-Inqatext:
+Inqatextheadline: Want to improve collaboration - and get funded to do it?
 
-**Want to improve collaboration - and get funded to do it?**
-With the INQA program, SMEs in Germany can receive up to **80% funding** for consulting on collaboration, structure and change.
+----
+
+Inqatext: With the INQA program, SMEs in Germany can receive up to **80% funding** for consulting on collaboration, structure and change.
 
 ----
 

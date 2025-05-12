@@ -20,8 +20,8 @@ Offers:
   offerimage:
     - file://5C1Ay4lgd9C0JsPQ
   offerheadline: >
-    Teamentwicklung mit Wirkung – für
-    spürbar bessere Zusammenarbeit
+    Teamentwicklung für spürbar bessere
+    Zusammenarbeit
   offertext: 'Euer Team hat Potenzial, das nicht voll ausgeschöpft wird? Ob zähe Abstimmungsprozesse, fehlendes gemeinsames Verständnis oder Spannungen im Team - ich begleite euch auf dem Weg zu einer effektiveren, klareren und motivierenderen Zusammenarbeit.'
   offerlink:
     - page://mFJW5p0DxY9VQ6Zl
@@ -36,6 +36,54 @@ Offers:
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
+
+----
+
+Testimonialsheadline: 
+
+----
+
+Testimonials:
+
+- 
+  headline: ""
+  testimonial_text: ""
+  author_info: ""
+- 
+  headline: >
+    Ich habe Klarheit über meine Rolle als
+    Teamlead erlangt
+  testimonial_text: >
+    Durch die Arbeit mit Nina Siessegger
+    habe ich einen klaren Blick auf meine
+    Rolle als Teamlead erlangt. Ich ging aus
+    jeder Stunde mit neuer Energie und
+    Impulsen, die ich als viele
+    Verbesserungen in meinem Alltag umsetzen
+    konnte. Ich würde jederzeit wieder ein
+    Leadership Coaching bei Nina machen!
+  author_info: >
+    Maximilian Stribeck​​​​,
+    Engineering Lead Spaceteams
+- 
+  headline: >
+    Nachhaltige Veränderung statt
+    kurzfristiger Lösung
+  testimonial_text: >
+    Am Coaching haben mir besonders die im
+    Arbeitsalltag umsetzbaren Tools
+    geholfen. Es ging nicht nur darum,
+    aktuelle Probleme zu besprechen, sondern
+    ich habe Werkzeuge an die Hand bekommen,
+    mit denen ich auch zukünftige
+    Herausforderungen selbstständig angehen
+    kann. Das hat mir geholfen, meinen
+    Blickwinkel zu verändern und meine
+    Führungskompetenz nachhaltig
+    auszubauen.
+  author_info: >
+    Nina Rammler, Bereichsleitung Pflege,
+    TUM Klinikum Deutsches Herzzentrum
 
 ----
 
