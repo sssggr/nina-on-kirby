@@ -7,7 +7,13 @@
         <br>
         <?php echo t('footer-answer') ?>
       </p>
-        <a class="btn" href="kontakt"><?php echo t('footer-button-content') ?></a>
+        <?php
+        $kontaktPage = $site->find('kontakt'); // Kontaktseite finden
+        if ($kontaktPage): ?>
+          <a class="btn" href="<?= $kontaktPage->url() ?>">
+            <?php echo t('footer-button-content') ?>
+          </a>
+        <?php endif; ?>
     </div>
   <?php endif ?>
   <hr>
