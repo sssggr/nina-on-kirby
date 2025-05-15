@@ -12,7 +12,11 @@ Headline: Contact
 
 Text:
 
-Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call. You can also book an appointment directly via my calendar.
+Whether you're in a leadership role seeking greater clarity, looking to strengthen collaboration within your team, or guiding your organization through change — I offer a space for reflection, sparring, and growth.
+
+In a free 30-minute introductory call, we’ll explore what’s currently on your mind or within your team, what kind of support might be most helpful, and whether I’m the right fit to support you.
+
+You can reach me via email or phone, or schedule a time using my calendar:
 
 (email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
 
@@ -24,7 +28,7 @@ Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
 
 ----
 
-Buttontext: Make an appointment now
+Buttontext: Book an appointment via my calendar
 
 ----
 

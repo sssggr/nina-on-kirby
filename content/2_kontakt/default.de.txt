@@ -8,7 +8,11 @@ Headline: Kontakt
 
 Text:
 
-Hast du Interesse an einer Zusammenarbeit oder möchtest mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht, deinen Anruf oder du buchst direkt einen Termin über meinen Kalender.
+Ob du Führungsverantwortung trägst und neue Klarheit suchst, ein Team in seiner Zusammenarbeit stärken willst oder deine Organisation durch Veränderung begleitest: Ich biete dir einen Raum für Reflexion, Sparring und Entwicklung.
+
+In einem unverbindlichen Erstgespräch (ca. 30 Minuten) klären wir gemeinsam, worum es bei dir oder in deinem Team gerade geht, welche Art von Unterstützung passend ist und ob ich die richtige Begleiterin bin.
+
+Du erreichst mich per Mail oder Telefon oder buchst dir direkt einen Termin in meinem Kalender:
 
 (email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
 
@@ -20,7 +24,7 @@ Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
 
 ----
 
-Buttontext: Jetzt Termin vereinbaren
+Buttontext: Termin über meinen Kalender buchen
 
 ----
 

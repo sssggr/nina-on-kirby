@@ -39,6 +39,58 @@ Offers:
 
 ----
 
+Testimonialsheadline: What my clients say
+
+----
+
+Testimonials:
+
+- 
+  headline: >
+    I have gained clarity about my role as
+    team lead
+  testimonial_text: >
+    Working with Nina Siessegger gave me
+    real clarity on my role as a team lead.
+    I left every session with new energy and
+    impulses that I was able to implement as
+    many improvements in my day-to-day work.
+    I’d absolutely choose leadership
+    coaching with Nina again.
+  author_info: >
+    Maximilian Stribeck​​​​,
+    Engineering Lead Spaceteams
+- 
+  headline: >
+    Sustainable change instead of a
+    short-term solution
+  testimonial_text: "What I found particularly helpful about the coaching were the tools that I could use in my day-to-day work. It wasn't just about discussing current problems, but I was also given tools that I can use to tackle future challenges independently. This helped me to change my perspective and develop my leadership skills in the long term."
+  author_info: >
+    Nina Rammler, Bereichsleitung Pflege,
+    TUM Klinikum Deutsches Herzzentrum
+- 
+  headline: >
+    Competent support for our digitization
+    project
+  testimonial_text: >
+    Nina provided us with exceptionally
+    professional support in selecting an app
+    for employee communication. Thanks to
+    her expertise, commitment and valuable
+    input, we were able to successfully
+    achieve our goals. Her role as a
+    sparring partner was invaluable. Thanks
+    to Nina, we will be able to improve
+    communication in our team in the long
+    term. Her support in applying for and
+    fulfilling the funding requirements was
+    also particularly helpful.
+  author_info: >
+    Stephanie Schaub, Geschäftsführerin
+    CHOCOVERSUM GmbH
+
+----
+
 Inqaheadline: INQA program
 
 ----

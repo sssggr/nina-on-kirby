@@ -39,16 +39,12 @@ Offers:
 
 ----
 
-Testimonialsheadline: 
+Testimonialsheadline: Kund*innenstimmen
 
 ----
 
 Testimonials:
 
-- 
-  headline: ""
-  testimonial_text: ""
-  author_info: ""
 - 
   headline: >
     Ich habe Klarheit über meine Rolle als
@@ -84,6 +80,28 @@ Testimonials:
   author_info: >
     Nina Rammler, Bereichsleitung Pflege,
     TUM Klinikum Deutsches Herzzentrum
+- 
+  headline: >
+    Kompetente Begleitung unseres
+    Digitalisierungsprojekts
+  testimonial_text: >
+    Nina hat uns bei der Auswahl einer App
+    zur Mitarbeiterkommunikation
+    außerordentlich professionell
+    begleitet. Durch ihre fachliche
+    Kompetenz, ihr Engagement und ihre
+    wertvollen Impulse konnten wir unsere
+    Ziele erfolgreich erreichen. Ihre Rolle
+    als Sparringspartner war von
+    unschätzbarem Wert. Dank Nina werden
+    wir die Kommunikation in unserem Team
+    nachhaltig verbessern können. Besonders
+    hilfreich war auch ihre Unterstützung
+    bei der Beantragung und Erfüllung der
+    Fördererfordernisse.
+  author_info: >
+    Stephanie Schaub, Geschäftsführerin
+    CHOCOVERSUM GmbH
 
 ----
 
