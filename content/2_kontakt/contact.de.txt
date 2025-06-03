@@ -2,6 +2,10 @@ Title: Kontakt
 
 ----
 
+Template: contact
+
+----
+
 Headline: Kontakt
 
 ----

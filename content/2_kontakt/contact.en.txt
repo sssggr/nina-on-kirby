@@ -2,7 +2,7 @@ Title: Contact
 
 ----
 
-Slug: contact
+Template: contact
 
 ----
 
@@ -14,7 +14,7 @@ Text:
 
 Whether you're in a leadership role seeking greater clarity, looking to strengthen collaboration within your team, or guiding your organization through change — I offer a space for reflection, sparring, and growth.
 
-In a free 30-minute introductory call, we’ll explore what’s currently on your mind or within your team, what kind of support might be most helpful, and whether I’m the right fit to support you.
+In a free 30-minute introductory call, we'll explore what's currently on your mind or within your team, what kind of support might be most helpful, and whether I'm the right fit to support you.
 
 You can reach me via email or phone, or schedule a time using my calendar:
 
