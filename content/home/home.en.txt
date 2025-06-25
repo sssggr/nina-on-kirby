@@ -88,6 +88,21 @@ Testimonials:
   author_info: >
     Stephanie Schaub, Geschäftsführerin
     CHOCOVERSUM GmbH
+- 
+  headline: >
+    Clarity and structure in our
+    collaboration
+  testimonial_text: >
+    Nina has helped us in our growing remote
+    company to bring clarity and structure
+    to our collaboration. Her practical
+    experience and in-depth training are
+    tangible. In sparring, her outside
+    perspective helped me to focus on the
+    really important issues.
+  author_info: >
+    Daniel Grünthal, Managing Director
+    HomeRun GmbH
 
 ----
 
@@ -123,11 +138,11 @@ Heroimage: - file://5SfTNmVF4VSKPoJh
 
 ----
 
-Herolink: - page://K0rsGSuBepaBoxr9
+Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: About me
+Herobutton: Let's talk
 
 ----
 

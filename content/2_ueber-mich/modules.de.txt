@@ -1,0 +1,73 @@
+Title: Über mich
+
+----
+
+Modules: [{"content":{"bigimage":["file://fxBWlmXYlywju3co"],"styleselect":""},"id":"9e5791b3-0af1-4f79-a9e0-008eb70b194e","isHidden":false,"type":"bigimage"},{"content":{"heading":"Über mich"},"id":"e028ba4d-245e-405f-a3dc-e5d9e26759eb","isHidden":false,"type":"heading"},{"content":{"text":"Moin, ich bin Nina Siessegger. Als Organisationsberaterin und Coach mit Tech-Background unterstütze ich Start-Ups und wachsende Unternehmen dabei, ihre Organisation so aufzustellen, dass alle wissen, worauf es ankommt und gern Verantwortung übernehmen. Das entlastet euch als Gründungs- oder Führungsteam und sorgt für ein Team, das mitzieht und gerne bei euch bleibt."},"id":"45e676e8-60f0-4abb-8dab-072a56764cc7","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Kennt ihr das?"},"id":"5620dac7-215d-49f5-9e86-3302702a3b5d","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Euer Unternehmen wächst, aber Struktur und Prozesse halten nicht Schritt?</li><li>Ihr seid ständig im Feuerwehrmodus, weil alles über euren Tisch läuft?</li><li>Neue Mitarbeitende sollten Entlastung bringen, stattdessen wird alles noch komplexer?</li><li>Niemand weiß so richtig, wer was macht und wichtige Aufgaben gehen unter?</li><li>Und gleichzeitig fragt ihr euch: Wie schaffen wir mehr Struktur, ohne uns mit Bürokratie zu blockieren?</li></ul>","styleselect":""},"id":"8baa008b-b20e-40e2-a512-cc6165d7bafa","isHidden":false,"type":"list"},{"content":{"subheading":"Gute Arbeit braucht den richtigen Rahmen"},"id":"b16981a1-6575-49d1-821e-12181e10fb02","isHidden":false,"type":"subheading"},{"content":{"text":"Ich habe es selbst erlebt, dieses Gefühl, wenn alles gleichzeitig passiert: Das Team wächst, Erwartungen steigen, alle sind beschäftigt, aber nichts fühlt sich richtig sortiert an. Als Entwicklerin und Tech Lead war ich mittendrin: zwischen Entscheidungen, die nicht getroffen wurden, unklaren Rollen und dem Gefühl: Wir strampeln, aber wir kommen nicht wirklich weiter.\n\nWas mir damals gefehlt hat? Klare Entscheidungsräume, Transparenz darüber, worauf es jetzt ankommt und eine Struktur, die Orientierung gibt, ohne Tempo oder Kultur zu bremsen.\n\nHeute weiß ich: Genau das brauchen Organisationen, die gesund wachsen wollen. Ich unterstütze euch dabei, einen Rahmen zu schaffen, in dem Teams Verantwortung übernehmen können, echte Wirkung entsteht und ihr als Führung wieder Zeit zum Gestalten gewinnt. Nicht mit Rezepten von der Stange, sondern mit einem Blick für das, was in eurer Situation wirklich weiterhilft."},"id":"f53ab63a-cca3-417a-b6d6-50a844427495","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Warum bin ich die richtige Begleiterin für euch?\t"},"id":"f436df3d-af6a-4701-aa00-59538ca248cc","isHidden":false,"type":"subheading"},{"content":{"text":"Ich habe selbst erlebt, wie herausfordernd es ist, wenn alles gleichzeitig wächst, Anforderungen, Menschen, Komplexität. Als Entwicklerin, Tech Lead und Beraterin habe ich ganz verschiedene Unternehmen von innen gesehen. Ich weiß, was es bedeutet, wenn Führung überlastet ist, Entscheidungen nicht getroffen werden, niemand mehr weiß, wer was macht und was eigentlich gerade wichtig ist. \n\nIn den vergangenen Jahren habe ich Unternehmen und Leadership-Teams ganz konkret auf dem Weg zu mehr Struktur, Flow und Freiraum für wichtige Themen begleitet."},"id":"0d00fa52-faf7-4a24-b47a-150e94d5c3b2","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Das sagt einer meiner Kunden","styleselect":""},"id":"ca27b908-b52b-4276-8add-d9975a8fc214","isHidden":false,"type":"subsubheading"},{"content":{"quotetext":"Nina begleitet uns schon seit längerem als Sparringspartnerin für Organisationsentwicklung und Führung. Sie hat uns in der Wachstumsphase dabei geholfen, eine tragfähige Re-Organisation der Teams zu erarbeiten und in partizipativen Workshops umzusetzen. Ihre Arbeit hatte einen großen Anteil daran, eine hohe Akzeptanz innerhalb der bestehenden Teams zu erreichen und hat uns sehr dabei geholfen, notwendige Veränderungen voranzutreiben.","citation":"Felix Krüger, Gründer und CTO Pirate Ship Software GmbH"},"id":"fcce45d2-3f27-4c47-a812-a24cea87643d","isHidden":false,"type":"quote"},{"content":{"text":"Neben meiner Erfahrung aus der Praxis bringe ich einen fundierten und gut gefüllten Werkzeugkoffer mit. Ich bin ausgebildete Organisationsgestalterin, Facilitatorin und Coach und kann als zertifizierte Mediatorin auch gut mit herausfordernden Situationen umgehen. \n\nOrganisationen sind heute ohne Technologie und Digitalisierung nicht mehr denkbar. Ich bin seit über 10 Jahren im Tech-Bereich unterwegs, Digital seit über 20 Jahren. Mit mir gibt es keine \"lost in translation\"-Momente. Ich verstehe sowohl die technischen als auch die menschlichen Aspekte. Das spart Zeit, reduziert Missverständnisse und schafft Vertrauen, gerade an Schnittstellen zwischen Tech, Produkt, HR oder Leadership."},"id":"fb9b85b3-eb16-48c5-888f-16756d781987","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Wie ich arbeite"},"id":"6e236d85-af9a-489a-b657-8a6767ea3509","isHidden":false,"type":"subheading"},{"content":{"text":"Ich arbeite nicht mit Konzepten von der Stange. Stattdessen schauen wir gemeinsam genau hin: Wo hakt es wirklich? Was braucht es, damit Zusammenarbeit, Verantwortung und Ergebnisse sich spürbar verbessern?\n\nOb Organisationsberatung oder Teamprozess, für mich hat sich folgendes Vorgehen bewährt. Wir starten mit einer Auftragsklärung: Worum geht es euch? Wo drückt der Schuh? Was wollt ihr erreichen. Im nächsten Schritt geht es darum, tiefer einzutauchen? Wo liegt der Hase im Pfeffer begraben? Dann können wir Prioritäten setzen und gemeinsam Lösungen entwickeln. Und zwischendurch schauen wir immer mal: Wo stehen wir gerade? Sind wir noch auf dem richtigen Weg? Bewährt sich die Idee oder Lösung bei euch im Alltag?"},"id":"6687b6ea-0db3-40f4-a41c-b257f144728b","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mein Kompass"},"id":"fa814b6b-04ff-4c08-aaef-66cce06a27c7","isHidden":false,"type":"subheading"},{"content":{"text":"**Fokussiert:** Wir legen den Fokus darauf, wo es wirklich klemmt \n\n**Partizipativ: **Die relevanten Perspektiven werden einbezogen, so dass Lösungen auch gemeinsam getragen werden.\n\n**Iterativ: **Es muss nicht gleich alles perfekt sein. Deshalb finde ich es hilfreich, Lösungen iterativ zu entwickeln mit Raum für Ausprobieren und Kurskorrektur."},"id":"ce99759c-0074-43b8-aabe-f83c670e79df","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mein Weg in Kurzform"},"id":"63169a0a-09c2-4262-b566-be1cf8e91cd1","isHidden":false,"type":"subheading"},{"content":{"text":"Hier die wichtigsten Stationen im Überblick:"},"id":"8f650f2d-27f3-4b67-a579-62cedc4ad0df","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Studium der Geschichte, Politik &amp; Osteuropastudien (M.A.)</li><li>10 Jahre im Online-Medienbereich u. a. bei tagesschau.de, NDR.de &amp; ZEIT ONLINE</li><li>Knapp 10 Jahre als Softwareentwicklerin, Beraterin und Tech Lead bei verschiedenen Startups und der internationalen Technologieberatung ThoughtWorks</li><li>Seit 2020 bin ich selbstständig als Beraterin und Coach</li></ul>","styleselect":""},"id":"91b408f9-4b16-4805-b096-ee240b7f1937","isHidden":false,"type":"list"},{"content":{"subheading":"Weiterbildungen"},"id":"40ca24a8-d553-4631-8860-a3986522b118","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Trigon zert. Coach</li><li>Organisationsgestalterin TeamworksPlus®</li><li>Mediation und Facilitation (IMK/EHV), zertifizierte Mediatorin nach Mediationsgesetz </li><li>Systemisches Teamcoaching (die coachingakademie)</li><li>Soziokratie 3.0 Practitioner Level 1</li><li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li><li>Certified ScrumMaster®</li><li>Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating Structures, Design Thinking)</li></ul>","styleselect":""},"id":"8045dbdc-fecc-43a4-a990-27ad51ddc49a","isHidden":false,"type":"list"},{"content":{"subheading":"Und ich persönlich?"},"id":"b31a7d55-f570-4eb4-84e5-6230e9c66a1b","isHidden":false,"type":"subheading"},{"content":{"text":"Ich bin Jahrgang 1980 und im Saarland sowie in Baden-Württemberg aufgewachsen, Seit 25 Jahren bin ich in Hamburg zuhause. Ich mag die Stadt und das Leben, zum Spazieren zieht es mich regelmäßig an die Elbe.\n\nBewegung ist mir wichtig. Seit einigen Jahren kann ich mir ein Leben ohne Sport nicht mehr vorstellen. Hätte ich mir vor 20 Jahren auch nicht träumen lassen. Functional Training, Yoga und seit 2 Jahren Muay Thai also Thaiboxen sind für mich ein wichtiger Ausgleich, machen mir aber auch wirklich großen Spaß. Bei dem ganzen Sport darf das leibliche Wohl natürlich nicht zu kurz kommen. Ich koche sehr gerne, habe fast alle Ottolenghi-Kochbücher im Regal stehen und außerdem eine Vorliebe für südostasiatische Küche."},"id":"79f22cc4-e412-4691-b6da-ee4cbddf5086","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Netzwerke und Kooperationen"},"id":"2eef70e8-9395-4745-bfa4-8f06b9d9bf5f","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Beraterin, Coach &amp; Trainerin im Netzwerk des Lucas Consulting Teams</li><li>Team Topologies Advocate</li><li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li><li>Ehrenamtliche Mentorin bei MenorMe</li></ul>","styleselect":""},"id":"9a5287c2-6261-49f4-8767-42958f87ed5c","isHidden":false,"type":"list"},{"content":{"subheading":"Veröffentlichungen"},"id":"880a4d55-a519-49e3-b85d-a007e38f4cb2","isHidden":false,"type":"subheading"},{"content":{"text":"(Link: https://dpunkt.de/produkt/git-kurz-gut-2/ text: Git - kurz & gut)\nEine Einführung in das Versionskontrollsystem Git, veröffentlicht von O'Reilly in den Jahren 2022 und 2024.\n\n(Link: https://martinfowler.com/articles/on-pair-programming.html Text: On Pair Programming)\nIn diesem Artikel beschäftigen sich meine Co-Autorin (Link: https://birgitta.info/ text: Birgitta Böckeler) und ich mit Pair Programming. Wir geben einen Überblick über praktische Ansätze, die Ziele und Herausforderungen dieser Methode sowie Lösungen für häufige Probleme. Dabei zeigen wir auch auf, wecher Zusammenhang zwischen Pair Programming, Kollaboration und Team Flow besteht."},"id":"799a5b38-4561-41f7-8300-a79a42aff640","isHidden":false,"type":"bodytext"}]
+
+----
+
+Metatitle: Organisationsberatung & Coaching
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Ich begleite Organisationen, Teams und Einzelpersonen dabei, neue Wege in Führung, Zusammenarbeit und Wandel zu gehen.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: K0rsGSuBepaBoxr9

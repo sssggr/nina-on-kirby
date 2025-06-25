@@ -1,0 +1,97 @@
+Title: Kontakt
+
+----
+
+Headline: Kontakt
+
+----
+
+Text:
+
+In einem unverbindlichen Erstgespräch (ca. 30 Minuten) klären wir gemeinsam, worum es bei dir, in deinem Unternehmen oder in deinem Team gerade geht, welche Art von Unterstützung passend ist und ob ich die richtige Begleiterin bin.
+
+Du erreichst mich per Mail oder Telefon oder buchst dir direkt einen Termin in meinem Kalender:
+
+(email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
+
+(link: tel:+4901702610977 text: +49 (0)170 2610977)
+
+----
+
+Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
+
+----
+
+Buttontext: Termin über meinen Kalender buchen
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Template: contact
+
+----
+
+Uuid: QjQlA0CmqokWM3F5

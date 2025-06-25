@@ -1,0 +1,93 @@
+Title: Contact
+
+----
+
+Headline: Contact
+
+----
+
+Text:
+
+In a free 30-minute introductory call, we'll clarify what's currently happening in your organization, what kind of support would be most helpful, and whether I'm the right fit to support you.
+
+You can reach me via email or phone, or schedule a time using my calendar:
+
+(email: hallo@ninasiessegger.de text: hallo@ninasiessegger.de)
+
+(link: tel:+4901702610977 text: +49 (0)170 2610977)
+
+----
+
+Calendarurl: https://calendar.app.google/VZvjqYTaagJ54Ac26
+
+----
+
+Buttontext: Book an appointment via my calendar
+
+----
+
+Metatitle: Contact
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Are you interested in working with me or would you like to find out more about my services? I look forward to your message or your call.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Template: contact

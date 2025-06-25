@@ -47,6 +47,22 @@ Testimonials:
 
 - 
   headline: >
+    Klarheit und Struktur in der
+    Zusammenarbeit
+  testimonial_text: >
+    Nina hat uns in unserem wachsenden
+    Remote-Unternehmen geholfen, Klarheit
+    und Struktur in unsere Zusammenarbeit zu
+    bringen. Ihre Erfahrung, aus der Praxis
+    und durch fundierte Weiterbildungen, ist
+    spürbar. Im Sparring hat mir ihr Blick
+    von außen geholfen, fokussiert an den
+    wirklich wichtigen Themen zu arbeiten.
+  author_info: >
+    Daniel Grünthal, Geschäftsführer
+    HomeRun GmbH
+- 
+  headline: >
     Ich habe Klarheit über meine Rolle als
     Teamlead erlangt
   testimonial_text: >
@@ -137,11 +153,11 @@ Heroimage: - file://5SfTNmVF4VSKPoJh
 
 ----
 
-Herolink: - page://K0rsGSuBepaBoxr9
+Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: Über mich
+Herobutton: Lass uns sprechen
 
 ----
 
