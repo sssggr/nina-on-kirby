@@ -1,0 +1,65 @@
+.process-section {
+  font-family: 'Objectivity', sans-serif;
+  background-color: var(--gray, #EDEDED);
+  color: var(--black, #383743);
+  padding: 4rem 2rem;
+  /* max-width: 1200px; */
+  /* margin: 4rem auto; */
+}
+
+.process-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.process-section p.lead {
+  font-size: 1.2rem;
+  color: var(--darkgray, #777777);
+  margin-bottom: 2rem;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.process-card {
+  background-color: var(--white, #fff);
+  border-left: 6px solid var(--blue, #FB8E8E);
+  padding: 1.5rem;
+  border-radius: 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.process-number {
+  font-size: var(--fs-sm);
+}
+
+.process-title {
+  font-size: var(--fs-md);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.process-description {
+  font-size: var(--fs-sm);
+  color: var(--black, #383743);
+}
+
+@media (max-width: 600px) {
+  .process-section {
+    padding: 2rem 1rem;
+  }
+  .process-number,
+  .process-title,
+  .process-description {
+    font-size: var(--fs-sm);
+  }
+} 

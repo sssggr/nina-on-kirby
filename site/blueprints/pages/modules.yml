@@ -25,6 +25,9 @@ tabs:
                   - accordion
                   - bigimage
                   - hero
+                  - image
+                  - calendar
+                  - process
       sidebar:
         width: 1/3
         sections:

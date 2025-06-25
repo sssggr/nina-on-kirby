@@ -1,3 +1,5 @@
+@import url('components/process.css');
+
 :root {
   /* colors */
   --white: #FFFFFF;
@@ -1178,3 +1180,4 @@ footer a {
     text-align: center;
   }
 }
+

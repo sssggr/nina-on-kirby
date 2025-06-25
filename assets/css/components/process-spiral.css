@@ -1,0 +1,8 @@
+.process-spiral-section {
+  font-family: 'Objectivity', sans-serif;
+  background-color: var(--gray);
+  color: var(--black);
+  padding: 4rem 2rem;
+  /* max-width: 1200px; */
+  /* margin: 4rem auto; */
+} 
