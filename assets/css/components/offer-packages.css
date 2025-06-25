@@ -1,0 +1,111 @@
+:root {
+  --white: #FFFFFF;
+  --black: #383743;
+  --darkgray: #777777;
+  --gray: #EDEDED;
+  --blue: #0000FF;
+  --red: #FB8E8E;
+  --font: 'Objectivity', sans-serif;
+}
+
+.packages {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .packages {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.package-card {
+  background-color: var(--white);
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(56, 55, 67, 0.1);
+  padding: 1.5rem;
+  border-left: 8px solid var(--blue);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+.package-card h2 {
+  font-size: var(--fs-md);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: none;
+}
+
+.package-card .target {
+  font-weight: bold;
+  color: var(--darkgray);
+}
+
+.package-card ul {
+  padding-left: 1rem;
+  list-style: disc;
+  color: var(--black);
+}
+
+.accordion {
+  margin-top: 1rem;
+}
+
+.accordion-button {
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.accordion-content {
+  display: none;
+  font-size: 0.95rem;
+  color: var(--darkgray);
+  margin-top: 0.5rem;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.package-card .result {
+  font-style: italic;
+  margin-top: 1rem;
+  color: var(--black);
+}
+
+.package-card .price {
+  font-weight: bold;
+  color: var(--red);
+  margin-top: 0.5rem;
+}
+
+.package-btn {
+  background: var(--blue);
+  color: #fff !important;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.5rem;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.package-btn:hover {
+  background: #FB8E8E !important;
+  color: #fff !important;
+} 
