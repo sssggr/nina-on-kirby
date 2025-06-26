@@ -1,6 +1,27 @@
 title: Angebotsübersicht
 icon: money
 
+tabs:
+  content:
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fieldsmain:
+            type: fields
+            fields:
+              modules:
+                label: Bausteine
+                type: blocks
+                fieldsets:
+                  - offer-packages
+      sidebar:
+        width: 1/3
+        sections:
+          files:
+            label: Übersicht der Dateien
+            type: files
+
 sections:
   drafts:
     extends: sections/offers

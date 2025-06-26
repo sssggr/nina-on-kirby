@@ -28,6 +28,7 @@ tabs:
                   - image
                   - calendar
                   - process
+                  - offer-packages
       sidebar:
         width: 1/3
         sections:

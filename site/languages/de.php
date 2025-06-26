@@ -32,5 +32,8 @@ return [
         'phasen.5.title' => 'Flexibel bleiben & lernen',
         'phasen.5.text' => 'Wir reflektieren: Was hat sich verändert? Was bleibt zu tun? Ziel ist Anpassungsfähigkeit – auch wenn sich das Umfeld verändert.'
     ],
-    'url' => '/'
+    'url' => '/',
+    'offer.moreDetails' => 'Mehr Details',
+    'offer.result' => 'Ergebnis',
+    'offer.button' => 'Interessiert? Jetzt anfragen',
 ];

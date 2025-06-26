@@ -32,5 +32,8 @@ return [
         'phasen.5.title' => 'Stay Flexible & Learn',
         'phasen.5.text' => 'We reflect: What has changed? What remains to be done? The goal is adaptability – even when the environment changes.'
     ],
-    'url' => NULL
+    'url' => NULL,
+    'offer.moreDetails' => 'More details',
+    'offer.result' => 'Result',
+    'offer.button' => 'Interested? Request now',
 ];

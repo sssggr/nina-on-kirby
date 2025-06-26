@@ -1,7 +1,7 @@
 .process-section {
   font-family: 'Objectivity', sans-serif;
-  background-color: var(--gray, #EDEDED);
-  color: var(--black, #383743);
+  background-color: var(--gray);
+  color: var(--black);
   padding: 4rem 2rem;
   /* max-width: 1200px; */
   /* margin: 4rem auto; */
@@ -14,7 +14,7 @@
 
 .process-section p.lead {
   font-size: 1.2rem;
-  color: var(--darkgray, #777777);
+  color: var(--darkgray);
   margin-bottom: 2rem;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .process-card {
-  background-color: var(--white, #fff);
-  border-left: 6px solid var(--blue, #FB8E8E);
+  background-color: var(--white);
+  border-left: 6px solid var(--blue);
   padding: 1.5rem;
   border-radius: 0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
@@ -50,7 +50,7 @@
 
 .process-description {
   font-size: var(--fs-sm);
-  color: var(--black, #383743);
+  color: var(--black);
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,54 @@
+title:
+  de: Angebots-Karten
+  en: Offer Packages
+icon: box
+fields:
+  offers:
+    label:
+      de: Angebote
+      en: Offers
+    type: structure
+    max: 3
+    fields:
+      title:
+        label:
+          de: Titel
+          en: Title
+        type: text
+      target:
+        label:
+          de: Zielgruppe
+          en: Target Group
+        type: text
+      features:
+        label:
+          de: Leistungen (je Zeile ein Punkt)
+          en: Features (one per line)
+        type: list
+      details:
+        label:
+          de: Mehr Details (Accordion)
+          en: More Details (Accordion)
+        type: textarea
+      result:
+        label:
+          de: Ergebnis
+          en: Result
+        type: text
+      price:
+        label:
+          de: Preis (optional)
+          en: Price (optional)
+        type: text
+      buttontext:
+        label:
+          de: Button-Text
+          en: Button Text
+        type: text
+        default: Interessiert? Jetzt anfragen
+      buttonurl:
+        label:
+          de: Button-Link
+          en: Button Link
+        type: pages
+        multiple: false 
