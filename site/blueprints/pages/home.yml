@@ -102,6 +102,9 @@ tabs:
               herotext:
                 label: Hero-Text (h1)
                 type: text
+              herosubheadline:
+                label: Hero-Subheadline
+                type: text
               heroimage:
                 label: Hero-Bild
                 type: files

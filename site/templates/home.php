@@ -13,6 +13,11 @@
               <h1>
                 <?= $page->herotext() ?>
               </h1>
+              <?php if ($page->herosubheadline()->isNotEmpty()): ?>
+                <p class="hero-subheadline">
+                  <?= $page->herosubheadline()->kirbytextinline() ?>
+                </p>
+              <?php endif ?>
               <div class="button-container">
                 <a
                   class="btn"
@@ -85,15 +90,15 @@
           <?= $page->testimonialsheadline() ?>
         </h2>
         <div class="row">
-        <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
             <?php snippet('blocks/carousel', [
               'testimonials' => $page->testimonials()->toStructure(),
               'withGrid' => false
             ]); ?>
-      </div>
-      </div>
+          </div>
+        </div>
       </section>
-      <section>
+      <section class="inqa"> 
         <h2>
           <?= $page->inqaheadline() ?>
         </h2>

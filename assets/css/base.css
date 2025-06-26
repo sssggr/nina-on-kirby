@@ -1,4 +1,3 @@
-
 :root {
   /* colors */
   --white: #FFFFFF;
@@ -313,10 +312,6 @@ a:visited.btn {
   color: var(--white);
 }
 
-.button-container .btn {
-  margin: 2rem;
-}
-
 hr {
   border-style: dashed;
   border-color: #0000FF;
@@ -387,11 +382,7 @@ hr {
   font-weight: 700;
   padding: var(--gutter);
   margin-bottom: 0;
-}
-
-.hero p {
-  padding-left: var(--gutter);
-  font-weight: 500;
+  margin-top: 0;
 }
 
 .hero-text-center-vertical {
@@ -419,10 +410,6 @@ hr {
 
   .hero-item2 {
     order: 1;
-  }
-
-  .hero .hero-item2 {
-    padding-top: var(--gutter);
   }
 }
 
@@ -837,6 +824,10 @@ article .readmore {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
+
+  .hero-subheadline {
+    padding-left: calc(var(--gutter) * 2);
+  }
 }
 
 @media (max-width: 480px) {
@@ -896,12 +887,12 @@ footer a {
 }
 
 .testimonial-quote .firstcharacter {
-    color: var(--red);
-    float: left;
-    font-size: calc(var(--fs-sm)*4);
-    font-weight: 700;
-    line-height: calc(var(--fs-sm)*3);
-    padding-right: 8px;
+  color: var(--red);
+  float: left;
+  font-size: calc(var(--fs-sm)*4);
+  font-weight: 700;
+  line-height: calc(var(--fs-sm)*3);
+  padding-right: 8px;
 }
 
 .testimonial-carousel .flickity-button {

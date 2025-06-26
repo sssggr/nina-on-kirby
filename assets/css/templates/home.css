@@ -1,15 +1,16 @@
 h3 {
   margin: 0;
 }
-.hero p{
+
+.hero p {
   font-weight: 400;
 }
 
-.teaser{
-margin: 0 0 4.5em;
+.teaser {
+  margin: 0 0 4.5em;
 }
 
-.themen{
+.themen {
   margin: 0 0 3.5em;
 }
 
@@ -64,11 +65,13 @@ margin: 0 0 4.5em;
   animation-delay: 5s;
 
 }
+
 .themen li:nth-child(7) {
   animation: topics 8s infinite;
   animation-delay: 6s;
 
 }
+
 .themen li:nth-child(8) {
   animation: topics 8s infinite;
   animation-delay: 7s;
@@ -101,8 +104,41 @@ margin: 0 0 4.5em;
   padding-right: 18px;
 }
 
+.hero-subheadline {
+  padding: 0 var(--gutter);
+  font-size: var(--fs-sm);
+  color: var(--black);
+  font-weight: 400;
+  margin: 0;
+}
+
+.hero h1 {
+  padding-bottom: 0;
+}
+
+.hero .button-container {
+  padding: 0 var(--gutter) var(--gutter);
+}
+
+.inqa .hero-item2 {
+  padding-top: var(--gutter);
+}
+
+.inqa p {
+  padding-left: var(--gutter);
+  font-weight: 500;
+}
+
 @media (max-width: 1024px) {
   .hero h1 {
+    padding: 1rem;
+  }
+
+  .hero-subheadline {
+    padding: 0 1rem;
+  }
+
+  .hero .button-container {
     padding: 1rem;
   }
 
@@ -123,6 +159,10 @@ margin: 0 0 4.5em;
     margin-bottom: 1rem;
   }
 
+  .hero .hero-subheadline {
+    padding: 0 1rem;
+  }
+
   .teaser-container {
     margin-bottom: 1rem;
     margin-top: 0;
@@ -135,15 +175,23 @@ margin: 0 0 4.5em;
   }
 
   .hero h1 {
-    padding-bottom: 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-left: 0em;
     margin-right: 0em;
   }
 
-  .button-container .btn {
+  /* .button-container .btn {
     margin: 1.5rem;
+  } */
+  .hero .hero-subheadline {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero .button-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   h3 {
