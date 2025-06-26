@@ -30,10 +30,10 @@ return [
         'phasen.4.text' => 'Ich begleite bei der Einführung – mit Raum für Reflexion und Nachjustierung. Damit neue Strukturen im Alltag funktionieren.',
         'phasen.5.number' => '5. Abschluss & Nachhaltigkeit',
         'phasen.5.title' => 'Flexibel bleiben & lernen',
-        'phasen.5.text' => 'Wir reflektieren: Was hat sich verändert? Was bleibt zu tun? Ziel ist Anpassungsfähigkeit – auch wenn sich das Umfeld verändert.'
+        'phasen.5.text' => 'Wir reflektieren: Was hat sich verändert? Was bleibt zu tun? Ziel ist Anpassungsfähigkeit – auch wenn sich das Umfeld verändert.',
+        'offer.moreDetails' => 'Mehr Details',
+        'offer.result' => 'Ergebnis',
+        'offer.button' => 'Interessiert? Jetzt anfragen',
     ],
     'url' => '/',
-    'offer.moreDetails' => 'Mehr Details',
-    'offer.result' => 'Ergebnis',
-    'offer.button' => 'Interessiert? Jetzt anfragen',
 ];

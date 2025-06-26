@@ -30,10 +30,10 @@ return [
         'phasen.4.text' => 'I support the introduction – with space for reflection and adjustment. So that new structures work in everyday life.',
         'phasen.5.number' => '5. Completion & Sustainability',
         'phasen.5.title' => 'Stay Flexible & Learn',
-        'phasen.5.text' => 'We reflect: What has changed? What remains to be done? The goal is adaptability – even when the environment changes.'
+        'phasen.5.text' => 'We reflect: What has changed? What remains to be done? The goal is adaptability – even when the environment changes.',
+        'offer.moreDetails' => 'More details',
+        'offer.result' => 'Result',
+        'offer.button' => "Interested?  Let's talk",
     ],
     'url' => NULL,
-    'offer.moreDetails' => 'More details',
-    'offer.result' => 'Result',
-    'offer.button' => 'Interested? Request now',
 ];
