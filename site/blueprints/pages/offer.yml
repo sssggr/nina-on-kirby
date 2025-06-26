@@ -29,6 +29,7 @@ tabs:
                   - calendar
                   - process
                   - offer-packages
+                  - portrait-text
       sidebar:
         width: 1/3
         sections:

@@ -1,0 +1,31 @@
+title:
+  de: Portrait mit Text
+  en: Portrait with Text
+icon: user
+fields:
+  portrait:
+    label:
+      de: Portrait
+      en: Portrait
+    type: files
+    multiple: false
+    layout: cards
+    uploads:
+      template: image
+    required: true
+  text:
+    label:
+      de: Text
+      en: Text
+    type: textarea
+    buttons:
+      - bold
+      - italic
+      - link
+      - ul
+      - ol
+      - email
+      - file
+    required: true
+    size: large
+    font: sans 

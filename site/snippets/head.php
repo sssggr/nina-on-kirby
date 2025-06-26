@@ -19,6 +19,7 @@
     'assets/css/vendor/flexboxgrid.min.css',
     'assets/css/base.css',
     'assets/css/components/offer-packages.css',
+    'assets/css/components/portrait-text.css',
     '@auto'
   ]) ?>
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
