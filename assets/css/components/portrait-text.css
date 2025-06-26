@@ -32,8 +32,6 @@
   .portrait-image {
     width: 110px;
     height: 110px;
-  }
-  .portrait-text-content {
-    text-align: center;
+    align-items: center;
   }
 } 
