@@ -1,0 +1,73 @@
+Title: Organisationsberatung
+
+----
+
+Modules: [{"content":{"heading":"Organisationsberatung"},"id":"8b21d100-1bbb-45a4-ac9a-d869433776ce","isHidden":false,"type":"heading"},{"content":{"herotext":"Euer Unternehmen wächst, aber die Struktur hinkt hinterher? Organisationsberatung für Start-ups und wachsende Unternehmen","heroimage":["file://S9c6aAshBTXiZHaH"]},"id":"2a9d60e7-4479-467c-b820-2ba3245c235e","isHidden":false,"type":"hero"},{"content":{"text":"Euer Unternehmen ist gewachsen, die Anforderungen auch. Und die Strukturen? Die hinken noch hinterher. Entscheidungen dauern, Verantwortlichkeiten verschwimmen, das Leadership ist permanent im Feuerwehr-Modus. Und neuen Mitarbeitenden fehlt die Orientierung. \n\nDu willst klare Abläufe, starke Zusammenarbeit und endlich wieder mehr Flow aber dabei eure Kultur nicht verlieren?\n\nDann lass uns gemeinsam Strukturen schaffen, die zu euch passen und euch wirklich entlasten: mit klaren Rollen, guten Entscheidungswegen und einem Team, das in dieselbe Richtung steuert."},"id":"e8a6591e-36ca-44e5-b994-c3878a342259","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Das beobachte ich in schnell gewachsenen Unternehmen immer wieder. Vielleicht ist es bei Euch auch so?"},"id":"93499fb6-42fa-421c-ba90-62a64a80ef3e","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Ohne dich als Gründerin oder Geschäftsführerin läuft nichts. Du hast wenig Zeit, dich mit strategischen Themen zu beschäftigen.</li><li>Immer wieder stellt sich die Frage: Wer ist dafür eigentlich zuständig?</li><li>Wissen liegt bei Einzelpersonen. Was, wenn diese ausfallen oder gehen?</li><li>Die alten Hasen trauern der Anfangszeit nach, neue Mitarbeitende wünschen sich mehr Struktur und Orientierung</li><li>Ihr merkt, dass es so nicht weitergeht, gleichzeitig fürchtet ihr euch vor zu viel Struktur und Bürokratie</li></ul>","styleselect":""},"id":"85678ff1-f0e2-4bb9-80c8-77a990b49e64","isHidden":false,"type":"list"},{"content":{"subheading":"Wie es stattdessen sein kann"},"id":"8f5ba98d-141f-49c8-a6e8-c90bce7638a5","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Ihr habt Strukturen und Prozesse, die zu euch passen und euch nicht einengen</li><li>Rollen und Zuständigkeiten sind klar geregelt, es gibt weniger Reibungsverluste</li><li>Das Wissen ist zugänglich und hängt nicht mehr an Einzelpersonen, neue Mitarbeitende könnte ihr schnell onboarden.&nbsp;</li><li>Die Führung ist entlastet und hat Zeit für strategische Themen und die Weiterentwicklung des Unternehmens</li><li>Die Teams arbeiten selbstorganisiert und ziehen an einem Strang</li></ul>","styleselect":""},"id":"b9b245be-ad81-4d12-9625-76af4f48a7ba","isHidden":false,"type":"list"},{"content":{"subheading":"Moin, ich bin Nina Siessegger"},"id":"846542df-bd59-4a7a-8713-a11897b99c36","isHidden":false,"type":"subheading"},{"content":{"portrait":["file://kZDgcOLeKF8GsVAE"],"text":"Als Organisationsberaterin und Coach mit Tech-Background unterstütze ich Start-Ups und junge Unternehmen dabei, ihre Organisation so aufzustellen, dass Teams eigenverantwortlich arbeiten und Dinge vorankommen.\n\nIch war selbst viele Jahre in der Tech- und Digitalbranche unterwegs, als Entwicklerin, Tech Lead und später als Beraterin. Ich weiß, wie sich Wachstum anfühlt, wenn alles gleichzeitig mehr wird: Verantwortung, Abstimmung, Komplexität.\n\nHeute helfe ich Start-ups und KMU, Klarheit zu schaffen und Strukturen zu entwickeln, die tragen, ohne einzuengen. Lösungen, die im Alltag funktionieren."},"id":"8d6ca1b2-213f-48fb-b7f0-de319d4d9c59","isHidden":false,"type":"portrait-text"},{"content":{"subheading":"So arbeite ich"},"id":"4e2b1ad8-0ff4-4ced-b5c4-3247ff3de582","isHidden":false,"type":"subheading"},{"content":{"text":"Ich höre zu, stelle Fragen und helfe, das Chaos zu entwirren. Was ich mitbringe, ist ein gut gefüllter Werkzeugkasten:"},"id":"213aa5c4-821a-4b05-bf47-b6e11173d213","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li><strong>Systemisches Denken</strong>, um nicht nur an Symptomen rumzuschrauben</li><li><strong>Ansätze aus dem agilen Arbeiten</strong>,wenn’s darum geht, Struktur beweglich zu halten</li><li><strong>Team Topologies</strong>, um sinnvolle Teamstrukturen zu entwickeln</li><li><strong>Soziokratie 3.0 und Liberating Structures</strong>, wenn es darum geht, Lösungen gemeinsam zu entwickeln und Entscheidungen klar und gemeinsam zu treffen</li></ul>","styleselect":""},"id":"03c2bfea-b455-4308-8b80-d50672607688","isHidden":false,"type":"list"},{"content":{"text":"Aber: Ich arbeite nicht nach Schema F. Ich suche keine Probleme, zu denen mein Lieblingsmodell passt. Stattdessen schauen wir gemeinsam: Was passt zu euch? Was funktioniert im Alltag und was auch nicht?\n\nDabei orientiere ich mich an den folgenden Schritten."},"id":"8ca0dd7b-1ea8-4c7c-8a30-4c5da66de918","isHidden":false,"type":"bodytext"},{"content":[],"id":"3613b2b8-b41c-4e75-991f-bf12402c34b1","isHidden":false,"type":"process"},{"content":{"text":"Mein Ziel sind Lösungen, die eure Probleme wirklich lösen und euch im Alltag Entlastung bringen."},"id":"742992d6-f588-4d4e-8812-267a590994fb","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was passt gerade zu euch?"},"id":"65d8c28a-207b-4bbe-adaa-42943b453f06","isHidden":false,"type":"subheading"},{"content":{"text":"Ich biete verschiedene Formate an, die sich in Tiefe, Umfang und Zielsetzung unterscheiden.\n\nOb ihr einen schnellen Überblick braucht oder eine strukturierte Begleitung wünscht. Lass uns sprechen und wir finden heraus, was für euer Problem das richtige Angebot und Vorgehen ist."},"id":"69a35271-28ec-4f99-91ef-ba3599fc46b3","isHidden":false,"type":"bodytext"}]
+
+----
+
+Metatitle: Organisationsberatung
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Euer Unternehmen wächst, aber die Struktur hinkt hinterher? Organisationsberatung für Start-ups und wachsende Unternehmen
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Ich helfe wachsenden Start-ups und KMU, Klarheit zu schaffen und Strukturen zu entwickeln, die tragen, ohne einzuengen. Lösungen, die im Alltag funktionieren.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: NOuEozJlKmGpPUSC

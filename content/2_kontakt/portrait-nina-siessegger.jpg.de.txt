@@ -1,9 +1,0 @@
-Sort: 2
-
-----
-
-Uuid: foccawl6P1HUeyjY
-
-----
-
-Template: image

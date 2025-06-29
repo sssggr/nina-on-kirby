@@ -11,28 +11,44 @@ Offers:
 - 
   offerimage:
     - file://MyJAXBKznVTqWy16
-  offerheadline: Agile Organisationsberatung
-  offertext: 'Wenn Organisationen wachsen, sich verändern oder neu ausrichten, entstehen oft Reibung, Unsicherheit und Orientierungslosigkeit. Ich unterstütze euch dabei, Strukturen zu klären, Verantwortung sinnvoll zu verteilen und Zusammenarbeit so zu gestalten, dass Veränderung gelingt - agil, systemisch und menschenzentriert.'
+  offerheadline: Organisationsberatung
+  offertext: >
+    Euer Unternehmen ist gewachsen, aber die
+    Strukturen hinken hinterher? Ich helfe
+    euch, klare Rollen und Prozesse zu
+    entwickeln, die zu euch passen – ohne
+    Bürokratie, die einengt. Damit Teams
+    eigenverantwortlich arbeiten und ihr
+    wieder Zeit für strategische Themen
+    habt.
   offerlink:
     - page://NOuEozJlKmGpPUSC
   offerbutton: mehr
 - 
   offerimage:
     - file://5C1Ay4lgd9C0JsPQ
-  offerheadline: >
-    Teamentwicklung für spürbar bessere
-    Zusammenarbeit
-  offertext: 'Euer Team hat Potenzial, das nicht voll ausgeschöpft wird? Ob zähe Abstimmungsprozesse, fehlendes gemeinsames Verständnis oder Spannungen im Team - ich begleite euch auf dem Weg zu einer effektiveren, klareren und motivierenderen Zusammenarbeit.'
+  offerheadline: Teamentwicklung
+  offertext: >
+    Wenn Abstimmungen zäh werden und
+    Konflikte schwelen, fehlt oft Klarheit
+    in Rollen und Entscheidungswegen. Ich
+    bringe Teams aus der Reibung in den Flow
+    – mit konkreten Spielregeln und
+    Routinen, die im Alltag tragen.
   offerlink:
     - page://mFJW5p0DxY9VQ6Zl
   offerbutton: mehr
 - 
   offerimage:
     - file://VsBAiach0x1dQexF
-  offerheadline: >
-    Coaching für Menschen mit Verantwortung
-    in agilen Kontexten
-  offertext: 'Du übernimmst Verantwortung in einem agilen Umfeld - ob mit oder ohne Titel? Ich unterstütze dich dabei, Klarheit über deine Rolle zu gewinnen, mit Veränderung souverän umzugehen und deinen eigenen Führungsstil zu entwickeln.'
+  offerheadline: 'Coaching '
+  offertext: >
+    Du willst führen, aber auf deine Art?
+    Ich begleite dich dabei, deinen
+    authentischen Führungsstil zu finden,
+    herausfordernde Situationen gelassener
+    zu meistern und mehr Raum für das zu
+    gewinnen, was wirklich wichtig ist.
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
@@ -145,7 +161,11 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile Organisationsberatung für zukunftsorientierte Unternehmen und Arbeitswelten von morgen
+Herotext: Euer Unternehmen wächst schneller als eure Strukturen?
+
+----
+
+Herosubheadline: Wir schaffen Strukturen, die funktionieren. Für entlastete Führung, starke Teams und nachhaltiges Wachstum.
 
 ----
 
@@ -157,7 +177,7 @@ Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: Lass uns sprechen
+Herobutton: Erstgespräch buchen
 
 ----
 
@@ -169,19 +189,19 @@ Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation
 
 ----
 
-Metatemplate: Nina Siessegger - Organisationsberatung & Coaching
+Metatemplate: Nina Siessegger | Organisationsberatung & Coaching
 
 ----
 
-Metadescription: Beratung, Coaching und Teamentwicklung für Organisationen, Teams und Führungspersonen in Veränderungsprozessen. Ich unterstütze dabei, Strukturen, Zusammenarbeit und Führung zukunftsorientiert und wirksam zu gestalten - agil, systemisch und mit Blick aufs Ganze.
+Metadescription: Mit Tech-Expertise und einem systemischen Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
 
 ----
 
-Ogtemplate: Nina Siessegger - Organisationsberatung & Coaching
+Ogtemplate: Nina Siessegger | Organisationsberatung & Coaching
 
 ----
 
-Ogdescription: Beratung, Coaching und Teamentwicklung für Organisationen, Teams und Führungspersonen in Veränderungsprozessen. Ich unterstütze dabei, Strukturen, Zusammenarbeit und Führung zukunftsorientiert und wirksam zu gestalten - agil, systemisch und mit Blick aufs Ganze.
+Ogdescription: Mit Tech-Expertise und einem systemischen Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
 
 ----
 

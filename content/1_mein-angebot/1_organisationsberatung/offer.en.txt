@@ -1,0 +1,73 @@
+Title: Organizational Consulting
+
+----
+
+Slug: organisational-consulting
+
+----
+
+Modules: [{"content":{"heading":"Organizational Consulting "},"id":"802db592-181b-4c81-9a79-2c8147d42c95","isHidden":false,"type":"heading"},{"content":{"herotext":"Your company is growing, but the structure is lagging behind? Organizational consulting for start-ups and growing companies","heroimage":["file://S9c6aAshBTXiZHaH"]},"id":"8572db69-436f-477d-b126-72c35894fd46","isHidden":false,"type":"hero"},{"content":{"text":"Your company has grown, and so have the demands. And the structures? They're still playing catch-up. Decisions take forever, responsibilities blur together, leadership is permanently in firefighting mode. And new employees lack direction.\n\nYou want clear processes, strong collaboration, and finally more flow again – but without losing your culture?\n\nThen let's create structures together that fit you and truly provide relief: with clear roles, good decision-making pathways, and a team that steers in the same direction."},"id":"e73d328b-2332-40ac-a175-00ef01ec4336","isHidden":false,"type":"bodytext"},{"content":{"subheading":"I see this over and over again in young and growing companies. Maybe it's the same for you?"},"id":"d6ba5ac7-e8b9-4642-88b5-d70e83097e21","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Nothing runs without you as the founder or CEO. You have little time to focus on strategic issues.</li><li>The question keeps coming up: Who's actually responsible for this?</li><li>Knowledge sits with individuals. What happens if they're out sick or leave?</li><li>The old hands miss the early days, new employees want more structure and guidance</li><li>You notice things can't continue this way, but at the same time you're afraid of too much structure and bureaucracy</li></ul>","styleselect":""},"id":"ba75767d-c066-45d5-9b7d-b549530c0152","isHidden":false,"type":"list"},{"content":{"subheading":"How it could be instead"},"id":"2083803a-149e-4acf-99fc-480c23a7ea5b","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>You have structures and processes that fit you and don't constrain you</li><li>Roles and responsibilities are clearly defined, there's less friction</li><li>Knowledge is accessible and no longer dependent on individuals, you can onboard new employees quickly</li><li>Leadership is relieved and has time for strategic issues and company development</li><li>Teams work self-organized and pull in the same direction</li></ul>","styleselect":""},"id":"b772ed9e-3038-4d4b-b567-3018dfa0830c","isHidden":false,"type":"list"},{"content":{"subheading":"Hi, I'm Nina Siessegger"},"id":"5035ed0d-f6ee-48ce-927e-af50ef530bc2","isHidden":false,"type":"subheading"},{"content":{"portrait":["file://kZDgcOLeKF8GsVAE"],"text":"As an organizational consultant and coach with a tech background, I support start-ups and young companies in setting up their organization so that teams work independently and things move forward.\n\nI spent many years in the tech and digital industry myself, as a developer, tech lead, and later as a consultant.\n\nI know what growth feels like when everything becomes more at once: responsibility, coordination, complexity.\n\nToday I help start-ups and SMEs create clarity and develop structures that support without constraining. Solutions that work in daily practice."},"id":"61147821-7ad1-4a64-b5dc-50c10851c70d","isHidden":false,"type":"portrait-text"},{"content":{"subheading":"How I work"},"id":"2cfb85ff-e08d-4930-bf85-2010a571c0c9","isHidden":false,"type":"subheading"},{"content":{"text":"I listen, ask questions, and help untangle the chaos. What I bring is a well-stocked toolbox:"},"id":"3d172af9-0992-4ca1-b0ce-694895a81bad","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Systems thinking, to avoid just tinkering with symptoms </li><li>Approaches from agile working, when it comes to keeping structure flexible </li><li>Team Topologies, to develop meaningful team structures </li><li>Sociocracy 3.0 and Liberating Structures, when it comes to developing solutions together and making decisions clearly and collectively</li></ul>","styleselect":""},"id":"a887ae0c-10df-473e-9f85-5e01216d1088","isHidden":false,"type":"list"},{"content":{"text":"But: I don't work according to a one-size-fits-all approach. I don't look for problems that fit my favorite model. \n\nInstead, we look together: What fits you? What works in daily practice and what doesn't? I use the following steps as a guideline."},"id":"136e629a-c55c-4b74-a3da-e41b5fe1821c","isHidden":false,"type":"bodytext"},{"content":[],"id":"fb793d57-94c5-455a-912a-d39dc150df3e","isHidden":false,"type":"process"},{"content":{"text":"My goal is solutions that really solve your problems and bring you relief in daily operations."},"id":"3e921478-032e-4a32-b537-032b9a2f7dc1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What fits you right now?"},"id":"8bcbc828-0100-4fb5-85af-5ac04207b1db","isHidden":false,"type":"subheading"},{"content":{"text":"I offer various formats that differ in depth, scope, and objectives.\n\nWhether you need a quick overview or structured support – let's talk and we'll figure out what the right offering and approach is for your specific problem."},"id":"fb66f6ba-bf42-45b2-b46f-01d96a28fd57","isHidden":false,"type":"bodytext"}]
+
+----
+
+Metatitle: Organizational Consulting
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Is your company growing but the structure is lagging behind? Organizational consulting for start-ups and growing companies
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Is your company growing but the structure is lagging behind? Organizational consulting for start-ups and growing companies
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

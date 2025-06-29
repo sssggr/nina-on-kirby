@@ -11,28 +11,38 @@ Offers:
 - 
   offerimage:
     - file://MyJAXBKznVTqWy16
-  offerheadline: Agile organizational consulting
-  offertext: 'When organizations grow, change or realign themselves, friction, uncertainty and disorientation often arise. I support you in clarifying structures, allocating responsibility sensibly and shaping collaboration in such a way that change succeeds - in an agile, systemic and people-centered way.'
+  offerheadline: Organizational Consulting
+  offertext: >
+    Your company has grown, but your
+    structures are lagging behind? I help
+    you develop clear roles and processes
+    that fit your organization – without
+    bureaucracy that constrains you. So
+    teams can work autonomously and you
+    finally have time for strategic
+    priorities again.
   offerlink:
     - page://NOuEozJlKmGpPUSC
   offerbutton: more
 - 
   offerimage:
     - file://5C1Ay4lgd9C0JsPQ
-  offerheadline: Agile team coaching
-  offertext: "Your team has untapped potential? Whether it's tough coordination processes, a lack of common understanding or tensions in the team - I'll partner with you on the journey toward more effective, clearer, and more motivating collaboration."
+  offerheadline: Team Coaching
+  offertext: "When coordination becomes sluggish and conflicts simmer beneath the surface, there's often a lack of clarity in roles and decision-making processes. I help teams move from friction to flow – with concrete guidelines and routines that work in daily practice."
   offerlink:
     - page://mFJW5p0DxY9VQ6Zl
   offerbutton: more
 - 
   offerimage:
     - file://VsBAiach0x1dQexF
-  offerheadline: >
-    Coaching for People with Responsibility
-    in Agile Organizations
-  offertext: |
-    You take on responsibility in an agile environment - whether as a specialist, a coach, or a leader?
-    I support you in gaining clarity, navigating change, and developing a leadership style that fits your context.
+  offerheadline: Coaching
+  offertext: >
+    Leadership takes energy, especially when
+    you want to stay authentic. I support
+    you in finding your own leadership
+    style, handling difficult situations
+    with more ease, and gaining more time
+    for what truly matters.
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: more
@@ -130,7 +140,11 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Agile organizational consulting for future-oriented companies and workplaces of tomorrow
+Herotext: Your company is growing faster than your structures?
+
+----
+
+Herosubheadline: We create structures that actually work. For empowered leadership, strong teams, and sustainable growth.
 
 ----
 
@@ -142,7 +156,7 @@ Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: Let's talk
+Herobutton: Book a discovery call
 
 ----
 
@@ -154,19 +168,19 @@ Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</l
 
 ----
 
-Metatemplate: Nina Siessegger - Organizational Consulting and Coaching
+Metatemplate: Nina Siessegger | Organizational Consulting and Coaching
 
 ----
 
-Metadescription: Agile consulting, team coaching and leadership development for organizations, teams and professionals navigating change. I support you in shaping future-ready collaboration, clear structures and meaningful leadership - with a systemic and agile approach.
+Metadescription: With tech expertise and a systems thinking approach, I help growing companies develop scalable structures – for real collaboration, empowered leadership, and teams that actually want to stay.
 
 ----
 
-Ogtemplate: Nina Siessegger - Organizational Consulting and Coaching
+Ogtemplate: Nina Siessegger | Organizational Consulting and Coaching
 
 ----
 
-Ogdescription: Agile consulting, team coaching and leadership development for organizations, teams and professionals navigating change. I support you in shaping future-ready collaboration, clear structures and meaningful leadership - with a systemic and agile approach.
+Ogdescription: With tech expertise and a systems thinking approach, I help growing companies develop scalable structures – for real collaboration, empowered leadership, and teams that actually want to stay.
 
 ----
 
