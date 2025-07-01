@@ -70,7 +70,7 @@
 
 .package-card .btn {
   margin-top: auto;
-  align-self: flex-end;
+  align-self: center;
 }
 
 @media (max-width: 1024px) {
