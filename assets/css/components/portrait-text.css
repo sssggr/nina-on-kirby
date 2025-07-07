@@ -1,6 +1,6 @@
 .portrait-text-block {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
 }
 

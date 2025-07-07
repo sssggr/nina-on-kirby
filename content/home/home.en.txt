@@ -140,11 +140,31 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Your company is growing faster than your structures?
+Aboutmeimage: - file://i0MpXdsGAb27CVfY
 
 ----
 
-Herosubheadline: We create structures that actually work. For empowered leadership, strong teams, and sustainable growth.
+Aboutmeheadline: Hi, I’m Nina!
+
+----
+
+Aboutmetext: As an organizational consultant and coach with a tech background, I support start-ups and growing companies in shaping their organizations so that everyone knows what matters and is motivated to take ownership. That takes pressure off you as a founding or leadership team and helps build a team that’s engaged and wants to stay.
+
+----
+
+Aboutmelink: - page://K0rsGSuBepaBoxr9
+
+----
+
+Aboutmebutton: Learn more about me
+
+----
+
+Herotext: Your company is growing—but your structure isn’t keeping up?
+
+----
+
+Herosubheadline: Together, we’ll create structures that grow with you and feel like you. For real relief, self-organized teams, and more flow—so your company can finally move forward again.
 
 ----
 
@@ -156,15 +176,7 @@ Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: Book a discovery call
-
-----
-
-Topicsheadline: My topics
-
-----
-
-Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</li><li>Change processes</li><li>Leadership</li><li>Conflict management</li><li>Collaboration in remote or hybrid settings</li><li>Software development</li></ul>
+Herobutton: Let's talk
 
 ----
 
@@ -224,6 +236,14 @@ instagram: ""
 youtube: ""
 linkedin: >
   https://www.linkedin.com/in/nina-siessegger/
+
+----
+
+Topicsheadline: My topics
+
+----
+
+Topics: <ul><li>Collaboration</li><li>Agile working</li><li>Self-organization</li><li>Change processes</li><li>Leadership</li><li>Conflict management</li><li>Collaboration in remote or hybrid settings</li><li>Software development</li></ul>
 
 ----
 

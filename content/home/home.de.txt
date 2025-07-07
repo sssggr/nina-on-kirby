@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Offersheadline: Mein Angebot
+Offersheadline: Wie kann ich dich und dein Team unterstützen?
 
 ----
 
@@ -55,7 +55,7 @@ Offers:
 
 ----
 
-Testimonialsheadline: Kund*innenstimmen
+Testimonialsheadline: Das sagen meine Kund*innen
 
 ----
 
@@ -161,11 +161,31 @@ Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
-Herotext: Euer Unternehmen wächst schneller als eure Strukturen?
+Aboutmeimage: - file://i0MpXdsGAb27CVfY
 
 ----
 
-Herosubheadline: Wir schaffen Strukturen, die funktionieren. Für entlastete Führung, starke Teams und nachhaltiges Wachstum.
+Aboutmeheadline: Moin, ich bin Nina!
+
+----
+
+Aboutmetext: Als Organisationsberaterin und Coach mit Tech-Background unterstütze ich Start-Ups und wachsende Unternehmen dabei, ihre Organisation so aufzustellen, dass alle wissen, worauf es ankommt und gern Verantwortung übernehmen. Das entlastet euch als Gründungs- oder Führungsteam und sorgt für ein Team, das mitzieht und gerne bei euch bleibt.
+
+----
+
+Aboutmelink: - page://K0rsGSuBepaBoxr9
+
+----
+
+Aboutmebutton: Mehr über mich
+
+----
+
+Herotext: Euer Unternehmen wächst. Eure Struktur hinkt hinterher?
+
+----
+
+Herosubheadline: Gemeinsam schaffen wir Strukturen, die mitwachsen und sich nach euch anfühlen. Für echte Entlastung, selbstorganisierte Teams und mehr Flow, damit euer Unternehmen endlich wieder vorankommt.
 
 ----
 
@@ -177,15 +197,7 @@ Herolink: - page://QjQlA0CmqokWM3F5
 
 ----
 
-Herobutton: Erstgespräch buchen
-
-----
-
-Topicsheadline: Meine Themen
-
-----
-
-Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation</li><li>Veränderungsprozesse</li><li>Führung</li><li>Konfliktmanagement</li><li>Zusammenarbeit in remote oder hybriden Settings</li><li>Softwareentwicklung</li></ul>
+Herobutton: Lass uns sprechen
 
 ----
 
@@ -245,6 +257,14 @@ instagram: ""
 youtube: ""
 linkedin: >
   https://www.linkedin.com/in/nina-siessegger/
+
+----
+
+Topicsheadline: Meine Themen
+
+----
+
+Topics: <ul><li>Kollaboration</li><li>Agiles Arbeiten</li><li>Selbstorganisation</li><li>Veränderungsprozesse</li><li>Führung</li><li>Konfliktmanagement</li><li>Zusammenarbeit in remote oder hybriden Settings</li><li>Softwareentwicklung</li></ul>
 
 ----
 
