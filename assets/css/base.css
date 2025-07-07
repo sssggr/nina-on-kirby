@@ -362,10 +362,16 @@ hr {
   padding: 0;
 }
 
-.hero>div {
+.row.hero {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .row.hero {
+    flex-direction: row;
+  }
 }
 
 .hero-item1 {
@@ -397,20 +403,19 @@ hr {
 }
 
 @media (max-width: 768px) {
-
-  .hero h1,
-  .hero h3,
-  .hero p {
-    padding: calc(var(--gutter) * 2);
-  }
-
   .hero-item1 {
     order: 2;
   }
-
   .hero-item2 {
     order: 1;
   }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 /* Blocks */

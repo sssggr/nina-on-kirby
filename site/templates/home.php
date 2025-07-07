@@ -10,20 +10,22 @@
         <div class="col-xs-12 col-lg-offset-1 col-lg-10 col-md-12">
           <div class="row hero">
             <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
-              <h1>
-                <?= $page->herotext() ?>
-              </h1>
-              <?php if ($page->herosubheadline()->isNotEmpty()): ?>
-                <p class="hero-subheadline">
-                  <?= $page->herosubheadline()->kirbytextinline() ?>
-                </p>
-              <?php endif ?>
-              <div class="button-container">
-                <a
-                  class="btn"
-                  href="<?= $page->herolink()->toPage()->url() ?>">
-                  <?= $page->herobutton() ?>
-                </a>
+              <div class="hero-content">
+                <h1>
+                  <?= $page->herotext() ?>
+                </h1>
+                <?php if ($page->herosubheadline()->isNotEmpty()): ?>
+                  <p class="hero-subheadline">
+                    <?= $page->herosubheadline()->kirbytextinline() ?>
+                  </p>
+                <?php endif ?>
+                <div class="button-container">
+                  <a
+                    class="btn"
+                    href="<?= $page->herolink()->toPage()->url() ?>">
+                    <?= $page->herobutton() ?>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
