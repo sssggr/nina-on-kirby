@@ -108,41 +108,6 @@
           </div>
         </div>
       </section>
-      <section class="inqa"> 
-        <h2>
-          <?= $page->inqaheadline() ?>
-        </h2>
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-10 col-md-12">
-            <div class="row hero">
-              <div class="col-xs-12 col-md-7 col-sm-6 hero-item1">
-                <h3>
-                  <?= $page->inqatextheadline() ?>
-                </h3>
-                <?= $page->inqatext()->kirbytext() ?>
-                <div class="button-container">
-                  <a
-                    class="btn"
-                    href="<?= $page->inqalink()->toPage()->url() ?>">
-                    <?= $page->inqabutton() ?>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-5 col-sm-6 hero-item2">
-                <?php $inqaimage = $page->inqaimage()->toFile(); ?>
-                <img
-                  alt="<?= $inqaimage->alt() ?><?php if (V::minLength($inqaimage->photo(), 1)): ?><?php echo (' '), t('global-von'), (' ') ?><?= $inqaimage->photo() ?><?php endif ?>"
-                  class="responsive-img"
-                  src="<?= $inqaimage->url() ?>"
-                  srcset="<?= $inqaimage->srcset([
-                            '1x' => ['width' => 600, 'height' => 480, 'crop' => 'true', 'quality' => 90],
-                            '2x' => ['width' => 1200, 'height' => 960, 'crop' => 'true', 'quality' => 90]
-                          ]) ?>">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <div class="row">
         <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9  col-md-10">
           <?= $page->text()->kirbytext() ?>

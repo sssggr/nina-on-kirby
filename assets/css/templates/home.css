@@ -120,15 +120,6 @@ h3 {
   padding: 0 var(--gutter) var(--gutter);
 }
 
-.inqa .hero-item2 {
-  padding-top: var(--gutter);
-}
-
-.inqa p {
-  padding-left: var(--gutter);
-  font-weight: 500;
-}
-
 @media (max-width: 1024px) {
   .hero h1 {
     padding: 1rem;
