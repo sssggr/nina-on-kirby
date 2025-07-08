@@ -59,7 +59,7 @@
 .footer-bottom {
   text-align: center;
   margin-top: var(--fs-lg);
-  font-size: var(--fs-xs);
+  font-size: var(--fs-sm);
   color: var(--darkgray);
   width: 100%;
 }
