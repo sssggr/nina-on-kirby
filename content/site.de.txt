@@ -40,6 +40,10 @@ Footersection2links:
   text: Kontakt
   page:
     - page://QjQlA0CmqokWM3F5
+- 
+  text: Blog
+  page:
+    - page://o9tBy3eSgvbPTEVO
 
 ----
 

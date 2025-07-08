@@ -33,13 +33,17 @@ Footersection2headline: More about me
 Footersection2links:
 
 - 
-  text: 'Über mich '
+  text: About Me
   page:
     - page://K0rsGSuBepaBoxr9
 - 
-  text: Kontakt
+  text: Contact
   page:
     - page://QjQlA0CmqokWM3F5
+- 
+  text: Blog
+  page:
+    - page://o9tBy3eSgvbPTEVO
 
 ----
 
