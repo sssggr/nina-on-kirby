@@ -71,6 +71,9 @@
 .package-card .btn {
   margin-top: auto;
   align-self: center;
+  border: 2px solid var(--blue);
+  background: var(--white);
+  color: var(--blue) !important;
 }
 
 @media (max-width: 1024px) {

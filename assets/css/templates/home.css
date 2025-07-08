@@ -260,7 +260,7 @@ h3 {
   padding: var(--fs-xl) var(--fs-md);
   border-left: 5px solid var(--blue);
   text-align: center;
-  margin: var(--fs-xl);
+  margin: var(--fs-xl) auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 

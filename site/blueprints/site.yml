@@ -38,7 +38,7 @@ sections:
             label: Zielseite
             type: pages
             multiple: false
-            query: site.index.listed
+            query: site.index
 
       footersection3headline:
         label: Footer Spalte 3 Überschrift

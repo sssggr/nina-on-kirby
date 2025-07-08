@@ -1,0 +1,13 @@
+name: Kontakt-Highlight
+fields:
+  headline:
+    label: Kontaktbereich Headline
+    type: textarea
+  buttontext:
+    label: Button-Text
+    type: text
+  buttonlink:
+    label: Button-Link (Seite)
+    type: pages
+    multiple: false
+    query: site.index.listed 
