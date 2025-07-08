@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Offersheadline: My services
+Offersheadline: Ways I can support you
 
 ----
 
@@ -116,30 +116,6 @@ Testimonials:
 
 ----
 
-Inqaheadline: INQA program
-
-----
-
-Inqatextheadline: Want to improve collaboration - and get funded to do it?
-
-----
-
-Inqatext: With the INQA program, SMEs in Germany can receive up to **80% funding** for consulting on collaboration, structure and change.
-
-----
-
-Inqalink: - page://lBjO0WReDAHFb4Ui
-
-----
-
-Inqabutton: Learn more
-
-----
-
-Inqaimage: - file://0Fc1KlH0qPi1gkiW
-
-----
-
 Aboutmeimage: - file://i0MpXdsGAb27CVfY
 
 ----
@@ -157,6 +133,18 @@ Aboutmelink: - page://K0rsGSuBepaBoxr9
 ----
 
 Aboutmebutton: Learn more about me
+
+----
+
+Kontaktsectionheadline: Everything's growing? The responsibility, the pace, the pressure. Just not the clarity? Then let's talk.
+
+----
+
+Kontaktsectionbuttontext: Schedule your discovery call now!
+
+----
+
+Kontaktsectionbuttonlink: - page://QjQlA0CmqokWM3F5
 
 ----
 
@@ -236,6 +224,30 @@ instagram: ""
 youtube: ""
 linkedin: >
   https://www.linkedin.com/in/nina-siessegger/
+
+----
+
+Inqaheadline: INQA program
+
+----
+
+Inqatextheadline: Want to improve collaboration - and get funded to do it?
+
+----
+
+Inqatext: With the INQA program, SMEs in Germany can receive up to **80% funding** for consulting on collaboration, structure and change.
+
+----
+
+Inqalink: - page://lBjO0WReDAHFb4Ui
+
+----
+
+Inqabutton: Learn more
+
+----
+
+Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 

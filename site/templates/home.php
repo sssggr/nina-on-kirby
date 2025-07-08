@@ -110,11 +110,16 @@
           </div>
         </div>
       </section>
-      <div class="row">
-        <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9  col-md-10">
-          <?= $page->text()->kirbytext() ?>
-        </div>
-      </div>
+      <section class="contact-highlight">
+        <p>
+          <?= $page->kontaktsectionheadline()->kirbytextinline() ?>
+        </p>
+        <?php if($page->kontaktsectionbuttonlink()->toPage()): ?>
+          <a href="<?= $page->kontaktsectionbuttonlink()->toPage()->url() ?>">
+            <?= $page->kontaktsectionbuttontext()->html() ?>
+          </a>
+        <?php endif ?>
+      </section>
     </main>
 
     <?php snippet('footer') ?>

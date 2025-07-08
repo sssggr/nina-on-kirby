@@ -2,19 +2,19 @@ Title: Nina Siessegger
 
 ----
 
-Footersection1headline: So kann ich euch unterstützen
+Footersection1headline: Here's how I can support you
 
 ----
 
 Footersection1links:
 
 - 
-  text: Organisationsberatung
+  text: Organizational Consulting
   page:
     - page://NOuEozJlKmGpPUSC
   url: null
 - 
-  text: Teamentwicklung
+  text: Team Coaching
   page:
     - page://mFJW5p0DxY9VQ6Zl
   url: null
@@ -26,7 +26,7 @@ Footersection1links:
 
 ----
 
-Footersection2headline: Mehr über mich
+Footersection2headline: More about me
 
 ----
 
@@ -43,12 +43,12 @@ Footersection2links:
 
 ----
 
-Footersection3headline: Vernetze dich mit mir
+Footersection3headline: Connect with me
 
 ----
 
-Footerimpressumtext: Impressum
+Footerimpressumtext: Imprint
 
 ----
 
-Footerdatenschutztext: Datenschutz
+Footerdatenschutztext: Privacy Statement

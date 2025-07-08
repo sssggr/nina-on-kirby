@@ -320,25 +320,6 @@ hr {
   margin-bottom: 5em;
 }
 
-.hg-marker-container {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  height: auto;
-}
-
-.hg-marker {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.hg-marker-container svg path {
-  stroke: var(--white);
-}
-
 .svg-container {
   position: relative;
   width: 100%;
@@ -856,29 +837,6 @@ article .readmore {
     margin-bottom: 4px;
   }
 }
-
-/* Footer */
-
-footer {
-  margin: 6em 0 5em;
-  text-align: center;
-}
-
-footer p {
-  font-size: var(--fs-md);
-}
-
-footer a {
-  text-decoration: none;
-}
-
-.footer-links a:hover {
-  border-color: var(--blue);
-  border-style: solid;
-  border-width: 0 0 2px 0;
-  transition: 0.2s ease;
-}
-
 /* Testimonials Carousel */
 
 .testimonial-quote p {

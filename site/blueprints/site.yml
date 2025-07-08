@@ -4,3 +4,49 @@ sections:
   allpages:
     label: Seitenüberblick
     type: pages
+  footer:
+    label: Footer
+    type: fields
+    fields:
+      footersection1headline:
+        label: Footer Spalte 1 Überschrift
+        type: text
+      footersection1links:
+        label: Footer Spalte 1 Links
+        type: structure
+        fields:
+          text:
+            label: Linktext
+            type: text
+          page:
+            label: Zielseite
+            type: pages
+            multiple: false
+            query: site.index.listed
+
+      footersection2headline:
+        label: Footer Spalte 2 Überschrift
+        type: text
+      footersection2links:
+        label: Footer Spalte 2 Links
+        type: structure
+        fields:
+          text:
+            label: Linktext
+            type: text
+          page:
+            label: Zielseite
+            type: pages
+            multiple: false
+            query: site.index.listed
+
+      footersection3headline:
+        label: Footer Spalte 3 Überschrift
+        type: text
+
+      footerimpressumtext:
+        label: Footer Impressum Linktext
+        type: text
+      footerdatenschutztext:
+        label: Footer Datenschutz Linktext
+        type: text

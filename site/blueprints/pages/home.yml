@@ -88,6 +88,17 @@ tabs:
               aboutmebutton:
                 label: About-me Buttontext
                 type: text
+              kontaktsectionheadline:
+                label: Kontaktbereich Headline
+                type: textarea
+              kontaktsectionbuttontext:
+                label: Button-Text
+                type: text
+              kontaktsectionbuttonlink:
+                label: Button-Link (Seite)
+                type: pages
+                multiple: false
+                query: site.index.listed
          
       sidebar:
         width: 1/3

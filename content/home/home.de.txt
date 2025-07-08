@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Offersheadline: Wie kann ich dich und dein Team unterstützen?
+Offersheadline: So kann ich euch unterstützen
 
 ----
 
@@ -137,30 +137,6 @@ Testimonials:
 
 ----
 
-Inqaheadline: Inqa-Programm
-
-----
-
-Inqatextheadline: Wollt ihr eure Zusammenarbeit verbessern und dabei gefördert werden?
-
-----
-
-Inqatext: Mit dem INQA-Programm können KMU bis zu **80 % Zuschuss ** erhalten: für Prozessbegleitung rund um Zusammenarbeit, Struktur und Wandel.
-
-----
-
-Inqalink: - page://lBjO0WReDAHFb4Ui
-
-----
-
-Inqabutton: Mehr erfahren
-
-----
-
-Inqaimage: - file://0Fc1KlH0qPi1gkiW
-
-----
-
 Aboutmeimage: - file://i0MpXdsGAb27CVfY
 
 ----
@@ -178,6 +154,21 @@ Aboutmelink: - page://K0rsGSuBepaBoxr9
 ----
 
 Aboutmebutton: Mehr über mich
+
+----
+
+Kontaktsectionheadline:
+
+Alles wächst? Die Verantwortung, das Tempo, der Druck. Nur die Klarheit nicht? 
+Dann lass uns sprechen.
+
+----
+
+Kontaktsectionbuttontext: Jetzt Kennenlerngespräch vereinbaren!
+
+----
+
+Kontaktsectionbuttonlink: - page://QjQlA0CmqokWM3F5
 
 ----
 
@@ -257,6 +248,30 @@ instagram: ""
 youtube: ""
 linkedin: >
   https://www.linkedin.com/in/nina-siessegger/
+
+----
+
+Inqaheadline: Inqa-Programm
+
+----
+
+Inqatextheadline: Wollt ihr eure Zusammenarbeit verbessern und dabei gefördert werden?
+
+----
+
+Inqatext: Mit dem INQA-Programm können KMU bis zu **80 % Zuschuss ** erhalten: für Prozessbegleitung rund um Zusammenarbeit, Struktur und Wandel.
+
+----
+
+Inqalink: - page://lBjO0WReDAHFb4Ui
+
+----
+
+Inqabutton: Mehr erfahren
+
+----
+
+Inqaimage: - file://0Fc1KlH0qPi1gkiW
 
 ----
 
