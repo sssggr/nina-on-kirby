@@ -2,7 +2,7 @@ Title: Profile
 
 ----
 
-Slug: about-me
+Slug: profile
 
 ----
 
