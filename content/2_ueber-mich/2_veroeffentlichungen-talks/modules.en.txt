@@ -22,7 +22,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Insights from practice: Talks and articles on team structures, flow & collaboration. For everyone who wants to make work effective and human.
 
 ----
 
@@ -34,7 +34,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription: Talks and articles on organizational development, collaboration, and team structures.
 
 ----
 

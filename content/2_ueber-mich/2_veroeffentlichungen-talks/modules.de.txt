@@ -18,7 +18,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: 
+Metadescription: Impulse aus der Praxis: Vorträge und Artikel zu Teamstrukturen, Flow & Zusammenarbeit. Für alle, die Arbeit wirksam und menschlich gestalten wollen.
 
 ----
 
@@ -30,7 +30,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: 
+Ogdescription: Talks und Artikel rund um Organisationsentwicklung, Zusammenarbeit und Teamstrukturen.
 
 ----
 
