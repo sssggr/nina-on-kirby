@@ -1,5 +1,5 @@
-title: Modulare Seite
-icon: layers
+title: Über mich
+icon: user
 
 tabs:
   content:
@@ -15,25 +15,20 @@ tabs:
                 type: blocks
                 fieldsets:
                   - heading
-                  - subheading
-                  - subsubheading
-                  - subsubsubheading
-                  - bodytext
-                  - list
-                  - quote
-                  - carousel
-                  - accordion
-                  - bigimage
-                  - hero
-                  - image
-                  - calendar
-                  - process
-                  - event
                   - contacthighlight
+                  - event
       sidebar:
         width: 1/3
         sections:
           files:
             label: Übersicht der Dateien
             type: files
-  seo: seo/page
+sections:
+  drafts:
+    type: pages
+    label: Entwürfe
+    status: draft
+  listed:
+    type: pages
+    label: Veröffentlichungen
+    status: listednoc

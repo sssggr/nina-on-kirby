@@ -593,17 +593,22 @@ article .readmore {
   position: relative;
 }
 
-.dropdown {
+.dropdown-list {
+  display: none;
+  position: absolute;
   background-color: var(--white);
   font-size: var(--fs-sm);
   left: -14px;
   padding: 1.25em 1em;
-  position: absolute;
-  display: none;
   width: max-content;
+  z-index: 300;
 }
 
-.dropdown li+li {
+.dropdown-list.show {
+  display: block;
+}
+
+.dropdown-list li+li {
   margin-top: 10px;
 }
 
@@ -632,7 +637,7 @@ article .readmore {
   border-style: none;
 }
 
-.dropdown li {
+.dropdown-list li {
   padding: 0.125em 1em 0.125em 0.5em;
   border-color: var(--white);
   width: auto;
@@ -771,14 +776,14 @@ article .readmore {
     display: block;
   }
 
-  .dropdown {
+  .dropdown-list {
     font-size: calc(var(--fs-md) * 1.125);
     padding: 0.375em 0;
     position: relative;
     left: auto;
   }
 
-  .dropdown li {
+  .dropdown-list li {
     text-align: left;
     padding: 0 1em;
     width: auto;

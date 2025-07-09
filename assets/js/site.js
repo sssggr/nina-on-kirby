@@ -1,8 +1,6 @@
 var toggle = document.querySelector('#btn-burger');
 var menu = document.querySelector('#menu');
 var menuItems = document.querySelectorAll('#menu li a');
-var showdropdown = document.querySelector('#showdropdown');
-var dropdown = document.querySelector('#dropdown');
 var showaccordionDetail = document.getElementsByClassName('accordion-title');
 var accordionIndex;
 
@@ -19,27 +17,36 @@ toggle.addEventListener('click', function(){
   }
 });
 
-showdropdown.addEventListener('click', function(){
-  if(dropdown.classList.contains('show')){
-    dropdown.classList.remove('show');
-    this.nextElementSibling.classList.remove("rotate-180");
-  } else {
-    dropdown.classList.add('show');
-    this.nextElementSibling.classList.add("rotate-180");
-  }
-});
-
-const onClickOutside = (element, callback) => {
-  document.addEventListener('click', e => {
-    if (!element.contains(e.target)) callback();
+// Dropdown logic for all menu dropdowns
+var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(function(toggle) {
+  var dropdownId = toggle.id.replace('-toggle', '-list');
+  var dropdownList = document.getElementById(dropdownId);
+  if (!dropdownList) return;
+  toggle.addEventListener('click', function(e) {
+    e.preventDefault();
+    var expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    dropdownList.classList.toggle('show');
+    // Optional: Close other open dropdowns
+    dropdownToggles.forEach(function(otherToggle) {
+      if (otherToggle !== toggle) {
+        var otherDropdownId = otherToggle.id.replace('-toggle', '-list');
+        var otherDropdownList = document.getElementById(otherDropdownId);
+        if (otherDropdownList) {
+          otherDropdownList.classList.remove('show');
+          otherToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
   });
-};
-
-onClickOutside(showdropdown, function(){
-  if(dropdown.classList.contains('show')){
-    dropdown.classList.remove('show');
-    showdropdown.nextElementSibling.classList.remove("rotate-180");
-  }
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!toggle.contains(e.target) && !dropdownList.contains(e.target)) {
+      dropdownList.classList.remove('show');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
 });
 
 for (accordionIndex = 0; accordionIndex < showaccordionDetail.length; accordionIndex++) {

@@ -23,6 +23,7 @@
     'assets/css/components/portrait-text.css',
     'assets/css/snippets/footer.css',
     'assets/css/snippets/contact-highlight.css',
+    'assets/css/components/event.css',
     '@auto'
   ]) ?>
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">

@@ -50,10 +50,27 @@
           >
             <?php foreach($items as $item): ?>
               <li>
-                <?php if($item->uuid()=="page://PMtMqGQeGePtEvT5"): ?>
+                <?php
+                  $hasDropdown = (
+                    $item->title() == "Mein Angebot" ||
+                    $item->title() == "My Services" ||
+                    $item->title() == "Über mich" ||
+                    $item->title() == "About Me"
+                  );
+                  $dropdownId = '';
+                  if ($item->title() == "Mein Angebot" || $item->title() == "My Services") {
+                    $dropdownId = 'services-dropdown';
+                  } elseif ($item->title() == "Über mich" || $item->title() == "About Me") {
+                    $dropdownId = 'about-dropdown';
+                  }
+                ?>
+                <?php if($hasDropdown): ?>
                   <a
-                    id="showdropdown"
+                    class="dropdown-toggle"
+                    id="<?= $dropdownId ?>-toggle"
                     href="#"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                   >
                     <?= $item->title()->html() ?>
                   </a>
@@ -66,47 +83,47 @@
                     <?= $item->title()->html() ?>
                   </a>
                 <?php endif ?>
-              <?php $children = $item->children()->listed(); ?>
-              <?php if($children->isNotEmpty() && $item->title()=="Mein Angebot" || $children->isNotEmpty() && $item->title()=="My Services"): ?>
-                <ul
-                  id="dropdown"
-                  class="dropdown"
-                > 
-                <?php foreach($children as $child): ?>
-                  <li>
-                    <a
-                      <?php e($child->isOpen  (), ' class="active"') ?>
-                      href="<?= $child->url() ?>"
-                    >
-                      <?= $child->title()->html() ?>
-                    </a>
-                  </li>
-                <?php endforeach ?>
-              </ul>
-            <?php endif ?>
+                <?php $children = $item->children()->listed(); ?>
+                <?php if($children->isNotEmpty() && $hasDropdown): ?>
+                  <ul
+                    id="<?= $dropdownId ?>-list"
+                    class="dropdown-list"
+                  >
+                    <?php foreach($children as $child): ?>
+                      <li>
+                        <a
+                          <?php e($child->isOpen  (), ' class="active"') ?>
+                          href="<?= $child->url() ?>"
+                        >
+                          <?= $child->title()->html() ?>
+                        </a>
+                      </li>
+                    <?php endforeach ?>
+                  </ul>
+                <?php endif ?>
     
-          </li>
-        <?php endforeach ?>
-        <?php $languageindex = 1 ?>
-        <?php foreach($kirby->languages() as $language): ?>
-          <li
-            <?php e($kirby->language() == $language, ' class="active language-item"') ?>
-            class="language-item"
-          >
-            <a
-              href="<?= $page->url($language->code()) ?>"
-              hreflang="<?php echo $language->code() ?>"
-            >
-              <?= html($language->code()) ?>
-            </a>
-          </li>
-          <?php if($languageindex < $kirby->languages()->count()): ?>
-            <li class="separate-language-items">|</li>
-            <?php $languageindex++ ?>
-          <?php endif ?>
-        <?php endforeach ?>
-      </ul>
-    </div>
+              </li>
+            <?php endforeach ?>
+            <?php $languageindex = 1 ?>
+            <?php foreach($kirby->languages() as $language): ?>
+              <li
+                <?php e($kirby->language() == $language, ' class="active language-item"') ?>
+                class="language-item"
+              >
+                <a
+                  href="<?= $page->url($language->code()) ?>"
+                  hreflang="<?php echo $language->code() ?>"
+                >
+                  <?= html($language->code()) ?>
+                </a>
+              </li>
+              <?php if($languageindex < $kirby->languages()->count()): ?>
+                <li class="separate-language-items">|</li>
+                <?php $languageindex++ ?>
+              <?php endif ?>
+            <?php endforeach ?>
+          </ul>
+        </div>
     <?php endif ?>
   </nav>
 </div>

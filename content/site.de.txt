@@ -35,15 +35,19 @@ Footersection2links:
 - 
   text: 'Über mich '
   page:
-    - page://K0rsGSuBepaBoxr9
-- 
-  text: Kontakt
-  page:
-    - page://QjQlA0CmqokWM3F5
+    - page://PMtMqGQeGePtEvT5
 - 
   text: Blog
   page:
     - page://o9tBy3eSgvbPTEVO
+- 
+  text: 'Veröffentlichungen & Talks'
+  page:
+    - page://fjr2eiBt8uUIWt6w
+- 
+  text: Kontakt
+  page:
+    - page://QjQlA0CmqokWM3F5
 
 ----
 

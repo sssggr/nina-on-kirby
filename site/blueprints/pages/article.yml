@@ -34,6 +34,7 @@ tabs:
                   - accordion
                   - bigimage
                   - hero
+                  - event
       sidebar:
         width: 1/3
         sections:

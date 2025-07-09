@@ -35,7 +35,7 @@ Footersection2links:
 - 
   text: About Me
   page:
-    - page://K0rsGSuBepaBoxr9
+    - page://PMtMqGQeGePtEvT5
 - 
   text: Contact
   page:
@@ -44,6 +44,10 @@ Footersection2links:
   text: Blog
   page:
     - page://o9tBy3eSgvbPTEVO
+- 
+  text: 'Publications & Talks'
+  page:
+    - page://fjr2eiBt8uUIWt6w
 
 ----
 

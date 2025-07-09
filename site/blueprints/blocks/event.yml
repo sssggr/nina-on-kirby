@@ -1,0 +1,30 @@
+name: Event
+icon: calendar
+wysiwyg: false
+preview: fields
+label: "{{ title }}"
+fields:
+  image:
+    label: Bild
+    type: files
+    multiple: false
+    layout: cards
+    uploads:
+      template: image
+    required: true
+  date:
+    label: Datum
+    type: text
+  title:
+    label: Überschrift
+    type: text
+    required: true
+  description:
+    label: Beschreibung
+    type: textarea
+    size: medium
+    buttons:
+      - bold
+      - italic
+      - link
+    required: true 
