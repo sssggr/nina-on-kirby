@@ -33,21 +33,21 @@ Footersection2headline: More about me
 Footersection2links:
 
 - 
-  text: About Me
+  text: Profile
   page:
     - page://PMtMqGQeGePtEvT5
 - 
-  text: Contact
+  text: 'Publications & Talks'
   page:
-    - page://QjQlA0CmqokWM3F5
+    - page://fjr2eiBt8uUIWt6w
 - 
   text: Blog
   page:
     - page://o9tBy3eSgvbPTEVO
 - 
-  text: 'Publications & Talks'
+  text: Contact
   page:
-    - page://fjr2eiBt8uUIWt6w
+    - page://QjQlA0CmqokWM3F5
 
 ----
 
