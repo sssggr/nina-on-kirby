@@ -11,7 +11,7 @@ Footersection1links:
 - 
   text: Organisationsberatung
   page:
-    - page://PMtMqGQeGePtEvT5
+    - page://NOuEozJlKmGpPUSC
   url: null
 - 
   text: Teamentwicklung
@@ -35,7 +35,7 @@ Footersection2links:
 - 
   text: Profil
   page:
-    - page://V5xVJvDDIHp0mnPr
+    - page://K0rsGSuBepaBoxr9
 - 
   text: 'Veröffentlichungen & Talks'
   page:
