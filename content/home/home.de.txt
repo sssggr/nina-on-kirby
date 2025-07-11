@@ -157,10 +157,7 @@ Aboutmebutton: Mehr über mich
 
 ----
 
-Kontaktsectionheadline:
-
-Alles wächst? Die Verantwortung, das Tempo, der Druck. Nur die Klarheit nicht? 
-Dann lass uns sprechen.
+Kontaktsectionheadline: Alles wächst? Die Verantwortung, das Tempo, der Druck. Nur die Klarheit und der Flow nicht? Dann lass uns sprechen.
 
 ----
 

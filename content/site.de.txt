@@ -35,7 +35,7 @@ Footersection2links:
 - 
   text: Profil
   page:
-    - page://PMtMqGQeGePtEvT5
+    - page://V5xVJvDDIHp0mnPr
 - 
   text: 'Veröffentlichungen & Talks'
   page:

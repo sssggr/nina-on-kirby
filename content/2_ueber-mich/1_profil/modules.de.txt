@@ -18,7 +18,7 @@ Usetitletemplate: true
 
 ----
 
-Metadescription: Als Organisationsberaterin und Coach mit Tech-Background unterstütze ich Start-ups und wachsende Unternehmen dabei, Strukturen zu schaffen, in denen Verantwortung klar verteilt ist und Zusammenarbeit wirklich funktioniert.
+Metadescription: Ich begleite Organisationen, Teams und Einzelpersonen dabei, neue Wege in Führung, Zusammenarbeit und Wandel zu gehen.
 
 ----
 
@@ -30,7 +30,7 @@ Useogtemplate: true
 
 ----
 
-Ogdescription: Als Organisationsberaterin mit Tech-Background helfe ich Start-ups & wachsenden Unternehmen, Strukturen zu schaffen, die Verantwortung ermöglichen und Zusammenarbeit stärken.
+Ogdescription: Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.
 
 ----
 
