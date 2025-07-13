@@ -151,9 +151,27 @@ return function (App $kirby) {
 		],
 	];
 
+	// Custom redirects for profile pages (de/en)
+	$after[] = [
+		'pattern' => 'ueber-mich',
+		'method'  => 'ALL',
+		'env'     => 'site',
+		'action'  => function () use ($kirby) {
+			return $kirby->response()->redirect('/ueber-mich/profil');
+		}
+	];
+	$after[] = [
+		'pattern' => '(:any)/about-me',
+		'method'  => 'ALL',
+		'env'     => 'site',
+		'action'  => function ($lang) use ($kirby) {
+			return $kirby->response()->redirect('/' . $lang . '/about-me/profile');
+		}
+	];
+
 	// Multi-language setup
 	if ($kirby->multilang() === true) {
-		$after = LanguageRoutes::create($kirby);
+		$after = array_merge($after, LanguageRoutes::create($kirby));
 	} else {
 		// Single-language home
 		$after[] = [
