@@ -55,6 +55,14 @@ Footersection3headline: Vernetze dich mit mir
 
 ----
 
+Footersection3secondheadline: Förderung von Beratung
+
+----
+
+Footersection3text: Ich bin autorisierte INQA-Coach. Lasst euch meine Beratung mit bis zu 80% fördern. (link: page://lBjO0WReDAHFb4Ui text: Mehr Infos)
+
+----
+
 Footerimpressumtext: Impressum
 
 ----

@@ -55,6 +55,14 @@ Footersection3headline: Connect with me
 
 ----
 
+Footersection3secondheadline: Funded Consulting
+
+----
+
+Footersection3text: I'm an authorized INQA Coach. Get up to 80% funding for my consulting services. (link: page://lBjO0WReDAHFb4Ui text: Learn more)
+
+----
+
 Footerimpressumtext: Imprint
 
 ----

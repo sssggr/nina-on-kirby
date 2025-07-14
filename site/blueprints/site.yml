@@ -41,9 +41,15 @@ sections:
             query: site.index.listed
 
       footersection3headline:
-        label: Footer Spalte 3 Überschrift
+        label: Footer Spalte 3 Überschrift 1
         type: text
-
+      footersection3secondheadline:
+        label: Footer Spalte 3 Überschrift 2
+        type: text
+      footersection3text:
+        label: Footer Spalte 3 Text
+        type: textarea
+        
       footerimpressumtext:
         label: Footer Impressum Linktext
         type: text

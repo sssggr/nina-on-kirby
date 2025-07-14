@@ -23,11 +23,17 @@
     </div>
     <div class="col-xs-12 col-md-4 footer-section social">
       <h4><?= $site->footersection3headline()->html() ?></h4>
-      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
-        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.98h5v15H0V8.98zm7.5 0h4.8v2.13h.07c.67-1.26 2.3-2.6 4.74-2.6 5.07 0 6 3.33 6 7.66v8.81h-5v-7.8c0-1.86-.03-4.25-2.6-4.25-2.6 0-3 2.03-3 4.12v7.93h-5V8.98z" />
-        </svg>
+      <a href="https://www.linkedin.com/in/nina-siessegger/" target="_blank" aria-label="LinkedIn">
+      <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34">
+  <rect width="34" height="34" rx="4" fill="#0077B5"/>
+  <path d="M8 12h4v12H8V12zm2-6c1.33 0 2 1.04 2 2.04 0 1.01-.67 2.04-2 2.04s-2-1.03-2-2.04C8 7.04 8.67 6 10 6zM14 12h3.84v1.62h.06c.53-1 1.83-2.06 3.77-2.06 4.01 0 4.75 2.63 4.75 6.06V24h-4v-5.73c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.2 1.49-2.2 3v5.83H14V12z" fill="#FFFFFF"/>
+</svg>
+
       </a>
+      <h4><?= $site->footersection3secondheadline()->html() ?></h4>
+      <div class="fo  oter-section3-text">
+        <?= $site->footersection3text()->kirbytext() ?>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
