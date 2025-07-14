@@ -9,6 +9,8 @@
 RewriteEngine on
 Redirect 301 /inqa-coaching /inqa-coaching-hamburg
 Redirect 301 /en/inqa-coaching /en/inqa-coaching-hamburg
+Redirect 301 /agile-organisationsberatung /organisationsberatung
+Redirect 301 /en/agile-organisational-consulting /en/organisational-consulting
 
 # make sure to set the RewriteBase correctly
 # if you are running the site in a subfolder;
