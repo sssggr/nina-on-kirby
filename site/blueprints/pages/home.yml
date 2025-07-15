@@ -126,4 +126,6 @@ tabs:
           files:
             label: Übersicht der Dateien
             type: files
+  processHome:
+    extends: sections/process-home
   seo: seo/site

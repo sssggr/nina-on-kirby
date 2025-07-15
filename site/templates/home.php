@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="<?= $site->lang() ?>" class="no-js">
 <?php snippet('head') ?>
+<link rel="stylesheet" href="/assets/css/components/process-home.css">
 
 <body>
   <?php snippet('header') ?>
@@ -78,7 +79,7 @@
         <?php endif ?>
       </section>
       <section class="about-me-section">
-      <h2>
+        <h2>
           <?= $page->aboutmeheadline() ?>
         </h2>
         <div class="row">
@@ -89,11 +90,22 @@
                 <a href="<?= $page->aboutmelink()->toPage()->url() ?>" class="btn"><?= $page->aboutmebutton() ?></a>
               </div>
               <div class="portrait-image-container">
-                <?php if($aboutmeimage = $page->aboutmeimage()->toFile()): ?>
+                <?php if ($aboutmeimage = $page->aboutmeimage()->toFile()): ?>
                   <img src="<?= $aboutmeimage->url() ?>" alt="<?= $aboutmeimage->alt() ?>" class="portrait-image" loading="lazy" />
                 <?php endif; ?>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="process-section">
+        <h2><?= html($page->processHomeHeadline()) ?></h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+            <?php if ($page->processHomeTeaser()->isNotEmpty()): ?>
+              <div class="process-home-teaser"><?= $page->processHomeTeaser()->kt() ?></div>
+            <?php endif ?>
+            <?php snippet('process-home') ?>
           </div>
         </div>
       </section>
@@ -114,7 +126,7 @@
         <p>
           <?= $page->kontaktsectionheadline()->kirbytextinline() ?>
         </p>
-        <?php if($page->kontaktsectionbuttonlink()->toPage()): ?>
+        <?php if ($page->kontaktsectionbuttonlink()->toPage()): ?>
           <a href="<?= $page->kontaktsectionbuttonlink()->toPage()->url() ?>">
             <?= $page->kontaktsectionbuttontext()->html() ?>
           </a>

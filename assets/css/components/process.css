@@ -2,20 +2,6 @@
   font-family: 'Objectivity', sans-serif;
   background-color: var(--gray);
   color: var(--black);
-  padding: 4rem 2rem;
-  /* max-width: 1200px; */
-  /* margin: 4rem auto; */
-}
-
-.process-section h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.process-section p.lead {
-  font-size: 1.2rem;
-  color: var(--darkgray);
-  margin-bottom: 2rem;
 }
 
 .process-grid {

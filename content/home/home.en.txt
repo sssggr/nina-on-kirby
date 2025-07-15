@@ -168,6 +168,44 @@ Herobutton: Let's talk
 
 ----
 
+Processhomeheadline: How I Work
+
+----
+
+Processhometeaser: Little time, many topics? My process helps you identify what's essential and get into practice quickly.
+
+----
+
+Processhomesteps:
+
+- 
+  title: 1. Kick-off
+  text: >
+    We get clear on goals, context, and
+    expectations.
+- 
+  title: '2. Discovery '
+  text: >
+    We listen, observe, and identify
+    bottlenecks together.
+- 
+  title: 3. Solution design
+  text: >
+    We craft solutions that actually work in
+    your day-to-day.
+- 
+  title: '4. Implementation '
+  text: >
+    Not just planning—we test, iterate,
+    and make it happen.
+- 
+  title: '5. Review & next steps'
+  text: >
+    We reflect, learn, and map out what
+    comes next.
+
+----
+
 Metatemplate: Nina Siessegger | Organizational Consulting and Coaching
 
 ----

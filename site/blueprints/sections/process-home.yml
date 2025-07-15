@@ -1,0 +1,19 @@
+label: Prozess (Home)
+type: fields
+fields:
+  processHomeHeadline:
+    label: Überschrift
+    type: text
+  processHomeTeaser:
+    label: Teaser
+    type: textarea
+  processHomeSteps:
+    label: Schritte
+    type: structure
+    fields:
+      title:
+        label: Titel
+        type: text
+      text:
+        label: Beschreibung
+        type: textarea 

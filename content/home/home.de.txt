@@ -189,6 +189,44 @@ Herobutton: Lass uns sprechen
 
 ----
 
+Processhomeheadline: So arbeite ich
+
+----
+
+Processhometeaser: Wenig Zeit, viele Themen? Mein Prozess hilft euch, das Wesentliche zu erkennen und schnell in die Praxis zu kommen.
+
+----
+
+Processhomesteps:
+
+- 
+  title: 1. Kick-off
+  text: >
+    Wir schaffen Klarheit über Ziel,
+    Kontext und Erwartungen.
+- 
+  title: '2. Discovery '
+  text: >
+    Wir hören zu, schauen hin und finden
+    gemeinsam heraus, wo es hakt.
+- 
+  title: 3. Lösungen entwickeln
+  text: >
+    Wir entwickeln Lösungen, die im Alltag
+    funktionieren.
+- 
+  title: '4. Umsetzung '
+  text: >
+    Nicht nur planen, sondern ausprobieren,
+    anpassen, ins Arbeiten kommen.
+- 
+  title: '5. Rückblick & Ausblick '
+  text: >
+    Wir reflektieren, lernen und schauen,
+    was als Nächstes dran ist.
+
+----
+
 Metatemplate: Nina Siessegger | Organisationsberatung & Coaching
 
 ----
