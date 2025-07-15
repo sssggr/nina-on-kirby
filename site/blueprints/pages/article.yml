@@ -35,6 +35,7 @@ tabs:
                   - bigimage
                   - hero
                   - event
+                  - contacthighlight
       sidebar:
         width: 1/3
         sections:
