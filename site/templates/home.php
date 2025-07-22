@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="<?= $site->lang() ?>" class="no-js">
 <?php snippet('head') ?>
-<link rel="stylesheet" href="/assets/css/components/process-home.css">
 
 <body>
   <?php snippet('header') ?>
@@ -98,17 +97,6 @@
           </div>
         </div>
       </section>
-      <section class="process-section">
-        <h2><?= html($page->processHomeHeadline()) ?></h2>
-        <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
-            <?php if ($page->processHomeTeaser()->isNotEmpty()): ?>
-              <div class="process-home-teaser"><?= $page->processHomeTeaser()->kt() ?></div>
-            <?php endif ?>
-            <?php snippet('process-home') ?>
-          </div>
-        </div>
-      </section>
       <section class="testimonials">
         <h2>
           <?= $page->testimonialsheadline() ?>
@@ -119,6 +107,17 @@
               'testimonials' => $page->testimonials()->toStructure(),
               'withGrid' => false
             ]); ?>
+          </div>
+        </div>
+      </section>
+      <section class="process-section-home">
+        <h2><?= html($page->processHomeHeadline()) ?></h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+            <?php if ($page->processHomeTeaser()->isNotEmpty()): ?>
+              <div class="process-home-teaser"><?= $page->processHomeTeaser()->kt() ?></div>
+            <?php endif ?>
+            <?php snippet('process-home') ?>
           </div>
         </div>
       </section>

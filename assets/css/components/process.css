@@ -4,6 +4,10 @@
   color: var(--black);
 }
 
+.block-type-process + .block .row > div > p:first-child {
+  margin-top: 2rem;
+}
+
 .process-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -40,10 +44,6 @@
 }
 
 @media (max-width: 600px) {
-  .process-section {
-    padding: 2rem 1rem;
-  }
-  .process-number,
   .process-title,
   .process-description {
     font-size: var(--fs-sm);

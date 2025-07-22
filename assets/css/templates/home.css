@@ -288,3 +288,7 @@ h3 {
 .contact-highlight a:hover {
   background-color: var(--red);
 }
+
+.process-section-home {
+  margin-bottom: 4rem;
+}

@@ -1,4 +1,4 @@
-<section class="process-section">
+<section class="process-section process-offer-page">
   <div class="process-grid">
     <?php for ($i = 1; $i <= 5; $i++): ?>
       <div class="process-card">
