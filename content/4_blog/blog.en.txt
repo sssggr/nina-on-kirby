@@ -6,7 +6,7 @@ Headline: Blog
 
 ----
 
-Text: In my blog, I write about agile organizational development, teamwork, leadership, conflict resolution and supporting change processes - with insights from my professional practice.
+Text: I write about organizational development, teamwork, and change – focusing on what helps teams in growth phases get back into flow.
 
 ----
 

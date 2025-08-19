@@ -6,7 +6,7 @@ Headline: Blog
 
 ----
 
-Text: In meinem Blog schreibe ich über agile Organisationsentwicklung, Teamarbeit, Konfliktlösung und die Begleitung von Veränderungsprozessen - mit Einblicken aus meiner beruflichen Praxis.
+Text: Ich schreibe über Organisationsentwicklung, Teamarbeit und Veränderung – mit Fokus auf das, was Teams in Wachstumsphasen hilft, um wieder in den Flow zu kommen.
 
 ----
 
