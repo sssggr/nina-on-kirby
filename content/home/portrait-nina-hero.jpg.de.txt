@@ -6,8 +6,8 @@ Photo: Meike Kuether
 
 ----
 
-Uuid: fxBWlmXYlywju3co
+Uuid: 5SfTNmVF4VSKPoJh
 
 ----
 
-Focus: 65.0% 0.0%
+Focus: 70.1% 27.1%

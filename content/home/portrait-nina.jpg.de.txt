@@ -10,4 +10,4 @@ Uuid: i0MpXdsGAb27CVfY
 
 ----
 
-Focus: 40.4% 44.5%
+Focus: 49.6% 42.5%
