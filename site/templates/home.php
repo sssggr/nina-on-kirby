@@ -54,7 +54,7 @@
 
           <?php if ($page->offersgroupintro()->isNotEmpty()): ?>
             <div class="row">
-              <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+              <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
                 <div class="offers-group-intro">
                   <?= $page->offersgroupintro()->kirbytext() ?>
                 </div>
@@ -65,7 +65,7 @@
           <?php if (count($offersArray) >= 1): ?>
             <div class="row offers-group">
               <?php for ($i = 0; $i < min(2, count($offersArray)); $i++): $offer = $offersArray[$i]; ?>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5<?= $i === 0 ? ' col-lg-offset-1' : '' ?>">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5<?= $i === 0 ? ' col-md-offset-1 col-lg-offset-1' : '' ?>">
                   <img
                     alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
                     class="responsive-img"
@@ -86,7 +86,7 @@
 
           <?php if ($page->singleofferintro()->isNotEmpty()): ?>
             <div class="row">
-              <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+              <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
                 <div class="single-offer-intro">
                   <?= $page->singleofferintro()->kirbytext() ?>
                 </div>
@@ -122,7 +122,7 @@
           <?= $page->aboutmeheadline() ?>
         </h2>
         <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
             <div class="portrait-text-block">
               <div class="portrait-text-content">
                 <?= $page->aboutmetext()->kirbytext() ?>
@@ -142,7 +142,7 @@
           <?= $page->testimonialsheadline() ?>
         </h2>
         <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
             <?php snippet('blocks/carousel', [
               'testimonials' => $page->testimonials()->toStructure(),
               'withGrid' => false
@@ -153,7 +153,7 @@
       <section class="process-section-home">
         <h2><?= html($page->processHomeHeadline()) ?></h2>
         <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
             <?php if ($page->processHomeTeaser()->isNotEmpty()): ?>
               <div class="process-home-teaser"><?= $page->processHomeTeaser()->kt() ?></div>
             <?php endif ?>
