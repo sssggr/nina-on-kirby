@@ -15,6 +15,7 @@ return [
         'global-and' => 'und',
         'global-von' => 'von',
         'blog-readmore' => 'weiterlesen',
+        'latest-blog-posts-headline' => 'Neuste Blogartikel',
         'date.format' => 'j.m.Y',
         'phasen.1.number' => '1. Kick-off',
         'phasen.1.title' => 'Fokus & gemeinsames Verständnis',

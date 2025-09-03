@@ -161,6 +161,34 @@
           </div>
         </div>
       </section>
+      
+      <section class="latest-blog-posts">
+        <h2><?= t('latest-blog-posts-headline') ?></h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+            <?php 
+            $blogPage = $site->children()->filterBy('template', 'blog')->first();
+            $latestPosts = $blogPage ? $blogPage->children()->listed()->sortBy('date', 'desc')->limit(3) : null;
+            ?>
+            <?php if ($latestPosts && $latestPosts->count() > 0): ?>
+              <div class="row">
+                <?php foreach($latestPosts as $post): ?>
+                  <div class="col-xs-12 col-sm-4 col-lg-4">
+                    <div>
+                      <?php if($image = $post->headerimage()->toFile()): ?>
+                        <img src="<?= $image->url() ?>" alt="<?= $post->title() ?>" class="blog-post-image" />
+                      <?php endif ?>
+                      <h3><?= $post->title() ?></h3>
+                      <a href="<?= $post->url() ?>"><?= t('blog-readmore') ?></a>
+                    </div>
+                  </div>
+                <?php endforeach ?>
+              </div>
+            <?php endif ?>
+          </div>
+        </div>
+      </section>
+      
       <section class="contact-highlight">
         <p>
           <?= $page->kontaktsectionheadline()->kirbytextinline() ?>

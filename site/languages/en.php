@@ -12,6 +12,7 @@ return [
         'global-von' => 'by',
         'global-and' => 'and',
         'blog-readmore' => 'read more',
+        'latest-blog-posts-headline' => 'Latest Blog Posts',
         'footer-answer' => 'Contact me for a non-binding initial consultation.',
         'footer-button-content' => 'Contact',
         'footer-question' => 'Would you like to know more?',
