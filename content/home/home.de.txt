@@ -6,6 +6,10 @@ Offersheadline: So kann ich euch unterstützen
 
 ----
 
+Offersgroupintro: Wenn Unternehmen wachsen, wächst alles gleichzeitig: mehr Menschen, mehr Entscheidungen, mehr Komplexität. Oft bleibt das Gefühl: Wir strampeln – aber kommen nicht wirklich weiter. Ich begleite euch dabei, Strukturen zu schaffen, die euch weiter tragen. So entsteht Klarheit, Teams können Verantwortung übernehmen – und Zusammenarbeit bekommt wieder Leichtigkeit und Energie fürs Vorankommen.
+
+----
+
 Offers:
 
 - 
@@ -43,15 +47,21 @@ Offers:
     - file://VsBAiach0x1dQexF
   offerheadline: 'Coaching '
   offertext: >
-    Du willst führen, aber auf deine Art?
-    Ich begleite dich dabei, deinen
-    authentischen Führungsstil zu finden,
-    herausfordernde Situationen gelassener
-    zu meistern und mehr Raum für das zu
-    gewinnen, was wirklich wichtig ist.
+    Du willst Verantwortung übernehmen und
+    führen, aber auf deine Art? Im Coaching
+    findest du Klarheit über deine Rolle,
+    bleibst gelassen in herausfordernden
+    Momenten und entwickelst einen
+    Führungsstil, der zu dir passt –
+    klar, authentisch und ohne dich zu
+    verbiegen.
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
+
+----
+
+Singleofferintro: Verantwortung übernehmen und führen bedeutet auch, sich selbst im Blick zu haben. Im Alltag bleibt dafür oft keine Zeit – weder für Reflexion noch für Austausch. Doch nur, wer Klarheit über sich selbst hat, kann andere klar führen. Im Coaching findest du diesen Raum: für innere Klärung, für neue Perspektiven und für mehr Gelassenheit in dem, was auf dich einströmt.
 
 ----
 

@@ -6,6 +6,10 @@ Offersheadline: Ways I can support you
 
 ----
 
+Offersgroupintro: When companies grow, everything grows simultaneously: more people, more decisions, more complexity. Often what remains is the feeling: We're spinning our wheels – but not really getting anywhere. I help you create structures that can actually carry you forward. This creates clarity, enables teams to take ownership – and brings lightness and energy back to collaboration so you can make real progress.
+
+----
+
 Offers:
 
 - 
@@ -46,6 +50,10 @@ Offers:
   offerlink:
     - page://Q07Y5WPaWAXyjGYH
   offerbutton: more
+
+----
+
+Singleofferintro: Taking responsibility and leading also means keeping yourself in focus. In everyday life, there's often no time for this – neither for reflection nor for meaningful exchange. But only those who have clarity about themselves can lead others with clarity. Coaching provides this space: for inner clarity, for new perspectives, and for greater calm in dealing with what comes your way.
 
 ----
 

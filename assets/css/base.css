@@ -27,7 +27,7 @@
     --fs-sm: 1.125rem;
     --fs-md: 1.25rem;
     --fs-lg: 1.75rem;
-  --fs-xl: 2rem;
+    --fs-xl: 2rem;
     --fs-xxl: 2.25rem;
     --gutter: 2.25rem;
   }
@@ -958,6 +958,13 @@ article .readmore {
 .col-xs-offset-12 {
   padding-right: calc(0.5 * var(--gutter));
   padding-left: calc(0.5 * var(--gutter));
+}
+
+/* On phones, remove column offsets to keep full-width stacking */
+@media only screen and (max-width: 47.99em) {
+  [class*='col-xs-offset-'] {
+    margin-left: 0 !important;
+  }
 }
 
 @media only screen and (min-width: 48em) {

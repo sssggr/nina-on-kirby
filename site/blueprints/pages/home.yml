@@ -13,6 +13,14 @@ tabs:
               offersheadline:
                 label: Angebote-Teasergruppeüberschrift (h2)
                 type: text
+              offersgroupintro:
+                label: Intro für Angebotsgruppe (2 nebeneinander)
+                type: textarea
+                size: small
+                buttons:
+                  - italic
+                  - bold
+                  - link
               offers:
                 label: Angebotsteaser
                 type: structure
@@ -38,6 +46,14 @@ tabs:
                   offerbutton:
                     label: Buttontext
                     type: text
+              singleofferintro:
+                label: Intro für einzelnes Angebot (unter der Gruppe)
+                type: textarea
+                size: small
+                buttons:
+                  - italic
+                  - bold
+                  - link
               testimonialsheadline:
                 label: Testimonials Gruppenüberschrift
                 type: text
