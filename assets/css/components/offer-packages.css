@@ -3,8 +3,7 @@
 }
 
 .packages {
-  max-width: 1200px;
-  margin: auto;
+  /* Breite wird über Flexbox Grid Klassen gesteuert */
 }
 
 .row {

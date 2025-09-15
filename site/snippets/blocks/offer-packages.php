@@ -3,10 +3,11 @@ $offers = $block->offers()->toStructure();
 $defaultButton = t('offer.button');
 ?>
 <section class="packages">
-  <?php foreach ($offers as $offer): ?>
-    <div class="package-card">
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+      <?php foreach ($offers as $offer): ?>
+        <div class="package-card">
       <div class="row">
-        <!-- Title: volle Breite -->
         <div class="col-xs-12">
           <h3 class="package-title"><?= $offer->title()->html() ?></h3>
         </div>
@@ -70,5 +71,7 @@ $defaultButton = t('offer.button');
         </div>
       </div>
     </div>
-  <?php endforeach ?>
+      <?php endforeach ?>
+    </div>
+  </div>
 </section> 
