@@ -199,11 +199,6 @@ h4 {
   font-size: var(--fs-sm);
 }
 
-/* h4.offer-subheadline {
-  padding-left: var(--gutter);
-  margin: 1.5em 0 1em;
-} */
-
 p {
   margin: 0 0 1em;
 }
@@ -381,6 +376,10 @@ hr {
 
 .portrait-container {
   line-height: 0;
+}
+
+.template-offer .block-type-hero + .block-type-bodytext p:first-child {
+  margin-top: var(--gutter);
 }
 
 @media (max-width: 768px) {
