@@ -1090,6 +1090,28 @@ article .readmore {
   height: auto;
 }
 
+/* Overrides after .responsive-img to enforce mobile hero layout */
+@media (max-width: 768px) {
+  .row.hero .portrait-container .responsive-img {
+    height: 60vw;
+    object-fit: cover;
+    display: block;
+  }
+
+  .row.hero .hero-content {
+    padding: calc(1.25 * var(--gutter));
+    min-height: 60vw;
+    box-sizing: border-box;
+  }
+
+  .row.hero .hero-content h1,
+  .row.hero .hero-content .hero-subheadline,
+  .row.hero .hero-content .button-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .display-none-sm {
   display: none;
 }

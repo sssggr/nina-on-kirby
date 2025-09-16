@@ -65,7 +65,7 @@
           <?php if (count($offersArray) >= 1): ?>
             <div class="row offers-group">
               <?php for ($i = 0; $i < min(2, count($offersArray)); $i++): $offer = $offersArray[$i]; ?>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5<?= $i === 0 ? ' col-md-offset-1 col-lg-offset-1' : '' ?>">
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5<?= $i === 0 ? ' col-md-offset-1 col-lg-offset-1' : '' ?>">
                   <img
                     alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
                     class="responsive-img"
@@ -96,7 +96,7 @@
 
           <?php if (count($offersArray) >= 3): $offer = $offersArray[2]; ?>
             <div class="row offers-single">
-              <div class="col-lg-offset-1 col-xs-12 col-md-5 col-sm-6">
+              <div class="col-lg-offset-1 col-md-offset-1  col-xs-12 col-md-5 col-sm-6">
                 <img
                   alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
                   class="responsive-img"
