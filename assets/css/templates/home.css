@@ -44,9 +44,30 @@ h3 {
     align-items: stretch;
 }
 
-
-.offers-group {
-    gap: 0.5rem;
+@media (min-width: 1024px) {
+    /* Desktop: Grouped offers - no gap between image and text, equal height */
+    .offers-group {
+        gap: 0;
+    }
+    
+    .offers-group > div[class*="col-"] {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .offers-group img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .offers-group .teaser-text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 .offers-group .teaser-text-container .btn,
@@ -84,6 +105,10 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    .teaser-text-container {
+        padding: calc(1.5 * var(--gutter));
+    }
+    
     .offers-group img {
         display: block;
         margin-bottom: 0;
@@ -104,11 +129,19 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet: Grouped offers stacked vertically like single offer */
+    .offers-group {
+        gap: 0;
+    }
+    
+    /* Force grouped offers to stack vertically on tablet using flexbox grid */
     .offers-group > div[class*="col-"] {
         display: flex;
         flex-direction: row;
         align-items: stretch;
-        width: 100%;
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
         margin-bottom: 1rem;
     }
     
@@ -123,19 +156,25 @@ h3 {
         flex: 1;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
     
+    /* Single offer layout */
     .offers-single {
         display: flex;
         flex-direction: row;
         align-items: stretch;
-        flex-wrap: nowrap; /* Wichtig! */
+        flex-wrap: nowrap;
+        margin-left: -1.5px;
+        margin-right: -1.5px;
     }
     
     .offers-single > div[class*="col-"] {
         flex: 1;
         display: flex;
         flex-direction: column;
+        padding-left: 0.5px;
+        padding-right: 0.5px;
     }
     
     .offers-single img {
@@ -149,10 +188,6 @@ h3 {
         margin-top: auto;
         align-self: flex-start;
         width: fit-content;
-    }
-    
-    .offers-group {
-        gap: 0;
     }
 }
 
