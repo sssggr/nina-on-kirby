@@ -190,14 +190,20 @@
       </section>
       
       <section class="contact-highlight">
-        <p>
-          <?= $page->kontaktsectionheadline()->kirbytextinline() ?>
-        </p>
-        <?php if ($page->kontaktsectionbuttonlink()->toPage()): ?>
-          <a href="<?= $page->kontaktsectionbuttonlink()->toPage()->url() ?>">
-            <?= $page->kontaktsectionbuttontext()->html() ?>
-          </a>
-        <?php endif ?>
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
+            <div class="contact-highlight-wrapper">
+              <p>
+                <?= $page->kontaktsectionheadline()->kirbytextinline() ?>
+              </p>
+              <?php if ($page->kontaktsectionbuttonlink()->toPage()): ?>
+                <a href="<?= $page->kontaktsectionbuttonlink()->toPage()->url() ?>">
+                  <?= $page->kontaktsectionbuttontext()->html() ?>
+                </a>
+              <?php endif ?>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
