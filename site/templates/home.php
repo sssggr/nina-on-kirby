@@ -7,37 +7,41 @@
   <div class="wrap container-fluid">
     <main class="<?php echo 'template-' ?><?= $page->template() ?>">
       <div class="row">
-        <div class="col-xs-12 col-lg-offset-1 col-lg-10 col-md-12">
-          <div class="row hero">
-            <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
-              <div class="hero-content">
-                <h1>
-                  <?= $page->herotext() ?>
-                </h1>
-                <?php if ($page->herosubheadline()->isNotEmpty()): ?>
-                  <p class="hero-subheadline">
-                    <?= $page->herosubheadline()->kirbytextinline() ?>
-                  </p>
-                <?php endif ?>
-                <div class="button-container">
-                  <a
-                    class="btn"
-                    href="<?= $page->herolink()->toPage()->url() ?>">
-                    <?= $page->herobutton() ?>
-                  </a>
+        <div class="col-xs-12 col-md-offset-1 col-md-10">
+          <div class="hero">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
+                <div class="hero-text-container">
+                  <div class="hero-text">
+                    <h1>
+                      <?= $page->herotext() ?>
+                    </h1>
+                    <?php if ($page->herosubheadline()->isNotEmpty()): ?>
+                      <p class="hero-subheadline">
+                        <?= $page->herosubheadline()->kirbytextinline() ?>
+                      </p>
+                    <?php endif ?>
+                  </div>
+                  <div class="hero-button-container">
+                    <a
+                      class="btn"
+                      href="<?= $page->herolink()->toPage()->url() ?>">
+                      <?= $page->herobutton() ?>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
-              <?php $heroimage = $page->heroimage()->toFile(); ?>
-              <img
-                alt="<?= $heroimage->alt() ?><?php if ($heroimage && $heroimage->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $heroimage->photo() ?><?php endif ?>"
-                class="responsive-img"
-                src="<?= $heroimage->url() ?>"
-                srcset="<?= $heroimage->srcset([
-                          '1x' => ['width' => 600, 'height' => 480, 'crop' => 'true', 'quality' => 90],
-                          '2x' => ['width' => 1200, 'height' => 960, 'crop' => 'true', 'quality' => 90]
-                        ]) ?>">
+              <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+                <?php $heroimage = $page->heroimage()->toFile(); ?>
+                <img
+                  alt="<?= $heroimage->alt() ?><?php if ($heroimage && $heroimage->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $heroimage->photo() ?><?php endif ?>"
+                  class="responsive-img"
+                  src="<?= $heroimage->url() ?>"
+                  srcset="<?= $heroimage->srcset([
+                            '1x' => ['width' => 600, 'height' => 480, 'crop' => 'true', 'quality' => 90],
+                            '2x' => ['width' => 1200, 'height' => 960, 'crop' => 'true', 'quality' => 90]
+                          ]) ?>">
+              </div>
             </div>
           </div>
         </div>
@@ -63,21 +67,27 @@
           <?php endif; ?>
 
           <?php if (count($offersArray) >= 1): ?>
-            <div class="row offers-group">
+            <div class="row">
               <?php for ($i = 0; $i < min(2, count($offersArray)); $i++): $offer = $offersArray[$i]; ?>
                 <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5<?= $i === 0 ? ' col-md-offset-1 col-lg-offset-1' : '' ?>">
-                  <img
-                    alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
-                    class="responsive-img"
-                    src="<?= $offer->offerimage()->toFile()->url() ?>"
-                    srcset="<?= $offer->offerimage()->toFile()->srcset([
-                              '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
-                              '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
-                            ]) ?>">
-                  <div class="teaser-text-container">
-                    <h3><?= $offer->offerheadline() ?></h3>
-                    <?= $offer->offertext()->kirbytext() ?>
-                    <a class="btn" href="<?= $offer->offerlink()->toPage()->url() ?>"><?= $offer->offerbutton() ?></a>
+                  <div class="teaser-container">
+                    <img
+                      alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
+                      class="responsive-img"
+                      src="<?= $offer->offerimage()->toFile()->url() ?>"
+                      srcset="<?= $offer->offerimage()->toFile()->srcset([
+                                '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
+                                '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
+                              ]) ?>">
+                    <div class="teaser-text-container">
+                      <div class="teaser-texts">
+                        <h3><?= $offer->offerheadline() ?></h3>
+                        <?= $offer->offertext()->kirbytext() ?>
+                      </div>
+                      <div class="teaser-text-container-button">
+                        <a class="btn" href="<?= $offer->offerlink()->toPage()->url() ?>"><?= $offer->offerbutton() ?></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               <?php endfor; ?>
@@ -95,22 +105,32 @@
           <?php endif; ?>
 
           <?php if (count($offersArray) >= 3): $offer = $offersArray[2]; ?>
-            <div class="row offers-single">
-              <div class="col-lg-offset-1 col-md-offset-1  col-xs-12 col-md-5 col-sm-6">
-                <img
-                  alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
-                  class="responsive-img"
-                  src="<?= $offer->offerimage()->toFile()->url() ?>"
-                  srcset="<?= $offer->offerimage()->toFile()->srcset([
-                            '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
-                            '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
-                          ]) ?>">
-              </div>
-              <div class="col-xs-12 col-md-5 col-sm-6">
-                <div class="teaser-text-container">
-                  <h3><?= $offer->offerheadline() ?></h3>
-                  <?= $offer->offertext()->kirbytext() ?>
-                  <a class="btn" href="<?= $offer->offerlink()->toPage()->url() ?>"><?= $offer->offerbutton() ?></a>
+            <div class="row">
+              <div class="col-xs-12 col-md-offset-1 col-md-10">
+                <div class="offers-single">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="offers-single-imagecontainer">
+                        <img
+                          alt="<?= $offer->offerimage()->toFile()->alt() ?><?php if ($offer->offerimage()->toFile()->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $offer->offerimage()->toFile()->photo() ?><?php endif ?>"
+                          class="responsive-img"
+                          src="<?= $offer->offerimage()->toFile()->url() ?>"
+                          srcset="<?= $offer->offerimage()->toFile()->srcset([
+                                    '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
+                                    '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
+                                  ]) ?>">
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="offers-single-textcontainer">
+                        <h3><?= $offer->offerheadline() ?></h3>
+                        <?= $offer->offertext()->kirbytext() ?>
+                        <div class="button-container">
+                          <a class="btn" href="<?= $offer->offerlink()->toPage()->url() ?>"><?= $offer->offerbutton() ?></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
