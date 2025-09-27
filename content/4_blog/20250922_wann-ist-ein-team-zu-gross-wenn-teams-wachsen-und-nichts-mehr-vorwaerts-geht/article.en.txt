@@ -1,0 +1,89 @@
+Title: When Is a Team Too Big?
+
+----
+
+Slug: when-is-a-team-too-big-when-teams-grow-and-nothing-moves-forward
+
+----
+
+Teasertext: When teams grow but decisions stagnate, coordination becomes sluggish, and too little progress is made, it's worth taking a close look at structure and responsibility allocation. When is a team too big or poorly designed? And how do you get back into the flow?
+
+----
+
+Headline: When Is a Team Too Big? When Teams Grow and Nothing Moves Forward
+
+----
+
+Modules: [{"content":{"text":"Your team has grown, and you can feel it in daily operations. In the past, everything could be resolved quickly through informal channels. Today, every decision takes too long, nobody feels truly responsible, and everyone is stretched to their limits.\n\nAnd somehow you think to yourself: \"We have more people now—shouldn't everything be faster and better?\"\n\nHowever, that's often not the case. In this post, I want to examine possible reasons for this and also look at what helps get back into the flow."},"id":"39a58487-79e0-4977-8548-a0ea069160af","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What Actually Is a Team?"},"id":"0b077bbb-51de-45bd-b8bd-40e6c4900b7e","isHidden":false,"type":"subheading"},{"content":{"text":"The term \"team\" is often used quite loosely. Sometimes it refers to an entire department, sometimes a project group, a squad, an entire company, or simply \"everyone who's somehow involved.\"\nWhen we talk about team size or team composition, it's worth first clearly defining what a team is in the strict sense.\nI'm basing this on what psychologist Richard Hackman, among others, has described:\nA team is a clearly defined group of people who work together on a task over an extended period, pursue a common goal, and are highly interdependent in achieving it.\nA few points are particularly important here:\n\n* It's clear who belongs and who doesn't.\n* The group is relatively stable, not constantly changing in composition.\n* Members depend on each other: they can only achieve good results together.\n* There's a shared task or direction that's more than \"everyone doing something in the same area.\"\n* And it needs a framework within which this team can operate: decision-making authority, resources, communication."},"id":"4d386257-70e4-48ee-82fe-c64240156b4f","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What's the Optimal Team Size?"},"id":"b4fbe6bd-27f4-4a82-b7a4-776d20f03a7e","isHidden":false,"type":"subheading"},{"content":{"text":"There's no magic number. It depends, as always. However, there are numerous studies and also practical experience."},"id":"43d92dcb-9c79-4765-aa99-923668fe373e","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"What Studies Say","styleselect":""},"id":"525cd666-6da0-41eb-8d3e-2f6c83f66b8f","isHidden":false,"type":"subsubheading"},{"content":{"list":"<ul><li><a href=\"https://www.jstor.org/stable/2786271\" target=\"_blank\">Studies by Hackman &amp; Vidmar</a> show: Groups with 4–5 people are often the most satisfied. Beyond that, coordination effort increases significantly.</li><li>Amazon uses the so-called <a href=\"https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/?nc1=h_ls\" target=\"_blank\">Two-Pizza Rule</a>: Teams should be small enough to be fed with two pizzas (US size!)—usually no more than 6–8 people.</li><li><a href=\"https://en.wikipedia.org/wiki/Dunbar%27s_number\" target=\"_blank\">Dunbar's Number</a> describes the cognitive limit of social relationships: In small groups (about 5–8 people), coordination, trust, and collaboration are more stable than in larger ones.</li><li>The <a href=\"https://en.wikipedia.org/wiki/Ringelmann_effect\" target=\"_blank\">Ringelmann Effect</a> describes how individual contribution often decreases as group size grows because coordination becomes more difficult, responsibility becomes diluted, and social dynamics reduce output. Later, this phenomenon was further studied and termed <a href=\"https://en.wikipedia.org/wiki/Social_loafing\" target=\"_blank\">social loafing</a>: People tend to exert less effort in groups when their individual contribution isn't visible or assessable.</li></ul>","styleselect":""},"id":"7feee686-0441-49b5-bee4-c65917dbabfa","isHidden":false,"type":"list"},{"content":{"text":"These numbers aren't hard rules, but they provide good guidance: When is it worth taking a closer look and asking whether the current team size or composition still makes sense?"},"id":"1ed02c50-d8ef-4901-8f6b-229a3937fd7d","isHidden":false,"type":"bodytext"},{"content":{"subheading":"And How Small Is Too Small?"},"id":"e514c23d-5db1-4ee6-9141-7fa16ce3ee42","isHidden":false,"type":"subheading"},{"content":{"text":"The question of when teams become too large is often discussed, but too small isn't good either. A team isn't automatically a team just because two people are working on something.\n\nA real team has a common goal, needs to coordinate, and depends on each other to achieve that goal.\n\nAs a practical rule of thumb: Three people is the minimum for real team behavior to emerge. Below that, you're often more of a duo with coordination needs, which can be perfectly fine in many cases. But then you don't need team development—you might need clear coordination and agreements instead."},"id":"7dcfc85a-2694-4877-8d72-b1b81c23a0c9","isHidden":false,"type":"bodytext"},{"content":{"subheading":"And What Does Practice Show?"},"id":"9218ffcd-06eb-4463-9655-ef328d65f3fc","isHidden":false,"type":"subheading"},{"content":{"text":"In my experience, teams with up to 7 people usually work very well; when there are more, it can become unwieldy.\nWhat I often observe then:"},"id":"568a7912-7094-466b-9d6a-ba5eb1ea7c59","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Coordination effort increases.</li><li>Teams work on too many topics in parallel.</li><li>Cognitive load increases—constantly juggling too many topics in your head.</li><li>Decisions drag on or get lost.</li><li>Focus is lost.</li></ul>","styleselect":""},"id":"6450dcaa-4a8e-4353-a498-735b38b94d17","isHidden":false,"type":"list"},{"content":{"text":"When several team members feel like they're losing track despite coordination meetings, no longer know what others are working on, can't see a common goal anymore—that's often a clearer indicator than any study."},"id":"356affb7-d1b4-4a99-a420-518b7cd44ec5","isHidden":false,"type":"bodytext"},{"content":{"subheading":"When Should You Split or Restructure a Team?"},"id":"a2215aae-0c59-43b1-b1be-17846bc4e373","isHidden":false,"type":"subheading"},{"content":{"text":"When a team grows, there are often ideas like: \"We need a new meeting.\" Sometimes also: \"We need a new role\" or \"We can solve this with tool XY.\" All of this can help address coordination effort, but rarely solves the actual problem.\n\nWhat sometimes works when a real split isn't possible—e.g., because the company doesn't allow new teams: Working in sub-teams.\n\nThis means: A team of ten people internally divides into smaller groups, each focused on one topic. This creates more focus, less coordination effort—and the team still formally remains intact."},"id":"c3dd5330-dbfc-400b-a93a-c6dd2d1f84e6","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What If This Is Your First Team Split?"},"id":"30a0ee4d-0c10-4b66-826c-6a1399f5453a","isHidden":false,"type":"subheading"},{"content":{"text":"Maybe you've been working as one team so far, everyone does everything somehow. Decisions are made together, tasks are sometimes distributed spontaneously. The thought of splitting up feels unfamiliar at first. Almost like a break. What if the connection is lost?\nEspecially in young companies, I often observe uncertainty at this point and the reflex to leave everything as it is for now. Yet a team split can achieve exactly the opposite: It strengthens the connection—because clarity creates trust and smaller units facilitate real collaboration.\n\nSmaller teams provide relief. They reduce cognitive load, reduce coordination effort, and create more focus. A prerequisite for this is also that it's clear:\n* Who is responsible for what\n* How the interfaces work\n* And where decisions are made\n\nThe design of tasks also plays an important role. Ideally, teams can deliver value independently of each other, with few dependencies—close to the market and users.\n\nIn one project, we used the image of cell division for this: Knowledge, attitude, and culture of the original team are consciously carried forward and continue to develop in the new units.\n\nThe crucial question isn't just: What do we lose through a split? But also: What do we gain? Discussing these questions with the team from the beginning and returning to them repeatedly helps with letting go and creates real momentum toward the new."},"id":"4e4857b3-9454-4866-bcc6-4b71f372839a","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What If You Have Multiple Teams—But the Structure Is Stuck?"},"id":"4b1d0082-3d78-40d6-bd2b-e39328f11b40","isHidden":false,"type":"subheading"},{"content":{"text":"Sometimes it's not a single team that's the problem, but the overall structure. Multiple teams work alongside each other, but not well coordinated with each other. Typical signs of this:\n\n* There are thematic overlaps without clear coordination.\n* Teams block each other because they're too dependent on one another.\n* Responsibility gets stuck with individuals or is so diffuse that nobody is responsible.\n* Handoffs lead to friction losses instead of smooth collaboration.\n\nIn such situations, off-the-shelf reorganization doesn't help. It's more useful to take a close look at the business domain and work flows. This works best together with those who experience them daily and know their business domain.\n\nCollaborative methods like (link: https://www.eventstorming.com/ text: Event Storming), (link: https://userneedsmapping.com/ text: User Needs Mapping), or (link: https://en.wikipedia.org/wiki/Value-stream_mapping text: Value Stream Mapping) help develop a shared picture. These formats help make dependencies, responsibilities, and interfaces visible. Wardley Mapping can also be useful as a supplement—for example, when it comes to technological decisions, make-or-buy, or platform architecture.\n\nOnly then is it worth looking at the appropriate team design. For example, with (link: https://teamtopologies.com/ text: Team Topologies) or (link: https://www.youtube.com/watch?v=w6T78XMxbuY&t=3s text: dynamic re-teaming approaches) that help create structures that facilitate collaboration and enable flow."},"id":"47459547-3d28-49d6-8412-c404809836f9","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mini-Check: Is Your Team Still Set Up Right?"},"id":"ab4356f4-06c3-4c59-8fbc-534c1f1931f3","isHidden":false,"type":"subheading"},{"content":{"text":"Answer the following questions for your team:\n\n* Are there tasks that regularly get left undone because nobody feels responsible?\n* Do you know what others are currently working on?\n* Do you often feel like you're taking on things that should really belong elsewhere?\n* Are you highly dependent on other teams?\n* Do you lack focus because everything is equally important and you don't know what to tackle first?\n* Are you constantly working on multiple topics in parallel?\n* Do certain topics always get stuck with the same people?\n\nIf you nodded internally to several questions, this might be the right moment to look at your team structure and size."},"id":"c468e58c-2b66-4b55-bfbd-ee5681dfcd45","isHidden":false,"type":"bodytext"},{"content":{"headline":"Want to eliminate friction? I help startups and SMBs through phases where clarity is missing and change is needed.","buttontext":"Book a free discovery call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"00b8ef23-9449-4b03-8b09-82f0edb74769","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2025-09-22
+
+----
+
+Headerimage: - file://zwMRVhBvCSqJMfqm
+
+----
+
+Metatitle: When Is a Team Too Big? When Teams Grow and Nothing Moves Forward
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: When teams grow but decisions stagnate, coordination becomes sluggish, and too little progress is made, it's worth taking a close look at structure and responsibility allocation. When is a team too big or poorly designed? And how do you get back into the flow?
+
+----
+
+Ogtemplate: When Is a Team Too Big? When Teams Grow and Nothing Moves Forward
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: When teams grow but decisions stagnate, coordination becomes sluggish, and too little progress is made, it's worth taking a close look at structure and responsibility allocation. When is a team too big or poorly designed? And how do you get back into the flow?
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

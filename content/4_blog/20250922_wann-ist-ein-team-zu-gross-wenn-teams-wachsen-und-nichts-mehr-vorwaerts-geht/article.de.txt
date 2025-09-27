@@ -1,0 +1,89 @@
+Title: Wann ist ein Team zu groß?
+
+----
+
+Teasertext: Wenn Teams wachsen, aber Entscheidungen liegen bleiben, Abstimmungen zäh werden und zu wenig vorwärts geht, lohnt sich ein genauer Blick auf Struktur und Verantwortungszuschnitt. Wann ist ein Team zu groß oder nicht gut geschnitten? Und wie kommt ihr wieder in den Flow?
+
+----
+
+Headline: Wann ist ein Team zu groß? Wenn Teams wachsen und nichts mehr vorwärts geht
+
+----
+
+Modules: [{"content":{"text":"Euer Team ist gewachsen und das ist im Alltag spürbar. Früher ließ sich alles schnell auf kurzem Wege klären. Heute dauert jede Entscheidung zu lang, niemand fühlt sich wirklich zuständig und gleichzeitig sind alle am Limit. \n\nUnd irgendwie denkt man sich doch auch: “Wir sind doch jetzt mehr Leute, das müsste doch alles schneller und besser gehen! \n\nDas ist allerdings häufig nicht der Fall. In diesem Post will ich auf mögliche Gründe dafür schauen und auch darauf, was dabei hilft wieder in den Flow zu komme"},"id":"39a58487-79e0-4977-8548-a0ea069160af","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was ist eigentlich ein Team? "},"id":"0b077bbb-51de-45bd-b8bd-40e6c4900b7e","isHidden":false,"type":"subheading"},{"content":{"text":"Der Begriff *Team* wird oft recht locker verwendet. Mal ist damit eine ganze Abteilung gemeint, mal eine Projektgruppe, ein Squad, ein ganzes Unternehmen oder einfach „alle, die irgendwie beteiligt sind“. \n\nWenn wir über Teamgröße oder Teamzuschnitte sprechen, lohnt es sich deshalb, erstmal klar zu definieren, was eigentlich ein Team im engeren Sinn ist.\n\nIch orientiere mich hier an dem, was u. a. der Psychologe Richard Hackman beschrieben hat:\n\nEin Team ist eine klar abgegrenzte Gruppe von Menschen, die über einen längeren Zeitraum gemeinsam an einer Aufgabe arbeitet, ein gemeinsames Ziel verfolgt und dafür in hohem Maß aufeinander angewiesen ist.\n\nEin paar Punkte sind dabei besonders wichtig:\n- Es ist **klar, wer dazugehört** und wer nicht.\n- Die Gruppe ist relativ **stabil**, nicht ständig wechselnd zusammengesetzt.\n- Die **Mitglieder sind voneinander abhängig:** sie können nur gemeinsam ein gutes Ergebnis erreichen.\n- Es gibt **eine gemeinsame Aufgabe oder Ausrichtung**, die mehr ist als „alle machen irgendwie was im selben Bereich“.\n- Und es braucht **einen Rahmen**, in dem dieses Team arbeiten kann: Entscheidungsspielräume, Ressourcen, Kommunikation."},"id":"4d386257-70e4-48ee-82fe-c64240156b4f","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was ist die optimale Teamgröße?"},"id":"b4fbe6bd-27f4-4a82-b7a4-776d20f03a7e","isHidden":false,"type":"subheading"},{"content":{"text":"Es gibt keine magische Zahl. Es kommt wie immer darauf an. Allerdings gibt es zum eine Vielzahl von Studien und auch Erfahrungswe"},"id":"43d92dcb-9c79-4765-aa99-923668fe373e","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"Was Studien sagen","styleselect":""},"id":"525cd666-6da0-41eb-8d3e-2f6c83f66b8f","isHidden":false,"type":"subsubheading"},{"content":{"list":"<ul><li><a href=\"https://www.jstor.org/stable/2786271\" target=\"_blank\">Studien von <strong>Hackman &amp; Vidmar</strong></a> zeigen: Gruppen mit 4–5 Personen sind oft am zufriedensten. Darüber hinaus steigt der Koordinationsaufwand deutlich.</li><li>Amazon nutzt die sogenannte <a href=\"https://aws.amazon.com/de/executive-insights/content/amazon-two-pizza-team/\" target=\"_blank\"><strong>Two-Pizza-Rule</strong>:</a> Teams sollten so klein sein, dass sie mit zwei Pizzen (in US-amerikanischer Größe!) satt werden – das heißt meist nicht mehr als 6–8 Personen.</li><li>Die <a href=\"https://de.wikipedia.org/wiki/Dunbar-Zahl\"><strong>Dunbar-Zahl</strong></a> beschreibt die kognitive Grenze sozialer Beziehungen: In kleinen Gruppen (etwa 5–8 Personen) sind Abstimmung, Vertrauen und Zusammenarbeit stabiler als in größeren.</li><li>Der <a href=\"https://de.wikipedia.org/wiki/Ringelmann-Effekt\" target=\"_blank\"><strong>Ringelmann-Effekt</strong> </a>beschreibt, dass mit wachsender Gruppengröße der individuelle Beitrag oft sinkt, weil Koordination erschwert wird, Verantwortung verwässert und soziale Dynamiken den Output mindern. Später wurde das Phänomen weiter untersucht und als <a href=\"https://de.wikipedia.org/wiki/Soziales_Faulenzen\"><strong>soziales Faulenzen (Social Loafing)</strong></a> bezeichnet: Menschen neigen dazu, sich in Gruppen weniger anzustrengen, wenn ihr individueller Beitrag nicht sichtbar oder bewertbar ist.</li></ul>","styleselect":""},"id":"7feee686-0441-49b5-bee4-c65917dbabfa","isHidden":false,"type":"list"},{"content":{"text":"Diese Zahlen sind keine harten Regeln, aber sie geben eine gute Orientierung: Ab wann lohnt es sich, mal genauer hinzuschauen und sich zu fragen, ob die aktuelle Teamgröße oder der Zuschnitt noch sinnvoll ist."},"id":"1ed02c50-d8ef-4901-8f6b-229a3937fd7d","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Und wie klein ist zu klein?"},"id":"e514c23d-5db1-4ee6-9141-7fa16ce3ee42","isHidden":false,"type":"subheading"},{"content":{"text":"Oft wird die Frage diskutiert, wann Teams zu groß werden, zu klein ist aber auch nicht gut. Ein Team ist nicht automatisch ein Team, nur weil zwei Leute an etwas arbeiten.\n\nEin echtes Team hat ein gemeinsames Ziel, muss sich abstimmen und ist aufeinander angewiesen, um dieses Ziel zu erreichen.\n\nAls Faustregel aus der Praxis gilt: Drei Personen sind das Minimum, damit echtes Teamverhalten entstehen kann. Darunter ist man oft eher ein Duo mit Abstimmungsbedarf, was in vielen Fällen auch völlig okay sein kann. Aber dann braucht es keine Teamentwicklung, sondern vielleicht eher klare Koordination und Absprache."},"id":"7dcfc85a-2694-4877-8d72-b1b81c23a0c9","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Und was zeigt die Praxis?"},"id":"9218ffcd-06eb-4463-9655-ef328d65f3fc","isHidden":false,"type":"subheading"},{"content":{"text":"Meiner Erfahrung nach funktionieren Teams mit bis zu 7 Personen meist sehr gut, wenn es mehr werden, kann es unübersichtlich werden. \n\nWas ich dann oft beobachte:"},"id":"568a7912-7094-466b-9d6a-ba5eb1ea7c59","isHidden":false,"type":"bodytext"},{"content":{"list":"<ul><li>Der Abstimmungsaufwand nimmt zu.</li><li>Die Teams arbeiten an zu vielen Themen parallel.</li><li>Die kognitive Last steigt, also das ständige Jonglieren mit zu vielen Themen im Kopf.</li><li>Entscheidungen ziehen sich oder versanden.</li><li>Der Fokus geht verloren.</li></ul>","styleselect":""},"id":"6450dcaa-4a8e-4353-a498-735b38b94d17","isHidden":false,"type":"list"},{"content":{"text":"Wenn mehrere im Team das Gefühl haben, den Überblick trotz Abstimmungsmeetings zu verlieren, nicht mehr zu wissen, woran die anderen arbeiten, kein gemeinsames Ziel mehr erkennbar ist, dann ist das oft ein klarerer Hinweis als jede Studie."},"id":"356affb7-d1b4-4a99-a420-518b7cd44ec5","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Wann sollte man ein Team teilen oder neu aufstellen?"},"id":"a2215aae-0c59-43b1-b1be-17846bc4e373","isHidden":false,"type":"subheading"},{"content":{"text":"Wächst ein Team gibt es oft auch Ideen wie: 'Wir brauchen ein neues Meeting' Manchmal auch: 'Wir brauchen eine neue Rolle' oder 'Mit Tool XY können wir das lösen'. Das alles kann helfen dem Koordinationsaufwand zu begegnen, löst aber selten das eigentliche Problem. \n\nWas manchmal funktioniert, wenn eine echte Teilung nicht möglich ist – z. B. weil das Unternehmen keine neuen Teams erlaubt: **Arbeiten in Sub-Teams.**\n\nDas heißt: Ein Team von zehn Personen gliedert sich intern in kleinere Gruppen, die jeweils konzentriert an einem Thema arbeiten. So entsteht mehr Fokus, weniger Abstimmungsaufwand – und trotzdem bleibt das Team formal bestehen."},"id":"c3dd5330-dbfc-400b-a93a-c6dd2d1f84e6","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was, wenn das eure erste Teamteilung ist?"},"id":"30a0ee4d-0c10-4b66-826c-6a1399f5453a","isHidden":false,"type":"subheading"},{"content":{"text":"Vielleicht arbeitet ihr bisher als ein gemeinsames Team, alle machen irgendwie alles. Entscheidungen werden gemeinsam getroffen, Aufgaben auch mal spontan verteilt. Der Gedanke, sich aufzuteilen, fühlt sich erstmal ungewohnt an. Fast wie ein Bruch. Was, wenn die Verbindung verloren geht?\n\nGerade in jungen Unternehmen beobachte ich an dieser Stelle häufig Unsicherheit und den Reflex, alles erstmal beim Alten zu lassen. Dabei kann eine Teamteilung genau das Gegenteil bewirken: Sie stärkt die Verbindung – weil Klarheit Vertrauen schafft und kleinere Einheiten echte Zusammenarbeit erleichtern.\n\nKleinere Teams entlasten. Sie verringern kognitive Last, reduzieren Abstimmungsaufwand und schaffen mehr Fokus.\n\nEine Voraussetzung dafür ist aber auch, dass klar ist:\n- Wer wofür zuständig ist\n- Wie die Schnittstellen funktionieren\n- Und wo Entscheidungen getroffen werden\n\nAuch der Zuschnitt der Aufgaben spielt eine wichtige Rolle. Idealerweise können Teams unabhängig voneinander Wert liefern, mit wenig Abhängigkeiten – nah am Markt und den Nutzer*innen.\n\nIn einem Projekt haben wir dafür das Bild der Zellteilung verwendet: Wissen, Haltung und Kultur des ursprünglichen Teams werden bewusst mitgenommen und entwickeln sich in den neuen Einheiten weiter.\n\nDie entscheidende Frage ist dabei nicht nur: Was verlieren wir durch eine Teilung? Sondern auch: Was gewinnen wir? Diese Fragen von Anfang an gemeinsam mit dem Team zu diskutieren und immer wieder darauf zurückzukommen hilft beim Loslassen und schafft einen echten Zug zum Neuen."},"id":"4e4857b3-9454-4866-bcc6-4b71f372839a","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was, wenn ihr mehrere Teams habt – aber die Struktur klemmt?"},"id":"4b1d0082-3d78-40d6-bd2b-e39328f11b40","isHidden":false,"type":"subheading"},{"content":{"text":"Manchmal ist nicht ein einzelnes Team das Problem, sondern die Gesamtstruktur. Mehrere Teams arbeiten nebeneinander, aber nicht gut aufeinander abgestimmt. Typische Anzeichen dafür:\n\n- Es gibt thematische Überschneidungen ohne klare Koordination.\n- Teams blockieren sich gegenseitig, weil sie zu sehr aufeinander angewiesen sind.\n- Verantwortung bleibt bei Einzelpersonen hängen oder ist so diffus, dass niemand zuständig ist.\n- Übergaben führen zu Reibungsverlusten, statt zu flüssiger Zusammenarbeit.\n\nIn solchen Situationen hilft keine Re-Organisation von der Stange. Sinnvoller ist ein genauer Blick auf die Business Domain und die Arbeitsflüsse. Das gelingt am besten gemeinsam mit denjenigen, die sie täglich erleben und sich in ihrer Business Domain auskennen.\n\nKollaborative Methoden wie EventStorming, User Needs Mapping, Value Stream Mapping oder Wardley Mapping helfen dabei ein gemeinsames Bild zu entwickeln. Diese Formate helfen dabei, Abhängigkeiten, Verantwortlichkeiten und Schnittstellen sichtbar zu machen. Ergänzend auch Wardley Mapping sinnvoll sein – etwa wenn es um technologische Entscheidungen, Make-or-Buy oder Plattformarchitektur geht.\n\nErst danach lohnt sich der Blick auf das passende Teamdesign. Zum Beispiel mit (link: https://teamtopologies.com/ text: Team Topologies) oder [dynamischen Re-Teaming-Ansätzen](https://www.youtube.com/watch?v=w6T78XMxbuY&t=3s), die helfen, Strukturen zu schaffen, die Zusammenarbeit erleichtern und Flow ermöglichen."},"id":"47459547-3d28-49d6-8412-c404809836f9","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mini-Check: Ist euer Team (noch) richtig aufgestellt?"},"id":"ab4356f4-06c3-4c59-8fbc-534c1f1931f3","isHidden":false,"type":"subheading"},{"content":{"text":"Beantworte für dein Team folgende Fragen:\n- Gibt es Aufgaben, regelmäßig liegen bleiben, weil sich niemand zuständig fühlt?\n- Weißt du, woran die anderen gerade arbeiten?\n- Hast du oft das Gefühl, dass du Dinge übernimmst, die eigentlich woanders hingehören sollten?\n- Seid ihr stark von anderen Teams abhängig?\n- Fehlt euch der Fokus, weil alles gleich wichtig ist und ihr nicht wisst, was zuerst angegangen werden soll?\n- Arbeitest du ständig an mehreren Themen parallel?\n- Bleiben bestimmte Themen immer an denselben Personen hängen?\n\nWenn du bei mehreren Fragen innerlich genickt hast, ist das vielleicht der richtige Moment, mal auf eure Teamstruktur und -größe zu schauen."},"id":"c468e58c-2b66-4b55-bfbd-ee5681dfcd45","isHidden":false,"type":"bodytext"},{"content":{"headline":"Du willst raus aus dem Reibungsverlust? Ich begleite Start-ups und KMU in Phasen, in denen Klarheit fehlt und Veränderung nötig ist.","buttontext":"Kostenfreien Discovery Call buchen","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"00b8ef23-9449-4b03-8b09-82f0edb74769","isHidden":false,"type":"contacthighlight"},{"content":{"text":"<img src=\"https://vg02.met.vgwort.de/na/29ed1546707e4b2dad9fd9140e2c72d2\" width=\"1\" height=\"1\" alt=\"\">"},"id":"ffb195d4-8ca0-49f4-abe5-1375dd01dd7c","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2025-09-22
+
+----
+
+Headerimage: - file://zwMRVhBvCSqJMfqm
+
+----
+
+Metatitle: Wann ist ein Team zu groß? Wenn Teams wachsen und nichts mehr vorwärts geht
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Wenn Teams wachsen, aber Entscheidungen liegen bleiben, Abstimmungen zäh werden und zu wenig vorwärts geht, lohnt sich ein genauer Blick auf Struktur und Verantwortungszuschnitt. Wann ist ein Team zu groß oder nicht gut geschnitten? Und wie kommt ihr wieder in den Flow?
+
+----
+
+Ogtemplate: Wann ist ein Team zu groß? Wenn Teams wachsen und nichts mehr vorwärts geht
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Wenn Teams wachsen, aber Entscheidungen liegen bleiben, Abstimmungen zäh werden und zu wenig vorwärts geht, lohnt sich ein genauer Blick auf Struktur und Verantwortungszuschnitt. Wann ist ein Team zu groß oder nicht gut geschnitten? Und wie kommt ihr wieder in den Flow?
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: K8VxIuKL66UUiny0
