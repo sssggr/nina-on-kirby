@@ -15,6 +15,7 @@
       H.className = H.className.replace(/\bno-js\b/, 'js')
     })(document.documentElement)
   </script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <?= css([
     'assets/css/vendor/flexboxgrid.min.css',
     'assets/css/base.css',
@@ -26,6 +27,5 @@
     'assets/css/components/event.css',
     '@auto'
   ]) ?>
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>

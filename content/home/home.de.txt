@@ -56,7 +56,7 @@ Offers:
     klar, authentisch und ohne dich zu
     verbiegen.
   offerlink:
-    - page://Q07Y5WPaWAXyjGYH
+    - page://c1XVN5gjXfb3en8h
   offerbutton: mehr
 
 ----
@@ -159,7 +159,7 @@ Aboutmetext: Als Organisationsberaterin und Coach mit Tech-Background unterstüt
 
 ----
 
-Aboutmelink: - page://K0rsGSuBepaBoxr9
+Aboutmelink: - page://dVix8zrCc8ooKQUH
 
 ----
 

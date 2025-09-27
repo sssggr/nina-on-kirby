@@ -25,9 +25,8 @@
 }
 
 .process-title {
-  font-size: var(--fs-md);
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+  font-size: var(--fs-sm);
+  font-weight: 700;
 }
 
 .process-description {

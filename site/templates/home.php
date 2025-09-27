@@ -34,13 +34,15 @@
               <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
                 <?php $heroimage = $page->heroimage()->toFile(); ?>
                 <img
-                  alt="<?= $heroimage->alt() ?><?php if ($heroimage && $heroimage->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $heroimage->photo() ?><?php endif ?>"
+                  alt="<?= $heroimage->alt() ?>
+                  <?php if ($heroimage && $heroimage->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $heroimage->photo() ?><?php endif ?>"
                   class="responsive-img"
                   src="<?= $heroimage->url() ?>"
                   srcset="<?= $heroimage->srcset([
                             '1x' => ['width' => 600, 'height' => 480, 'crop' => 'true', 'quality' => 90],
                             '2x' => ['width' => 1200, 'height' => 960, 'crop' => 'true', 'quality' => 90]
-                          ]) ?>">
+                          ]) ?>"
+                >
               </div>
             </div>
           </div>
@@ -118,7 +120,8 @@
                           srcset="<?= $offer->offerimage()->toFile()->srcset([
                                     '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
                                     '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
-                                  ]) ?>">
+                                  ]) ?>"
+                        >
                       </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
@@ -142,17 +145,25 @@
           <?= $page->aboutmeheadline() ?>
         </h2>
         <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
-            <div class="portrait-text-block">
+          <div class="col-xs-12 col-sm-8 col-md-offset-1 col-md-6 col-lg-7 portrait-item1">
+            <div class="portrait-text-container">
               <div class="portrait-text-content">
                 <?= $page->aboutmetext()->kirbytext() ?>
                 <a href="<?= $page->aboutmelink()->toPage()->url() ?>" class="btn"><?= $page->aboutmebutton() ?></a>
               </div>
-              <div class="portrait-image-container">
-                <?php if ($aboutmeimage = $page->aboutmeimage()->toFile()): ?>
-                  <img src="<?= $aboutmeimage->url() ?>" alt="<?= $aboutmeimage->alt() ?>" class="portrait-image" loading="lazy" />
-                <?php endif; ?>
-              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 portrait-item2">
+            <div class="portrait-image-container">
+              <?php if ($aboutmeimage = $page->aboutmeimage()->toFile()): ?>
+                <img
+                  alt="<?= $aboutmeimage->alt() ?>" class="responsive-img"
+                  loading="lazy"
+                  src="<?= $aboutmeimage->url() ?>"
+                  srcset="<?= $aboutmeimage->srcset([
+                    '1x' => ['width' => 320, 'height' => 320, 'crop' => 'true', 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => 'true', 'quality' => 90]]) ?>"
+                />
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -162,10 +173,9 @@
           <?= $page->testimonialsheadline() ?>
         </h2>
         <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
-            <?php snippet('blocks/carousel', [
+          <div class="col-xs-12">
+            <?php snippet('carousel', [
               'testimonials' => $page->testimonials()->toStructure(),
-              'withGrid' => false
             ]); ?>
           </div>
         </div>
@@ -175,31 +185,46 @@
         <div class="row">
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-sm-12">
             <?php if ($page->processHomeTeaser()->isNotEmpty()): ?>
-              <div class="process-home-teaser"><?= $page->processHomeTeaser()->kt() ?></div>
+              <div class="process-home-teaser">
+                <?= $page->processHomeTeaser()->kt() ?>
+              </div>
             <?php endif ?>
             <?php snippet('process-home') ?>
           </div>
         </div>
       </section>
-      
+
       <section class="latest-blog-posts">
         <h2><?= t('latest-blog-posts-headline') ?></h2>
         <div class="row">
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
-            <?php 
+            <?php
             $blogPage = $site->children()->filterBy('template', 'blog')->first();
             $latestPosts = $blogPage ? $blogPage->children()->listed()->sortBy('date', 'desc')->limit(3) : null;
             ?>
             <?php if ($latestPosts && $latestPosts->count() > 0): ?>
               <div class="row">
-                <?php foreach($latestPosts as $post): ?>
+                <?php foreach ($latestPosts as $post): ?>
                   <div class="col-xs-12 col-sm-4 col-lg-4">
-                    <div>
-                      <?php if($image = $post->headerimage()->toFile()): ?>
-                        <img src="<?= $image->url() ?>" alt="<?= $post->title() ?>" class="blog-post-image" />
-                      <?php endif ?>
-                      <h3><?= $post->title() ?></h3>
-                      <a href="<?= $post->url() ?>"><?= t('blog-readmore') ?></a>
+                    <div class="singleblogpost-container">
+                      <div class="image-and-headline">
+                        <?php if ($image = $post->headerimage()->toFile()): ?>
+                          <img
+                            alt="<?= $post->title() ?>" class="responsive-img"
+                            src="<?= $image->url() ?>"
+                            srcset="<?= $image->srcset([
+                              '1x' => ['width' => 400, 'height' => 320, 'crop' => 'true', 'quality' => 90],
+                              '2x' => ['width' => 800, 'height' => 640, 'crop' => 'true', 'quality' => 90]
+                            ]) ?>"
+                          />
+                        <?php endif ?>
+                        <h3><?= $post->title() ?></h3>
+                      </div>
+                      <div>
+                        <a href="<?= $post->url() ?>">
+                          <?= t('blog-readmore') ?>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 <?php endforeach ?>
@@ -208,7 +233,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="contact-highlight">
         <div class="row">
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">

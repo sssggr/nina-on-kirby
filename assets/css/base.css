@@ -212,7 +212,7 @@ blockquote {
 }
 
 blockquote p {
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -307,6 +307,12 @@ a:visited.btn {
   color: var(--white);
 }
 
+@media all and (max-width: 480px) {
+  .btn {
+    padding: 0.5rem 1.5rem 0.375rem;
+  }
+}
+
 hr {
   border-style: dashed;
   border-color: #0000FF;
@@ -334,16 +340,6 @@ hr {
   margin-bottom: 2.5em;
 }
 
-/* .hero div {
-  padding: 0;
-} */
-
-/* .row.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
 .hero-text-container {
   display: flex;
   flex-direction: column;
@@ -359,12 +355,6 @@ hr {
   padding: var(--gutter) 0 var(--gutter) var(--gutter);
 }
 
-@media (min-width: 769px) {
-  .row.hero {
-    flex-direction: row;
-  }
-}
-
 .hero-item1 {
   order: 1;
 }
@@ -377,18 +367,9 @@ hr {
 .hero h3 {
   font-size: var(--fs-lg);
   font-weight: 700;
-  /* padding: var(--gutter); */
   line-height: 1.375;
   margin-bottom: 0;
   margin-top: 0;
-}
-
-.portrait-container {
-  line-height: 0;
-}
-
-.template-offer .block-type-hero + .block-type-bodytext p:first-child {
-  margin-top: var(--gutter);
 }
 
 @media (max-width: 768px) {
@@ -398,6 +379,24 @@ hr {
   .hero-item2 {
     order: 1;
   }
+  .row .hero {
+    flex-direction: column;
+  }
+  .hero {
+    margin-bottom: 1.5em;
+  }
+  .hero-text {
+    padding: calc(1.5 * var(--gutter))
+}
+}
+
+
+.portrait-container {
+  line-height: 0;
+}
+
+.template-offer .block-type-hero + .block-type-bodytext p:first-child {
+  margin-top: var(--gutter);
 }
 
 /* Blocks */
@@ -839,20 +838,27 @@ article .readmore {
     margin-bottom: 4px;
   }
 }
+
 /* Testimonials Carousel */
 
 .testimonial-carousel {
   margin-top: var(--fs-xl)
 }
 
-.testimonial-quote p {
-  font-weight: 400;
-  font-style: italic;
+/* .carousel-cell{
+  height: 100%;
+} */
+
+.testimonial-quote {
+  margin-top: 0.5em;
+}
+
+.testimonial-quote p{
+  margin-bottom: 0.5em;
 }
 
 .testimonial-author p {
   font-weight: 700;
-  font-style: normal;
 }
 
 .testimonial-quote .firstcharacter {
@@ -869,10 +875,102 @@ article .readmore {
   background: blue;
 }
 
+.flickity-viewport {
+  transition: height 0.2s;
+}
+
+.flickity-prev-next-button.previous{
+  left: 10px;
+}
+
+.flickity-prev-next-button.next{
+  right: 10px;
+}
+
 .flickity-button:hover {
   color: blue;
   background: white;
 }
+
+@media (max-width: 480px) {
+  .flickity-prev-next-button.previous{
+  left: -24px;
+}
+
+.flickity-prev-next-button.next{
+  right: -24px;
+}
+.flickity-prev-next-button{
+  width: 40px;
+  height: 40px;
+}
+
+}
+
+/* Process */
+
+.process-card-container {
+  padding-bottom: var(--gutter);
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.process-card-color {
+  background-color: var(--white);
+  height: 100%;
+}
+
+.process-card {
+  padding: 1.5rem;
+}
+
+.process-card h3 {
+  font-size: var(--fs-sm);
+}
+
+@media (max-width: 768px) {
+  .process-card {
+    padding: 1rem;
+  }
+}
+
+/* Contact CTA */
+
+.contact-highlight-wrapper {
+  background-color: var(--white);
+  padding: var(--fs-xl) var(--fs-md);
+  border-left: 5px solid var(--blue);
+  text-align: center;
+  margin-top: 2em;
+}
+
+.contact-highlight-wrapper p {
+  font-size: var(--fs-md);
+  margin-bottom: 1.5rem;
+}
+
+.contact-highlight a {
+  display: inline-block;
+  padding: 0.75rem 3rem 0.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 500;
+  font-size: var(--fs-sm);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 0;
+}
+
+.contact-highlight a:hover {
+  background-color: var(--red);
+}
+
+@media (max-width: 768px) {
+  .contact-highlight a {
+    padding: 0.5rem 1.5rem 0.375rem;
+  }
+}
+
 
 /* Accordion */
 
@@ -958,11 +1056,11 @@ article .readmore {
 }
 
 /* On phones, remove column offsets to keep full-width stacking */
-@media only screen and (max-width: 47.99em) {
+/* @media only screen and (max-width: 47.99em) {
   [class*='col-xs-offset-'] {
     margin-left: 0 !important;
   }
-}
+} */
 
 @media only screen and (min-width: 48em) {
 
@@ -1086,6 +1184,7 @@ article .readmore {
 .responsive-img {
   width: 100%;
   height: auto;
+  /* display: block; */
 }
 
 /* Overrides after .responsive-img to enforce mobile hero layout */

@@ -4,8 +4,8 @@
   gap: 2rem;
 }
 
-.portrait-image-container {
-  flex-shrink: 0;
+.portrait-image-container img{
+  border-radius: 50%;;
 }
 
 .portrait-image {
