@@ -19,12 +19,6 @@
   <?= css([
     'assets/css/vendor/flexboxgrid.min.css',
     'assets/css/base.css',
-    'assets/css/components/process.css',
-    'assets/css/components/offer-packages.css',
-    'assets/css/components/portrait-text.css',
-    'assets/css/snippets/footer.css',
-    'assets/css/snippets/contact-highlight.css',
-    'assets/css/components/event.css',
     '@auto'
   ]) ?>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

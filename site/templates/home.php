@@ -31,7 +31,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+              <div class="col-xs-12 col-md-6 col-sm-6 hero-image-container hero-item2">
                 <?php $heroimage = $page->heroimage()->toFile(); ?>
                 <img
                   alt="<?= $heroimage->alt() ?>

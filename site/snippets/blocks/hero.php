@@ -15,7 +15,7 @@ $image = $block->heroimage()->toFile();
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+        <div class="col-xs-12 col-md-6 col-sm-6 hero-image-container hero-item2">
           <figure>
             <img
               alt="<?= $image->alt() ?><?php if ($image->photo()->isValid('minLength', 1)): ?><?php echo (' '), t('global-von'), (' ') ?><?= $image->photo() ?><?php endif ?>"

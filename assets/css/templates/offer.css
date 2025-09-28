@@ -1,9 +1,93 @@
-:root {
-  --card-border: 1px solid #000;
+/* Block: portrait-text.php */
+
+.portrait-text-block {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-.packages {
-  /* Breite wird über Flexbox Grid Klassen gesteuert */
+.portrait-image-container img{
+  border-radius: 50%;;
+}
+
+.portrait-image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 2px 8px rgba(56,55,67,0.08);
+}
+
+.portrait-text-content {
+  flex: 1;
+  font-size: var(--fs-sm);
+  color: var(--black);
+}
+
+@media (max-width: 700px) {
+  .portrait-text-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .portrait-image {
+    width: 110px;
+    height: 110px;
+    align-items: center;
+  }
+}
+
+/* Block: process.php */
+
+.process-section {
+  font-family: 'Objectivity', sans-serif;
+  background-color: var(--gray);
+  color: var(--black);
+}
+
+.block-type-process + .block .row > div > p:first-child {
+  margin-top: 2rem;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.process-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 0;
+}
+
+.process-number {
+  font-size: var(--fs-sm);
+}
+
+.process-title {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+.process-description {
+  font-size: var(--fs-sm);
+  color: var(--black);
+}
+
+@media (max-width: 600px) {
+  .process-title,
+  .process-description {
+    font-size: var(--fs-sm);
+  }
+} 
+
+
+/* Block: offer-packages.php */
+
+:root {
+  --card-border: 1px solid #000;
 }
 
 .row {
@@ -130,7 +214,6 @@
   background: var(--dark-blue, #003d82);
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
   .package-card .target-section {
     border-right: none !important;
