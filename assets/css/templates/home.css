@@ -51,12 +51,13 @@ h3 {
 }
 
 .single-offer-intro {
-  margin-top: calc(1.75 * var(--gutter));
+  margin-top: calc(2 * var(--gutter));
 }
 
 .single-offer-intro p,
 .offers-group-intro p{
     font-size: var(--fs-sm);
+    margin-bottom: 1.5em;
 }
 
 .teaser-text-container {

@@ -385,9 +385,10 @@ hr {
   .hero {
     margin-bottom: 1.5em;
   }
-  .hero-text {
+  .hero-text,
+  .hero-text-center-vertical {
     padding: calc(1.5 * var(--gutter))
-}
+  }
 }
 
 
