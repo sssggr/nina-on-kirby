@@ -1,26 +1,11 @@
 /* Block: event.php */
 
 .event-block {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem;
   margin-bottom: 2rem;
 }
 
-.event-image-container {
-  flex-shrink: 0;
-}
-
-.event-image {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-}
 
 .event-content {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +14,7 @@
 .event-date {
   font-size: var(--fs-xs);
   color: var(--darkgray);
-  margin-bottom: var(--fs-xs);
+  margin-bottom: 0.5em;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -42,27 +27,17 @@
   color: var(--black);
 }
 
-.event-description {
-  font-size: var(--fs-sm);
-  color: var(--black);
-  margin: 0;
-}
-
-@media (max-width: 700px) {
-  .event-block {
+@media (max-width: 768px) {
+  /* .event-block {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
     padding: 1rem;
-  }
-  .event-image {
-    width: 120px;
-    height: 120px;
-  }
+  } */
   .event-title {
     font-size: var(--fs-sm);
   }
   .event-date {
-    margin-bottom: 0.5rem;
+    margin-top: 0.5em;
   }
 } 

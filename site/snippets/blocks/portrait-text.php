@@ -7,11 +7,20 @@ $text = $block->text();
     <section class="portrait-text-block">
       <?php if ($portrait): ?>
         <div class="portrait-image-container">
-          <img src="<?= $portrait->url() ?>" alt="<?= $portrait->alt()->or('Portrait') ?>" class="portrait-image" loading="lazy" />
+          <img
+            alt="<?= $portrait->alt()->or('Portrait') ?>"
+            class="portrait-image"
+            src="<?= $portrait->url() ?>"
+            srcset="<?= $portrait->srcset([
+                    '1x' => ['width' => 320, 'height' => 320, 'crop' => 'true', 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => 'true', 'quality' => 90]]) ?>"
+            loading="lazy"
+          />
         </div>
       <?php endif; ?>
-      <div class="portrait-text-content">
-        <?= kirbytext($text) ?>
+      <div class="row">
+        <div class="portrait-text-content">
+          <?= kirbytext($text) ?>
+        </div>
       </div>
     </section>
   </div>

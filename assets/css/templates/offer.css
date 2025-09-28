@@ -2,7 +2,6 @@
 
 .portrait-text-block {
   display: flex;
-  align-items: center;
   gap: 2rem;
 }
 
@@ -38,64 +37,18 @@
   }
 }
 
-/* Block: process.php */
-
-.process-section {
-  font-family: 'Objectivity', sans-serif;
-  background-color: var(--gray);
-  color: var(--black);
-}
-
-.block-type-process + .block .row > div > p:first-child {
-  margin-top: 2rem;
-}
-
-.process-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
-.process-card {
-  background-color: var(--white);
-  padding: 1.5rem;
-  border-radius: 0;
-}
-
-.process-number {
-  font-size: var(--fs-sm);
-}
-
-.process-title {
-  font-size: var(--fs-sm);
-  font-weight: 700;
-}
-
-.process-description {
-  font-size: var(--fs-sm);
-  color: var(--black);
-}
-
-@media (max-width: 600px) {
-  .process-title,
-  .process-description {
-    font-size: var(--fs-sm);
-  }
-} 
-
-
 /* Block: offer-packages.php */
 
 :root {
   --card-border: 1px solid #000;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   align-items: stretch;
-}
+} */
 
 .package-card .row {
   margin: 0;
@@ -111,7 +64,7 @@
 .package-card {
   background: var(--white);
   border: var(--card-border);
-  margin-bottom: 2rem;
+  margin-bottom: 3em;
 }
 
 .package-title {
