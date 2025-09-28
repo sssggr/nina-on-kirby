@@ -60,12 +60,8 @@ $defaultButton = t('offer.button');
       <div class="row">
         <div class="col-xs-12">
           <div class="package-section button-section">
-            <?php
-              $buttonPage = $offer->buttonurl()->toPage();
-              $buttonHref = $buttonPage ? $buttonPage->url() : null;
-            ?>
-            <?php if ($buttonHref): ?>
-              <a href="<?= $buttonHref ?>" class="btn"><?= $offer->buttontext()->or($defaultButton)->html() ?></a>
+            <?php if ($buttonPage = $offer->buttonurl()->toPage()): ?>
+              <a href="<?= $buttonPage->url() ?>" class="btn"><?= $offer->buttontext()->or($defaultButton)->html() ?></a>
             <?php endif ?>
           </div>
         </div>

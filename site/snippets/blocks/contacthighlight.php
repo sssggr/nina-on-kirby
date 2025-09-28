@@ -5,8 +5,8 @@
          <p>
            <?= $block->headline()->kirbytextinline() ?>
          </p>
-         <?php if($block->buttonlink()->toPage()): ?>
-           <a href="<?= $block->buttonlink()->toPage()->url() ?>">
+         <?php if($buttonPage = $block->buttonlink()->toPage()): ?>
+           <a href="<?= $buttonPage->url() ?>">
              <?= $block->buttontext()->html() ?>
            </a>
          <?php endif ?>
