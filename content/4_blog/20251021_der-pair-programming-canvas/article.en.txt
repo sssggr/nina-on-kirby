@@ -1,0 +1,89 @@
+Title: The Pair Programming Canvas
+
+----
+
+Slug: the-pair-programming-canvas
+
+----
+
+Teasertext: The Pair Programming Canvas provides a simple structure to intentionally prepare, conduct, and reflect on pairing sessions. It emerged from observing that pair programming is often more challenging in practice than expected and that a clear structure helps people get started better and develop good routines.
+
+----
+
+Headline: More Intentional Collaboration with the Pair Programming Canvas
+
+----
+
+Modules: [{"content":{"text":"When I started at ThoughtWorks, I thought I knew what pair programming was. Two people, one computer—how hard could it be?\n\nThen I worked in teams that pair programmed almost full-time. Several hours a day, rotating partners, one shared screen. And I quickly realized: Pair programming is simultaneously incredibly powerful and incredibly challenging.\n\nIt's not just about writing code together. Pair programming is collaboration in its most intense form. It's about communication, trust, learning by doing, feedback, and dealing with differences.\n\nTogether with (link: https://birgitta.info/ text: Birgitta Böckeler), I wrote an (link: https://martinfowler.com/articles/on-pair-programming.html text: article about pair programming). In the article, we describe different pairing styles, look at the benefits of pairing, but also the challenges associated with it in practice. This article is clearly still being read today. I'm regularly asked about workshops or talks on pair programming—even though I don't program myself anymore.\n\nMy impression: Many people are interested because pair programming is considered a good tool for knowledge transfer. When two people work on code together, knowledge is supposed to be automatically shared. In practice, however, it's not that simple. Pairing doesn't work \"magically\"—instead, it raises new questions for teams: How do we work together, how do we deal with differences, how do we sustain this over time?\n\n## Intense, Productive, and Sometimes Really Exhausting\nPair programming is one of the most intense forms of collaboration in software development. Two people share a workspace, think together, make countless small decisions, and learn from each other. When it works well, it's incredibly productive. When it doesn't, it can simply be incredibly exhausting.\n\nDuring my time at ThoughtWorks, I experienced pair programming daily and learned how much more there is to it than \"two people, one computer.\" It requires trust, communication, a good balance of pace and reflection, and sometimes clear agreements about how you actually work together.\n\n## Six Steps for More Intentional Pairing\nThe Pair Programming Canvas emerged from these experiences. It provides a simple structure to intentionally prepare, conduct, and reflect on pairing sessions. Instead of leaving spontaneous collaboration to chance, the canvas creates space for conversations about goals, roles, and working style. The Pair Programming Canvas arose from the experience that pair programming is often more difficult in practice than expected and that a clear structure helps people get into pairing better and build good routines.\n\nThe canvas guides you through a pairing session in six steps: Check-in, gain shared clarity on the task, establish working style, set small goals, pairing phase, and reflect together at the end.\n\nThe (link: https://miro.com/templates/pair-programming-canvas/ text: Pair Programming Canvas is freely available in the Miroverse) and can be used directly or adapted to your own needs.\n\nWhen I created the canvas, it was important to me to see it as a loose framework rather than a checklist. My goal is for people who practice or want to practice pair programming to start their pairing sessions more intentionally and figure out together what works for them."},"id":"6a246aff-62a2-46a5-9214-21f12bb02d8b","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2025-10-24
+
+----
+
+Headerimage: - file://ZoJYdUviSpwm6kuL
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: The Pair Programming Canvas provides a simple structure to intentionally prepare, conduct, and reflect on pairing sessions.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: The Pair Programming Canvas provides a simple structure to intentionally prepare, conduct, and reflect on pairing sessions.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

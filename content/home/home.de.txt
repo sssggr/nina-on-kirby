@@ -56,7 +56,7 @@ Offers:
     klar, authentisch und ohne dich zu
     verbiegen.
   offerlink:
-    - page://c1XVN5gjXfb3en8h
+    - page://Q07Y5WPaWAXyjGYH
   offerbutton: mehr
 
 ----
@@ -159,7 +159,7 @@ Aboutmetext: Als Organisationsberaterin und Coach mit Tech-Background unterstüt
 
 ----
 
-Aboutmelink: - page://dVix8zrCc8ooKQUH
+Aboutmelink: - page://K0rsGSuBepaBoxr9
 
 ----
 
@@ -241,7 +241,7 @@ Metatemplate: Nina Siessegger | Organisationsberatung & Coaching
 
 ----
 
-Metadescription: Mit Tech-Expertise und einem systemischen Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
+Metadescription: Mit Tech-Expertise und systemischem Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
 
 ----
 
@@ -249,7 +249,7 @@ Ogtemplate: Nina Siessegger | Organisationsberatung & Coaching
 
 ----
 
-Ogdescription: Mit Tech-Expertise und einem systemischen Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
+Ogdescription: Mit Tech-Expertise und systemischem Ansatz helfe ich wachsenden Unternehmen dabei, skalierbare Strukturen zu entwickeln – für echte Zusammenarbeit, entlastete Führung und Teams, die gerne bleiben.
 
 ----
 

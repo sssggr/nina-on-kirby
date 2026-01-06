@@ -10,34 +10,6 @@ Text: Ich schreibe über Organisationsentwicklung, Teamarbeit und Veränderung �
 
 ----
 
-Authorboxheadline: Über Nina Siessegger
-
-----
-
-Authorboxtext: Nina Siessegger ist Organisationsberaterin, Coach und Mediatorin mit Tech-Background. Sie hat 20 Jahre Erfahrung in der Digital- und Techwelt, unter anderem als Entwicklerin, Tech Lead und Beraterin bei ThoughtWorks. Heute unterstützt sie Start-ups und wachsende Unternehmen dabei, Strukturen zu entwickeln, in denen Teams Verantwortung übernehmen und wieder in den Flow kommen.
-
-----
-
-Authorboximage: - file://5fBE7qck7dwXp8iv
-
-----
-
-Authorboxprofillink: - page://K0rsGSuBepaBoxr9
-
-----
-
-Authorboxprofillinktext: Mehr über Nina
-
-----
-
-Authorboxlinkedinlink: https://www.linkedin.com/in/nina-siessegger/
-
-----
-
-Authorboxlinkedinlinktext: Mit Nina auf LinkedIn vernetzen
-
-----
-
 Metatitle: 
 
 ----

@@ -1,0 +1,89 @@
+Title: Der Pair Programming Canvas
+
+----
+
+Teasertext: Der Pair Programming Canvas bietet eine einfache Struktur, um Pairing-Sessions bewusst vorzubereiten, durchzuführen und zu reflektieren. Er entstand aus der Beobachtung, dass Pair Programming in der Praxis oft anspruchsvoller ist als gedacht und dass eine klare Struktur hilft, besser einzusteigen und Routinen zu entwickeln.
+
+----
+
+Headline: Bewusster zusammenarbeiten mit dem Pair Programming Canvas
+
+----
+
+Modules: [{"content":{"text":"Als ich bei ThoughtWorks anfing, dachte ich, ich wüsste, was Pair Programming ist. Zwei Menschen, ein Rechner – wie schwer kann das schon sein? \n\nDann arbeitete ich in Teams, die fast Vollzeit im Pair programmierten. Mehrere Stunden am Tag, wechselnde Partner*innen, ein gemeinsamer Bildschirm. Und ich merkte schnell: Pair Programming ist gleichzeitig unglaublich wirkungsvoll und unglaublich herausfordernd.\n\nEs geht nicht nur darum, gemeinsam Code zu schreiben. Pair Programming ist Zusammenarbeit in ihrer intensivsten Form. Es geht um Kommunikation, Vertrauen, Lernen im Tun, Feedback und den Umgang mit Unterschieden.\n\nGemeinsam mit (link: https://birgitta.info/ text: Birgitta Böckeler) habe ich damals einen (link: https://martinfowler.com/articles/on-pair-programming.html text: Artikel über Pair Programming) geschrieben. Im Artikel beschreiben wir verschiedene Pairing-Stile, schauen auf die Vorteile von Pairing aber auch die in der Praxis damit verbundenen Herausforderungen. Dieser Text wird offensichtlich bis heute gelesen. Denn immer wieder werde ich nach Workshops oder Impulsen rund um Pair Programming gefragt – obwohl ich heute gar nicht mehr selbst programmiere. \n\nMein Eindruck: Viele interessieren sich dafür, weil Pair Programming als gutes Werkzeug für Wissenstransfer gilt. Wenn zwei gemeinsam am Code arbeiten, soll Wissen automatisch weitergegeben werden. In der Praxis ist das allerdings gar nicht so einfach. Pairing funktioniert nicht „magisch“, sondern stellt Teams vor neue Fragen: Wie arbeiten wir zusammen, wie gehen wir mit Unterschieden um, wie halten wir das über längere Zeit durch?\n\n## Intensiv, produktiv und manchmal echt anstrengend\n\nPair Programming ist eine der intensivsten Formen der Zusammenarbeit in der Softwareentwicklung. Zwei Menschen teilen sich einen Arbeitsplatz, denken gemeinsam, treffen unzählige kleine Entscheidungen und lernen voneinander. Wenn es gut läuft, ist das unglaublich produktiv. Wenn nicht, kann es einfach unglaublich anstrengend sein. \n\nIn meiner Zeit bei ThoughtWorks habe ich Pair Programming täglich erlebt und gelernt, wie viel mehr dazugehört als „zwei Menschen, ein Rechner“. Es braucht Vertrauen, Kommunikation, eine gute Balance von Tempo und Reflexion und manchmal auch klare Absprachen darüber, wie man eigentlich zusammenarbeitet.\n\n## Sechs Schritte für bewussteres Pairing\n\nAus diesen Erfahrungen ist der Pair Programming Canvas entstanden. Er bietet eine einfache Struktur, um Pairing-Sessions bewusst vorzubereiten, durchzuführen und im Nachgang zu reflektieren. Statt spontane Zusammenarbeit dem Zufall zu überlassen, schafft der Canvas einen Raum für Gespräche über Ziele, Rollen und Arbeitsweise. Der Pair Programming Canvas ist aus der Erfahrung entstanden, dass Pair Programming in der Praxis oft schwieriger ist, als gedacht und dass eine klare Struktur hilft, besser ins Pairing hineinzufinden und gute Routinen aufzubauen.\n\nDer Canvas führt durch den Ablauf einer Pairing-Session in sechs Schritten: Einchecken, gemeinsam Klarheit über die Aufgabe gewinnen, Arbeitsweise festlegen, Setzen kleiner Ziele, Pairing Phase und gemeinsames Reflektieren am Ende. \n\nDer (link: https://miro.com/templates/pair-programming-canvas/ text: Pair Programming Canvas ist im Miroverse frei verfügbar) und kann direkt genutzt oder an eigene Bedürfnisse angepasst werden. \n\nAls ich den Canvas erstellt habe, war es mir wichtig, ihn eher als lockeren Rahmen und nicht als Checkliste zu sehen. Mir geht es darum, dass Menschen die Pair Programming praktizieren oder es wollen, bewusster in ihre Pairing-Sessions starten und gemeinsam herauszufinden, was für sie funktioniert.\n\n<img src=\"https://vg02.met.vgwort.de/na/578f7a77f67c4163a2d142505a5adc98\" width=\"1\" height=\"1\" alt=\"\">"},"id":"6a246aff-62a2-46a5-9214-21f12bb02d8b","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2025-10-21
+
+----
+
+Headerimage: - file://ZoJYdUviSpwm6kuL
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Der Pair Programming Canvas bietet eine einfache Struktur, um Pairing-Sessions bewusst vorzubereiten, durchzuführen und zu reflektieren.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Der Pair Programming Canvas bietet eine einfache Struktur, um Pairing-Sessions bewusst vorzubereiten, durchzuführen und zu reflektieren.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 3obvHOSFNOxpGa1r

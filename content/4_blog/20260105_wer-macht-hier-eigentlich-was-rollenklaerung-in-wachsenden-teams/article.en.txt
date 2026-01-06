@@ -1,0 +1,92 @@
+Title: Who’s Actually Responsible for What? Role Clarity in Growing Teams
+
+----
+
+Slug: who-s-actually-responsible-for-what-role-clarity-in-growing-teams
+
+----
+
+Teasertext:
+
+New roles, new people, new expectations—and somehow everything is still supposed to keep running.
+In growing organizations, role clarity often gets lost until friction starts to show. This article explores when role clarification is helpful—and why it’s less about perfect definitions and more about shared orientation in everyday work.
+
+----
+
+Headline: Who’s Actually Responsible for What? Role Clarity in Growing Teams
+
+----
+
+Modules: [{"content":{"text":"When teams grow or responsibilities change, questions tend to surface quickly: Who am I here, actually? And what exactly is part of my role?\n\nIn dynamic organizations, responsibilities often shift faster than they’re talked about. New colleagues join, processes change, decisions become more complex. A lot remains unspoken, and everyone operates based on their own assumptions. That can work for a while—but eventually it becomes exhausting.\n\nTasks get duplicated—or don’t get done at all. Decisions stall, get postponed, or end up stuck with a single person. In the end, much of it funnels back to the manager. This is rarely about a lack of commitment or competence. More often, it’s about missing shared orientation.\n\nWhen I talk about roles with leaders or teams, it’s not about putting people in boxes or creating personality profiles. Roles are simply bundled expectations about behavior in a given context. These expectations can be clear, contradictory, or unspoken. What matters is that everyone knows what is needed—and when.\n\nAn image many people find helpful is that of different hats. I might speak from my leadership role, from my role as a data protection officer, or from my role as a project owner. Depending on which “hat” I’m wearing, different decisions apply and I represent different interests. Naming this explicitly—saying which role I’m speaking from—helps separate the person from the issue and makes things less personal, more quickly.\n\nRole clarification can be very helpful, but it has limits. You can spend a lot of energy defining roles, and sometimes that’s worth it—but not always. I see roles as existing on a continuum: between too little clarity, where much remains implicit and decisions become unnecessarily difficult, and too much structure, where roles are described in such detail that they miss everyday reality.\n\nWhat matters to me is this: where is friction or uncertainty showing up right now? That’s where role clarification is useful. This is especially relevant for leadership roles, where many expectations converge, and for teams that aren’t clear about their purpose or what they’re actually meant to deliver. What’s usually less helpful is spelling out every single team member’s role in minute detail—much of that sorts itself out in day-to-day work anyway."},"id":"351201e5-97ba-467c-bd3c-1d2684eb97c6","isHidden":false,"type":"bodytext"},{"content":{"bigimage":["file://I9ARmEe4NI6yE8qo"],"styleselect":"flex"},"id":"9ca2e240-b5ad-49f2-b018-286d0c5c2c18","isHidden":false,"type":"bigimage"},{"content":{"text":"As a starting point, I like to use the Role Compass by Dr. Thomas Bachmann. The four questions—What belongs to my role? What does not? What strengthens me? What makes my role harder?—are intentionally simple. They help surface different expectations without immediately triggering major changes. Especially for teams that have grown quickly or taken on new responsibilities, this often provides exactly the clarity that was missing.\n\nOne example: a colleague stepped into a leadership role in a team she had previously been part of. Formally, the role was clear—but not in everyday practice. Parts of the team still expected her to contribute operationally, others wanted clear decisions, and she herself was unsure when to step in and when not to. Management assumed things would “settle over time.”\n\nIn individual coaching, working with the Role Compass made visible just how different—and mutually blocking—the expectations around this new role were. The leader was first able to clarify her own position, and then enter into conversations with both management and the team. Suddenly, it was no longer about personal sensitivities, but about which tasks and decisions actually belonged to the role—and which didn’t.\n\nDecision-making questions often come up in this work as well. People realize they’re making decisions they don’t actually feel responsible for—or that they’re waiting for decisions they assumed belonged to a different role.\n\nIn many cases, the Role Compass is sufficient. If it becomes clear that multiple roles are involved, new roles need to be created, or more binding agreements are needed, I work with formats such as the (link: https://s3canvas.sociocracy30.org/s3-delegation-canvas.html text: Delegation Canvas from Sociocracy 3.0) or the (link: https://www.visual-braindump.de/role_model_canvas/ text: Role Model Canvas). These help teams jointly clarify responsibilities and explicitly agree on who has which decision-making authority.\n\nRole clarification is not a one-off project. Roles change whenever the environment changes—and in growing organizations, that happens all the time. It’s therefore helpful to regularly check in together: do the expectations still fit, or has something shifted? That makes it easier for teams to continue working well, even as things change."},"id":"7d9411b3-829a-4690-8398-a0d25ffdad43","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2026-01-05
+
+----
+
+Headerimage: - file://6ql4UvkPhgkgebUQ
+
+----
+
+Metatitle: Who’s Actually Responsible for What? Role Clarity in Growing Teams
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Role clarity in teams: How growing organizations create orientation without over-engineering roles or structures.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
