@@ -89,6 +89,28 @@ Testimonials:
     HomeRun GmbH
 - 
   headline: >
+    Tragfähige Re-Organisation in der
+    Wachstumsphase – mit hoher Akzeptanz
+    im Team
+  testimonial_text: >
+    Nina begleitet uns schon seit längerem
+    als Sparringspartnerin für
+    Organisationsentwicklung und Führung.
+    Sie hat uns in der Wachstumsphase dabei
+    geholfen, eine tragfähige
+    Re-Organisation der Teams zu erarbeiten
+    und in partizipativen Workshops
+    umzusetzen. Ihre Arbeit hatte einen
+    großen Anteil daran, eine hohe
+    Akzeptanz innerhalb der bestehenden
+    Teams zu erreichen und hat uns sehr
+    dabei geholfen, notwendige
+    Veränderungen voranzutreiben.
+  author_info: >
+    Felix Krüger, Gründer und CTO Pirate
+    Ship Software GmbH
+- 
+  headline: >
     Ich habe Klarheit über meine Rolle als
     Teamlead erlangt
   testimonial_text: >

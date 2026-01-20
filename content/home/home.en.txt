@@ -80,6 +80,27 @@ Testimonials:
     Engineering Lead Spaceteams
 - 
   headline: >
+    Sustainable reorganisation during the
+    growth phase – with high acceptance
+    among the team
+  testimonial_text: >
+    Nina has been working with us for quite
+    some time as a sparring partner for
+    organisational development and
+    leadership. During our growth phase, she
+    helped us develop a sustainable
+    reorganisation of our teams and
+    implement it in participatory workshops.
+    Her work played a major role in
+    achieving a high level of acceptance
+    within the existing teams and helped us
+    greatly in driving forward necessary
+    changes.
+  author_info: >
+    Felix Krüger, Founder and CTO Pirate
+    Ship Software GmbH
+- 
+  headline: >
     Sustainable change instead of a
     short-term solution
   testimonial_text: "What I found particularly helpful about the coaching were the tools that I could use in my day-to-day work. It wasn't just about discussing current problems, but I was also given tools that I can use to tackle future challenges independently. This helped me to change my perspective and develop my leadership skills in the long term."
