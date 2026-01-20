@@ -69,4 +69,36 @@ for (accordionIndex = 0; accordionIndex < showaccordionDetail.length; accordionI
       accordionChevron.classList.remove("rotate-180");
     }
   });
-} 
+}
+
+// Open external links in new tab
+document.addEventListener('DOMContentLoaded', function() {
+  var links = document.querySelectorAll('a');
+  var currentHost = window.location.hostname;
+  
+  links.forEach(function(link) {
+    // Skip if target is already set
+    if (link.getAttribute('target')) {
+      return;
+    }
+    
+    var href = link.getAttribute('href');
+    
+    // Skip if no href or it's an anchor/relative link
+    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+      return;
+    }
+    
+    // Check if link is external
+    try {
+      var linkUrl = new URL(href, window.location.href);
+      
+      if (linkUrl.hostname && linkUrl.hostname !== currentHost) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    } catch (e) {
+      // If URL parsing fails, it's likely a relative link, so ignore it
+    }
+  });
+});
