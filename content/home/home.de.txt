@@ -73,22 +73,6 @@ Testimonials:
 
 - 
   headline: >
-    Klarheit und Struktur in der
-    Zusammenarbeit
-  testimonial_text: >
-    Nina hat uns in unserem wachsenden
-    Remote-Unternehmen geholfen, Klarheit
-    und Struktur in unsere Zusammenarbeit zu
-    bringen. Ihre Erfahrung, aus der Praxis
-    und durch fundierte Weiterbildungen, ist
-    spürbar. Im Sparring hat mir ihr Blick
-    von außen geholfen, fokussiert an den
-    wirklich wichtigen Themen zu arbeiten.
-  author_info: >
-    Daniel Grünthal, Geschäftsführer
-    HomeRun GmbH
-- 
-  headline: >
     Tragfähige Re-Organisation in der
     Wachstumsphase – mit hoher Akzeptanz
     im Team
@@ -109,6 +93,58 @@ Testimonials:
   author_info: >
     Felix Krüger, Gründer und CTO Pirate
     Ship Software GmbH
+- 
+  headline: >
+    Klarheit und Struktur in der
+    Zusammenarbeit
+  testimonial_text: >
+    Nina hat uns in unserem wachsenden
+    Remote-Unternehmen geholfen, Klarheit
+    und Struktur in unsere Zusammenarbeit zu
+    bringen. Ihre Erfahrung, aus der Praxis
+    und durch fundierte Weiterbildungen, ist
+    spürbar. Im Sparring hat mir ihr Blick
+    von außen geholfen, fokussiert an den
+    wirklich wichtigen Themen zu arbeiten.
+  author_info: >
+    Daniel Grünthal, Geschäftsführer
+    HomeRun GmbH
+- 
+  headline: Arbeitskultur spürbar verbessert
+  testimonial_text: >
+    Nina begleitet die Teams in meinem
+    Bereich seit mehreren Jahren. Durch ihre
+    regelmäßige Begleitung hat sich unsere
+    Arbeitskultur spürbar weiterentwickelt.
+    Sie genießt das Vertrauen sowohl der
+    Teammitglieder als auch des
+    Führungsteams und unterstützt mit
+    ihrer Erfahrung die kontinuierliche
+    Weiterentwicklung sowie den
+    konstruktiven Umgang mit Konflikten.
+  author_info: 'Arne Wenzel, Director R&D QA Qt Group'
+- 
+  headline: >
+    Kompetente Begleitung unseres
+    Digitalisierungsprojekts
+  testimonial_text: >
+    Nina hat uns bei der Auswahl einer App
+    zur Mitarbeiterkommunikation
+    außerordentlich professionell
+    begleitet. Durch ihre fachliche
+    Kompetenz, ihr Engagement und ihre
+    wertvollen Impulse konnten wir unsere
+    Ziele erfolgreich erreichen. Ihre Rolle
+    als Sparringspartner war von
+    unschätzbarem Wert. Dank Nina werden
+    wir die Kommunikation in unserem Team
+    nachhaltig verbessern können. Besonders
+    hilfreich war auch ihre Unterstützung
+    bei der Beantragung und Erfüllung der
+    Fördererfordernisse.
+  author_info: >
+    Stephanie Schaub, Geschäftsführerin
+    CHOCOVERSUM GmbH
 - 
   headline: >
     Ich habe Klarheit über meine Rolle als
@@ -144,28 +180,6 @@ Testimonials:
   author_info: >
     Nina Rammler, Bereichsleitung Pflege,
     TUM Klinikum Deutsches Herzzentrum
-- 
-  headline: >
-    Kompetente Begleitung unseres
-    Digitalisierungsprojekts
-  testimonial_text: >
-    Nina hat uns bei der Auswahl einer App
-    zur Mitarbeiterkommunikation
-    außerordentlich professionell
-    begleitet. Durch ihre fachliche
-    Kompetenz, ihr Engagement und ihre
-    wertvollen Impulse konnten wir unsere
-    Ziele erfolgreich erreichen. Ihre Rolle
-    als Sparringspartner war von
-    unschätzbarem Wert. Dank Nina werden
-    wir die Kommunikation in unserem Team
-    nachhaltig verbessern können. Besonders
-    hilfreich war auch ihre Unterstützung
-    bei der Beantragung und Erfüllung der
-    Fördererfordernisse.
-  author_info: >
-    Stephanie Schaub, Geschäftsführerin
-    CHOCOVERSUM GmbH
 
 ----
 

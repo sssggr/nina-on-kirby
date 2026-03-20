@@ -1,0 +1,89 @@
+Title: How Stable Do Teams Really Need to Be?
+
+----
+
+Slug: how-stable-do-teams-really-need-to-be
+
+----
+
+Teasertext: How stable or fluid should teams be today? The answer depends on the context—and on how well an organization understands how work flows within it. This article highlights when stability helps, when fluidity makes sense, and what makes both possible in the first place.
+
+----
+
+Headline: How Stable Do Teams Really Need to Be?
+
+----
+
+Modules: [{"content":{"text":"Many organisations are caught in one of two patterns. Some are constantly reorganising — new team structures, new responsibilities, new reporting lines — without resolving any of their real problems. Others won't touch anything, afraid of breaking what still (barely) works. Both patterns share the same root cause: they don't actually understand how work flows through their organisation, or where it gets stuck.\n\nThat's something I've been thinking about for a while. How much change can a team absorb — and when does change itself become the problem?\n\nWhen we talk about teams, we tend to picture something fairly stable. A team that stays together over time is often seen as the ideal — an idea reinforced by classic team research, including the work of Richard Hackman. But in practice, we see something different: people come and go, responsibilities shift, priorities change. Especially in product and software organisations, the nature of work changes fast.\n\nSo how stable — or how fluid — should teams actually be?"},"id":"30014db4-44a5-4ebe-9b06-feb92594c60a","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Why Stability Matters — and Where It Falls Short"},"id":"fe00b16f-d3c7-4fb5-bece-f7e1df345149","isHidden":false,"type":"subheading"},{"content":{"text":"Stable teams have obvious advantages. People get to know each other — their strengths, their blind spots, the way they work. Over time, collaboration becomes smoother, routines develop, and roles and responsibilities stop being just words on paper and start being lived in practice.\n\nThere's also real value in fachliche depth. Teams develop a shared understanding of their domain, their goals, and the environment they're operating in. In complex settings where little is predictable or clear-cut, that shared understanding makes an enormous difference.\n\nPsychological safety takes time. It emerges through repeated interaction — working through difficult situations together, resolving conflict, making decisions jointly. That's how shared assumptions develop about how we work here, and what we actually mean when we say things. The research is clear: teams tend to become more effective the longer they stay together.\n\nBut stability has a precondition: the environment itself needs to be reasonably stable. And that's increasingly rare. Priorities shift faster than teams can respond. Market conditions change, new technologies create additional pressure, and suddenly the existing team structure no longer fits reality.\n\nToo much stability can also breed inertia. Patterns become entrenched, knowledge concentrates in a few individuals, and tensions get managed rather than resolved. Innovation needs active space — it doesn't happen on its own."},"id":"be499a68-8d50-47f0-8c2e-9b613d18c761","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Dynamic Teams: Opportunity or Chaos?"},"id":"4c103ef9-692a-4823-80f8-0fb88d9cdb7c","isHidden":false,"type":"subheading"},{"content":{"text":"On the other side is the idea of fluid teams — teams that are reconfigured more frequently. Sometimes this happens gradually, as people join or leave. Sometimes it's more radical: entire programmes reorganise regularly around the work to be done.\n\nDaniel Terhorst-North (link: https://www.youtube.com/watch?v=w6T78XMxbuY&t=3s text: describes in this excellent talk) how an entire programme team, anything from 20 to 200 people, reorganise themselves based on the expected demand for the next quarter. Structure follows the work — deliberately. It sounds chaotic at first, but he describes how well it works in practice.\n\nHeidi Helfand makes a similar point in her book Dynamic Reteaming: teams change whether we manage that change or not. People leave, requirements shift, organisations grow or shrink. The question isn't whether change happens — it's how consciously we handle it.\n\nFluidity has real advantages. New constellations bring fresh perspectives, teams can respond more flexibly to shifting demands, and knowledge monopolies are less likely to form.\n\nAt the same time, the costs are real. Knowledge gets lost or has to be painstakingly rebuilt, onboarding takes time, responsibilities are initially unclear, and cognitive load increases. Team identity can also erode when belonging becomes very short-lived.\n\nIn my work, I consistently see two extreme:\n\nToo stable: Teams remain unchanged even when overload or inefficiency has been visible for a long time. People hold on to existing structures even when they've stopped working.\n\nToo fluid: Teams are constantly being restructured. Just as trust has started to build or domain expertise to develop, everything changes again — sometimes in the hope that a new structure will fix the underlying problems, which it rarely does. Instead of identifying where the real bottlenecks, dependencies, or leadership issues lie, people reach for the org chart. Reorganisation replaces problem analysis.\n\nThe real question is: where does stability serve us and where does fluidity?"},"id":"ef57be20-14ba-488c-9b0b-f5e0908f1d53","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Fluidity as the Result of Organisational Learning"},"id":"95460b1b-9ea9-44e9-aa13-4a3f2fe79d3c","isHidden":false,"type":"subheading"},{"content":{"text":"I recently had the opportunity to work alongside (link: https://susannekaiser.net/ text: Susanne Kaiser) on a team reorganisation at Pirate Ship Software. The starting point was visible overload: responsibilities that had grown too large, high cognitive load, too many dependencies. Further growth was on the horizon — and it was clear the existing structure wouldn't hold.\n\nIt was important to our client not to set up a quick re-org project. Instead of redrawing boxes, we wanted to understand how work actually flows — and build a sustainable team design from there.\nTogether with the teams, we analysed which parts of the domain genuinely belonged together, where unnecessary dependencies had formed, and where teams were carrying too much. Methods like Wardley Mapping, Domain-Driven Design, and EventStorming were tools toward that end — helping us identify clear domain boundaries and distribute cognitive load more sensibly.\n\nSusanne's (link: https://architectureforflow.com/ text: Architecture for Flow )approach provided the framework: the deliberate alignment of strategy, architecture, and team structure with the goal of enabling value to flow with as little friction as possible.\n\nThe outcome was a learning process as much as a structural one. The teams came away with tools and ways of thinking that would allow them to drive this kind of work themselves in the future.\nThat, to me, is the core of it: teams can become more dynamic and fluid once the organisation has learned to manage change deliberately."},"id":"f7a30183-0740-4aa0-97d0-ea0d28656f86","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Where High Fluidity Works — and Why"},"id":"d2aa8953-9ec2-4c4c-818c-77d3f29139b6","isHidden":false,"type":"subheading"},{"content":{"text":"I spent several years working as a developer and consultant at ThoughtWorks. Consulting is a project business — frequent change is built into the model. Every few months: a new team, new technologies, often a new industry.\n\nAnd yet I almost always experienced the collaboration as surprisingly stable. What held it together was the organisation itself: shared values, clear technical practices, transparent communication, and a strong professional identity that extended beyond any individual project.\n\nThe teams could be fluid because the foundation was stable.\n\nIt's a distinction I find missing in many organisations. The desire for flexible, adaptable teams is widespread — but the investment in the cultural, technical, and structural foundations that make that flexibility possible often isn't there."},"id":"4db5ee4a-6b2d-49c0-924f-eb11dac120be","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Fluidity Is Also a Human Question"},"id":"d7e26958-0150-40aa-8404-ab7c962081a3","isHidden":false,"type":"subheading"},{"content":{"text":"People differ in how much change they find energising — and how much they find exhausting. This is a fundamental human pattern, and it has nothing to do with resilience or professionalism. Some people thrive on variety, new constellations, shifting contexts. Others are grounded by continuity. They do their best work when they know who they're working with, what's expected of them, and how decisions get made.\n\nFor those people, highly fluid teams are a genuine strain. This is an organisational design question that doesn't get enough attention.\n\nTwo things matter here. First: who does your culture attract — people who lean toward stability, or toward change? Every organisational culture makes a pre-selection, whether consciously or not. Second: how can you create a degree of stability even within fluid structures? Through clear anchors, reliable communication, and rituals that provide orientation — regardless of who happens to be working with whom at any given moment.\n\nGood team design asks: who works here, and what do these people need to do their best work? Ignore that, and you'll burn people out."},"id":"f4e813bc-d122-4ae4-9bcb-62cb5930d897","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The Spectrum: Stability ↔ Fluidity"},"id":"30dc2f77-b39b-4777-9d36-db789967fd83","isHidden":false,"type":"subheading"},{"content":{"text":"Almost no organisation is entirely stable or entirely fluid. In practice, teams sit somewhere on a spectrum.\n\nHow much stability or dynamism makes sense depends on several factors.\n\nTechnical architecture plays a major role. How clearly are domain boundaries drawn? How tightly coupled are different parts of the system? The cleaner the boundaries and the better the test coverage, the easier it is to shift responsibilities without causing disruption. It also helps to consider the evolutionary stage of the product: a team working on something genuinely new and unproven — a Genesis-stage product — needs different degrees of freedom than a team maintaining an established commodity. Exploration requires flexibility. Operations require reliability.\n\nSocial and cultural stability matters too. Is there trust? Are tensions surfaced early? Is feedback a normal part of working together, or an exception? Without this foundation, any form of dynamism quickly becomes draining.\n\nOrganisational design is equally important: are decision-making spaces clearly defined? Does everyone know who is responsible for what? Are there sensible coordination mechanisms — or does everything escalate upward by default?\n\nMarket and task context shapes the answer as well. A highly volatile environment with strong innovation pressure calls for different team structures than a relatively stable business model.\nAnd finally, professional identity matters: do people orient themselves primarily around their skills and role — or around their current team? That makes a difference when constellations change.\nWhere the foundations are solid — technically, culturally, structurally — more fluidity is possible without tipping into chaos. Where those foundations are absent, more stability is often needed first, simply to establish orientation and trust.\n\nThe question isn't stable or fluid. It's what makes sense in your context right now — and why."},"id":"9b27d705-f8c8-4d13-9bdf-4961d07a101e","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Conclusion"},"id":"937580a6-ea30-48ea-b4fa-616f8a442446","isHidden":false,"type":"subheading"},{"content":{"text":"Fluidity and stability are not goals in themselves. They are outcomes — of clarity, of organisational learning, and of the willingness to design structures deliberately rather than let them drift.\n\nBoth patterns I described at the start — the endless reorganisers and those who never change anything — avoid the same underlying work: understanding where value is created, and where it gets blocked.\n\nThe real question is: how well does an organisation understand how it works? Where are the bottlenecks? Where does overload accumulate? Where is ownership unclear?\nOrganisations that can answer those questions clearly can choose between stability and fluidity — and use both deliberately."},"id":"4490faaf-0887-42ce-bf05-203139b899ac","isHidden":false,"type":"bodytext"},{"content":{"headline":"Wondering whether your team structure still fits the way you work — or whether something needs to change? Let's talk.","buttontext":"Book a call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"7b5a5fd0-a11b-43a1-9beb-126eacf809c5","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-03-16
+
+----
+
+Headerimage: - file://tOTcofDz14Jw02AQ
+
+----
+
+Metatitle: How Stable Do Teams Really Need to Be?
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: How stable or fluid should teams be today? This article shows what this depends on — and what conditions are necessary for stability and fluidity.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

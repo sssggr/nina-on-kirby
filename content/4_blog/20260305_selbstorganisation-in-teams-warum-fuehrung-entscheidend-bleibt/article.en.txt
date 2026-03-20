@@ -1,0 +1,89 @@
+Title: Self-organisation in teams – why leadership still matters
+
+----
+
+Slug: self-organisation-in-teams-why-leadership-still-matters
+
+----
+
+Teasertext: Self-organisation rarely fails because of missing motivation. Most of the time, what's missing is clarity about who gets to decide what. This article explores why leadership remains essential when building self-organising teams – and what that actually looks like in practice.
+
+----
+
+Headline: Self-organisation in teams – why leadership still matters
+
+----
+
+Modules: [{"content":{"text":"At some point, many leaders and founders reach a breaking point. Everything runs through them, every decision lands on their desk, the team waits for approvals. The solution seems obvious: more ownership, less hierarchy, self-organisation.\n\nSo leadership steps back. Often deliberately, and with the best intentions.\n\nAnd then the opposite of what was hoped for happens. The team waits. Issues go undecided. People ask for more input than before. At some point, someone asks for more leadership – the very thing you were trying to reduce.\n\nThis isn't a sign that the team can't or won't step up. It's the logical response to an unclear situation."},"id":"8d6aee50-7080-4ea3-9e45-ed62ca926d45","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The vacuum isn't created on purpose"},"id":"968a0741-9b5b-4d3f-8fa9-58f9b33616c3","isHidden":false,"type":"subheading"},{"content":{"text":"When leadership pulls back without explicitly defining decision-making boundaries, the result isn't empowerment – it's uncertainty. Who gets to decide what? Where does responsibility begin, and where does it end? When is alignment necessary, and when isn't it?\n\nWithout answers to these questions, people naturally default to caution. They hedge, seek reassurance, leave things undone rather than risk making the wrong call. This paradoxically creates more dependency on leadership – even though leadership had exactly the opposite in mind.\n\nThere's a second pattern I regularly see in practice: decisions get delegated, then quietly taken back. A proposal comes back with \"but actually, it should probably work like this.\" A team decides something, and shortly after, the outcome gets \"briefly revisited\" – and ultimately overruled.\n\nTeams learn from these patterns fast. If your decisions keep getting overridden, you eventually stop deciding. Not because you don't want to. It's simply rational: why invest energy when the result will be corrected anyway?\nWhat looks like a lack of ownership is often the logical response to a contradictory signal."},"id":"517637c9-e607-4af7-9528-12dcffcbb34e","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What leadership actually means in this context"},"id":"7799c46b-13dc-4816-9f72-97e230b4a27c","isHidden":false,"type":"subheading"},{"content":{"text":"Self-organisation doesn't emerge from leadership stepping back – it emerges from leadership deliberately shaping what belongs to the team and what doesn't. That's not more control. It's more clarity.\n\nA few questions that help:\n\n**Which decisions actually belong to the team?**\nGet as specific as possible. What can the team decide without checking in? Where is sign-off genuinely necessary – and why?\n\n**Where am I quietly taking decisions back?**\nThis rarely happens deliberately. Usually it comes from high standards, experience, a strong sense of responsibility. But the system learns regardless. It's worth being honest here: which topics are hard to let go of – even after you've delegated them? Sometimes there's more to it than standards. It's also about what your own role means when others are the ones deciding.\n\n**What are the guardrails?**\nSelf-organisation needs a clear framework. Which values, quality standards, or strategic priorities are non-negotiable? Once those are explicit, teams can actually work autonomously within that space.\n\n**How do we handle decisions we disagree with?**\nLetting go of responsibility means accepting that someone else makes the call – and that you might not like it. If that's hard to sit with, you'll keep pulling decisions back. And in doing so, you'll keep the team from ever moving forward on their own."},"id":"79093f74-6efa-4ac3-b787-5ab26746ef9e","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Clarity enables, it doesn't constrain"},"id":"1b947059-009d-4a22-945c-ee3075426ae9","isHidden":false,"type":"subheading"},{"content":{"text":"In most organisations, not every decision can or should sit with the team – and that's not the goal. The goal is to make it transparent: which topics belong to the team, which don't, and why.\n\nSetting up that framework takes effort upfront. A conversation, a clarification session, maybe a workshop. But it's exactly what creates relief in the long run. When decision-making boundaries are clear, there are fewer questions to field. Teams can genuinely work independently. And leadership doesn't have to be the bottleneck anymore.\n\nClarity isn't a constraint on self-organisation. It's what makes it possible."},"id":"a14b8fc6-77e1-410b-8f21-ecdc0b5d889a","isHidden":false,"type":"bodytext"},{"content":{"headline":"You're at this point right now and want more clarity? Let's talk.","buttontext":"Book a call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"a3d3fc44-e6c2-43fc-84e5-d3da895e6e76","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-03-05
+
+----
+
+Headerimage: - file://DGKhk9cmbQienzKz
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Self-organisation rarely fails because of missing motivation. Most of the time, what's missing is clarity about who gets to decide what. This article explores why leadership remains essential when building self-organising teams – and what that actually looks like in practice.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

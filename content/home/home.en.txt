@@ -65,21 +65,6 @@ Testimonials:
 
 - 
   headline: >
-    I have gained clarity about my role as
-    team lead
-  testimonial_text: >
-    Working with Nina Siessegger gave me
-    real clarity on my role as a team lead.
-    I left every session with new energy and
-    impulses that I was able to implement as
-    many improvements in my day-to-day work.
-    I’d absolutely choose leadership
-    coaching with Nina again.
-  author_info: >
-    Maximilian Stribeck​​​​,
-    Engineering Lead Spaceteams
-- 
-  headline: >
     Sustainable reorganisation during the
     growth phase – with high acceptance
     among the team
@@ -101,12 +86,32 @@ Testimonials:
     Ship Software GmbH
 - 
   headline: >
-    Sustainable change instead of a
-    short-term solution
-  testimonial_text: "What I found particularly helpful about the coaching were the tools that I could use in my day-to-day work. It wasn't just about discussing current problems, but I was also given tools that I can use to tackle future challenges independently. This helped me to change my perspective and develop my leadership skills in the long term."
+    Clarity and structure in our
+    collaboration
+  testimonial_text: >
+    Nina has helped us in our growing remote
+    company to bring clarity and structure
+    to our collaboration. Her practical
+    experience and in-depth training are
+    tangible. In sparring, her outside
+    perspective helped me to focus on the
+    really important issues.
   author_info: >
-    Nina Rammler, Bereichsleitung Pflege,
-    TUM Klinikum Deutsches Herzzentrum
+    Daniel Grünthal, Managing Director
+    HomeRun GmbH
+- 
+  headline: Sustainably improved collaboration
+  testimonial_text: >
+    Nina has been supporting the teams in my
+    area for several years. Through her
+    regular involvement, our working culture
+    has developed noticeably. She enjoys the
+    trust of both team members and the
+    leadership team and, with her
+    experience, supports continuous
+    improvement as well as a constructive
+    approach to conflicts.
+  author_info: 'Arne Wenzel, Director R&D QA Qt Group'
 - 
   headline: >
     Competent support for our digitization
@@ -129,19 +134,27 @@ Testimonials:
     CHOCOVERSUM GmbH
 - 
   headline: >
-    Clarity and structure in our
-    collaboration
+    I have gained clarity about my role as
+    team lead
   testimonial_text: >
-    Nina has helped us in our growing remote
-    company to bring clarity and structure
-    to our collaboration. Her practical
-    experience and in-depth training are
-    tangible. In sparring, her outside
-    perspective helped me to focus on the
-    really important issues.
+    Working with Nina Siessegger gave me
+    real clarity on my role as a team lead.
+    I left every session with new energy and
+    impulses that I was able to implement as
+    many improvements in my day-to-day work.
+    I’d absolutely choose leadership
+    coaching with Nina again.
   author_info: >
-    Daniel Grünthal, Managing Director
-    HomeRun GmbH
+    Maximilian Stribeck​​​​,
+    Engineering Lead Spaceteams
+- 
+  headline: >
+    Sustainable change instead of a
+    short-term solution
+  testimonial_text: "What I found particularly helpful about the coaching were the tools that I could use in my day-to-day work. It wasn't just about discussing current problems, but I was also given tools that I can use to tackle future challenges independently. This helped me to change my perspective and develop my leadership skills in the long term."
+  author_info: >
+    Nina Rammler, Bereichsleitung Pflege,
+    TUM Klinikum Deutsches Herzzentrum
 
 ----
 

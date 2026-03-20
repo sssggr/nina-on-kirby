@@ -1,0 +1,89 @@
+Title: Wie stabil müssen Teams heute noch sein?
+
+----
+
+Teasertext: Wie stabil oder wie fluide sollten Teams heute sein? Die Antwort hängt vom Kontext ab — und davon, wie gut eine Organisation versteht, wie bei ihr Arbeit fließt. Der Artikel beleuchtet, wann Stabilität hilft, wann Fluidität sinnvoll ist, und was beides überhaupt erst möglich macht.
+
+----
+
+Headline: Wie stabil müssen Teams heute noch sein?
+
+----
+
+Modules: [{"content":{"text":"Viele Organisationen reorganisieren sich ständig — und lösen dabei keine einzige ihrer echten Fragen. Andere rühren nichts an, aus Angst, etwas kaputt zu machen. Beide Muster haben dieselbe Wurzel: Sie wissen nicht wirklich, wie bei ihnen Arbeit fließt und wo sie hängt.\n\nDas beschäftigt mich seit einiger Zeit. Wie viel Veränderung verträgt ein Team und wann wird Veränderung selbst zum Problem?\n\nWenn wir über Teams sprechen, denken wir häufig in relativ festen Strukturen. Ein Team, das über längere Zeit in derselben Zusammensetzung zusammenarbeitet, gilt als Ideal. Geprägt ist dieses Bild auch durch klassische Teamforschung, etwa durch Richard Hackman. Gleichzeitig erleben wir in der Praxis ein anderes Bild: Teammitglieder kommen und gehen, Verantwortlichkeiten verschieben sich, Prioritäten ändern sich. Besonders in Produkt- und Softwareorganisationen verändert sich Arbeit schnell.\n\nWie stabil oder wie fluide sollten Teams heute eigentlich sein?"},"id":"30014db4-44a5-4ebe-9b06-feb92594c60a","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Warum Stabilität wichtig ist und dennoch Grenzen hat"},"id":"fe00b16f-d3c7-4fb5-bece-f7e1df345149","isHidden":false,"type":"subheading"},{"content":{"text":"Stabilität in Teams hat erst einmal ganz offensichtliche Vorteile. Menschen haben die Chance, sich aneinander zu gewöhnen, sie lernen die Stärken, Schwächen und Eigenheiten der anderen kennen. Mit der Zeit spielt sich Zusammenarbeit ein, Routinen entstehen, und im besten Fall sind Rollen und Zuständigkeiten nicht nur auf dem Papier geklärt, sondern auch im Alltag wirklich gelebt.\n\nAuch fachlich ist Stabilität enorm wertvoll. Teams entwickeln über die Zeit ein gemeinsames Verständnis ihrer Domäne, ihrer Ziele und des Umfelds, in dem sie unterwegs sind. Gerade in komplexen Umfeldern, in denen vieles weder eindeutig noch planbar ist, macht das einen großen Unterschied.\n\nPsychologische Sicherheit entsteht eben nicht auf Knopfdruck, sondern durch wiederholte Interaktion. Man erlebt sich in schwierigen Situationen, löst Konflikte, trifft gemeinsam Entscheidungen. So entstehen gemeinsame Annahmen darüber, wie „wir hier arbeiten“ und was wir eigentlich meinen, wenn wir bestimmte Dinge sagen. Dass Teams mit der Zeit leistungsfähiger werden, wenn sie zusammenbleiben, ist gut erforscht.\n\nUnd gleichzeitig hat Stabilität eine Voraussetzung: Sie braucht ein Umfeld, das selbst einigermaßen stabil ist. Und genau das gibt es heute immer seltener.\n\nIn der Praxis sehen wir häufig etwas anderes: Prioritäten verschieben sich schneller, als Teams reagieren können. Marktbedingungen verändern sich, neue technologische Entwicklungen erzeugen zusätzlichen Druck, und plötzlich passt der bisherige Zuschnitt nicht mehr so recht zur Realität. \n\nZu viel Stabilität kann auch träge machen. Bestimmte Muster schleifen sich ein, Wissen konzentriert sich bei einzelnen Personen, Spannungen werden eher ausgesessen als bearbeitet. Innovation braucht aktiven Raum — sie entsteht nicht von selbst."},"id":"be499a68-8d50-47f0-8c2e-9b613d18c761","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Dynamische Teams: Chance oder Chaos?"},"id":"4c103ef9-692a-4823-80f8-0fb88d9cdb7c","isHidden":false,"type":"subheading"},{"content":{"text":"Auf der anderen Seite steht die Idee fluider Teams — also Teams, die häufiger neu oder anders zusammengesetzt werden. Manchmal passiert das schrittweise, weil einzelne Personen dazukommen oder gehen. Manchmal ist es deutlich radikaler: ganze Programme organisieren sich regelmäßig neu entlang der anstehenden Arbeit.\n\nDaniel Terhorst-North (link: https://www.youtube.com/watch?v=w6T78XMxbuY&t=3s text: beschreibt in diesem hervorragenden Talk) wie sich Teams quartalsweise neu aufstellen – und das orientiert an der erwarteten Nachfrage. Die Struktur folgt bewusst der Arbeit. Das klingt erst einmal nach Chaos, er beschreibt aber, wie gut das in der Praxis funktioniert.\n\nHeidi Helfand wiederum macht in ihrem Buch „Dynamic Reteaming“ deutlich, dass Teams sich ohnehin verändern – ob wir das aktiv gestalten oder nicht. Menschen wechseln, Anforderungen verschieben sich, Organisationen wachsen oder schrumpfen. Die Frage ist also weniger, ob Dynamik stattfindet, sondern wie bewusst wir mit ihr umgehen.\n\nDynamik bringt durchaus Vorteile mit sich. Neue Konstellationen eröffnen frische Perspektiven, Teams können flexibler auf veränderte Anforderungen reagieren, Wissensmonopole werden eher aufgebrochen. \n\nGleichzeitig entstehen reale Kosten. Wissen geht verloren oder muss mühsam neu aufgebaut werden, Einarbeitung kostet Zeit, Verantwortlichkeiten sind zunächst unklar, die kognitive Last steigt. Und Teamidentität kann verloren gehen, wenn Zugehörigkeit sehr kurzlebig wird.\nIn meiner Arbeit sehe ich häufig zwei Extreme:\n\nZu stabil: Teams werden kaum verändert, selbst wenn Überlastung oder Ineffektivität längst sichtbar sind. Man hält an der bestehenden Struktur fest, obwohl sie nicht mehr trägt.\n\nZu fluide: Teams werden ständig neu geschnitten. Kaum ist Vertrauen entstanden oder fachliche Tiefe gewachsen, wird wieder umgebaut. Manchmal in der Erwartung, dass die neue Struktur die eigentlichen Probleme löst — was sie selten tut. Statt zu klären, wo genau Engpässe, Abhängigkeiten oder Führungsfragen liegen, wird an der Teamzusammensetzung geschraubt. Die Reorganisation ersetzt die Problemanalyse.\n\nDie entscheidende Frage lautet deshalb: Wo ist Stabilität in unserem Kontext hilfreich — und wo Dynamik?"},"id":"ef57be20-14ba-488c-9b0b-f5e0908f1d53","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Fluidität als Ergebnis organisationalen Lernens"},"id":"95460b1b-9ea9-44e9-aa13-4a3f2fe79d3c","isHidden":false,"type":"subheading"},{"content":{"text":"Ich durfte kürzlich gemeinsam mit (link: https://susannekaiser.net/ text: Susanne Kaiser) eine Team-Reorganisation bei der Pirate Ship Software GmbH begleiten. Ausgangspunkt war spürbare Überlastung: zu große Verantwortungsbereiche, hohe kognitive Last, viele Abhängigkeiten. Gleichzeitig stand weiteres Wachstum an – und es war klar, dass die bestehende Struktur dafür nicht mehr tragen würde.\n\nUnserem Kunden war es wichtig, kein schnelles Re-Org-Projekt aufzusetzen. Statt Kästchen neu zu malen, ging es darum zu verstehen wie die Arbeit tatsächlich fließt und daraus ein nachhaltiges Teamdesign zu entwickeln.\n\nGemeinsam mit den Teams haben wir daher analysiert, welche Teile der Domäne wirklich zusammengehören, wo unnötige Abhängigkeiten entstehen und wo ein Team fachlich überlastet ist. Methoden wie Wardley Mapping, Domain-Driven Design oder EventStorming waren dabei zentral: Sie halfen, klare fachliche Grenzen zu erkennen und kognitive Last sinnvoll zu verteilen.\n\nDer von Susanne entwickelte Ansatz (link: https://architectureforflow.com/ text: „Architecture for Flow“) bildete den Rahmen – also die bewusste Verbindung von Strategie, Architektur und Teamzuschnitt mit dem Ziel, Wertschöpfung möglichst reibungsarm zu organisieren.\n\nDas Ergebnis war ein Lernprozess. Die Teams haben Werkzeuge und Ideen an die Hand bekommen, um solche Prozesse künftig auch selbst vorantreiben zu können. Und genau das scheint mir der Kern zu sein: Teams können dynamischer und fluider werden, wenn die Organisation gelernt hat, Veränderung bewusst zu gestalten."},"id":"f7a30183-0740-4aa0-97d0-ea0d28656f86","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Wo Hochfluidität funktioniert – und warum"},"id":"d2aa8953-9ec2-4c4c-818c-77d3f29139b6","isHidden":false,"type":"subheading"},{"content":{"text":"Einige Jahre war ich als Entwicklerin und Beraterin bei ThoughtWorks tätig. Consulting ist ein Projektgeschäft — schnelle Wechsel gehören zum Modell. Alle paar Monate ein neues Team, neue Technologien, oft eine neue Branche.\n\nUnd trotzdem habe ich die Zusammenarbeit meist als erstaunlich stabil erlebt. Was die Zusammenarbeit stabil hielt, war die Organisation selbst: gemeinsame Werte, klare technische Praktiken, transparente Kommunikation, eine starke professionelle Identität jenseits des einzelnen Projekts. \n\nDie Teams konnten fluide sein, weil das Fundament stabil war.\n\nDas ist eine Unterscheidung, die ich in vielen Organisationen vermisse. Der Wunsch nach flexiblen, anpassungsfähigen Teams ist groß — aber die Investition in die kulturellen, fachlichen und strukturellen Grundlagen, die diese Flexibilität erst möglich machen, bleibt oft aus."},"id":"4db5ee4a-6b2d-49c0-924f-eb11dac120be","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Fluidität ist auch eine menschliche Frage"},"id":"d7e26958-0150-40aa-8404-ab7c962081a3","isHidden":false,"type":"subheading"},{"content":{"text":"Menschen unterscheiden sich darin, wie viel Veränderung sie als anregend erleben und ab wann sie sie als belastend empfinden. Das ist ein grundlegendes menschliches Muster. Manche Menschen schöpfen Energie aus Abwechslung, neuen Konstellationen, wechselnden Kontexten. Anderen gibt Kontinuität Sicherheit. Sie arbeiten am besten, wenn sie wissen, mit wem sie es zu tun haben, was von ihnen erwartet wird und wie die Spielregeln sind.\n\nSehr fluide Teams sind für diese Menschen eine echte Belastung. Auch das ist ein Thema im Organisationsdesign, das oft zu wenig mitgedacht wird.\n\nZwei Fragen finde ich hier wichtig: Wen zieht unsere Kultur eigentlich an — Menschen, die eher auf Stabilität aus sind, oder auf Dynamik? Eine Unternehmenskultur trifft hier immer schon eine Vorauswahl. Und: Wie lässt sich auch in fluiden Strukturen ein Mindestmaß an Stabilität schaffen? Durch klare Ankerpunkte, verlässliche Kommunikation, Rituale, die Orientierung geben — unabhängig davon, wer gerade mit wem arbeitet.\n\nGutes Teamdesign fragt deshalb auch: Wer arbeitet hier und was brauchen diese Menschen, um gut arbeiten zu können? Wird das ignoriert, werden Menschen auch ein Stück weit verheizt."},"id":"f4e813bc-d122-4ae4-9bcb-62cb5930d897","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Das Kontinuum: Stabilität ↔ Fluidität"},"id":"30dc2f77-b39b-4777-9d36-db789967fd83","isHidden":false,"type":"subheading"},{"content":{"text":"Kaum eine Organisation ist komplett stabil oder komplett fluide. In der Realität bewegen sich Teams irgendwo dazwischen — auf einem Kontinuum.\n\nWie viel Stabilität oder Dynamik sinnvoll ist, hängt von mehreren Faktoren ab.\n\nDie technische Architektur spielt eine große Rolle. Wie klar sind fachliche Grenzen gezogen? Wie stark hängen unterschiedliche Teile des Systems voneinander ab? Je sauberer geschnitten und je besser testbar ein System ist, desto leichter lassen sich Verantwortlichkeiten verändern, ohne dass alles ins Wanken gerät. Hier hilft auch ein Blick auf die Evolutionsstufe des Produkts: Ein Team, das an einem Genesis-Produkt arbeitet — also etwas grundlegend Neuem, noch Unerprobtem — braucht andere Freiheitsgrade als ein Team, das eine etablierte Commodity betreibt. Exploration braucht Flexibilität. Betrieb braucht Verlässlichkeit.\n\nDann ist da die soziale und kulturelle Stabilität. Gibt es Vertrauen? Werden Spannungen früh angesprochen? Sind Feedback und Konfliktklärung normal oder Ausnahme? Ohne diese Basis wird jede Form von Dynamik schnell anstrengend.\n\nAuch das organisationale Design ist entscheidend: Sind Entscheidungsräume klar? Weiß man, wer wofür zuständig ist? Gibt es sinnvolle Abstimmungsformate oder landet alles im Zweifel oben?\nHinzu kommt der Markt- und Aufgabenkontext. In einem stark volatilen Umfeld mit hohem Innovationsdruck wird man anders schneiden müssen als in einem relativ stabilen Geschäftsmodell.\nUnd schließlich spielt professionelle Identität eine Rolle: Orientieren sich Menschen stärker an ihrem Skillset und ihrer Rolle — oder primär an ihrem aktuellen Team? Das macht einen Unterschied, wenn Konstellationen wechseln.\n\nWenn die Grundlagen tragfähig sind — technisch, kulturell, strukturell — ist mehr Fluidität möglich, ohne dass es chaotisch wird. Fehlen diese Grundlagen, braucht es oft zunächst mehr Stabilität, um überhaupt Orientierung und Vertrauen aufzubauen.\n\nDie Frage ist nicht stabil oder fluide — sondern was im eigenen Kontext gerade sinnvoll ist. Und warum."},"id":"9b27d705-f8c8-4d13-9bdf-4961d07a101e","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Fazit: Die eigentliche Frage"},"id":"937580a6-ea30-48ea-b4fa-616f8a442446","isHidden":false,"type":"subheading"},{"content":{"text":"Fluidität oder Stabilität sind kein Ziel. Sie sind ein Ergebnis von Klarheit, Lernfähigkeit und dem Mut, Strukturen ganz bewusst zu gestalten und zunächst Zeit ins Verstehen des eigenen Kontexts und der Aufgabe zu investieren. \n\nOrganisationen, die ständig reorganisieren, ohne zu verstehen warum, tauschen ein Problem gegen das nächste. Organisationen, die nichts anfassen, weil sie den Status quo für normal halten, auch. \nBeide vermeiden die eigentliche Arbeit: zu verstehen, wo Wert entsteht und wo er blockiert wird. \nDie entscheidende Frage ist deshalb: Wie gut versteht eine Organisation, wie sie arbeitet? Wo entstehen Engpässe? Wo entsteht Überlastung? Wo fehlt Klarheit über Verantwortlichkeiten? \n\nWer auf diese Fragen klare Antworten hat, kann zwischen Stabilität und Dynamik wählen und beides gezielt einsetzen.\n\n<img src=\"https://vg09.met.vgwort.de/na/3435b2604e48472693f1809fe7ecc6bf\" width=\"1\" height=\"1\" alt=\"\">"},"id":"4490faaf-0887-42ce-bf05-203139b899ac","isHidden":false,"type":"bodytext"},{"content":{"headline":"Du fragst dich, ob eure Teamstruktur noch zu eurer Arbeit passt — oder ob es Zeit wäre, etwas zu verändern? Lass uns darüber sprechen.","buttontext":"Einen Termin buchen","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"a6b44cec-ebe1-40ba-901d-7d0a4c7685a9","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-03-16
+
+----
+
+Headerimage: - file://tOTcofDz14Jw02AQ
+
+----
+
+Metatitle: Stabile oder fluide Teams — wann ist was sinnvoll?
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Wie stabil oder fluide sollten Teams heute sein? Der Artikel zeigt, wovon das abhängt — und welche Voraussetzungen Stabilität und Fluidität brauchen.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: yfS5Gg1MAn3IPLKl
