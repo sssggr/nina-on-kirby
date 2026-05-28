@@ -1,0 +1,89 @@
+Title: When the Company Grows but the Organisation Doesn't Keep Up
+
+----
+
+Slug: when-the-company-grows-but-the-organisation-doesn-t-keep-up
+
+----
+
+Teasertext: Many companies grow, but the way they are organised stays the same. At some point, that stops working. This article uses the Trigon model of organisational development to make sense of these patterns.
+
+----
+
+Headline: When the Company Grows but the Organisation Doesn't Keep Up
+
+----
+
+Modules: [{"content":{"text":"When companies grow, there usually comes a moment when the way things have always been done no longer works.\n\nMany organisations I work with have grown, yet in large parts are still organised the same way they were in their early years. Most things run through the founders, paths are short and improvisation rules. That is what made them successful. But with growth comes a point where it stops working.\n\nThe founders often don't want it this way anymore either. The team wants to take on more responsibility. And yet decisions keep landing at the top, roles stay unclear, and the close-knit atmosphere of the early days starts to crumble, without anything new having taken its place yet.\n\nThat is part of how organisations develop."},"id":"ca85c706-4457-4856-aac8-db32a1012bbf","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Organisations develop in phases"},"id":"b2f3248d-b2c9-4f5e-9e93-e12e833ca5ea","isHidden":false,"type":"subheading"},{"content":{"text":"The Trigon model of organisational development, developed by Lievegoed and Glasl, describes four phases that organisations typically move through: the pioneer phase, the differentiation phase, the integration phase and the association phase."},"id":"5d88ccbd-603b-467a-bd1b-e5b88dc5c96f","isHidden":false,"type":"bodytext"},{"content":{"bigimage":["file://UtcmBZjREVK5PcI1"],"styleselect":"flex"},"id":"ec77fe76-1fcd-4de4-a6b4-26b9a5bac659","isHidden":false,"type":"bigimage"},{"content":{"text":"The **pioneer phase **is the phase of founding and early growth. Everything revolves around the founding person or founding team. Roles are fluid, decisions happen on the fly, and closeness to the customer is high. This works well up to a certain size.\n\nIn the **differentiation phase**, more structure is needed. Organisational charts emerge, processes get documented, responsibilities become clearer. The risk: departments turn into silos, rules become more important than goals.\n\nThe **integration phase** overcomes this silo thinking. Teams make their own decisions, customer orientation comes back into focus, and social skills matter more than pure technical expertise.\n\nThe **association phase** describes organisations that think in networks beyond their own boundaries, with autonomous teams, flexible roles and permeable structures.\n\nWhat makes the model particularly useful: organisations don't always move through these phases evenly. Some areas are still in the pioneer phase while others have long moved on. Sales and operations can be on completely different levels. This explains a lot of the friction that feels like a communication problem at first glance but is actually a structural one."},"id":"a68f8888-d42d-4fa5-848e-b3f196aa4c61","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Typical patterns in growing organisations"},"id":"de5dedc1-e0ad-4dc4-9273-9c980da4e320","isHidden":false,"type":"subheading"},{"content":{"text":"A growing company suddenly experiences coordination chaos. The intuitive reaction is often: people need to communicate better. The Trigon model sharpens the perspective: maybe the organisation has simply outgrown the pioneer phase and now needs role clarity and more formal coordination. That changes where you intervene.\n\nWhat I frequently see in practice: the company has grown to 30, 50, sometimes 100 people, but the decision-making logic still works like it did with ten. Everything runs through a small group or sometimes just one or two individuals, because that's how it's always been, because it's faster, or because trust in others to make decisions hasn't grown alongside the organisation.\n\nAt the same time, everyone can see it's no longer sustainable. The founders are overloaded. The team wonders why it isn't getting more responsibility. And at some point, what made the energy of the early days starts to tip.\n\nThis frequently leads to friction. People who were there from the beginning often have the feeling: this wasn't the plan. The goal was to stay agile, close to customers, not bureaucratic. And the transition into the differentiation phase does bring exactly that: what made the organisation strong in the pioneer phase moves into the background."},"id":"9f74e07d-c3fb-4546-ab88-fda3b764bdb2","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The model is not a roadmap"},"id":"970a9ec1-6f43-42ae-b51f-aa4435fd1890","isHidden":false,"type":"subheading"},{"content":{"text":"I want to address one objection directly: the model implies that organisations move through these phases in a linear sequence. In practice, that's not always the case. Organisations can fall back into earlier patterns under pressure. Different areas can be at different stages at the same time. And no phase is better than another. Each has its own strengths and its own pitfalls.\n\nThat is also why the model helps to question universal best practices. Many management methods are sold as if they work everywhere. The model shows: what makes sense in the pioneer phase can be harmful in the differentiation phase. High autonomy works well early on. Later, without clear roles and coordination, it creates silos and duplicated effort. Strong processes stabilise growth. Too many of them suffocate exactly what made the organisation agile in the first place.\n\nThe model therefore helps me less as a roadmap and more as a way of finding orientation. What is showing up right now? What is needed? What made this organisation strong in this phase, and what must not be lost when the next stage comes?"},"id":"9bc236fe-ea8e-4614-b44b-34bf87a7fc5d","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The real question"},"id":"e12fa5ed-32ca-4063-b68c-012f7cb56b69","isHidden":false,"type":"subheading"},{"content":{"text":"When companies reach the point where the old way of working no longer holds, the obvious question is often: how do we become more professional? More structure, clearer processes, less improvisation.\n\nThat can be right. But it falls short if no one asks what got the organisation to where it is today. The energy, the closeness to customers, the willingness to just get things done.\n\nThat is why the question I keep coming back to in my work is: what does this organisation need right now, and what must it not lose in the process?"},"id":"c4e04129-cd15-4a03-83fd-c5b46caa6c1b","isHidden":false,"type":"bodytext"},{"content":{"headline":"Does this sound familiar? Let's talk!","buttontext":"Book a call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"a60d502d-a87b-43d9-97cc-eb4dc0d349e9","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-05-21
+
+----
+
+Headerimage: - file://wNAeJKgwnjuNj344
+
+----
+
+Metatitle: When organisations outgrow the pioneer phase
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Many companies grow, but the way they are organised stays the same. This article looks at these patterns through the lens of the Trigon model of organisational development.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

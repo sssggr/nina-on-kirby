@@ -1,0 +1,73 @@
+Title: Beratung fördern lassen
+
+----
+
+Modules: [{"content":{"heading":"Beratung fördern lassen, bis zu 80 % Zuschuss möglich"},"id":"e3a57478-8113-419f-84c7-0831619528a1","isHidden":false,"type":"heading"},{"content":{"herotext":"Teamentwicklung, Organisationsentwicklung und Führungskräfteentwicklung, gefördert über INQA-Coaching oder das BAFA-Förderprogramm","heroimage":["file://2fArjARhk0Bzg1wL"]},"id":"a292697f-4012-4ce9-8584-df40e18d2e85","isHidden":false,"type":"hero"},{"content":{"text":"Externes Know-how wäre hilfreich, das wissen die meisten. Trotzdem bleibt der Schritt oft aus, weil das Budget dafür einfach nicht da ist. Zwei Förderprogramme können das ändern: INQA-Coaching und das BAFA-Förderprogramm für Unternehmensberatung. Beide richten sich an kleine und mittlere Unternehmen und übernehmen einen erheblichen Teil der Kosten."},"id":"7b9bc119-f4a6-4bf5-ad06-72f2570edfce","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mit welchen Themen kommen Unternehmen und Start-ups zu mir?"},"id":"53711d48-424d-4906-816b-531741d24eff","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>Das Team wächst, aber Rollen und Verantwortlichkeiten sind unklar. Entscheidungen dauern, Aufgaben fallen hinten runter</li><li>Die Führung ist überlastet, alles läuft über dieselben Personen, Delegation funktioniert nicht</li><li>Spannungen im Team schwelen, werden aber nicht offen angesprochen</li><li>Ein Veränderungsprozess steht an – Umstrukturierung, Wachstum, neues Führungsverständnis – und ihr wisst nicht, wie ihr das strukturiert angehen sollt</li><li>Die Zusammenarbeit ist zäh: zu viele Meetings, zu wenig Ergebnisse, Abstimmungen kosten mehr Zeit als die eigentliche Arbeit</li><li>Ihr habt Digitalisierungsbedarf, aber Tools und Prozesse passen noch nicht zusammen</li></ul>","styleselect":""},"id":"131ad7ac-4c67-49e5-a165-766c16f34582","isHidden":false,"type":"list"},{"content":{"text":"Genau das sind Themen, die sich über beide Förderprogramme bearbeiten lassen."},"id":"c8d94e3c-120e-4e28-994e-0ef8ef3cc5fa","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Zwei Förderprogramme: Welches passt zu euch?"},"id":"d77b54e2-a8a5-47b6-99d9-badef22676b0","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"INQA-Coaching für KMU in Hamburg & Schleswig-Holstein","styleselect":"offer"},"id":"3553746f-af7f-45f2-a4bf-30a89a961db7","isHidden":false,"type":"subsubheading"},{"content":{"text":"Ein strukturierter Beratungsprozess über 4 bis 6 Monate für Start-ups sowie kleine und mittlere Unternehmen, die ihre Zusammenarbeit, Führung oder Organisationsstruktur grundlegend weiterentwickeln wollen.\n\n**Typische Themen:**\n* Teamentwicklung \n* Führungskräfteentwicklung \n* Organisationsstruktur \n* Digitale Zusammenarbeit \n* Rollenklärung\n* Kommunikation & Wissensmanagement\n\n**Förderung:**\nBis zu 80 % der Beratungskosten werden übernommen, der Eigenanteil liegt bei maximal 2.880 € netto.\n\n**Für wen:**\nUnternehmen mit Sitz in Deutschland, 2 bis 249 Mitarbeitende\n\n**Ich bin autorisierte INQA-Coach** und begleite euch durch den gesamten Prozess: von der Förderprüfung bis zur Umsetzung.\n\n(link: page://lBjO0WReDAHFb4Ui text: → Mehr zum INQA-Coaching)"},"id":"e6b05d39-e626-4f77-90c1-4657a97d46fc","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"BAFA-geförderte Unternehmensberatung ","styleselect":"offer"},"id":"c49ff493-ae10-4a15-88c0-47d3637d2fe5","isHidden":false,"type":"subsubheading"},{"content":{"text":"Konzeptionelle Beratung zu Organisationsentwicklung, Führung, Teams oder Change. Das Programm ist flexibler in Format und Thema. \n\n**Typische Themen:**\n* Organisationsentwicklung \n* Teamentwicklung \n* Change Management\n* Führungskräfteentwicklung\n* Kultur und Zusammenarbeit\n\n**Förderung:**\nIn Hamburg: 50 % Zuschuss, maximal 1.750 €. \n\n**Für wen:**\nKMU gemäß EU-Definition (bis 249 Mitarbeitende) mit Sitz in Deutschland\n\nAls beim BAFA registrierte Beraterin sind meine Leistungen im Rahmen des Förderprogramms unter bestimmten Voraussetzungen förderfähig.\n\n(link: page://Yd2JCaj47tXzqb8Z text: → Mehr zur BAFA-Förderung)"},"id":"52f75b38-4c9d-472d-b985-0218dc98612c","isHidden":false,"type":"bodytext"},{"content":{"headline":"Wie hoch ist der bürokratische Aufwand? Und welches Programm passt überhaupt zu euch? Das klären wir gemeinsam in einem kostenlosen Orientierungsgespräch – ich erzähle euch, wie der Prozess läuft, und wir schauen, was gerade bei euch ansteht und ob ich die richtige Begleiterin bin.","buttontext":"Gespräch buchen","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"9e9e7a46-aafc-4441-85c3-c51e30056c1f","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Metatitle: Beratung fördern lassen: INQA & BAFA
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Teamentwicklung, Organisationsberatung und Führungskräfteentwicklung in Hamburg – mit bis zu 80 % Förderung über INQA-Coaching oder das BAFA-Förderprogramm.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: qB2v4P2gcfrKVw27

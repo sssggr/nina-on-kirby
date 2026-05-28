@@ -1,0 +1,69 @@
+Title: BAFA-geförderte Unternehmensberatung in Hamburg
+
+----
+
+Modules: [{"content":{"heading":"BAFA-Funded Business Consulting Hamburg"},"id":"c97b287f-8389-4409-a90b-67e4d89df3a6","isHidden":false,"type":"heading"},{"content":{"herotext":"Solid structures, effective leadership and good collaboration – funded with up to €1,750.","heroimage":["file://OlbCBWAWNaJ0hMrH"]},"id":"07989c07-7ba0-41f5-b5e0-72b2a19630a9","isHidden":false,"type":"hero"},{"content":{"subheading":"What is the BAFA funding programme"},"id":"6dcd446e-0808-4125-850a-f65cebd8e316","isHidden":false,"type":"subheading"},{"content":{"text":"The Federal Office for Economic Affairs and Export Control (BAFA) funds conceptual business consulting for small and medium-sized companies. The programme runs until the end of 2026 and allows up to five funded consultations per company, with a maximum of two per year.\n\n**What does this mean in concrete terms for companies in Hamburg?**\nThe assessment basis is €3,500. For companies in Hamburg and the western federal states, the funding rate is 50 % – which corresponds to a grant of up to €1,750 per consultation. Companies in the eastern federal states receive up to 80 %, up to a maximum of €2,800. The exact funding amount depends on the company's location and approval by the BAFA.\n\nAs a BAFA-registered consultant, my services are eligible for funding under this programme subject to certain conditions."},"id":"e2c95e71-5f46-4fd6-9185-d524cef05518","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What brings companies in Hamburg to me"},"id":"e4f43714-1feb-4509-9593-7d6504bd278b","isHidden":false,"type":"subheading"},{"content":{"text":"Growth that has outpaced existing structures. Leadership that has become a bottleneck. Collaboration that costs more energy than it creates. These are the situations in which companies in Hamburg may benefit from BAFA-funded consulting.\n\n**Typical reasons:**\n**Organisational development: T**he structure no longer fits the growth. Who decides what? Where are processes getting stuck? What needs to change fundamentally to get things moving again.\n\n**Leadership and role clarity: **Leaders are overloaded, delegation isn't working, nobody knows who is actually responsible.\n\n**Change processes:** A change process is on the horizon – restructuring, a new understanding of leadership, cultural change – and you need a solid concept to make it work.\n\n**Processes and collaboration: **Coordination takes more time than the actual work, responsibilities are unclear, decisions get stuck.\n\nThese are exactly the kinds of topics that can be addressed through the BAFA funding programme for business consulting."},"id":"6ec999aa-0557-4fd8-b8d4-3adac4adbfd5","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Who is the funding for?"},"id":"b5170ab8-fba3-47db-8b0e-f6553b99e21d","isHidden":false,"type":"subheading"},{"content":{"text":"Companies eligible under the EU SME definition:\n\n* Fewer than 250 employees\n* Annual turnover below €50 million or balance sheet total below €43 million\n* Registered office or branch in Germany\n\nCompanies in their first year after founding need a free preliminary meeting with a regional partner. I'm happy to help you with that."},"id":"17b42219-75d4-4a3d-b223-0481053e0bec","isHidden":false,"type":"bodytext"},{"content":{"subheading":"How does BAFA-funded Consulting work"},"id":"d78d1102-5582-4354-8151-5cc282f16eda","isHidden":false,"type":"subheading"},{"content":{"text":"**Step 1: Initial conversation**\nWe clarify your situation and check together whether BAFA funding is a realistic option for you.\n\n**Step 2: Submit the application – before the consulting begins**\nThe application is completed entirely online via the BAFA portal. You enter your company details – no further documents, no business plan, no project description. The application typically takes under 30 minutes. You will usually receive the information letter with the non-binding indication of funding by email within 24 hours of submitting your details.\n\nOnly then may the consulting begin.\n\n**Step 3: Consulting**\nWe work through your topic in a structured way – systemic, practical, with a focus on what will actually hold up in your organisation. What this looks like in practice depends on your situation. We'll discuss it in the initial conversation and I'll put together a tailored proposal.\n\n**Step 4: Submit proof of use**\nAfter the consulting is complete, you submit the following documents via the BAFA portal:\n\n* Completed proof-of-use form\n* EU SME and de minimis declaration\n* Consulting report\n* Invoice\n* Proof of payment\n\nI'll be by your side for every step."},"id":"48c12125-b5ae-4f65-9d40-d74a386c4afb","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Moin, I'm Nina Siessegger"},"id":"ceb4b239-eab9-4648-bbf4-fa52f32e8a18","isHidden":false,"type":"subheading"},{"content":{"portrait":["file://G1FWPK7t7Ya9E7LG"],"text":"I'm an organisational consultant and coach with a tech background, based in Hamburg. Since 2020 I've been supporting companies and start-ups in developing structures that hold – without bureaucracy that gets in the way. I know the situations where growth overtakes the organisation, leadership becomes a bottleneck and coordination takes more time than the actual work. As a BAFA-registered consultant, I guide you through the entire process: from checking your eligibility to submitting the application to implementation."},"id":"560ffa7a-2960-4491-8f37-c615fe6901f1","isHidden":false,"type":"portrait-text"},{"content":{"subheading":"Frequently asked questions about BAFA funding"},"id":"6e887061-93f8-4c03-94dc-06381edc3cc9","isHidden":false,"type":"subheading"},{"content":{"text":"**Is BAFA funding guaranteed for my Hamburg-based company?**\nNo. The BAFA reviews every application on the basis of its guidelines – nobody can guarantee funding. I'll give you an honest assessment upfront of whether your situation fits, so you don't waste any time.\n\n**What will BAFA-funded consulting cost me in Hamburg?**\nThat depends on two things: my consulting proposal and the funding rate, which is based on your company's location. The BAFA assessment basis is a maximum of €3,500. For companies in Hamburg and the western federal states, the funding rate is 50 %, which corresponds to a maximum grant of €1,750. What this means in practice for your project is something we'll work out together in the initial conversation.\n\n**How long does the BAFA application take?**\nThe application typically takes under 30 minutes: you enter your company details online and don't need any further documents at this stage. You'll usually receive a response within 24 hours by email.\n\n**What documents do I need for the BAFA application?**\nFor the application itself: none – just your company details in the online portal. For the proof of use after the consulting, you'll need: proof-of-use form, de minimis declaration, consulting report, invoice and proof of payment. I'll walk you through every step.\n**\nHow many consultations can my company have funded?**\nUntil the end of 2026, a maximum of five consultations per company can be funded, with no more than two per calendar year.\n\n**Which topics can I address with BAFA funding?**\nThe programme funds conceptual consulting on economic, personnel and organisational questions of business management. In my practice, these include: organisational development and structures, leadership and role clarity, processes and collaboration, conception of change processes and cultural development. Important: what is funded is the conceptual consulting – analysis, diagnosis and concept development. Workshops and group formats are not eligible for funding, but can take place as a separate measure afterwards. Legal, tax and insurance consulting as well as operational activities are also excluded.\n\n**What is the difference between BAFA funding and INQA Coaching?**\nINQA Coaching is significantly more extensive: a structured process over 4 to 7 months with up to 12 consulting days, in which the team actively participates and various formats such as workshops, interviews and reflection sessions are possible. Your contribution is a maximum of €2,880. The BAFA programme is leaner – it funds conceptual individual consultations and works well for shorter projects with a clear focus. Which programme suits your situation is something we'll figure out together in the initial conversation."},"id":"7e2b315e-db22-4956-bc5d-6049fbd48dd5","isHidden":false,"type":"bodytext"},{"content":{"headline":"Want to find out whether BAFA funding could work for your project? In a free initial conversation we'll look at what's possible together.","buttontext":"Book a conversation","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"efe79e6e-9ea4-4d6c-b946-246dd2173b05","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Metatitle: BAFA-Funded Business Consulting Hamburg
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: As a BAFA-registered consultant in Hamburg, I support companies with organisational development, leadership and collaboration – funding of up to €1,750 possible subject to eligibility.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

@@ -1,0 +1,73 @@
+Title: Förderung
+
+----
+
+Slug: get-consulting-funded
+
+----
+
+Modules: [{"content":{"heading":"Get your consulting funded: up to 80 % grant possible"},"id":"5e23a0a6-ba7f-4c8b-b048-6bfc07e8813b","isHidden":false,"type":"heading"},{"content":{"herotext":"Team development, organisational development and leadership development, funded through INQA Coaching or the BAFA grant programme","heroimage":["file://2fArjARhk0Bzg1wL"]},"id":"462805a6-fc67-401f-b31b-f1d9b75195b7","isHidden":false,"type":"hero"},{"content":{"text":"Most people know that external expertise would help. But the step is often not taken, simply because the budget isn't there. Two funding programmes can change that: INQA Coaching and the BAFA grant programme for business consulting. Both are aimed at small and medium-sized companies and cover a significant part of the costs."},"id":"4d7cd000-592e-4cfd-946f-5a84847839f5","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What brings companies and start-ups to me?"},"id":"745006e2-72f4-4354-b6e7-28c4a3b583d9","isHidden":false,"type":"subheading"},{"content":{"list":"<ul><li>The team is growing, but roles and responsibilities are unclear. Decisions take too long, tasks fall through the cracks</li><li>Leadership is overloaded, everything runs through the same people, delegation isn't working</li><li>Tensions within the team are simmering but not being addressed openly</li><li>A change process is coming up – restructuring, growth, a new understanding of leadership – and you're not sure how to approach it in a structured way</li><li>Collaboration feels heavy: too many meetings, too few results, coordination takes more time than the actual work</li><li>You have a need for digitalisation, but tools and processes don't fit together yet</li></ul>","styleselect":""},"id":"973ca214-1bde-42e7-ae38-9e7f212bb832","isHidden":false,"type":"list"},{"content":{"text":"These are exactly the kinds of topics that can be addressed through both funding programmes."},"id":"007c470a-9208-4553-ab08-b6eb75f75756","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Two Funding Programmes: Which one is right for you?"},"id":"3eedae7d-d8b8-423f-902f-71ed52c7f3f8","isHidden":false,"type":"subheading"},{"content":{"subsubheading":"INQA-Coaching","styleselect":"offer"},"id":"4ae9be8e-ec08-4fc0-8e00-235db48eab13","isHidden":false,"type":"subsubheading"},{"content":{"text":"A structured consulting process over 4 to 6 months for start-ups and small to medium-sized companies that want to fundamentally develop their collaboration, leadership or organisational structure.\n\n**Typical topics:**\n* Team development\n* Leadership development\n* Organisational structure\n* Digital collaboration\n* Role clarity\n* Communication & knowledge management\n\n**Funding:**\nUp to 80 % of consulting costs are covered – your contribution is a maximum of € 2,880 net.\n\n**Who it's for:**\nCompanies based in Germany, 2 to 249 employees\n\nI am an authorised INQA Coach and guide you through the entire process: from checking your eligibility to implementation.\n\n(link: page://lBjO0WReDAHFb4Ui text: → More about INQA Coaching)"},"id":"f5c9809b-51b8-4d54-bbd6-f367bf6e6e32","isHidden":false,"type":"bodytext"},{"content":{"subsubheading":"BAFA-funded business consulting","styleselect":"offer"},"id":"4f5c4592-88de-4009-bed6-a82009592858","isHidden":false,"type":"subsubheading"},{"content":{"text":"Conceptual consulting on organisational development, leadership, teams or change. The programme is more flexible in format and topic.\n\n**Typical topics:**\n* Organisational development\n* Team development\n* Change management\n* Leadership development\n* Culture and collaboration\n\n**Funding:**\nIn Hamburg: 50 % grant, up to € 1,750. Exact funding depends on company location and BAFA approval.\n\n**Who it's for:**\nCompanies with up to 249 employees based in Germany\n\nAs a BAFA-registered consultant, my services are eligible for funding under this programme subject to certain conditions.\n\n(link: page://Yd2JCaj47tXzqb8Z text: → More about BAFA funding)"},"id":"81b18f9a-c7ca-424f-8239-8d866de32ae5","isHidden":false,"type":"bodytext"},{"content":{"headline":"How much bureaucracy is involved? And which programme actually fits your situation? We'll work that out together in a free initial conversation – I'll walk you through how the process works, and we'll look at what's on your plate right now and whether I'm the right person to support you.","buttontext":"Book a conversation","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"43b7f716-743a-4e4d-a63c-4b0394df7836","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Metatitle: Get Consulting Funded: INQA & BAFA
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Team development, organisational development and leadership development in Hamburg – with up to 80 % funding through INQA Coaching or the BAFA grant programme.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

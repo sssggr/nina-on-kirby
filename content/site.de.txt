@@ -59,7 +59,7 @@ Footersection3secondheadline: Förderung von Beratung
 
 ----
 
-Footersection3text: Ich bin autorisierte INQA-Coach. Lasst euch meine Beratung mit bis zu 80% fördern. (link: page://lBjO0WReDAHFb4Ui text: Mehr Infos)
+Footersection3text: Ich bin autorisierte INQA-Coach und beim BAFA registrierte Beraterin. Lasst euch meine Beratung mit bis zu 80 % fördern. (link: page://qB2v4P2gcfrKVw27 text: → Mehr Infos)
 
 ----
 
