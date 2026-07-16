@@ -1,0 +1,89 @@
+Title: Retrospectives: How Teams Regularly Check In on Their Collaboration
+
+----
+
+Slug: retrospectives-team-collaboration
+
+----
+
+Teasertext: Do you and your team take time regularly to look at how your collaboration is actually going? The retrospective is one of my favourite formats for this, and not just from personal experience: studies show that structured reflection improves team performance. How a good process looks, how to avoid the feeling of going through the motions, and how insights turn into real actions.
+
+----
+
+Headline: Retrospektiven: Wie Teams regelmäßig auf ihre Zusammenarbeit schauen
+
+----
+
+Modules: [{"content":{"text":"Do you and your team take time regularly to look at how your collaboration is actually going? How well you're moving forward together, where you could work together better, what tensions exist right now in everyday work?\n\nWhat I see in practice: most companies have meetings without end, but barely any space for this kind of reflection. The day-to-day work dominates. How the collaboration itself is going usually stays a topic for the coffee break.\n\nThere's a format for this that has long since outgrown its origins: the retrospective. Teams regularly pause and talk about how to improve their collaboration. The format originally comes from agile software development, but by now it works for any team that collaborates over a longer period, regardless of industry or task."},"id":"ea33c92b-fddc-4f07-a6b5-42140be2ccfd","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Why Retrospectives Are One of My Favourite Formats"},"id":"30f1b49c-436b-4999-ba8b-619c4ad38d1b","isHidden":false,"type":"subheading"},{"content":{"text":"They reliably give teams the chance to stay with something over the long run and resolve tensions before they settle in.\n\nAt the same time, I know teams that eventually suffer from a kind of retro fatigue. They keep doing the format, but the energy is gone. Often this is because little of what gets discussed actually gets implemented, or because people talk around the real issues instead of naming them directly. The session turns into a box-ticking exercise, things get checked off rather than reflected on, and what actually matters never makes it to the table.\n\nA second reason I often see: the same questions, the same process, every single time, regardless of what the group actually needs right now. That's why I look closely at the team in front of me before every retrospective. If I've been working with a group for a while, I can tailor the questions accordingly. If I don't know the team yet, I clarify upfront, as part of scoping the engagement, where the team currently stands and what it needs, and choose the questions based on that."},"id":"ff88ab87-d322-409b-b619-bd5ba48d3e0c","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Format and Rhythm"},"id":"44f7fcaf-7b3b-4532-b998-59532b9bfa61","isHidden":false,"type":"subheading"},{"content":{"text":"This doesn't have to follow a fixed, short cycle like it often does in software development, where it tends to happen every two to three weeks. Maybe quarterly works for you, maybe every eight weeks. What matters is a certain regularity, so that you actually get to check on the progress of specific topics, and so that issues keep surfacing over the long term.\n\nDecide in advance who will facilitate. This can be someone from the team itself, though that's actually the hardest version, since it means keeping the two hats of facilitator and team member clearly apart. It's often easier with someone from a neighbouring team or an external facilitator.\n\nIn person is my personal favourite, remote works just as well with tools like Mural or Miro. On timing, experienced teams often manage in ninety minutes, teams just starting out should plan for two to three hours. And: you won't resolve everything in one session. Do it regularly, and you'll keep moving forward step by step.\n\nNinety minutes to two hours every few weeks can feel like a lot in a busy schedule. Compared to how much time and energy unresolved friction costs over months, it's usually not much at all."},"id":"0a09bc79-9fe0-405b-8bb4-00bfdaa64e5b","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The Process in Practice"},"id":"f50b8c25-db7c-4e76-ab99-9fb6445e0b32","isHidden":false,"type":"subheading"},{"content":{"text":"This is the rough structure that has worked well for me.\n \n**Check-in.** \nA short, shared start where everyone gets to speak once before things really begin. A simple question is enough, for example: What positively surprised you in the last few weeks?\n \n**Review of the last retrospective.** \nDid you agree on anything last time? Look together at what came of it, done or not done. This step gets skipped a lot, but it's crucial. In my experience, without this follow-up, the whole format doesn't bring much.\n \n**Looking back: what went well, what didn't?** \nClassic formats for this are Start-Stop-Continue, meaning what should stop, what should stay, what should be added, or Liked-Learned-Lacked, meaning what was liked, what was learned, what was missing. Everyone writes for themselves first, for about seven minutes, in silence and without seeing each other's thoughts yet. This matters: anyone who reads their colleagues' sticky notes before their own thoughts are finished will unconsciously write something similar, or leave out something that's already been said. With pen and paper this is automatically private, in Miro or Mural you can activate private mode for the same effect.\n \n**Sharing.** \nThe sticky notes go up one by one, each with a sentence so everyone understands what's meant.\n \n**Clustering and voting.** \nSimilar topics get grouped together, then the group votes on what matters most. I usually do this through dot voting with sticky dots, the digital tools have their own voting features for this.\n \nAn alternative or addition to this, which I now use with teams that spend a lot of energy on things they can't change anyway: Stephen Covey's Circle of Influence. Three nested circles. In the centre, the Circle of Control, what the team can change directly itself, without needing anyone else's permission or support. Around that, the Circle of Influence, what the team can influence but not decide on its own. On the outside, the Circle of Concern, what matters to the team and affects it, but where it has neither influence nor control."},"id":"8aef67e9-3315-411d-a24b-174944f1a154","isHidden":false,"type":"bodytext"},{"content":{"bigimage":["file://TwNhpx9iRsZ7EpfN"],"styleselect":"flex"},"id":"3ccd6275-5d5d-4edc-9fc1-eaf57ab242e4","isHidden":false,"type":"bigimage"},{"content":{"text":"Instead of simply ranking all the collected topics by importance, you sort them into these three circles. Just sorting things together often brings more clarity than the discussion that follows. And it makes a pattern visible that I see often: teams that get stuck on things from the outer circle become frustrated and stop moving forward. For the deep dive, deliberately choose one or two topics from the inner or middle circle. Topics from the outer circle stay visible, but you consciously let them go for this retrospective.\n\n**Diving into top topics.** \nOne or two topics in depth, split into smaller groups if the team is larger. Questions that help with this: \n- What exactly happens, and why is it a problem?\n- When and how does it occur?\n- Who benefits from the current situation, and how exactly?\n- What solutions could work? What are their pros and cons?\n- Who could help change the situation?\n\nThese questions are a selection, not a fixed set. What fits depends on the topic.\n\n**Turning Insights into Concrete Action Items**\nAt the end of the discussion, there should be a concrete agreement. What will we as a team do differently from now on, and what exactly does that look like? This step is often hard at first, because where do you even start? Teams tend to formulate recommendations or appeals, but this kind of wishful thinking is usually far too vague and never gets implemented.\n\nYou can recognise a good action item by this:\n- Is it specific enough to actually be actionable?\n- Is it small enough, a clear first step rather than a big undertaking?\n- Is there a person who's actually responsible for it?\n\n**Check-out**\nTo close, another short round, the counterpart to the check-in at the start: What am I taking away from today's session? What was an aha moment for me, or what surprised me?"},"id":"2192986f-a41f-4129-acae-84fd8455c07b","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Retrospectives Work Over Time"},"id":"1099fe7d-d133-4893-88eb-e8567cfaaa1e","isHidden":false,"type":"subheading"},{"content":{"text":"A single retrospective can already shift something. But the format unfolds its real strength when teams stick with it and actually follow up on their own action items.\n \nThis isn't just my personal experience. Scott Tannenbaum and his colleague Chris Cerasoli conducted a meta-analysis showing that teams who debrief outperform other teams by an average of 20 percent. In a further study that Tannenbaum conducted with Kim Smith-Jentsch and Scott Behson for the US Navy, teams whose leaders were specifically trained to run debriefs showed performance gains of up to 40 percent.\n\nA (link: https://www.sciencedirect.com/science/article/pii/S1053482224000329 text: recent meta-analysis) on team reflexivity from 2024 confirms this picture, particularly with regard to the role of leadership.\n\n(Source: Tannenbaum, S., & Salas, E. (2021). Teams That Work: The Seven Drivers of Team Effectiveness. Oxford University Press. Chapter 6 and Tool B.)"},"id":"ec787907-89c8-4d87-9c9d-4beee8e28a20","isHidden":false,"type":"bodytext"},{"content":{"headline":"Looking to get into the habit of reflecting? Looking for a facilitator for your next retrospective, in Hamburg or remote? Or do you want to tackle a bigger topic? Let's talk.","buttontext":"Book a call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"2077c950-042a-4cfa-b706-3aef1385d859","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-06-23
+
+----
+
+Headerimage: - file://laApWAAu1Ww0jKlW
+
+----
+
+Metatitle: Retrospectives: How Teams Reflect on Their Collaboration
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: How a good retrospective works, why it's effective, and how insights become real action items. With research, process, and practical tips.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

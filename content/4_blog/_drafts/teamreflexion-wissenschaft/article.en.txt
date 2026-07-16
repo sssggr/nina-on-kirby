@@ -1,0 +1,85 @@
+Title: Warum sich Zeit für Reflexion lohnt – was die Forschung über gemeinsame Teamreflexion sagt
+
+----
+
+Teasertext: "Diese Workshops kosten immer so viel Zeit." Das höre ich immer wieder. Die Forschung zeigt allerdings: Teams, die sich regelmäßig Zeit für Reflexion nehmen, performen messbar besser.
+
+----
+
+Modules: [{"content":{"text":"\"Diese Workshops mit dir kosten immer so viel Zeit.\"\n\nDen Satz höre ich öfter. Und ich verstehe ihn. Jede Stunde, die ein Team gemeinsam verbringt, fehlt woanders.\n\nAber ich frage mich dann immer: Was kostet eigentlich die Zeit, die in ungeklärter Reibung verloren geht? Die Missverständnisse, die sich über Wochen aufbauen. Die Entscheidungen, die niemand trifft, weil niemand weiß, wer zuständig ist. Das Frustrationspotenzial, das sich ansammelt, bis es irgendwann entlädt. \n\nDiese Kosten werden im hektischen Alltag oft vergessen."},"id":"5a37b0f8-469f-4708-b7d2-8155b50a7072","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2026-07-02
+
+----
+
+Headerimage: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Studien zeigen: Teams, die regelmäßig gemeinsam reflektieren, performen messbar besser. Was die Studien sagen und was das für Führung bedeutet.
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Headline: Warum sich Zeit für Reflexion lohnt – was die Forschung über gemeinsame Teamreflexion sagt
+
+----
+
+Metatitle: Warum Teamreflexion wirkt – was die Forschung zeigt
+
+----
+
+Metatemplate: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 

@@ -94,22 +94,6 @@ Testimonials:
     Felix Krüger, Gründer und CTO Pirate
     Ship Software GmbH
 - 
-  headline: >
-    Klarheit und Struktur in der
-    Zusammenarbeit
-  testimonial_text: >
-    Nina hat uns in unserem wachsenden
-    Remote-Unternehmen geholfen, Klarheit
-    und Struktur in unsere Zusammenarbeit zu
-    bringen. Ihre Erfahrung, aus der Praxis
-    und durch fundierte Weiterbildungen, ist
-    spürbar. Im Sparring hat mir ihr Blick
-    von außen geholfen, fokussiert an den
-    wirklich wichtigen Themen zu arbeiten.
-  author_info: >
-    Daniel Grünthal, Geschäftsführer
-    HomeRun GmbH
-- 
   headline: Arbeitskultur spürbar verbessert
   testimonial_text: >
     Nina begleitet die Teams in meinem
@@ -145,6 +129,22 @@ Testimonials:
   author_info: >
     Stephanie Schaub, Geschäftsführerin
     CHOCOVERSUM GmbH
+- 
+  headline: >
+    Klarheit und Struktur in der
+    Zusammenarbeit
+  testimonial_text: >
+    Nina hat uns in unserem wachsenden
+    Remote-Unternehmen geholfen, Klarheit
+    und Struktur in unsere Zusammenarbeit zu
+    bringen. Ihre Erfahrung, aus der Praxis
+    und durch fundierte Weiterbildungen, ist
+    spürbar. Im Sparring hat mir ihr Blick
+    von außen geholfen, fokussiert an den
+    wirklich wichtigen Themen zu arbeiten.
+  author_info: >
+    Daniel Grünthal, Geschäftsführer
+    HomeRun GmbH
 - 
   headline: >
     Ich habe Klarheit über meine Rolle als
