@@ -1,0 +1,89 @@
+Title: Role Clarity Happens Day to Day, Mostly Through Feedback
+
+----
+
+Slug: role-clarity-happens-day-to-day-mostly-through-feedback
+
+----
+
+Teasertext: A meta-analysis with nearly 800,000 participants shows that unclear roles don't just wear people down. When it comes to performance and teamwork, they matter more than being overloaded. What that means for leadership, and why role clarity is never finished.
+
+----
+
+Headline: Role Clarity Happens Day to Day, Mostly Through Feedback
+
+----
+
+Modules: [{"content":{"text":"Unclear roles and responsibilities come up a lot in my work. Many companies assume everyone already knows who does what, and who gets to make which decisions. But once I start talking to people, it often turns out that's not the case. Leadership will say, for example, that from their point of view everything is clear. Then an employee tells me there are actually a few things where she's not quite sure whether she's supposed to handle them, or even allowed to.\n\nI know from my own practice how much role clarity matters. Now there's a large meta-analysis that takes a deep dive into the topic: more than 780,000 people, 515 studies, and 60 years of research on role stress, all pulled together. The study looks at three kinds of role stress: unclear expectations, conflicting demands, and simply having too much on your plate. The key finding: for half of the outcomes studied, unclear expectations carry the most weight, more than conflicting demands and even more than being overloaded.\n\nBut there's another finding from the same study that I think is at least as important, because it shows what does the most to keep roles clear day to day. First, though, a quick look at why role clarity is about a lot more than stress."},"id":"5a37b0f8-469f-4708-b7d2-8155b50a7072","isHidden":false,"type":"bodytext"},{"content":{"subheading":"More Than a Stress Issue"},"id":"b108a3f9-2e4d-42d5-b09e-ff35da6a95e0","isHidden":false,"type":"subheading"},{"content":{"text":"The meta-analysis also compared which of the three kinds of role stress matters most across fourteen different outcomes, from job satisfaction to turnover intentions to performance. For task performance, the picture is especially clear: unclear roles are almost the only thing that makes a difference there. Conflicting demands and overload barely play a role.\n\nIt looks similar for something very ordinary, what researchers call \"organizational citizenship behavior\": everything people do for their team on top of their actual job. Helping out when someone else is swamped. Weighing in even when it's not your project. Taking ownership without anyone asking you to. The research on this is still thin. But the pattern matches what I see in teams: when it isn't clear where your responsibility ends and someone else's begins, it also gets harder to tell when to step in and when to stay out of it. And then people tend to hold back instead of getting involved."},"id":"39c0502f-3e4d-43ab-a000-a1c9a0111f83","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The Biggest Lever: Feedback"},"id":"4070911f-8a35-4485-9aed-b92849467526","isHidden":false,"type":"subheading"},{"content":{"text":"Even if roles were clarified at some point, say with a role canvas or a RACI matrix that spells out who's responsible for what, there's still the question of how much that actually matters in day-to-day work, and whether it gets adjusted when things change. So the real question is: what supports an ongoing process of clarification?\n\nThe study pulled together what goes hand in hand with role clarity. And the strongest link is feedback, whether it comes from a manager, from the team, or from the work itself. How much feedback people get on their work is more closely tied to how clear they feel about their roles than anything else the study looked at. That's why the authors recommend regular, specific feedback.\n\nFor me, that's the heart of it: feedback isn't something you give once a year in a performance review. Every piece of feedback is also a small act of role clarification, because it shows what's expected and what's going well."},"id":"148a37b0-97cd-4319-9ee0-8f5eae7dfef1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What Else Keeps Roles Clear"},"id":"4abb522a-af94-4ead-be27-485a18249f40","isHidden":false,"type":"subheading"},{"content":{"text":"Leadership shows up quite prominently in the study too, although the data is thinner here: a solid relationship between managers and their team, built on trust and respect, and, in my experience, one where people feel comfortable asking questions. And managers who provide structure by defining roles and clarifying expectations. In my view, that also means not spelling out every last detail, which fits the next finding.\n\nHow the work itself is designed plays a big role, too: more autonomy, work that people experience as a meaningful whole, and a clear sense of why their work actually matters are all linked to less role ambiguity.\n\nBy the way, this is just as relevant for self-organizing teams without formal leadership. Role clarity doesn't just depend on one person with a management title. It depends at least as much on how work and responsibilities are divided up within the team in the first place. The study backs this up, too: support from coworkers and from the organization is at least as closely tied to less role ambiguity as support from a manager.\n\nNone of this is a one-off measure. A solid working relationship isn't something you build once and then check off your list. Role clarity either gets maintained in everyday work, or it doesn't.\n\nOne more thing that gave me pause: according to the study, managers don't experience more role ambiguity than anyone else, but they do experience more overload. And when their own role is unclear, it takes a bigger toll on their job satisfaction and their sense of fairness. If you're the one who's supposed to make sure others know where they stand, you need that clarity for yourself at least as much."},"id":"6fe53740-0463-4e35-bc8c-20e0538c7c4c","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Clarity Takes Upkeep"},"id":"be087c57-fed6-49d2-b212-6030810ca3c5","isHidden":false,"type":"subheading"},{"content":{"text":"(link: page://ioYtd9rXoJp73nbJ text: In my last post on this topic), I wrote that clarifying roles isn't a one-time project. This study shows why that matters so much, and what actually helps clarity hold up over time.\n\nWhether it holds up is decided in the weeks and months after every round of clarification, in every feedback conversation, and in every situation where it's not clear who's going to pick something up. And in how often anyone actually stops to check whether the roles on the team still fit what's really on the table right now.\n\nThree questions worth asking:\n\n- When did you last take a look at your roles together, and what has changed since then?\n- How often do people on your team get feedback on their work, and from whom?\n- Where is nobody stepping in right now because it's not clear who's responsible?"},"id":"a4d73587-ee44-4e71-a57c-6ae3b5097b25","isHidden":false,"type":"bodytext"},{"content":{"text":"Source: Sawhney, G., McCord, M. A., Cunningham, A., Cook, P., Adjei, K., & Flinn, T. (2026). A meta-analytic review of 60 years of role stressor research. Journal of Vocational Behavior, 167, 104234. https://doi.org/10.1016/j.jvb.2026.104234"},"id":"5e1ceaad-7a16-4320-979c-aec5557c4c11","isHidden":false,"type":"bodytext"},{"content":{"headline":"Not quite sure anymore who does what on your team, or who gets to decide what? Looking to clarify roles, in Hamburg or remote? Or want to make sure that clarity holds up day to day? Let's talk.","buttontext":"Book a call","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"ce6ecc13-e99f-4908-a729-ef0f0e57c598","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-09-28
+
+----
+
+Headerimage: - file://vFjmWYBjzNHjX0XU
+
+----
+
+Metatitle: Role Clarity at Work: What the Research Shows
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: What keeps roles clear day to day? A meta-analysis of nearly 800,000 people points to feedback first, plus leadership, job design, and questions to ask.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Clarifying roles isn't a one-time project. What a meta-analysis of nearly 800,000 people reveals about feedback, leadership, and teamwork.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 

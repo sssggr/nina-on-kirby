@@ -1,0 +1,93 @@
+Title: Rollenklarheit braucht Pflege: Was die Forschung zeigt
+
+----
+
+Slug: rollenklarheit-ist-kein-projekt-das-man-abschliesst
+
+----
+
+Teasertext: Eine Meta-Analyse mit fast 800.000 Teilnehmenden zeigt: Unklare Rollen kosten nicht nur Nerven, bei Leistung und Zusammenarbeit wiegen sie auch schwerer als Überlastung. Was das für Führung bedeutet, und warum Rollenklarheit nie fertig ist.
+
+----
+
+Headline: Rollenklarheit braucht Pflege: Was die Forschung zeigt
+
+----
+
+Modules: [{"content":{"text":"Unklare Rollen und Zuständigkeiten sind ein Thema, das mir in meiner Arbeit ziemlich häufig begegnet. In vielen Unternehmen wird davon ausgegangen, dass schon allen klar sein sollte, wer was macht und auch was entscheiden darf. Im Gespräch merke ich dann allerdings häufig, dass dem nicht so ist. Die Geschäftsführung sagt zum Beispiel, dass es aus ihrer Sicht klar ist, die Mitarbeiterin sagt, da gäbe es doch den ein oder anderen Punkt, wo ihr nicht so ganz klar sei, ob sie das jetzt solle oder dürfe.\n\nAus meiner Praxis weiß ich, wie wichtig Rollenklarheit ist. Nun gibt es eine große Meta-Analyse, die das Thema intensiv beleuchtet: über 780.000 Menschen, 515 Studien, 60 Jahre Forschung zu Rollenstress zusammengefasst. Die Studie unterscheidet drei Arten von Rollenstress: unklare Erwartungen, widersprüchliche Anforderungen und schlicht zu viel Arbeit. Das zentrale Ergebnis: Bei der Hälfte der untersuchten Folgen wiegen unklare Erwartungen am schwersten, stärker als widersprüchliche Anforderungen und sogar stärker als zu viel Arbeit.\n\nEinen anderen Befund aus derselben Studie finde ich aber mindestens genauso wichtig, weil er zeigt, was Rollenklarheit im Alltag am meisten stützt. Vorher aber kurz dazu, warum das Thema weit mehr ist als eine Stressfrage."},"id":"5a37b0f8-469f-4708-b7d2-8155b50a7072","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Mehr als eine Stressfrage"},"id":"b108a3f9-2e4d-42d5-b09e-ff35da6a95e0","isHidden":false,"type":"subheading"},{"content":{"text":"Die Meta-Analyse hat auch verglichen, welche der drei Arten von Rollenstress bei vierzehn verschiedenen Folgen am meisten ins Gewicht fällt, von Zufriedenheit über Kündigungsabsicht bis zu Leistung. Bei der Aufgabenleistung ist das Bild besonders eindeutig: Dort macht fast nur die Unklarheit den Unterschied. Widersprüchliche Anforderungen und Überlastung spielen kaum eine Rolle.\n\nÄhnlich sieht es bei etwas sehr Alltäglichem aus, nämlich bei allem, was Menschen zusätzlich zu ihrer eigentlichen Aufgabe für ihr Team tun. Aushelfen, wenn es bei jemand anderem brennt. Mitdenken, auch wenn es nicht die eigene Baustelle ist. Verantwortung übernehmen, ohne dass es jemand einfordert. Die Datenlage dazu ist allerdings noch dünn. Aber das Muster passt zu dem, was ich in Teams erlebe: Wenn nicht klar ist, wo die eigene Verantwortung endet und die von jemand anderem beginnt, wird es auch unklarer, wann man einspringt und wann nicht. Und dann hält man sich eher zurück, statt sich einzubringen."},"id":"39c0502f-3e4d-43ab-a000-a1c9a0111f83","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Der stärkste Hebel: Feedback"},"id":"4070911f-8a35-4485-9aed-b92849467526","isHidden":false,"type":"subheading"},{"content":{"text":"Auch wenn Rollen irgendwann geklärt wurden, zum Beispiel mit einem Rollen-Canvas oder einer RACI-Matrix, die festhält, wer wofür verantwortlich ist, stellt sich die Frage, inwieweit das im Alltag relevant bleibt und ggf. auch nachjustiert wird. Die Frage ist also viel mehr: Was unterstützt einen kontinuierlichen Klärungsprozess?\n\nDie Studie hat zusammengetragen, was mit mehr Rollenklarheit einhergeht. Und am stärksten ist der Zusammenhang mit Feedback, ob von der Führungskraft, aus dem Team oder aus der Arbeit selbst. Wie viel Rückmeldung Mitarbeitende zu ihrer Arbeit bekommen, hängt stärker damit zusammen, wie klar sie ihre Rolle erleben, als alles andere, was in der Studie betrachtet wurde. Die Autorinnen und Autoren empfehlen deshalb regelmäßiges, konkretes Feedback.\n\nDas ist für mich der Kern: Feedback gibt man nicht einmal im Jahr im Mitarbeitergespräch. Jede Rückmeldung ist auch eine kleine Rollenklärung, weil sie zeigt, was erwartet wird und was gut läuft."},"id":"148a37b0-97cd-4319-9ee0-8f5eae7dfef1","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Was Rollenklarheit außerdem trägt"},"id":"4abb522a-af94-4ead-be27-485a18249f40","isHidden":false,"type":"subheading"},{"content":{"text":"Auch Führung kommt in der Studie ziemlich deutlich vor, wenn auch auf schmalerer Datenbasis: eine tragfähige Beziehung zwischen Führungskraft und Team, geprägt von Vertrauen und Respekt, und meiner Erfahrung nach eine, in der man sich traut nachzufragen. Und Führungskräfte, die Struktur geben, indem sie Rollen definieren und Erwartungen klären. Aus meiner Sicht gehört dazu, nicht alles bis ins Detail vorzuschreiben. Das passt auch zum nächsten Befund.\n\nDenn auch wie die Arbeit selbst gestaltet ist, spielt eine große Rolle: mehr Autonomie, eine Aufgabe, die man als zusammenhängendes Ganzes erlebt, und ein klares Gefühl dafür, wofür die eigene Arbeit eigentlich wichtig ist, hängen ebenfalls mit weniger Rollenunklarheit zusammen.\n\nDas Thema ist übrigens für selbstorganisierte Teams ohne formale Führung genauso relevant: Rollenklarheit hängt nicht nur an einer Person mit Führungstitel, sondern mindestens genauso daran, wie Arbeit und Aufgaben im Team überhaupt zugeschnitten sind. Auch das zeigt die Studie: Unterstützung aus dem Team und durch die Organisation hängt mindestens so stark mit weniger Rollenunklarheit zusammen wie Unterstützung durch Vorgesetzte.\n\nDas alles sind keine einmaligen Maßnahmen. Eine tragfähige Beziehung baut man nicht einmal auf und ist dann fertig damit. Rollenklarheit ist etwas, das im Alltag entweder gepflegt wird oder eben nicht.\n\nWas mich dabei zusätzlich nachdenklich gemacht hat: Führungskräfte erleben der Studie zufolge zwar nicht mehr Rollenunklarheit, aber mehr Überlastung. Und wenn ihre eigene Rolle unklar ist, schlägt sich das bei ihnen stärker auf Zufriedenheit und Gerechtigkeitsempfinden nieder. Wer dafür sorgen soll, dass andere wissen, woran sie sind, braucht diese Klarheit für sich selbst mindestens genauso."},"id":"6fe53740-0463-4e35-bc8c-20e0538c7c4c","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Klarheit ist Pflege"},"id":"be087c57-fed6-49d2-b212-6030810ca3c5","isHidden":false,"type":"subheading"},{"content":{"text":"(link: page://ioYtd9rXoJp73nbJ text: In meinem letzten Beitrag zum Thema) hatte ich schon geschrieben, dass Rollenklärung kein einmaliges Projekt ist. Die Studie zeigt jetzt, warum das so wichtig ist, und was konkret dazu beiträgt, dass Klarheit über die Zeit hält.\n\nOb sie hält, entscheidet sich in den Wochen und Monaten nach jeder Klärung, in jedem Feedbackgespräch und in jeder Situation, in der gerade nicht klar ist, wer jetzt übernimmt. Und darin, wie oft man überhaupt noch hinschaut, ob die Rollen im Team noch zu dem passen, was gerade tatsächlich ansteht.\n\nDrei Fragen, die sich dafür lohnen:\n\n- Wann habt ihr zuletzt gemeinsam auf eure Rollen geschaut, und was hat sich seitdem verändert?\n- Wie oft bekommen die Menschen in eurem Team Rückmeldung zu ihrer Arbeit, und von wem?\n- Wo springt gerade niemand ein, weil unklar ist, wer eigentlich zuständig ist?"},"id":"a4d73587-ee44-4e71-a57c-6ae3b5097b25","isHidden":false,"type":"bodytext"},{"content":{"text":"Quelle: Sawhney, G., McCord, M. A., Cunningham, A., Cook, P., Adjei, K. & Flinn, T. (2026). A meta-analytic review of 60 years of role stressor research. Journal of Vocational Behavior, 167, 104234. https://doi.org/10.1016/j.jvb.2026.104234"},"id":"5e1ceaad-7a16-4320-979c-aec5557c4c11","isHidden":false,"type":"bodytext"},{"content":{"headline":"Bei euch ist nicht mehr so ganz klar, wer was macht und wer was entscheiden darf? Ihr wollt Rollen im Team klären, in Hamburg oder remote? Oder ihr wollt, dass diese Klarheit auch im Alltag hält? Lass uns sprechen.","buttontext":"Jetzt Termin vereinbaren","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"6b2e3f1a-eded-4576-b2a7-56d9cb453cb0","isHidden":false,"type":"contacthighlight"}]
+
+----
+
+Date: 2026-09-28
+
+----
+
+Headerimage: - file://vFjmWYBjzNHjX0XU
+
+----
+
+Metatitle: Rollenklarheit entsteht im Alltag, vor allem durch Feedback
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Was hält Rollen im Alltag klar? Laut einer Meta-Analyse mit fast 800.000 Menschen vor allem Feedback. Dazu Führung, Arbeitsgestaltung und Fragen fürs Team.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: Rollenklärung ist kein einmaliges Projekt. Was eine Meta-Analyse mit fast 800.000 Teilnehmenden über Feedback, Führung und Zusammenarbeit zeigt.
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: ejWqwS3qJ6BPKUJ7
