@@ -1,0 +1,89 @@
+Title: What Makes Teams Successful?
+
+----
+
+Slug: what-makes-teams-successful
+
+----
+
+Teasertext: Great people, but your team still isn't running smoothly? What team research says about successful teams and where you can start as a founder or team lead.
+
+----
+
+Headline: What Makes Teams Successful?
+
+----
+
+Modules: [{"content":{"text":"You've got great people on board. Everyone is motivated and good at what they do. And yet the team isn't running smoothly: coordinating takes forever, tasks fall through the cracks, and everyone seems to be pulling in a slightly different direction.\n\nWhen that happens, it's worth looking at what team research has to say. By now, it does a pretty good job of explaining what makes teams effective. And as founders and leaders, you can shape a lot of it directly, often before a team has really gotten going.\n\nIn this article, I'll introduce two models I keep coming back to in my work: the 60-30-10 rule by J. Richard Hackman and Ruth Wageman, and the seven drivers of team effectiveness by Scott Tannenbaum and Eduardo Salas."},"id":"4f717c62-78f0-4a1d-a51a-b74e46dc0ee3","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Is It Even a Team?"},"id":"31937a4a-08e2-4ad0-b524-228a5b51a1a4","isHidden":false,"type":"subheading"},{"content":{"text":"Before we get to success factors, there's a question that often gets skipped: Are we actually dealing with a team? The word gets used for all kinds of things, from a department to a project group to simply everyone who's involved in some way.\nTeam researcher J. Richard Hackman describes a real team like this: It's clear who's on it. Members work on a shared task and depend on each other to get it done. And the membership stays stable over a period of time.\nThe key point is interdependence. A team building an app needs people who can code, people who can design, and people who understand what users need. The result only comes together when they work together. In a customer service team where everyone handles requests independently, on the other hand, good coordination of tasks is often enough. Both are fine. What matters is that you know what you're actually organizing. Some tasks are better handled by individuals or loose working groups than by a team.\nSize matters, too. In experiments with small groups in 1970, Hackman and Neil Vidmar found 4.6 people to be the ideal team size. I go into detail on how to tell whether your team has grown too big in my article (link: page://K8VxIuKL66UUiny0 text: When Is a Team Too Big?)"},"id":"bd528d24-63f4-4fba-9c21-73a67cee9922","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The 60-30-10 Rule: A Lot Is Decided Before the Start"},"id":"04e4ec2f-01d1-4ba4-943f-a3a986c14455","isHidden":false,"type":"subheading"},{"content":{"text":"Hackman and Ruth Wageman spent many years researching teams together. That's where the 60-30-10 rule comes from. Roughly 60 percent of the differences in team performance are already locked in before the team meets for the first time. 30 percent depends on how well the team is launched. The remaining 10 percent comes down to how leaders support the team once the work is underway.\n\nThe 60 percent refers to the team's design. Hackman and Wageman describe six conditions for it:\n1. A real team, where it's clear who belongs\n2. A compelling purpose\n3. The right people\n4. A sound structure with clear norms\n5. A supportive context with the resources the team needs\n6. Competent coaching\n\nThe first five are part of the groundwork. Coaching is the part that happens day to day. For Hackman and Wageman, coaching is a function: helping the team directly to use its skills and resources in a well-coordinated way. Who takes on that role is open. In their view, it's mainly the leader. An external coach can do it just as well, and to some extent teams can also coach themselves, for example in retrospectives.\n\nThe numbers are meant as a rule of thumb. They show you where to focus your energy as a leader. What this means for you: When a team isn't running smoothly, start by looking at the fundamentals. Is it clear what the team is there for? Are the right people on board? Does the team have what it needs to do its work?"},"id":"e7b57509-199a-49bc-9a40-402b6e478e27","isHidden":false,"type":"bodytext"},{"content":{"subheading":"The Seven Drivers by Tannenbaum and Salas"},"id":"6febe860-9f57-413e-bdce-90276bf7f51c","isHidden":false,"type":"subheading"},{"content":{"text":"In their book Teams That Work, Scott Tannenbaum and Eduardo Salas have combined research with their own experience working with teams. They describe seven drivers that have been shown to influence how well a team works. I like the model because it's concrete. It helps you pinpoint where your team is getting stuck.\n\n**1. Capability: Do we have the skills we need?**\nAs a whole, the team needs the competencies its task requires. Not everyone has to be able to do everything. What matters is that the skills on the team complement each other and cover the task.\n\n**2. Cooperation: Are we willing to pull in the same direction?**\nTannenbaum and Salas describe cooperation as a mindset: How do individuals feel about the team and the work they share? Trust plays a big role here. A meta-analysis of 112 studies shows a clear link between trust within a team and team performance. Trust matters most when team members depend heavily on each other and bring different skills to the table.\n\n**3. Coordination: Are we in sync?**\nCoordination is about everyday behavior: How do you align your work, how do you step in for each other, and how do you adapt when something changes?\n\n**4. Communication: Are we sharing the right information?**\nCommunication helps you get the work done, keep track of what's going on, and maintain good relationships, both within the team and with people outside it. Tannenbaum and Salas emphasize that what counts is the quality of the exchange. More messages and more meetings often don't help much.\n\n**5. Cognition: Do we share the same picture?**\nTeams with a shared understanding of roles, priorities, and expectations outperform teams that lack it. This is exactly where role clarification comes in.\n\n**6. Coaching: Who's taking the lead?**\nFor Tannenbaum and Salas, coaching means team leadership. That responsibility lies with the leader, but team members can take on leadership tasks too.\n\nOne tool that helps teams steer themselves is regular reflection. A meta-analysis by Tannenbaum and Christopher Cerasoli shows that well-run debriefs improve team performance by about 20 to 25 percent. You'll find out what that looks like in practice in (link: page://rWCPbqEfcgSiJClk text: my article on retrospectives.)\n\n**7. Conditions: Does the team have what it needs?**\nConditions include resources, time, decision-making authority, and the work environment. Tannenbaum and Salas sum it up well: What you encourage and tolerate as an organization shapes how your teams work together."},"id":"dc345201-3102-4465-80d2-660ffb32444b","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Where Can You Start?"},"id":"20c6f0f4-a965-43dd-9d28-f7e7cf2be954","isHidden":false,"type":"subheading"},{"content":{"text":"Let's say you notice that a team just isn't running smoothly. Use the seven drivers as questions and look together at how things stand in each area. Where are things going well? Where are you getting stuck the most? That's where you can dig deeper.\n\nQuestions like these can help:\n• Capability: Are we missing know-how that we keep waiting on or have to bring in from outside?\n• Cooperation: Can we count on everyone to do their part?\n• Coordination: Do we notice when someone is overloaded, and do we step in?\n• Communication: Does important information reach the people who need it in time?\n• Cognition: Would everyone on the team name the same top three priorities?\n• Coaching: Is it clear who takes on which leadership tasks?\n• Conditions: Does the team have the time, resources, and decision-making authority its work requires?\n\nJust as important is a look at the fundamentals from the 60-30-10 rule. Is the team well designed? Is its area of responsibility clear? Are the right people on board? If something's off here, that's a good place to start.\n\nAnd if you're setting up a new team right now, this is the best time to get these fundamentals right from the start."},"id":"a539c7aa-11eb-4000-8148-5188fecbe9f9","isHidden":false,"type":"bodytext"},{"content":{"headline":"Want to set up a new team for success? Or is your team not running as smoothly as it could, and you want to find out why?","buttontext":"Let's talk.","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"a9a0bf49-9988-48e1-94bf-593942b94713","isHidden":false,"type":"contacthighlight"},{"content":{"subheading":"Sources"},"id":"a9b503bc-de20-4ae5-8a81-58e3b986a980","isHidden":false,"type":"subheading"},{"content":{"text":"• de Jong, B. A., Dirks, K. T. & Gillespie, N. (2016). Trust and team performance: A meta-analysis of main effects, moderators, and covariates. Journal of Applied Psychology, 101(8), 1134–1150.\n• Hackman, J. R. & Vidmar, N. (1970). Effects of size and task type on group performance and member reactions. Sociometry, 33, 37–54.\n• Hackman, J. R. & Wageman, R. (2005). A theory of team coaching. Academy of Management Review, 30(2), 269–287. https://doi.org/10.5465/amr.2005.16387885\n• Tannenbaum, S. I. & Salas, E. (2021). Teams that work: The seven drivers of team effectiveness. Oxford University Press. https://doi.org/10.1093/oso/9780190056964.001.0001\n• Wageman, R. & Lowe, K. (2019). Designing, launching, and coaching teams: The 60-30-10 rule and its implications for team coaching. In D. Clutterbuck, J. Gannon, S. Hayes, I. Iordanou, K. Lowe & D. MacKie (Hrsg.), The practitioner's handbook of team coaching (S. 121–137). Routledge.\n• Wageman, R., Nunes, D. A., Burruss, J. A. & Hackman, J. R. (2008). Senior leadership teams: What it takes to make them great. Harvard Business School Press."},"id":"a6b769d2-8f74-4a80-afc1-4a7860384523","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2026-10-12
+
+----
+
+Headerimage: - file://kXOIXOSywpiYOgP7
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Great people, but your team still isn't running smoothly? What team research says about successful teams and where you can start as a leader.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

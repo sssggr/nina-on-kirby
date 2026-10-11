@@ -1,0 +1,89 @@
+Title: Was macht erfolgreiche Teams aus?
+
+----
+
+Teasertext: Warum läuft euer Team nicht rund, obwohl alle gut sind? Was die Teamforschung zu erfolgreichen Teams sagt und wo ihr als Führung ansetzen könnt.
+
+----
+
+Headline: Was macht erfolgreiche Teams aus?
+
+----
+
+Modules: [{"content":{"text":"Ihr habt gute Leute an Bord. Alle sind motiviert und können etwas. Trotzdem läuft es im Team nicht rund: Abstimmungen ziehen sich, Aufgaben bleiben liegen, und alle ziehen in eine etwas andere Richtung.\n\nFür solche Situationen lohnt sich ein Blick in die Teamforschung. Sie ist inzwischen ziemlich gut darin zu erklären, was Teams wirksam macht. Und vieles davon könnt ihr als Gründer*innen und Führungskräfte direkt gestalten, oft schon bevor ein Team richtig loslegt.\n\nIn diesem Artikel stelle ich euch zwei Modelle vor, die mir in meiner Arbeit immer wieder helfen: die 60-30-10-Regel von J. Richard Hackman und Ruth Wageman und die sieben Treiber für Teameffektivität von Scott Tannenbaum und Eduardo Salas."},"id":"4f717c62-78f0-4a1d-a51a-b74e46dc0ee3","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Ist es überhaupt ein Team?"},"id":"31937a4a-08e2-4ad0-b524-228a5b51a1a4","isHidden":false,"type":"subheading"},{"content":{"text":"Bevor es um Erfolgsfaktoren geht, finde ich eine Frage wichtig: Haben wir es überhaupt mit einem Team zu tun? Der Begriff wird für vieles verwendet, für eine Abteilung, eine Projektgruppe oder einfach für alle, die irgendwie beteiligt sind.\n\nDer Teamforscher J. Richard Hackman beschreibt ein echtes Team so: Es ist klar, wer dazugehört und wer nicht. Die Mitglieder arbeiten an einer gemeinsamen Aufgabe und sind dabei aufeinander angewiesen. Und die Zusammensetzung bleibt über eine gewisse Zeit stabil.\n\nDer entscheidende Punkt ist die gegenseitige Abhängigkeit. Ein Team, das eine App entwickelt, braucht Leute, die programmieren, gestalten und verstehen, was die Nutzer*innen brauchen. Das Ergebnis entsteht nur gemeinsam. In einem Kundenservice, in dem alle unabhängig voneinander Anfragen bearbeiten, reicht dagegen oft eine gute Koordination der Aufgaben. Beides ist in Ordnung. Wichtig ist, dass ihr wisst, was ihr gerade organisiert. Manche Aufgaben erledigen Einzelpersonen oder lose Arbeitsgruppen besser als ein Team.\n\nAuch die Größe spielt eine Rolle. Hackman und Neil Vidmar kamen 1970 in Experimenten mit kleinen Gruppen auf 4,6 Personen als ideale Größe. Woran ihr merkt, dass euer Team zu groß geworden ist, beschreibe ich ausführlich im Artikel (link: https://ninasiessegger.de/blog/wann-ist-ein-team-zu-gross-wenn-teams-wachsen-und-nichts-mehr-vorwaerts-geht text: Wann ist ein Team zu groß?)"},"id":"bd528d24-63f4-4fba-9c21-73a67cee9922","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Die 60-30-10-Regel: Vieles entscheidet sich vor dem Start"},"id":"04e4ec2f-01d1-4ba4-943f-a3a986c14455","isHidden":false,"type":"subheading"},{"content":{"text":"Hackman und Ruth Wageman haben über viele Jahre gemeinsam zu Teams geforscht. Daraus stammt die 60-30-10-Regel. Etwa 60 Prozent der Unterschiede in der Leistung von Teams sind schon festgelegt, bevor sich das Team zum ersten Mal trifft. 30 Prozent hängen davon ab, wie gut der Start gelingt. Die übrigen 10 Prozent macht aus, wie die Führung das Team im laufenden Betrieb begleitet.\n\nMit den 60 Prozent ist das Design des Teams gemeint. Hackman und Wageman beschreiben dafür sechs Bedingungen:\n1. Ein echtes Team, bei dem klar ist, wer dazugehört\n2. Eine überzeugende Richtung\n3. Die richtigen Leute\n4. Eine tragfähige Struktur mit klaren Normen\n5. Ein unterstützender Kontext mit den nötigen Ressourcen\n6. Kompetentes Coaching\n\nDie ersten fünf gehören zur Vorarbeit. Das Coaching ist der Teil, der im Alltag stattfindet. Mit Coaching ist bei Hackman und Wageman eine Funktion gemeint: das Team direkt dabei zu unterstützen, seine Fähigkeiten und Ressourcen gut abgestimmt einzusetzen. Wer diese Aufgabe übernimmt, ist offen. In ihrem Verständnis ist es vor allem die Führung. Eine externe Begleitung kann das ebenso leisten, und Teams können sich ein Stück weit auch selbst coachen, zum Beispiel in Retrospektiven.\n\nDie Zahlen sind als Faustregel gemeint. Wageman beschreibt sie als Orientierung, wohin ihr eure Energie als Führung lenken solltet. Für euch heißt das: Wenn ein Team nicht rund läuft, lohnt sich zuerst ein Blick auf die Grundlagen. Ist klar, wofür das Team da ist? Sind die richtigen Leute an Bord? Hat das Team, was es für seine Arbeit braucht?"},"id":"e7b57509-199a-49bc-9a40-402b6e478e27","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Die sieben Treiber nach Tannenbaum und Salas"},"id":"6febe860-9f57-413e-bdce-90276bf7f51c","isHidden":false,"type":"subheading"},{"content":{"text":"Scott Tannenbaum und Eduardo Salas haben in ihrem Buch „Teams That Work“ Forschung und ihre eigene Erfahrung mit Teams zusammengeführt. Sie beschreiben sieben Treiber, die nachweislich beeinflussen, wie gut ein Team arbeitet. Ich mag das Modell, weil es konkret ist. Es hilft euch, gezielt hinzuschauen, wo es in eurem Team hakt.\n\n**1. Fähigkeiten: Haben wir die nötigen Fähigkeiten?**\nDas Team braucht als Ganzes die Kompetenzen, die seine Aufgabe erfordert. Nicht alle müssen alles können. Wichtig ist, dass die Fähigkeiten im Team zusammenpassen und die Aufgabe abdecken.\n\n**2. Kooperation: Wollen wir gemeinsam an einem Strang ziehen?**\nSalas beschreibt Kooperation als Haltung: Wie stehen die Einzelnen zum Team und zur gemeinsamen Arbeit? Vertrauen spielt dabei eine große Rolle. Eine Meta-Analyse über 112 Studien zeigt einen deutlichen Zusammenhang zwischen Vertrauen im Team und Teamleistung. Besonders wichtig ist Vertrauen, wenn die Teammitglieder stark voneinander abhängen und unterschiedliche Fähigkeiten mitbringen.\n\n**3. Koordination: Greifen wir gut ineinander?**\nBei der Koordination geht es um das Verhalten im Alltag: Wie stimmt ihr eure Arbeit ab, wie springt ihr füreinander ein, wie passt ihr euch an, wenn sich etwas ändert?\n\n**4. Kommunikation: Tauschen wir die richtigen Informationen aus?**\nKommunikation dient dazu, die Arbeit zu erledigen, den Überblick zu behalten und gute Beziehungen zu pflegen, im Team und nach außen. Salas betont, dass dabei die Qualität des Austauschs zählt. Mehr Nachrichten und mehr Meetings helfen oft wenig.\n\n**5. Gemeinsames Verständnis: Haben wir ein gemeinsames Bild?**\nTeams, die ein gemeinsames Verständnis von Rollen, Prioritäten und Erwartungen haben, leisten mehr als Teams ohne dieses gemeinsame Bild. Genau hier setzt Rollenklärung an. Mehr dazu in Wer macht hier eigentlich was? und Rollenklarheit braucht Pflege.\n\n**6. Coaching: Wer übernimmt Führung?**\nCoaching meint bei Tannenbaum und Salas Teamführung. Die liegt bei der Führungskraft, aber auch Teammitglieder können Führungsaufgaben übernehmen. Warum Führung auch in selbstorganisierten Teams wichtig bleibt, beschreibe ich in (link: https://ninasiessegger.de/blog/selbstorganisation-in-teams-warum-fuehrung-entscheidend-bleibt text: Selbstorganisation in Teams).\nEin Werkzeug, mit dem Teams sich selbst steuern können, ist regelmäßige Reflexion. Eine Meta-Analyse von Tannenbaum und Christopher Cerasoli zeigt, dass gut gemachte Debriefs die Leistung von Teams um etwa 20 bis 25 Prozent verbessern. Wie das in der Praxis aussieht, steht in meinem (link: https://ninasiessegger.de/blog/retrospektiven-team-zusammenarbeit text: Artikel über Retrospektiven).\n\n**7. Rahmenbedingungen: Hat das Team, was es braucht?**\nZu den Bedingungen gehören Ressourcen, Zeit, Entscheidungsspielräume und das Arbeitsumfeld. Tannenbaum und Salas bringen es so auf den Punkt: Was ihr als Organisation fördert und duldet, prägt, wie eure Teams zusammenarbeiten."},"id":"dc345201-3102-4465-80d2-660ffb32444b","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Wo könnt ihr ansetzen?"},"id":"20c6f0f4-a965-43dd-9d28-f7e7cf2be954","isHidden":false,"type":"subheading"},{"content":{"text":"Angenommen, ihr merkt, dass es in einem Team einfach nicht richtig rund läuft. Dann nehmt die sieben Treiber als Fragen und schaut gemeinsam darauf, wie es um die einzelnen Bereiche bestellt ist. Wo läuft es gut? Wo hakt es am meisten? Und da könnt ihr dann tiefer einsteigen.\n\nZum Beispiel mit diesen Fragen:\n• Fähigkeiten: Fehlt uns Know-how, auf das wir immer wieder warten oder das wir uns von außen holen müssen?\n• Kooperation: Verlassen wir uns darauf, dass die anderen ihren Teil beitragen?\n• Koordination: Merken wir, wenn jemand überlastet ist, und springen wir dann ein?\n• Kommunikation: Kommen wichtige Informationen rechtzeitig bei denen an, die sie brauchen?\n• Gemeinsames Verständnis: Würden alle im Team dieselben drei Prioritäten nennen?\n• Führung: Ist klar, wer welche Führungsaufgaben übernimmt?\n• Rahmenbedingungen: Hat das Team die Zeit, die Ressourcen und die Entscheidungsspielräume, die seine Aufgabe braucht?\n\nGenauso wichtig ist der Blick auf die Grundlagen aus der 60-30-10-Regel. Ist das Team gut designt? Ist sein Zuständigkeitsbereich klar? Sind die richtigen Leute an Bord? Wenn hier etwas nicht stimmt, lohnt es sich dort anzusetzen.\n\nUnd wenn ihr gerade ein neues Team aufsetzt, ist das der beste Zeitpunkt, um diese Grundlagen von Anfang an gut zu gestalten."},"id":"a539c7aa-11eb-4000-8148-5188fecbe9f9","isHidden":false,"type":"bodytext"},{"content":{"headline":"Ihr wollt ein neues Team gut aufsetzen? Oder euer Team läuft nicht so rund, wie es könnte, und ihr wollt herausfinden, woran es liegt?","buttontext":"Lass uns sprechen!","buttonlink":["page://QjQlA0CmqokWM3F5"]},"id":"a9a0bf49-9988-48e1-94bf-593942b94713","isHidden":false,"type":"contacthighlight"},{"content":{"subheading":"Quellen"},"id":"a9b503bc-de20-4ae5-8a81-58e3b986a980","isHidden":false,"type":"subheading"},{"content":{"text":"• de Jong, B. A., Dirks, K. T. & Gillespie, N. (2016). Trust and team performance: A meta-analysis of main effects, moderators, and covariates. Journal of Applied Psychology, 101(8), 1134–1150.\n• Hackman, J. R. & Vidmar, N. (1970). Effects of size and task type on group performance and member reactions. Sociometry, 33, 37–54.\n• Hackman, J. R. & Wageman, R. (2005). A theory of team coaching. Academy of Management Review, 30(2), 269–287. https://doi.org/10.5465/amr.2005.16387885\n• Tannenbaum, S. I. & Salas, E. (2020). Teams that work: The seven drivers of team effectiveness. Oxford University Press. https://doi.org/10.1093/oso/9780190056964.001.0001\n• Wageman, R. & Lowe, K. (2019). Designing, launching, and coaching teams: The 60-30-10 rule and its implications for team coaching. In D. Clutterbuck, J. Gannon, S. Hayes, I. Iordanou, K. Lowe & D. MacKie (Hrsg.), The practitioner's handbook of team coaching (S. 121–137). Routledge.\n• Wageman, R., Nunes, D. A., Burruss, J. A. & Hackman, J. R. (2008). Senior leadership teams: What it takes to make them great. Harvard Business School Press."},"id":"a6b769d2-8f74-4a80-afc1-4a7860384523","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2026-10-12
+
+----
+
+Headerimage: - file://kXOIXOSywpiYOgP7
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Warum läuft euer Team nicht rund, obwohl alle gut sind? Was die Teamforschung zu erfolgreichen Teams sagt und wo ihr als Führung ansetzen könnt.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: NAVBWWVmwwOJ4VUq

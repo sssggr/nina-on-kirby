@@ -1,0 +1,85 @@
+Title: Bestätige deine Anmeldung zum Newsletter
+
+----
+
+Headline: Fast geschafft!
+
+----
+
+Text: Ein letzter Schritt fehlt noch, um deine Anmeldung abzuschließen. Bitte schau in dein Postfach und bestätige deine E-Mail-Adresse.
+
+----
+
+Calendarurl: 
+
+----
+
+Buttontext: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: FgqixWlhHT7uxUIw

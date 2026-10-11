@@ -1,0 +1,85 @@
+Title: Das hat geklappt
+
+----
+
+Headline: Das hat geklappt!
+
+----
+
+Text: Herzlichen Dank! Du hast dich für meinen Newsletter angemeldet.
+
+----
+
+Calendarurl: 
+
+----
+
+Buttontext: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: P6RlglQaQAwihuzj
