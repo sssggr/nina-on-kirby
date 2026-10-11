@@ -91,6 +91,10 @@ class Auth
 
 		$timeout = $this->kirby->option('auth.challenge.timeout', 10 * 60);
 
+		// discard any previously issued challenge before starting a new one
+		$session->remove('kirby.challenge.type');
+		$session->remove('kirby.challenge.code');
+
 		// catch every exception to hide them from attackers
 		// unless auth debugging is enabled
 		try {
@@ -202,7 +206,7 @@ class Auth
 	 * @throws \Kirby\Exception\InvalidArgumentException if the authorization header is invalid
 	 * @throws \Kirby\Exception\PermissionException if basic authentication is not allowed
 	 */
-	public function currentUserFromBasicAuth(BasicAuth $auth = null): User|null
+	public function currentUserFromBasicAuth(BasicAuth|null $auth = null): User|null
 	{
 		if ($this->kirby->option('api.basicAuth', false) !== true) {
 			throw new PermissionException('Basic authentication is not activated');
@@ -250,7 +254,7 @@ class Auth
 	 * valid user id in there
 	 */
 	public function currentUserFromSession(
-		Session|array $session = null
+		Session|array|null $session = null
 	): User|null {
 		$session = $this->session($session);
 
@@ -440,7 +444,7 @@ class Auth
 	 *                                 logged in user will be returned
 	 */
 	public function status(
-		Session|array $session = null,
+		Session|array|null $session = null,
 		bool $allowImpersonation = true
 	): Status {
 		// try to return from cache
@@ -723,7 +727,7 @@ class Auth
 	 * @throws \Throwable If an authentication error occurred
 	 */
 	public function user(
-		Session|array $session = null,
+		Session|array|null $session = null,
 		bool $allowImpersonation = true
 	): User|null {
 		if ($allowImpersonation === true && $this->impersonate !== null) {
@@ -887,7 +891,7 @@ class Auth
 	 */
 	protected function fail(
 		Throwable $exception,
-		Throwable $fallback = null
+		Throwable|null $fallback = null
 	): void {
 		$debug = $this->kirby->option('auth.debug', 'log');
 
@@ -911,7 +915,7 @@ class Auth
 	/**
 	 * Creates a session object from the passed options
 	 */
-	protected function session(Session|array $session = null): Session
+	protected function session(Session|array|null $session = null): Session
 	{
 		// use passed session options or session object if set
 		if (is_array($session) === true) {

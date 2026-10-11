@@ -8,6 +8,7 @@ use Kirby\Exception\InvalidArgumentException;
 use Kirby\Exception\LogicException;
 use Kirby\Exception\PermissionException;
 use Kirby\Filesystem\F;
+use Kirby\Toolkit\BlockCollectionAccess;
 use Kirby\Toolkit\Locale;
 use Kirby\Toolkit\Str;
 use Throwable;
@@ -57,7 +58,7 @@ class Language
 		}
 
 		static::$kirby      = $props['kirby'] ?? null;
-		$this->code         = trim($props['code']);
+		$this->code         = basename(trim($props['code'])); // prevent path traversal
 		$this->default      = ($props['default'] ?? false) === true;
 		$this->direction    = ($props['direction'] ?? null) === 'rtl' ? 'rtl' : 'ltr';
 		$this->name         = trim($props['name'] ?? $this->code);
@@ -144,6 +145,7 @@ class Language
 	 * Creates a new language object
 	 * @internal
 	 */
+	#[BlockCollectionAccess]
 	public static function create(array $props): static
 	{
 		$kirby = App::instance();
@@ -211,6 +213,7 @@ class Language
 	 *
 	 * @throws \Kirby\Exception\Exception
 	 */
+	#[BlockCollectionAccess]
 	public function delete(): bool
 	{
 		$kirby = App::instance();
@@ -325,6 +328,7 @@ class Language
 	public static function loadRules(string $code): array
 	{
 		$kirby = App::instance();
+		$code  = basename($code); // prevent path traversal
 		$code  = Str::contains($code, '.') ? Str::before($code, '.') : $code;
 		$file  = $kirby->root('i18n:rules') . '/' . $code . '.json';
 
@@ -344,7 +348,7 @@ class Language
 	 *
 	 * @param int $category If passed, returns the locale for the specified category (e.g. LC_ALL) as string
 	 */
-	public function locale(int $category = null): array|string|null
+	public function locale(int|null $category = null): array|string|null
 	{
 		if ($category !== null) {
 			return $this->locale[$category] ?? $this->locale[LC_ALL] ?? null;
@@ -391,6 +395,7 @@ class Language
 	/**
 	 * Returns the absolute path to the language file
 	 */
+	#[BlockCollectionAccess]
 	public function root(): string
 	{
 		return App::instance()->root('languages') . '/' . $this->code() . '.php';
@@ -423,6 +428,7 @@ class Language
 	 *
 	 * @return $this
 	 */
+	#[BlockCollectionAccess]
 	public function save(): static
 	{
 		try {
@@ -513,7 +519,8 @@ class Language
 	 * Update language properties and save them
 	 * @internal
 	 */
-	public function update(array $props = null): static
+	#[BlockCollectionAccess]
+	public function update(array|null $props = null): static
 	{
 		$kirby = App::instance();
 		$user  = $kirby->user();
@@ -538,7 +545,7 @@ class Language
 		}
 
 		// validate the updated language
-		LanguageRules::update($updated);
+		LanguageRules::update($updated, $this);
 
 		// trigger before hook
 		$kirby->trigger('language.update:before', [

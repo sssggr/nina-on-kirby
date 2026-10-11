@@ -37,26 +37,40 @@ class LanguageVariable
 		string|null $value = null
 	): static {
 		if (is_numeric($key) === true) {
-			throw new InvalidArgumentException('The variable key must not be numeric');
+			throw new InvalidArgumentException([
+				'key' => 'language.variable.numeric'
+			]);
 		}
 
-		if (empty($key) === true) {
-			throw new InvalidArgumentException('The variable needs a valid key');
+		if ($key === '') {
+			throw new InvalidArgumentException([
+				'key' => 'language.variable.key'
+			]);
 		}
 
 		$kirby        = App::instance();
 		$language     = $kirby->defaultLanguage();
 		$translations = $language->translations();
 
-		if ($kirby->translation()->get($key) !== null) {
-			if (isset($translations[$key]) === true) {
-				throw new DuplicateException('The variable already exists');
-			}
-
-			throw new DuplicateException('The variable is part of the core translation and cannot be overwritten');
+		if (isset($translations[$key]) === true) {
+			throw new DuplicateException([
+				'key'  => 'language.variable.duplicate',
+				'data' => [
+					'key' => $key
+				]
+			]);
 		}
 
-		$translations[$key] = trim($value ?? '');
+		if (isset($kirby->coreI18nStrings($language->code())[$key]) === true) {
+			throw new DuplicateException([
+				'key'  => 'language.variable.core',
+				'data' => [
+					'key' => $key
+				]
+			]);
+		}
+
+		$translations[$key] = $value ?? '';
 
 		$language->update(['translations' => $translations]);
 
@@ -102,10 +116,10 @@ class LanguageVariable
 	/**
 	 * Sets a new value for the language variable
 	 */
-	public function update(string $value): static
+	public function update(string|null $value = null): static
 	{
-		$translations = $this->language->translations();
-		$translations[$this->key] = $value;
+		$translations             = $this->language->translations();
+		$translations[$this->key] = $value ?? '';
 
 		$language = $this->language->update(['translations' => $translations]);
 

@@ -48,10 +48,7 @@ class File extends Model
 			case 'page':
 				/** @var \Kirby\Cms\Page $parent */
 				$breadcrumb = $this->model->parents()->flip()->values(
-					fn ($parent) => [
-						'label' => $parent->title()->toString(),
-						'link'  => $parent->panel()->url(true),
-					]
+					fn ($parent) => $parent->panel()->crumb()
 				);
 		}
 
@@ -352,12 +349,15 @@ class File extends Model
 		$id   = $this->model->id();
 
 		if (empty($params['model']) === false) {
-			$parent = $this->model->parent();
+			$parent   = $this->model->parent();
+			$absolute = $parent !== $params['model'];
 
 			// if the file belongs to the current parent model,
 			// store only name as ID to keep its path relative to the model
-			$id       = $parent === $params['model'] ? $name : $id;
-			$absolute = $parent !== $params['model'];
+			$id = match ($absolute) {
+				true  => $id,
+				false => $name
+			};
 		}
 
 		$params['text'] ??= '{{ file.filename }}';
@@ -399,6 +399,7 @@ class File extends Model
 					'template'   => $file->template(),
 					'type'       => $file->type(),
 					'url'        => $file->url(),
+					'uuid'       => fn () => $file->uuid()?->toString(),
 				],
 				'preview' => [
 					'focusable' => $this->isFocusable(),
@@ -447,7 +448,7 @@ class File extends Model
 	public function prevNext(): array
 	{
 		$file     = $this->model;
-		$siblings = $file->templateSiblings()->sortBy(
+		$siblings = $file->templateSiblings()->filter('isListable', true)->sortBy(
 			'sort',
 			'asc',
 			'filename',

@@ -18,7 +18,7 @@ $image = $block->heroimage()->toFile();
         <div class="col-xs-12 col-md-6 col-sm-6 hero-image-container hero-item2">
           <figure>
             <img
-              alt="<?= $image->alt() ?><?php if ($image->photo()->isValid('minLength', 1)): ?><?php echo (' '), t('global-von'), (' ') ?><?= $image->photo() ?><?php endif ?>"
+              alt="<?= $image->alt() ?><?php if ($image->photo()->isNotEmpty()): ?><?php echo (' '), t('global-von'), (' ') ?><?= $image->photo() ?><?php endif ?>"
               class="responsive-img"
               src="<?= $image->url() ?>"
               srcset="<?= $image->srcset([

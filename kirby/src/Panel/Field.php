@@ -4,8 +4,10 @@ namespace Kirby\Panel;
 
 use Kirby\Cms\App;
 use Kirby\Cms\File;
+use Kirby\Cms\Find;
 use Kirby\Cms\ModelWithContent;
 use Kirby\Cms\Page;
+use Kirby\Cms\Roles;
 use Kirby\Form\Form;
 use Kirby\Http\Router;
 use Kirby\Toolkit\I18n;
@@ -104,11 +106,18 @@ class Field
 				'text'  => $index
 			];
 
-			$options[] = [
-				'value'    => $sibling->id(),
-				'text'     => $sibling->filename(),
-				'disabled' => true
-			];
+			$options[] = match ($sibling->isListable()) {
+				true  => [
+					'value'    => $sibling->id(),
+					'text'     => $sibling->filename(),
+					'disabled' => true
+				],
+				false => [
+					'value'    => '-' . $index,
+					'text'     => '–',
+					'disabled' => true
+				]
+			};
 		}
 
 		$index++;
@@ -149,11 +158,18 @@ class Field
 				'text'  => $index
 			];
 
-			$options[] = [
-				'value'    => $sibling->id(),
-				'text'     => $sibling->title()->value(),
-				'disabled' => true
-			];
+			$options[] = match ($sibling->isListable()) {
+				true  => [
+					'value'    => $sibling->id(),
+					'text'     => $sibling->title()->value(),
+					'disabled' => true
+				],
+				false => [
+					'value'    => '-' . $index,
+					'text'     => '–',
+					'disabled' => true
+				]
+			};
 		}
 
 		$index++;
@@ -191,29 +207,33 @@ class Field
 	/**
 	 * User role radio buttons
 	 */
-	public static function role(array $props = []): array
-	{
-		$kirby   = App::instance();
-		$isAdmin = $kirby->user()?->isAdmin() ?? false;
-		$roles   = [];
+	public static function role(
+		array $props = [],
+		Roles|null $roles = null
+	): array {
+		$kirby = App::instance();
 
-		foreach ($kirby->roles() as $role) {
-			// exclude the admin role, if the user
-			// is not allowed to change role to admin
-			if ($role->name() === 'admin' && $isAdmin === false) {
-				continue;
-			}
+		// if no $roles where provided, fall back to all accessible roles
+		$roles ??= Find::roles();
 
-			$roles[] = [
-				'text'  => $role->title(),
-				'info'  => $role->description() ?? I18n::translate('role.description.placeholder'),
-				'value' => $role->name()
-			];
-		}
+		// exclude the admin role, if the user
+		// is not allowed to change role to admin
+		$roles = $roles->filter(
+			fn ($role) =>
+				$role->name() !== 'admin' ||
+				$kirby->user()?->isAdmin() === true
+		);
+
+		// turn roles into radio field options
+		$roles = $roles->values(fn ($role) => [
+			'text'  => $role->title(),
+			'info'  => $role->description() ?? I18n::translate('role.description.placeholder'),
+			'value' => $role->name()
+		]);
 
 		return array_merge([
 			'label'    => I18n::translate('role'),
-			'type'     => count($roles) <= 1 ? 'hidden' : 'radio',
+			'type'     => count($roles) < 1 ? 'hidden' : 'radio',
 			'options'  => $roles
 		], $props);
 	}

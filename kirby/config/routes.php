@@ -33,7 +33,7 @@ return function (App $kirby) {
 			'pattern' => $api . '/(:all)',
 			'method'  => 'ALL',
 			'env'     => 'api',
-			'action'  => function (string $path = null) use ($kirby) {
+			'action'  => function (string|null $path = null) use ($kirby) {
 				if ($kirby->option('api') === false) {
 					return null;
 				}
@@ -125,7 +125,7 @@ return function (App $kirby) {
 			'pattern' => $panel . '/(:all?)',
 			'method'  => 'ALL',
 			'env'     => 'panel',
-			'action'  => function (string $path = null) {
+			'action'  => function (string|null $path = null) {
 				return Panel::router($path);
 			}
 		],
@@ -151,27 +151,9 @@ return function (App $kirby) {
 		],
 	];
 
-	// Custom redirects for profile pages (de/en)
-	$after[] = [
-		'pattern' => 'ueber-mich',
-		'method'  => 'ALL',
-		'env'     => 'site',
-		'action'  => function () use ($kirby) {
-			return $kirby->response()->redirect('/ueber-mich/profil');
-		}
-	];
-	$after[] = [
-		'pattern' => '(:any)/about-me',
-		'method'  => 'ALL',
-		'env'     => 'site',
-		'action'  => function ($lang) use ($kirby) {
-			return $kirby->response()->redirect('/' . $lang . '/about-me/profile');
-		}
-	];
-
 	// Multi-language setup
 	if ($kirby->multilang() === true) {
-		$after = array_merge($after, LanguageRoutes::create($kirby));
+		$after = LanguageRoutes::create($kirby);
 	} else {
 		// Single-language home
 		$after[] = [
