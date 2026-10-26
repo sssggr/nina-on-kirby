@@ -57,3 +57,5 @@ Icon
 # Logs
 # ---------------
 .claude/*
+# SimpleStats salt (secret, upload by hand)
+/site/config/salt.php

@@ -15,6 +15,9 @@ return [
             ]
         ]
     ],
+    // the salt is secret, so it lives in salt.php on the server and not in git
+    'daandelange.simplestats.tracking.salt' => is_file(__DIR__ . '/salt.php') ? require __DIR__ . '/salt.php' : 'local-development',
+    'daandelange.simplestats.log.verbose' => false,
     'routes' => [
         [
             'pattern' => '(:any)',
