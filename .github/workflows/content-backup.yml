@@ -23,7 +23,9 @@ jobs:
 
     - name: 📥 Download content from server
       env:
-        FTP_SERVER: ${{ secrets.ftp_server }}
+        # the server's TLS certificate is issued for *.netcup.net, so connect
+        # via this name (same machine as ninasiessegger.de) to keep verification on
+        FTP_SERVER: ae909.netcup.net
         FTP_USERNAME: ${{ secrets.ftp_username }}
         FTP_PASSWORD: ${{ secrets.ftp_password }}
       run: |
