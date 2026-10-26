@@ -120,17 +120,17 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.4.4",
-            "version_normalized": "3.4.4.0",
+            "version": "3.5.1",
+            "version_normalized": "3.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "198166618906cb2de69b95d7d47e5fa8aa1b2b95"
+                "reference": "528948210cc46f967a4b98e83b19e76f2b504993"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/198166618906cb2de69b95d7d47e5fa8aa1b2b95",
-                "reference": "198166618906cb2de69b95d7d47e5fa8aa1b2b95",
+                "url": "https://api.github.com/repos/composer/semver/zipball/528948210cc46f967a4b98e83b19e76f2b504993",
+                "reference": "528948210cc46f967a4b98e83b19e76f2b504993",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "phpstan/phpstan": "^1.11",
                 "symfony/phpunit-bridge": "^3 || ^7"
             },
-            "time": "2025-08-20T19:15:30+00:00",
+            "time": "2026-10-05T13:12:12+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -174,7 +174,7 @@
                     "homepage": "http://robbast.nl"
                 }
             ],
-            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "description": "Version comparison library that offers utilities, version constraint parsing and validation.",
             "keywords": [
                 "semantic",
                 "semver",
@@ -184,7 +184,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.4.4"
+                "source": "https://github.com/composer/semver/tree/3.5.1"
             },
             "funding": [
                 {
@@ -199,18 +199,196 @@
             "install-path": "./semver"
         },
         {
-            "name": "filp/whoops",
-            "version": "2.18.4",
-            "version_normalized": "2.18.4.0",
+            "name": "daandelange/simplestats",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/filp/whoops.git",
-                "reference": "d2102955e48b9fd9ab24280a7ad12ed552752c4d"
+                "url": "https://github.com/Daandelange/kirby-simplestats.git",
+                "reference": "bc4c6f89d4a162e1a95af20ca58d6a02a814e3e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/d2102955e48b9fd9ab24280a7ad12ed552752c4d",
-                "reference": "d2102955e48b9fd9ab24280a7ad12ed552752c4d",
+                "url": "https://api.github.com/repos/Daandelange/kirby-simplestats/zipball/bc4c6f89d4a162e1a95af20ca58d6a02a814e3e9",
+                "reference": "bc4c6f89d4a162e1a95af20ca58d6a02a814e3e9",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=8.2.0",
+                "simplestats/referer-parser": "^1.1",
+                "whichbrowser/parser": "^2.1"
+            },
+            "time": "2026-08-09T10:05:18+00:00",
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "simplestats"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "daandelange\\SimpleStats\\": "src/models/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daan de Lange",
+                    "homepage": "https://daandelange.com/",
+                    "role": "Creator, Maintainer"
+                },
+                {
+                    "name": "Bogdan Condorachi",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Simple visitor analytics for your Kirby website.",
+            "homepage": "https://github.com/Daandelange/kirby-simplestats#readme",
+            "support": {
+                "issues": "https://github.com/Daandelange/kirby-simplestats/issues",
+                "source": "https://github.com/Daandelange/kirby-simplestats/tree/1.0.0"
+            },
+            "install-path": "../../site/plugins/simplestats"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.8.0",
+            "version_normalized": "1.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.5|^9.6"
+            },
+            "time": "2026-02-16T11:41:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../erusev/parsedown"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.9.0",
+            "version_normalized": "0.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "5b5b9b9d000792c7ac631aec23a6688e0b6d3dc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/5b5b9b9d000792c7ac631aec23a6688e0b6d3dc5",
+                "reference": "5b5b9b9d000792c7ac631aec23a6688e0b6d3dc5",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.8",
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.5|^9.6"
+            },
+            "time": "2026-02-16T13:06:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "https://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown-extra/issues",
+                "source": "https://github.com/erusev/parsedown-extra/tree/0.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../erusev/parsedown-extra"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.18.6",
+            "version_normalized": "2.18.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "7d0a2cde892089bb09372f4366e9b960eb3001a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/7d0a2cde892089bb09372f4366e9b960eb3001a9",
+                "reference": "7d0a2cde892089bb09372f4366e9b960eb3001a9",
                 "shasum": ""
             },
             "require": {
@@ -219,14 +397,14 @@
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.3.3",
-                "symfony/var-dumper": "^4.0 || ^5.0"
+                "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.3.3 || ^10.5.58",
+                "symfony/var-dumper": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
                 "whoops/soap": "Formats errors as SOAP responses"
             },
-            "time": "2025-08-08T12:00:00+00:00",
+            "time": "2026-10-03T17:03:57+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -262,7 +440,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.18.4"
+                "source": "https://github.com/filp/whoops/tree/2.18.6"
             },
             "funding": [
                 {
@@ -274,23 +452,25 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "4.9.6",
-            "version_normalized": "4.9.6.0",
+            "version": "5.6.1",
+            "version_normalized": "5.6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "86fe4e2c278fb5dc161c21e1853e79b84c3ac999"
+                "reference": "93e40c14c249783fe30268f356b2d24f4a52d2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/86fe4e2c278fb5dc161c21e1853e79b84c3ac999",
-                "reference": "86fe4e2c278fb5dc161c21e1853e79b84c3ac999",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/93e40c14c249783fe30268f356b2d24f4a52d2e0",
+                "reference": "93e40c14c249783fe30268f356b2d24f4a52d2e0",
                 "shasum": ""
             },
             "require": {
                 "christian-riesen/base32": "1.6.0",
                 "claviska/simpleimage": "4.4.0",
-                "composer/semver": "3.4.4",
+                "composer/semver": "3.5.1",
+                "erusev/parsedown": "1.8.0",
+                "erusev/parsedown-extra": "0.9.0",
                 "ext-ctype": "*",
                 "ext-curl": "*",
                 "ext-dom": "*",
@@ -302,37 +482,34 @@
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "ext-simplexml": "*",
-                "filp/whoops": "2.18.4",
+                "filp/whoops": "2.18.6",
                 "getkirby/composer-installer": "^1.2.1",
-                "laminas/laminas-escaper": "2.17.0",
+                "laminas/laminas-escaper": "2.18.0",
                 "michelf/php-smartypants": "1.8.1",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-                "phpmailer/phpmailer": "6.10.0",
-                "symfony/polyfill-intl-idn": "1.42.0",
-                "symfony/polyfill-mbstring": "1.38.2",
-                "symfony/yaml": "6.4.45"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+                "phpmailer/phpmailer": "7.1.1",
+                "symfony/polyfill-intl-idn": "1.43.0",
+                "symfony/polyfill-mbstring": "1.43.0",
+                "symfony/yaml": "7.4.20"
             },
             "replace": {
                 "symfony/polyfill-php72": "*"
             },
             "suggest": {
-                "ext-PDO": "Support for using databases",
                 "ext-apcu": "Support for the Apcu cache driver",
                 "ext-exif": "Support for exif information from images",
                 "ext-fileinfo": "Improved mime type detection for files",
+                "ext-imagick": "Improved thumbnail generation",
                 "ext-intl": "Improved i18n number formatting",
                 "ext-memcached": "Support for the Memcached cache driver",
+                "ext-pdo": "Support for using databases",
+                "ext-redis": "Support for the Redis cache driver",
                 "ext-sodium": "Support for the crypto class and more robust session handling",
                 "ext-zip": "Support for ZIP archive file functions",
                 "ext-zlib": "Sanitization and validation for svgz files"
             },
-            "time": "2026-09-16T10:15:48+00:00",
+            "time": "2026-10-06T08:22:59+00:00",
             "type": "kirby-cms",
-            "extra": {
-                "unused": [
-                    "symfony/polyfill-intl-idn"
-                ]
-            },
             "installation-source": "dist",
             "autoload": {
                 "files": [
@@ -430,35 +607,35 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.17.0",
-            "version_normalized": "2.17.0.0",
+            "version": "2.18.0",
+            "version_normalized": "2.18.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "df1ef9503299a8e3920079a16263b578eaf7c3ba"
+                "reference": "06f211dfffff18d91844c1f55250d5d13c007e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/df1ef9503299a8e3920079a16263b578eaf7c3ba",
-                "reference": "df1ef9503299a8e3920079a16263b578eaf7c3ba",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/06f211dfffff18d91844c1f55250d5d13c007e18",
+                "reference": "06f211dfffff18d91844c1f55250d5d13c007e18",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
                 "ext-mbstring": "*",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "conflict": {
                 "zendframework/zend-escaper": "*"
             },
             "require-dev": {
-                "infection/infection": "^0.29.8",
-                "laminas/laminas-coding-standard": "~3.0.1",
-                "phpunit/phpunit": "^10.5.45",
-                "psalm/plugin-phpunit": "^0.19.2",
-                "vimeo/psalm": "^6.6.2"
+                "infection/infection": "^0.31.0",
+                "laminas/laminas-coding-standard": "~3.1.0",
+                "phpunit/phpunit": "^11.5.42",
+                "psalm/plugin-phpunit": "^0.19.5",
+                "vimeo/psalm": "^6.13.1"
             },
-            "time": "2025-05-06T19:29:36+00:00",
+            "time": "2025-10-14T18:31:13+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -615,17 +792,17 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.10.0",
-            "version_normalized": "6.10.0.0",
+            "version": "v7.1.1",
+            "version_normalized": "7.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144"
+                "reference": "1bc1716a507a65e039d4ac9d9adebbbd0d346e15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
-                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/1bc1716a507a65e039d4ac9d9adebbbd0d346e15",
+                "reference": "1bc1716a507a65e039d4ac9d9adebbbd0d346e15",
                 "shasum": ""
             },
             "require": {
@@ -639,13 +816,14 @@
                 "doctrine/annotations": "^1.2.6 || ^1.13.3",
                 "php-parallel-lint/php-console-highlighter": "^1.0.0",
                 "php-parallel-lint/php-parallel-lint": "^1.3.2",
-                "phpcompatibility/php-compatibility": "^9.3.5",
-                "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.7.2",
+                "phpcompatibility/php-compatibility": "^10.0.0@dev",
+                "squizlabs/php_codesniffer": "^3.13.5",
                 "yoast/phpunit-polyfills": "^1.0.4"
             },
             "suggest": {
                 "decomplexity/SendOauth2": "Adapter for using XOAUTH2 authentication",
+                "directorytree/imapengine": "For uploading sent messages via IMAP, see gmail example",
+                "ext-imap": "Needed to support advanced email address parsing according to RFC822",
                 "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
                 "ext-openssl": "Needed for secure SMTP sending and DKIM signing",
                 "greew/oauth2-azure-provider": "Needed for Microsoft Azure XOAUTH2 authentication",
@@ -655,7 +833,7 @@
                 "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)",
                 "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
             },
-            "time": "2025-04-24T15:19:31+00:00",
+            "time": "2026-05-18T08:06:14+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -687,7 +865,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.10.0"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v7.1.1"
             },
             "funding": [
                 {
@@ -696,6 +874,58 @@
                 }
             ],
             "install-path": "../phpmailer/phpmailer"
+        },
+        {
+            "name": "psr/cache",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2021-02-03T23:26:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
+            },
+            "install-path": "../psr/cache"
         },
         {
             "name": "psr/log",
@@ -751,39 +981,40 @@
             "install-path": "../psr/log"
         },
         {
-            "name": "spatie/schema-org",
-            "version": "3.23.0",
-            "version_normalized": "3.23.0.0",
+            "name": "simplestats/referer-parser",
+            "version": "v1.1.3",
+            "version_normalized": "1.1.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/spatie/schema-org.git",
-                "reference": "c95abf7da59f16570aec18ca11d861255e645c39"
+                "url": "https://github.com/bogdancondorachi/php-referer-parser.git",
+                "reference": "4891a4ebf2458743bab22da3bd57ea94c0c3b709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/schema-org/zipball/c95abf7da59f16570aec18ca11d861255e645c39",
-                "reference": "c95abf7da59f16570aec18ca11d861255e645c39",
+                "url": "https://api.github.com/repos/bogdancondorachi/php-referer-parser/zipball/4891a4ebf2458743bab22da3bd57ea94c0c3b709",
+                "reference": "4891a4ebf2458743bab22da3bd57ea94c0c3b709",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
-                "php": "^8.0"
+                "php": ">=8.2"
+            },
+            "replace": {
+                "snowplow/referer-parser": "*"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.6",
-                "graham-campbell/analyzer": "^3.0.5",
-                "illuminate/collections": "^8.62.0",
-                "league/flysystem": "^2.3.0 || ^3.0",
-                "pestphp/pest": "^1.21",
-                "symfony/console": "^5.3.7 || 6.0",
-                "twig/twig": "^3.3.3"
+                "friendsofphp/php-cs-fixer": "^3",
+                "phpunit/phpunit": "^11",
+                "symfony/yaml": "^7"
             },
-            "time": "2024-01-11T14:58:44+00:00",
+            "suggest": {
+                "symfony/yaml": "Required for YamlConfigReader support"
+            },
+            "time": "2026-02-14T18:23:16+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Spatie\\SchemaOrg\\": "src"
+                    "Snowplow\\RefererParser\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -792,39 +1023,20 @@
             ],
             "authors": [
                 {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
+                    "name": "Bogdan Condorachi",
+                    "email": "bogdan.condorachi@gmail.com",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "Tom Witkowski",
-                    "email": "dev.gummibeer@gmail.com",
-                    "homepage": "https://gummibeer.de",
-                    "role": "Developer"
+                    "name": "Lars Strojny",
+                    "role": "Creator"
                 }
             ],
-            "description": "A fluent builder Schema.org types and ld+json generator",
-            "homepage": "https://github.com/spatie/schema-org",
-            "keywords": [
-                "schema-org",
-                "spatie"
-            ],
+            "description": "Snowplow Refer(r)er parser for PHP",
             "support": {
-                "issues": "https://github.com/spatie/schema-org/issues",
-                "source": "https://github.com/spatie/schema-org/tree/3.23.0"
+                "source": "https://github.com/bogdancondorachi/php-referer-parser/tree/v1.1.3"
             },
-            "funding": [
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "install-path": "../spatie/schema-org"
+            "install-path": "../simplestats/referer-parser"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -988,17 +1200,17 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.42.0",
-            "version_normalized": "1.42.0.0",
+            "version": "v1.43.0",
+            "version_normalized": "1.43.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "51b5ff5ba85452b31ec6f55490b08148612339d9"
+                "reference": "533d68cf99c8f8ee2e8893c59ed59192e92cfd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/51b5ff5ba85452b31ec6f55490b08148612339d9",
-                "reference": "51b5ff5ba85452b31ec6f55490b08148612339d9",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/533d68cf99c8f8ee2e8893c59ed59192e92cfd74",
+                "reference": "533d68cf99c8f8ee2e8893c59ed59192e92cfd74",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1220,7 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2026-08-24T10:51:20+00:00",
+            "time": "2026-09-23T14:40:04+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -1054,7 +1266,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.42.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.43.0"
             },
             "funding": [
                 {
@@ -1166,17 +1378,17 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.38.2",
-            "version_normalized": "1.38.2.0",
+            "version": "v1.43.0",
+            "version_normalized": "1.43.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6"
+                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
-                "reference": "d3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
+                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1401,7 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "time": "2026-05-27T06:59:30+00:00",
+            "time": "2026-09-24T15:19:04+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -1230,7 +1442,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.38.2"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.43.0"
             },
             "funding": [
                 {
@@ -1254,31 +1466,31 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v6.4.45",
-            "version_normalized": "6.4.45.0",
+            "version": "v7.4.20",
+            "version_normalized": "7.4.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a778aba2d7130eba6150cc80cb692988a361ee4b"
+                "reference": "0222bf4dfaa1e3ceb8fff579635d655f2950d5a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a778aba2d7130eba6150cc80cb692988a361ee4b",
-                "reference": "a778aba2d7130eba6150cc80cb692988a361ee4b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0222bf4dfaa1e3ceb8fff579635d655f2950d5a7",
+                "reference": "0222bf4dfaa1e3ceb8fff579635d655f2950d5a7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<5.4"
+                "symfony/console": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^5.4|^6.0|^7.0"
+                "symfony/console": "^6.4|^7.0|^8.0"
             },
-            "time": "2026-08-30T00:27:22+00:00",
+            "time": "2026-09-26T06:31:10+00:00",
             "bin": [
                 "Resources/bin/yaml-lint"
             ],
@@ -1309,7 +1521,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v6.4.45"
+                "source": "https://github.com/symfony/yaml/tree/v7.4.20"
             },
             "funding": [
                 {
@@ -1333,30 +1545,43 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "1.1.2",
-            "version_normalized": "1.1.2.0",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "a06eb676f699797fdd04a515149559ffd4746be7"
+                "reference": "4e79a55b3ad7d12672d65c823f509f9851f68048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/a06eb676f699797fdd04a515149559ffd4746be7",
-                "reference": "a06eb676f699797fdd04a515149559ffd4746be7",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/4e79a55b3ad7d12672d65c823f509f9851f68048",
+                "reference": "4e79a55b3ad7d12672d65c823f509f9851f68048",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.2.1",
-                "php": ">=8.1.0",
-                "spatie/schema-org": "^3.14"
+                "php": ">=8.3.0"
+            },
+            "conflict": {
+                "spatie/schema-org": "<5.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.48",
-                "getkirby/cli": "^1.2",
-                "getkirby/cms": "^4.0"
+                "carthage-software/mago": "^1.58.2",
+                "getkirby/cli": "^1.8.0",
+                "getkirby/cms": "^5.0.0",
+                "league/html-to-markdown": "^5.1",
+                "spatie/schema-org": "^5.0",
+                "tobimori/kirby-agents": "^0.1.1",
+                "tobimori/kirby-queues": "^1.1.0"
             },
-            "time": "2024-04-10T09:49:19+00:00",
+            "suggest": {
+                "ext-imagick": "Rasterize non-resizable images (SVG, etc.) for AI alt text generation",
+                "getkirby/cli": "Enable background processing support",
+                "league/html-to-markdown": "Enable automatic conversion for LLM-friendly Markdown responses",
+                "spatie/schema-org": "Enable the Schema.org support (^5.0)",
+                "tobimori/kirby-queues": "Enable background processing support"
+            },
+            "time": "2026-10-24T11:19:36+00:00",
             "type": "kirby-plugin",
             "extra": {
                 "kirby-cms-path": false
@@ -1369,7 +1594,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "proprietary"
             ],
             "authors": [
                 {
@@ -1377,19 +1602,89 @@
                     "email": "tobias@moeritz.io"
                 }
             ],
-            "description": "The ultimate Kirby SEO toolkit",
+            "description": "The default choice for SEO on Kirby: Implement technical SEO & Meta best practices with ease and provide an easy-to-use editor experience",
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/1.1.2"
+                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.1"
             },
             "funding": [
+                {
+                    "url": "https://www.andkindness.com/buy?plugin=seo",
+                    "type": "custom"
+                },
                 {
                     "url": "https://github.com/tobimori",
                     "type": "github"
                 }
             ],
             "install-path": "../../site/plugins/kirby-seo"
+        },
+        {
+            "name": "whichbrowser/parser",
+            "version": "v2.1.8",
+            "version_normalized": "2.1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WhichBrowser/Parser-PHP.git",
+                "reference": "581d614d686bfbec3529ad60562a5213ac5d8d72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WhichBrowser/Parser-PHP/zipball/581d614d686bfbec3529ad60562a5213ac5d8d72",
+                "reference": "581d614d686bfbec3529ad60562a5213ac5d8d72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/cache": "^1.0 || ^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "cache/array-adapter": "^1.1",
+                "icomefromthenet/reverse-regex": "0.0.6.3",
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/php-code-coverage": "^5.0 || ^7.0",
+                "phpunit/phpunit": "^6.0 || ^8.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "symfony/yaml": "~3.4 || ~4.0"
+            },
+            "suggest": {
+                "cache/array-adapter": "Allows testing of the caching functionality"
+            },
+            "time": "2024-04-17T12:47:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WhichBrowser\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niels Leenheer",
+                    "email": "niels@leenheer.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Useragent sniffing library for PHP",
+            "homepage": "http://whichbrowser.net",
+            "keywords": [
+                "browser",
+                "sniffing",
+                "ua",
+                "useragent"
+            ],
+            "support": {
+                "issues": "https://github.com/WhichBrowser/Parser-PHP/issues",
+                "source": "https://github.com/WhichBrowser/Parser-PHP/tree/v2.1.8"
+            },
+            "install-path": "../whichbrowser/parser"
         }
     ],
     "dev": true,

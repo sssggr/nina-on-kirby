@@ -1,101 +1,40 @@
 <?php
 
-use Kirby\Cms\Page;
-use Kirby\Cms\Site;
-use Kirby\Form\Form;
-use Kirby\Toolkit\Str;
+use Kirby\Cms\App;
+use Kirby\Toolkit\A;
+use tobimori\Seo\Views\EditableOverviewView;
+use tobimori\Seo\Views\ImagesView;
+use tobimori\Seo\Views\LinksView;
 
 return [
-	'data' => [
-		'dirtyPageOrSite' => function (string $slug) {
-			$kirby = kirby();
-			$page = $slug == 'site' ? $kirby->site() : $kirby->page(Str::replace($slug, '+', '/'));
-
-			if ($this->requestBody()) {
-				$form = Form::for($page, [ // Form class handles transformation of changed items
-					'ignoreDisabled' => true,
-					'input' => array_merge(['title' => $page->title()], $page->content()->data(), $this->requestBody()),
-					'language' => $kirby->language()?->code()
-				]);
-
-				$page = $page->clone(['content' => $form->data()]);
-			}
-
-			return $page;
-		}
-	],
-	'routes' =>  [
+	'routes' => [
 		[
-			'pattern' => '/k-seo/(:any)/heading-structure',
+			'pattern' => 'seo/overview/(pages|images)/(rows|save|publish|discard)',
 			'method' => 'POST',
-			'action' => function (string $slug) {
-				$model = $this->dirtyPageOrSite($slug);
+			'action' => /** @param 'rows'|'save'|'publish'|'discard' $action */ function (string $tab, string $action) {
+				$request = App::instance()->request();
+				$view = EditableOverviewView::for($tab);
 
-				if ($model instanceof Page) {
-					$page = $model->render();
-					$dom = new DOMDocument();
-					$dom->loadHTML(htmlspecialchars_decode(mb_convert_encoding(htmlentities($page, ENT_COMPAT, 'UTF-8'), 'ISO-8859-1', 'UTF-8'), ENT_QUOTES), libxml_use_internal_errors(true));
-
-					$xpath = new DOMXPath($dom);
-					$headings = $xpath->query('//h1|//h2|//h3|//h4|//h5|//h6');
-					$data = [];
-
-					foreach ($headings as $heading) {
-						$data[] = [
-							'level' => (int)str_replace('h', '', $heading->nodeName),
-							'text' => $heading->textContent,
-						];
-					}
-
-					return $data;
-				}
-
-				return null;
+				return match ($action) {
+					'save' => $view->save(A::wrap($request->get('changes', []))),
+					'rows' => $view->rows(A::wrap($request->get('ids', []))),
+					'publish' => $view->publish(A::wrap($request->get('ids', []))),
+					'discard' => $view->discard(A::wrap($request->get('ids', [])))
+				};
 			}
 		],
 		[
-			'pattern' => '/k-seo/(:any)/seo-preview',
+			'pattern' => 'seo/overview/images/generate',
 			'method' => 'POST',
-			'action' => function (string $slug) {
-				$model = $this->dirtyPageOrSite($slug);
-
-				if ($model instanceof Site) {
-					$model = $model->homePage();
-				}
-
-				if ($model instanceof Page) {
-					$meta = $model->metadata();
-
-					return [
-						'page' => $model->slug(),
-						'url' => $model->url(),
-						'title' => $meta->metaTitle()->value(),
-						'description' => $meta->metaDescription()->value(),
-						'ogSiteName' => $meta->ogSiteName()->value(),
-						'ogTitle' => $meta->ogTitle()->value(),
-						'ogDescription' => $meta->ogDescription()->value(),
-						'ogImage' => $meta->ogImage(),
-						'twitterCardType' => $meta->twitterCardType()->value(),
-					];
-				}
-
-				return null;
-			}
+			'action' => fn () => (new ImagesView())->generate((string)App::instance()->request()->body()->get('id'))
 		],
 		[
-			'pattern' => '/k-seo/(:any)/robots',
+			'pattern' => 'seo/overview/links/(scan|rescan|recheck)',
 			'method' => 'POST',
-			'action' => function (string $slug) {
-				$model = $this->dirtyPageOrSite($slug);
-				if (!($model instanceof Page)) {
-					return null;
-				}
-				$robots = $model->robots();
-
-				return [
-					'active' => option('tobimori.seo.robots.indicator', option('tobimori.seo.robots.active', true)),
-					'state' => $robots,
-				];
+			'action' => /** @param 'scan'|'rescan'|'recheck' $action */ fn (string $action) => match ($action) {
+				'scan' => (new LinksView())->scan(),
+				'rescan' => (new LinksView())->rescan(),
+				'recheck' => (new LinksView())->recheck()
 			}
 		]
 	]

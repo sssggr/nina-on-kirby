@@ -1,0 +1,234 @@
+<?php
+
+use Kirby\Cms\App;
+use Kirby\Cms\Find;
+use Kirby\Cms\Page;
+use Kirby\Cms\Site;
+use Kirby\Exception\InvalidArgumentException;
+use Kirby\Panel\Field;
+use Kirby\Panel\Panel;
+use Kirby\Toolkit\I18n;
+use Kirby\Toolkit\V;
+use tobimori\Seo\Buttons\OverviewLanguagesButton;
+use tobimori\Seo\Buttons\RobotsViewButton;
+use tobimori\Seo\Buttons\UtmShareViewButton;
+use tobimori\Seo\Dialogs\UtmShareDialog;
+use tobimori\Seo\License;
+use tobimori\Seo\Seo;
+use tobimori\Seo\Views\ImagesView;
+use tobimori\Seo\Views\LinksView;
+use tobimori\Seo\Views\OverviewView;
+use tobimori\Seo\Views\PagesView;
+
+return [
+	'seo' => fn () => [
+		'label' => I18n::translate('seo.overview.title'),
+		'icon' => 'search',
+		'link' => 'seo',
+		'menu' => fn () => OverviewView::canAccess(),
+		'views' => [
+			'seo' => [
+				'pattern' => 'seo',
+				'action' => fn () => Panel::go('seo/pages')
+			],
+			'seo.pages' => [
+				'pattern' => 'seo/pages',
+				'action' => fn () => (new PagesView())->load()
+			],
+			'seo.images' => [
+				'pattern' => 'seo/images',
+				'action' => fn () => (new ImagesView())->load()
+			],
+			'seo.links' => [
+				'pattern' => 'seo/links',
+				'action' => fn () => (new LinksView())->load()
+			]
+		],
+		'buttons' => [
+			'page.robots' => fn (Page $page) => Seo::option('robots.enabled') ? new RobotsViewButton($page) : null,
+			'utm-share' => fn (Page|Site $model) => new UtmShareViewButton($model),
+			'seo.overview.languages' => fn (Site $site) => new OverviewLanguagesButton($site)
+		],
+		'drawers' => [
+			'gsc-data' => [
+				'pattern' => 'seo/gsc/data/(:all)',
+				'load' => function (string $parent) {
+					$kirby = App::instance();
+					$request = $kirby->request();
+					$metric = (string)$request->get('metric', 'clicks');
+					// @mago-expect analysis:mixed-operand
+					$asc = (bool)$request->get('asc', in_array($metric, ['position', 'query'], true) ? 1 : 0);
+					$page = max(1, (int)$request->get('page', 1));
+					$limit = max(1, min(100, (int)$request->get('limit', 20)));
+
+					try {
+						$model = Find::parent(ltrim($parent, '/'));
+					} catch (\Exception $e) {
+						return ['component' => 'k-error-drawer', 'props' => ['message' => 'Model not found']];
+					}
+
+					$gsc = Seo::option('components.gsc');
+					if (!$gsc::ready()) {
+						return ['component' => 'k-error-drawer', 'props' => ['message' => 'GSC not connected']];
+					}
+
+					$title = Seo::translate('seo.sections.searchConsole.title');
+					if ($model instanceof Page) {
+						$title .= ' · ' . $model->title()->toString();
+					}
+
+					$data = $gsc::queryForModel($model, $metric, 25000, $asc);
+					$total = count($data);
+					$pageData = array_slice($data, ($page - 1) * $limit, $limit);
+
+					// format numbers with locale
+					$locale = $kirby->panelLanguage();
+					$number = new NumberFormatter($locale, NumberFormatter::DECIMAL);
+					$percent = new NumberFormatter($locale, NumberFormatter::PERCENT);
+					$percent->setAttribute(NumberFormatter::MIN_FRACTION_DIGITS, 1);
+					$percent->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 1);
+					$decimal = new NumberFormatter($locale, NumberFormatter::DECIMAL);
+					$decimal->setAttribute(NumberFormatter::MIN_FRACTION_DIGITS, 1);
+					$decimal->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 1);
+
+					$rows = array_map(fn ($row) => [
+						'query' => $row['keys'][0],
+						'clicks' => $number->format($row['clicks']),
+						'impressions' => $number->format($row['impressions']),
+						'ctr' => $percent->format($row['ctr']),
+						'position' => $decimal->format($row['position'])
+					], $pageData);
+
+					return [
+						'component' => 'k-gsc-drawer',
+						'props' => [
+							'title' => $title,
+							'icon' => 'google',
+							'parent' => $parent,
+							'metric' => $metric,
+							'sortAsc' => $asc,
+							'page' => $page,
+							'limit' => $limit,
+							'total' => $total,
+							'columns' => [
+								'query' => ['label' => I18n::translate('seo.sections.searchConsole.query'), 'width' => '1/2', 'mobile' => true],
+								'clicks' => ['label' => I18n::translate('seo.sections.searchConsole.clicks'), 'width' => '1/8', 'align' => 'right'],
+								'impressions' => ['label' => I18n::translate('seo.sections.searchConsole.impressions'), 'width' => '1/8', 'align' => 'right'],
+								'ctr' => ['label' => I18n::translate('seo.sections.searchConsole.ctr'), 'width' => '1/8', 'align' => 'right'],
+								'position' => [
+									'label' => I18n::translate('seo.sections.searchConsole.position'),
+									'width' => '1/8',
+									'align' => 'right',
+									'mobile' => true
+								]
+							],
+							'rows' => $rows
+						]
+					];
+				}
+			]
+		],
+		'dialogs' => [
+			'activate' => [
+				'pattern' => 'seo/activate',
+				'load' => fn () => [
+					'component' => 'k-form-dialog',
+					'props' => [
+						'fields' => [
+							'domain' => [
+								'label' => I18n::translate('seo.license.activate.label'),
+								'type' => 'info',
+								'theme' => ($isLocal = App::instance()->system()->isLocal()) ? 'warning' : 'info',
+								'text' => I18n::template(
+									'seo.license.activate.' . ($isLocal ? 'local' : 'domain'),
+									replace: ['domain' => License::normalizeUrl(App::instance()->system()->indexUrl())]
+								)
+							],
+							'email' => Field::email(['required' => true]),
+							'license' => [
+								'label' => I18n::translate('seo.license.key.label'),
+								'type' => 'text',
+								'required' => true,
+								'counter' => false,
+								'help' => I18n::translate('seo.license.key.help')
+							]
+						],
+						'submitButton' => [
+							'icon' => 'key',
+							'text' => I18n::translate('seo.license.activate'),
+							'theme' => 'love'
+						]
+					]
+				],
+				'submit' => function () {
+					$body = App::instance()->request()->body();
+
+					if (!V::email($body->get('email'))) {
+						throw new InvalidArgumentException(Seo::translate('seo.license.error.email'));
+					}
+
+					License::activate(
+						email: (string)$body->get('email'),
+						license: trim((string)$body->get('license', ''))
+					);
+
+					return [
+						'message' => I18n::translate('seo.license.activated')
+					];
+				}
+			],
+			'utm-share' => [
+				'pattern' => 'seo/utm-share/(:all)',
+				'controller' => UtmShareDialog::class
+			],
+			'gsc-select-property' => [
+				'pattern' => 'seo/gsc/select-property',
+				'load' => function () {
+					$siteUrl = App::instance()->site()->url();
+					$gsc = Seo::option('components.gsc');
+
+					$properties = $gsc::listProperties();
+					$options = array_map(
+						fn ($p) => [
+							'value' => $p['siteUrl'],
+							'text' => str_starts_with($p['siteUrl'], 'sc-domain:')
+								? substr($p['siteUrl'], 10) . ' (' . Seo::translate('seo.sections.searchConsole.scDomain') . ')'
+								: $p['siteUrl']
+						],
+						$properties
+					);
+
+					$currentProperty = $gsc::property();
+					$defaultProperty = $currentProperty ?? $gsc::findMatchingProperty($siteUrl);
+
+					return [
+						'component' => 'k-form-dialog',
+						'props' => [
+							'fields' => [
+								'property' => [
+									'label' => I18n::translate('seo.sections.searchConsole.selectPropertyLabel'),
+									'type' => 'select',
+									'required' => true,
+									'options' => $options,
+									'empty' => false
+								]
+							],
+							'submitButton' => I18n::translate('select'),
+							'value' => [
+								'property' => $defaultProperty
+							]
+						]
+					];
+				},
+				'submit' => function () {
+					$property = (string)App::instance()->request()->get('property');
+					Seo::option('components.gsc')::setProperty($property);
+
+					return [
+						'event' => 'gsc.propertySelected'
+					];
+				}
+			]
+		]
+	]
+];

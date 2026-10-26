@@ -12,7 +12,7 @@ $text = $block->text();
             class="portrait-image"
             src="<?= $portrait->url() ?>"
             srcset="<?= $portrait->srcset([
-                    '1x' => ['width' => 320, 'height' => 320, 'crop' => 'true', 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => 'true', 'quality' => 90]]) ?>"
+                    '1x' => ['width' => 320, 'height' => 320, 'crop' => true, 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => true, 'quality' => 90]]) ?>"
             loading="lazy"
           />
         </div>

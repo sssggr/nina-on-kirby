@@ -1,7 +1,9 @@
 ![Kirby SEO Banner](/.github/new-banner.png)
 
 <h1 align="center">Kirby SEO</h1>
-<p align="center">All-in-one toolkit that makes implementing SEO & Meta best practices a breeze</p>
+<p align="center">
+	The default choice for SEO on Kirby: Implement technical SEO & Meta best practices with ease and provide an easy-to-use editor experience
+</p>
 
 ---
 
@@ -15,16 +17,33 @@
 - 🤖 Automatic Robots rule generation, based on page status
 - 📝 Sitemap generation with multi-lang support
 
+### New in Version 2
+
+- 🚀 Kirby 5 support
+- 💻 Even better and easier Panel UI
+- ✨ AI assist for writing meta tags
+- 🔘 IndexNow support
+- 🧭 LLM-friendly content with `llms.txt` and Markdown page versions
+
 ## Get started
 
-[Read the documentation](https://plugins.andkindness.com/seo/docs/get-started/feature-overview) to get started with Kirby SEO.
+[Read the documentation](https://www.andkindness.com/seo/docs) to get started with Kirby SEO.
 
-## Support the project
+Kirby SEO 2 requires Kirby 5 or newer. Install it with Composer:
 
-> [!NOTE]
-> This plugin is provided free of charge & published under the permissive MIT License. If you use it in a commercial project, please consider sponsoring me on GitHub to support further development and continued maintenance of Kirby SEO.
+`composer require tobimori/kirby-seo`
+
+## Contributing
+
+Kirby SEO is open to contributors: If you open a pull request that gets merged, such as fixing a bug or translating the plugin into a new language, you're eligible for a free SEO license of your choice. Please note that I might reject minor repeat contributions or simple fixes of typos for this. Please send an email to support after your contribution has been merged.
 
 ## License
 
-[MIT License](./../LICENSE)
-Copyright © 2023-2024 Tobias Möritz
+Kirby SEO 2.0 is not free software. In order to run it on a public server, you'll have to purchase a valid Kirby license & a valid SEO license.
+You can [buy a license](https://www.andkindness.com/buy?plugin=seo) on our website. Read the [license agreement](https://www.andkindness.com/legal/license-agreement) for the full terms.
+
+Copyright 2023-2026 © Tobias Möritz - Love & Kindness GmbH
+
+---
+
+[Kirby SEO 1.0 is licensed under the MIT license.](./LICENSE.md)

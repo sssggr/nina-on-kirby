@@ -1,0 +1,390 @@
+<?php
+
+namespace tobimori\Seo;
+
+use Exception;
+use Kirby\Cms\App;
+use Kirby\Cms\Page;
+use Kirby\Cms\Url;
+use Kirby\Data\Json;
+use Kirby\Http\Remote;
+use Kirby\Toolkit\Str;
+
+use function is_bool;
+
+/**
+ * @psalm-import-type IndexNowRule from Seo
+ * @consistent-constructor
+ */
+class IndexNow
+{
+	protected static string|null $key = null;
+
+	protected Page $page;
+
+	/** @var array<int, string> */
+	protected array $urls = [];
+	protected bool $collected = false;
+
+	public function __construct(Page $page)
+	{
+		$this->page = $page;
+
+		// always add the current page if it's indexable
+		if ($this->isIndexable($page)) {
+			$this->urls[] = $page->url();
+		}
+	}
+
+	/**
+	 * Collect URLs to be indexed based on rules
+	 */
+	public function collect(): self
+	{
+		if ($this->collected) {
+			return $this;
+		}
+
+		$rules = Seo::option('indexnow.rules') ?? [];
+
+		foreach ($rules as $pattern => $invalidations) {
+			if (!$this->matchesPattern($pattern)) {
+				continue;
+			}
+
+			$this->collectFromRule($invalidations);
+		}
+
+		$this->urls = array_unique($this->urls);
+		$this->collected = true;
+
+		return $this;
+	}
+
+	/**
+	 * Get collected urls
+	 *
+	 * @return array<int, string>
+	 */
+	public function urls(): array
+	{
+		if (!$this->collected) {
+			$this->collect();
+		}
+
+		return $this->urls;
+	}
+
+	/**
+	 * Dispatch collected URLs — via batch job if available, otherwise synchronously
+	 */
+	public function dispatch(): bool
+	{
+		$urls = $this->urls();
+
+		if (empty($urls)) {
+			return false;
+		}
+
+		if (class_exists('tobimori\Queues\Queues')) {
+			\tobimori\Queues\Queues::push('seo:indexnow', [
+				'urls' => $urls
+			]);
+
+			return true;
+		}
+
+		return static::send($urls);
+	}
+
+	/**
+	 * Send the collected urls
+	 */
+	public function request(): bool
+	{
+		if (!$this->collected) {
+			$this->collect();
+		}
+
+		return static::send($this->urls);
+	}
+
+	/**
+	 * Static method to send urls to indexnow api
+	 *
+	 * @param array<int, string> $urls
+	 */
+	public static function send(array $urls): bool
+	{
+		if (!static::isActive() || empty($urls)) {
+			return false;
+		}
+
+		try {
+			static::submit($urls);
+			return true;
+		} catch (Exception) {
+			return false;
+		}
+	}
+
+	/**
+	 * Whether requests are sent: not for local development environments
+	 */
+	public static function isActive(): bool
+	{
+		return Seo::option('indexnow.enabled') && !App::instance()->environment()->isLocal();
+	}
+
+	/**
+	 * Sends urls to the indexnow api
+	 *
+	 * @param array<int, string> $urls
+	 * @throws \Exception if a request fails, with the HTTP status or the network error
+	 */
+	public static function submit(array $urls): void
+	{
+		$firstUrl = $urls[0];
+		$parsedUrl = parse_url($firstUrl);
+		// page URLs are absolute
+		// @mago-expect analysis:possibly-false-array-access,possibly-undefined-string-array-index
+		$host = $parsedUrl['host'];
+		$scheme = $parsedUrl['scheme'] ?? 'https';
+		$path = $parsedUrl['path'] ?? '';
+
+		// get base path (everything before the page path)
+		$basePath = '';
+		if ($path && $path !== '/') {
+			// find the base path by comparing with site url
+			$siteUrl = App::instance()->site()->url();
+			$siteParsed = parse_url($siteUrl);
+			$basePath = $siteParsed['path'] ?? '';
+		}
+
+		$searchEngine = Seo::option('indexnow.searchEngine');
+		$searchEngine = rtrim($searchEngine, '/');
+		if (!str_contains($searchEngine, '/indexnow')) {
+			$searchEngine .= '/indexnow';
+		}
+
+		$domainUrls = array_filter($urls, static fn ($url) => parse_url($url, PHP_URL_HOST) === $host);
+
+		// split into batches of 10,000 (IndexNow limit)
+		$batches = array_chunk(array_values(array_unique($domainUrls)), 10000);
+		$key = static::key();
+
+		foreach ($batches as $batch) {
+			$response = Remote::post($searchEngine, [
+				'headers' => [
+					'Content-Type' => 'application/json; charset=utf-8',
+					'User-Agent' => Seo::userAgent()
+				],
+				'data' => Json::encode([
+					'host' => $host,
+					'key' => $key,
+					'keyLocation' => "{$scheme}://{$host}{$basePath}/indexnow-{$key}.txt",
+					'urlList' => $batch
+				])
+			]);
+
+			if (($response->code() ?? 0) > 299) {
+				throw new Exception(
+					"IndexNow request failed with HTTP {$response->code()}: " . Str::short(trim(strip_tags((string)$response->content())), 200)
+				);
+			}
+		}
+	}
+
+	/**
+	 * Get or generate the indexnow key
+	 * Stored in cache so it persists across requests
+	 */
+	public static function key(): string
+	{
+		if (static::$key !== null) {
+			return static::$key;
+		}
+
+		$cache = App::instance()->cache('tobimori.seo.indexnow');
+		$key = $cache->get('key');
+
+		// earlier versions stored `false`, as Kirby has no `hexLower` pool for random strings
+		if (!is_string($key) || $key === '') {
+			$key = bin2hex(random_bytes(16));
+			$cache->set('key', $key, 0);
+		}
+
+		return static::$key = $key;
+	}
+
+	/**
+	 * Check if a provided key matches the stored key
+	 * Used by the route to verify ownership
+	 */
+	public static function verifyKey(string $providedKey): bool
+	{
+		return $providedKey === static::key();
+	}
+
+	/**
+	 * Check if page matches a pattern (url glob/regex or template)
+	 */
+	protected function matchesPattern(string $pattern): bool
+	{
+		if ($pattern === '*') {
+			return true;
+		}
+
+		// url pattern
+		if (str_contains($pattern, '/')) {
+			return $this->matchesUrlPattern($pattern, $this->page->url());
+		}
+
+		// template pattern
+		return $this->page->intendedTemplate()->name() === $pattern;
+	}
+
+	/**
+	 * Match url pattern (glob style)
+	 */
+	protected function matchesUrlPattern(string $pattern, string $url): bool
+	{
+		// convert glob to regex
+		$pattern = str_replace(
+			['*', '?', '[', ']'],
+			['.*', '.', '\[', '\]'],
+			$pattern
+		);
+
+		return preg_match("#^{$pattern}$#", (string)parse_url($url, PHP_URL_PATH)) === 1;
+	}
+
+	/**
+	 * Collect urls based on invalidation rules
+	 *
+	 * @param IndexNowRule $rule
+	 */
+	protected function collectFromRule(array $rule): void
+	{
+		// parent(s)
+		if (isset($rule['parent'])) {
+			$this->collectParents($rule['parent']);
+		}
+
+		// children
+		if (isset($rule['children'])) {
+			$this->collectChildren($rule['children']);
+		}
+
+		// siblings
+		if (isset($rule['siblings']) && $rule['siblings'] === true) {
+			$this->collectSiblings();
+		}
+
+		// specific urls
+		if (isset($rule['urls'])) {
+			foreach ($rule['urls'] as $url) {
+				$this->urls[] = Url::to($url);
+			}
+		}
+
+		// pages by template
+		if (isset($rule['templates'])) {
+			$this->collectByTemplates($rule['templates']);
+		}
+	}
+
+	/**
+	 * Collect parent urls
+	 *
+	 * @param bool|int $levels
+	 */
+	protected function collectParents($levels): void
+	{
+		$parent = $this->page->parent();
+		$count = is_bool($levels) ? 1 : $levels;
+		$language = App::instance()->language();
+
+		while ($parent && $count > 0) {
+			if ($this->isIndexable($parent)) {
+				$this->urls[] = $parent->url($language?->code());
+			}
+			$parent = $parent->parent();
+			$count--;
+		}
+	}
+
+	/**
+	 * Collect children urls
+	 *
+	 * @param bool|int $depth
+	 */
+	protected function collectChildren($depth): void
+	{
+		$maxDepth = is_bool($depth) ? null : $depth;
+		$language = App::instance()->language();
+
+		$collectRecursive = function (Page $page, int $currentDepth = 0) use (&$collectRecursive, $maxDepth, $language) {
+			if ($maxDepth !== null && $currentDepth >= $maxDepth) {
+				return;
+			}
+
+			foreach ($page->children() as $child) {
+				if ($this->isIndexable($child)) {
+					$this->urls[] = $child->url($language?->code());
+				}
+				$collectRecursive($child, $currentDepth + 1);
+			}
+		};
+
+		$collectRecursive($this->page);
+	}
+
+	/**
+	 * Collect sibling urls
+	 */
+	protected function collectSiblings(): void
+	{
+		if (!$this->page->parent()) {
+			return;
+		}
+
+		$language = App::instance()->language();
+
+		foreach ($this->page->siblings() as $sibling) {
+			/** @var Page $sibling */
+			if ($this->isIndexable($sibling)) {
+				$this->urls[] = $sibling->url($language?->code());
+			}
+		}
+	}
+
+	/**
+	 * Collect urls by template names
+	 *
+	 * @param list<string> $templates
+	 */
+	protected function collectByTemplates(array $templates): void
+	{
+		$language = App::instance()->language();
+
+		$pages = $this->page
+			->site()
+			->index()
+			->filterBy('intendedTemplate', 'in', $templates)
+			->filter($this->isIndexable(...));
+
+		foreach ($pages as $page) {
+			$this->urls[] = $page->url($language?->code());
+		}
+	}
+
+	/**
+	 * Check if a page is indexable (robots allow + listed)
+	 */
+	protected function isIndexable(Page $page): bool
+	{
+		return $page->isListed() &&
+			!Str::contains($page->robots(), 'noindex');
+	}
+}

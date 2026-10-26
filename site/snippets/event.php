@@ -8,7 +8,7 @@
             class="responsive-img"
             src="<?= $image->url() ?>"
             srcset="<?= $image->srcset([
-              '1x' => ['width' => 240, 'height' => 240, 'crop' => 'true', 'quality' => 90], '2x' => ['width' => 480, 'height' => 480, 'crop' => 'true', 'quality' => 90]]) ?>"
+              '1x' => ['width' => 240, 'height' => 240, 'crop' => true, 'quality' => 90], '2x' => ['width' => 480, 'height' => 480, 'crop' => true, 'quality' => 90]]) ?>"
           >
         <?php endif; ?>
       </div>

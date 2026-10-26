@@ -1,0 +1,109 @@
+<?php
+
+namespace tobimori\Seo\Ai;
+
+use Imagick;
+use Kirby\Cms\File;
+use Kirby\Exception\Exception;
+
+/**
+ * Fluent builder for AI message content.
+ * Each instance represents a single message with a role and content blocks.
+ *
+ * @psalm-type Block = array{type: 'text', text: string}|array{type: 'image', data: string, mediaType: string}
+ * @consistent-constructor
+ */
+class Content
+{
+	private string $role;
+
+	/** @var list<Block> */
+	private array $blocks = [];
+
+	private function __construct(string $role)
+	{
+		$this->role = $role;
+	}
+
+	public static function user(): static
+	{
+		return new static('user');
+	}
+
+	public static function assistant(): static
+	{
+		return new static('assistant');
+	}
+
+	public static function system(): static
+	{
+		return new static('system');
+	}
+
+	public function text(string $text): static
+	{
+		$this->blocks[] = ['type' => 'text', 'text' => $text];
+		return $this;
+	}
+
+	/**
+	 * Whether the file can be converted into an image block.
+	 * Non-resizable formats (SVG, etc.) require ext-imagick.
+	 */
+	public static function supportsImage(File $file): bool
+	{
+		return $file->isResizable() || class_exists(Imagick::class);
+	}
+
+	/**
+	 * Adds an image block from a Kirby File, converted to WebP for smaller payloads.
+	 * Non-resizable formats (SVG, etc.) are rasterized via Imagick.
+	 */
+	public function image(File $file, int $maxDimension = 1024): static
+	{
+		if ($file->isResizable()) {
+			$thumb = $file->thumb([
+				'width' => $maxDimension,
+				'height' => $maxDimension,
+				'format' => 'webp'
+			]);
+
+			$data = $thumb->read();
+
+			if ($data === false) {
+				throw new Exception("[Kirby SEO] Could not read the thumbnail of {$file->id()}");
+			}
+
+			$data = base64_encode($data);
+		} else {
+			$imagick = new Imagick();
+			$imagick->readImage((string)$file->root());
+			$imagick->setImageFormat('webp');
+			$imagick->thumbnailImage($maxDimension, $maxDimension, true);
+			$data = base64_encode($imagick->getImageBlob());
+			$imagick->clear();
+			$imagick->destroy();
+		}
+
+		$this->blocks[] = [
+			'type' => 'image',
+			'data' => $data,
+			'mediaType' => 'image/webp'
+		];
+
+		return $this;
+	}
+
+	public function role(): string
+	{
+		return $this->role;
+	}
+
+	/**
+	 * @return list<Block>
+	 */
+	public function blocks(): array
+	{
+		return $this->blocks;
+	}
+}

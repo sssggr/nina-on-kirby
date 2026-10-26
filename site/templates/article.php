@@ -15,10 +15,10 @@
                 class="responsive-img"
                 src="<?= $image->url() ?>"
                 srcset="<?= $image->srcset([
-                  '360w'  => ['width' => 360, 'height' => 240,  'crop'       =>'true', 'quality' => 90],
-                  '720w' => ['width' => 720, 'height' => 480,   'crop'      =>'true', 'quality' => 90],
-                  '1376w' => ['width' => 1440, 'height' => 720,   'crop'=>      'true', 'quality' => 90],
-                  '2880w' => ['width' => 2880, 'height' => 1440,  'crop'=>       'true', 'quality' => 90]
+                  '360w'  => ['width' => 360, 'height' => 240,  'crop'       =>true, 'quality' => 90],
+                  '720w' => ['width' => 720, 'height' => 480,   'crop'      =>true, 'quality' => 90],
+                  '1376w' => ['width' => 1440, 'height' => 720,   'crop'=>      true, 'quality' => 90],
+                  '2880w' => ['width' => 2880, 'height' => 1440,  'crop'=>       true, 'quality' => 90]
                 ])?>"   
               >
             </figure>

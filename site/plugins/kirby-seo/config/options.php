@@ -1,43 +1,97 @@
 <?php
 
+use Kirby\Cms\App;
 use Kirby\Cms\Page;
+use tobimori\Seo\Ai;
+use tobimori\Seo\GoogleSearchConsole;
+use tobimori\Seo\IndexNow;
+use tobimori\Seo\LlmContent;
+use tobimori\Seo\Meta;
+use tobimori\Seo\SchemaSingleton;
+use tobimori\Seo\Seo;
 
 return [
+	// if you want to extend some of the built-in classes, you can overwrite them using the components config option
+	// and page methods or similar stuff will adapt. full customizability!
+	'components' => [
+		'meta' => Meta::class,
+		'ai' => Ai::class,
+		'indexnow' => IndexNow::class,
+		'schema' => SchemaSingleton::class,
+		'gsc' => GoogleSearchConsole::class,
+		'agentic' => LlmContent::class
+	],
+	'agentic' => [
+		'enabled' => true,
+		'markdown' => [
+			'enabled' => true,
+			'auto' => false,
+			'selectors' => [
+				'[data-agentic-content]',
+				'main',
+				'article'
+			],
+			'converter' => null
+		],
+		'llmsTxt' => [
+			'enabled' => true,
+			'pages' => null
+		]
+	],
+	'cache.searchConsole' => true,
+	'cache.indexnow' => true,
+	// also stores the link audit, which doesn't work without it
+	'cache.overview' => true,
+	// Link audit for the SEO overview: scans published pages and checks their links
+	'links' => [
+		// run the check in a queue worker if Kirby Queues is installed, otherwise the Panel runs it
+		'queue' => true,
+		// cron expression for checking all pages & external URLs again (with queues only), `false` to disable.
+		// The queue worker applies changes when it starts
+		'schedule' => '0 3 * * *',
+		// null: use HTTP in CLI mode with an absolute site URL; false: render in-process.
+		// Disable HTTP if the worker cannot access the site, e.g. behind basic auth
+		'http' => null,
+		// hours until external URLs are checked again
+		'ttl' => 24 * 7,
+		// External request timeout in seconds
+		'timeout' => 10,
+		// Maximum parallel HTTP page requests; external URL checks use twice this limit
+		'concurrency' => 5,
+		// other hosts of the site (besides the site & language URLs), e.g. `['www.example.com']`
+		'hosts' => []
+	],
+	'overview' => [
+		// recommended lengths (in characters) for the checks in the SEO overview, as [min, max].
+		// search engines don't have hard limits, they truncate snippets to fit the screen
+		'lengths' => [
+			'title' => [30, 60], // the full title, including the title template
+			'description' => [70, 160]
+		]
+	],
 	'cascade' => [
 		'fields',
 		'programmatic',
-		// 'fallbackFields', // fallback to meta fields for open graph fields
 		'parent',
+		'fallbackFields',
 		'site',
 		'options'
 	],
 	'default' => [ // default field values for metadata, format is [field => value]
-		'metaTitle' => fn (Page $page) => $page->title(),
+		'metaTitle' => fn (Page $page) => $page->title()->value(),
 		'metaTemplate' => '{{ title }} - {{ site.title }}',
 		'ogTemplate' => '{{ title }}',
-		'ogSiteName' => fn (Page $page) => $page->site()->title(),
+		'ogSiteName' => fn (Page $page) => $page->site()->title()->value(),
 		'ogType' => 'website',
-		'twitterCardType' => 'summary',
-		'ogDescription' => fn (Page $page) => $page->metadata()->metaDescription(),
-		'twitterCreator' => fn (Page $page) => $page->metadata()->twitterSite(),
-		'lang' => fn (Page $page) => $page->kirby()->language()?->locale(LC_ALL) ?? $page->kirby()->option('tobimori.seo.lang', 'en_US'),
-		// default for robots: noIndex if global index configuration is set, otherwise fall back to page status
-		'robotsIndex' => function (Page $page) {
-			$index = $page->kirby()->option('tobimori.seo.robots.index');
-			if (is_callable($index)) {
-				$index = $index();
-			}
-
-			if (!$index) {
-				return false;
-			}
-
-			return $page->kirby()->option('tobimori.seo.robots.followPageStatus', true) ? $page->isListed() : true;
-		},
-		'robotsFollow' => fn (Page $page) => $page->kirby()->option('tobimori.seo.default.robotsIndex')($page),
-		'robotsArchive' => fn (Page $page) => $page->kirby()->option('tobimori.seo.default.robotsIndex')($page),
-		'robotsImageindex' => fn (Page $page) => $page->kirby()->option('tobimori.seo.default.robotsIndex')($page),
-		'robotsSnippet' => fn (Page $page) => $page->kirby()->option('tobimori.seo.default.robotsIndex')($page),
+		'ogDescription' => fn (Page $page) => $page->metadata()->metaDescription()->value(),
+		'cropOgImage' => true,
+		'locale' => fn (Page $page) => $page->kirby()->language()?->locale(LC_ALL) ?? Seo::option('locale', 'en_US'),
+		// default for robots: noindex if global index configuration is set or for the error page, otherwise fall back to page status
+		'robotsIndex' => fn (Page $page) => Seo::option('robots.index') && Seo::isIndexableByDefault($page),
+		'robotsFollow' => fn (Page $page) => Seo::option('default.robotsIndex', args: [$page]),
+		'robotsArchive' => fn (Page $page) => Seo::option('default.robotsIndex', args: [$page]),
+		'robotsImageindex' => fn (Page $page) => Seo::option('default.robotsIndex', args: [$page]),
+		'robotsSnippet' => fn (Page $page) => Seo::option('default.robotsIndex', args: [$page])
 	],
 	'socialMedia' => [ // default fields for social media links, format is [field => placeholder]
 		'twitter' => 'https://twitter.com/my-company',
@@ -45,6 +99,8 @@ return [
 		'instagram' => 'https://instagram.com/my-company',
 		'youtube' => 'https://youtube.com/channel/my-company',
 		'linkedin' => 'https://linkedin.com/company/my-company',
+		'bluesky' => 'https://bsky.app/profile/example.bsky.social',
+		'mastodon' => 'https://mastodon.social/@example'
 	],
 	'previews' => [
 		'google',
@@ -52,31 +108,48 @@ return [
 		'slack'
 	],
 	'robots' => [
-		'active' => true, // whether robots handling should be done by the plugin
+		'enabled' => true, // whether robots handling should be done by the plugin
+
+		// @deprecated - please use robots.enabled
+		'active' => fn () => Seo::option('robots.enabled'),
 		'followPageStatus' => true, // should unlisted pages be noindex by default?
 		'pageSettings' => true, // whether to have robots settings on each page
-		'indicator' => true, // whether the indicator should be shown in the panel
-		'index' => fn () => !option('debug'), // default site-wide robots setting
+		'index' => fn () => App::instance()->option('debug') !== true, // default site-wide robots setting
 		'sitemap' => null, // sets sitemap url, will be replaced by plugin sitemap in the future
 		'content' => [], // custom robots content
 		'types' => ['index', 'follow', 'archive', 'imageindex', 'snippet'] // available robots types
 	],
 	'sitemap' => [
-		'active' => true,
+		'enabled' => true,
+		// @deprecated - please use sitemap.enabled
+		'active' => fn () => Seo::option('sitemap.enabled'),
 		'redirect' => true, // redirect /sitemap to /sitemap.xml
-		'lang' => 'en',
+		'locale' => 'en',
 		'generator' => require __DIR__ . '/options/sitemap.php',
 		'changefreq' => 'weekly',
 		'groupByTemplate' => false,
 		'excludeTemplates' => ['error'],
-		'priority' => fn (Page $p) => number_format(($p->isHomePage()) ? 1 : max(1 - 0.2 * $p->depth(), 0.2), 1),
+		'priority' => fn (Page $page) => number_format($page->isHomePage() ? 1 : max(1 - (0.2 * $page->depth()), 0.2), 1)
 	],
 	'files' => [
 		'parent' => null,
-		'template' => null,
+		'template' => null
 	],
-	'canonicalBase' => null, // base url for canonical links
+	'canonical' => [
+		'base' => null, // base url for canonical links
+		'trailingSlash' => false // whether to add trailing slashes to canonical URLs (except for files)
+	],
+	'ai' => require __DIR__ . '/options/ai.php',
+	'indexnow' => require __DIR__ . '/options/indexnow.php',
+	'searchConsole' => [
+		'enabled' => true,
+		'credentials' => null,
+		'tokenPath' => fn () => (string)App::instance()->root('config') . '/.gsc-tokens.json'
+	],
+	// allow all Kirby queries in title templates, not only `{{ title }}` and `{{ site.title }}`
+	// do not enable with untrusted Panel users, queries can read any data, e.g. user emails
+	'kql' => false,
 	'generateSchema' => true, // whether to generate default schema.org data
-	'lang' => 'en_US', // default language, used for single-language sites
-	'dateFormat' => null, // custom date format
+	'locale' => 'en_US', // default locale, used for single-language sites
+	'dateFormat' => null // custom date format
 ];

@@ -1,0 +1,53 @@
+# ❄️ PHP Snowplow Referer Parser
+
+A modern PHP implementation of [referer-parser](https://github.com/snowplow-referer-parser/referer-parser), the library for extracting **traffic data** from referer _(sic)_ URLs.
+
+The implementation uses a JSON version of the shared `database` of known referers found in [`referers.yml`](https://github.com/snowplow-referer-parser/referer-parser/blob/master/resources/referers.yml).
+
+🔱 Maintained PHP 8.2+ fork of [php-referer-parser](https://github.com/snowplow-referer-parser/php-referer-parser) by [Lars Strojny](https://github.com/lstrojny), with automatic data updates.
+
+## ✨ Key Features
+- 🌍 Parse referer URLs into structured attribution data
+- 🧭 Identify traffic source and medium (search, social, email, etc.)
+- 📝 Extract search terms from supported search engines
+- 📦 Based on Snowplow’s shared referer database
+- ⚡ Modern PHP 8.2+ implementation
+- 🔁 Regularly updated referer data
+
+## 🧩 Requirements
+- **PHP** ≥ 8.2
+
+## 📦 Installation
+
+```bash
+composer require simplestats/referer-parser
+```
+
+## 🚀 Usage
+
+```php
+use Snowplow\RefererParser\Parser;
+
+$parser = new Parser();
+$referer = $parser->parse(
+    'http://www.google.com/search?q=gateway+oracle+cards+denise+linn&hl=en&client=safari',
+    'http:/www.psychicbazaar.com/shop'
+);
+
+if ($referer->isKnown()) {
+    echo $referer->medium;     // Medium::SEARCH
+    echo $referer->source;     // "Google"
+    echo $referer->searchTerm; // "gateway oracle cards denise linn"
+}
+```
+
+## 🤝 Contributing
+Fork & PR are welcome.
+
+## 🙏 Credits
+- 🧠 [Snowplow](https://github.com/snowplow) for the original [referer-parser](https://github.com/snowplow-referer-parser/referer-parser) library
+- 👤 [Lars Strojny](https://github.com/lstrojny) for the original [php-referer-parser](https://github.com/snowplow-referer-parser/php-referer-parser)
+
+## 📜 License
+[MIT License](./LICENSE) Copyright © 2026-PRESENT [Bogdan Condorachi](https://github.com/bogdancondorachi)\
+[MIT License](https://github.com/snowplow-referer-parser/php-referer-parser/blob/develop/MIT-LICENSE.txt) Copyright © 2013-PRESENT [Lars Strojny](https://github.com/lstrojny)

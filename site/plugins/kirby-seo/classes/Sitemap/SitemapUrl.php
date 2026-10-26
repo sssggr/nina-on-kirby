@@ -3,21 +3,28 @@
 namespace tobimori\Seo\Sitemap;
 
 use DOMDocument;
+use DOMElement;
 use DOMNode;
 use Kirby\Exception\Exception;
+
+use function array_key_exists;
 
 class SitemapUrl
 {
 	protected string $lastmod;
 	protected string $changefreq;
 	protected string $priority;
+	/** @var list<array<string, string>> */
 	protected array $alternates = [];
 
 	public function __construct(protected string $loc)
 	{
 	}
 
-	public function loc(string $url = null): SitemapUrl|string
+	/**
+	 * @return ($url is null ? string : SitemapUrl)
+	 */
+	public function loc(string|null $url = null): SitemapUrl|string
 	{
 		if ($url === null) {
 			return $this->loc;
@@ -27,7 +34,10 @@ class SitemapUrl
 		return $this;
 	}
 
-	public function lastmod(string $lastmod = null): SitemapUrl|string
+	/**
+	 * @return ($lastmod is null ? string : SitemapUrl)
+	 */
+	public function lastmod(int|null $lastmod = null): SitemapUrl|string
 	{
 		if ($lastmod === null) {
 			return $this->lastmod;
@@ -37,7 +47,10 @@ class SitemapUrl
 		return $this;
 	}
 
-	public function changefreq(string $changefreq = null): SitemapUrl|string
+	/**
+	 * @return ($changefreq is null ? string : SitemapUrl)
+	 */
+	public function changefreq(string|null $changefreq = null): SitemapUrl|string
 	{
 		if ($changefreq === null) {
 			return $this->changefreq;
@@ -47,7 +60,10 @@ class SitemapUrl
 		return $this;
 	}
 
-	public function priority(string $priority = null): SitemapUrl|string
+	/**
+	 * @return ($priority is null ? string : SitemapUrl)
+	 */
+	public function priority(string|null $priority = null): SitemapUrl|string
 	{
 		if ($priority === null) {
 			return $this->priority;
@@ -57,6 +73,10 @@ class SitemapUrl
 		return $this;
 	}
 
+	/**
+	 * @param list<array<string, string>> $alternates
+	 * @return ($alternates is array{} ? list<array<string, string>> : SitemapUrl)
+	 */
 	public function alternates(array $alternates = []): SitemapUrl|array
 	{
 		if (empty($alternates)) {
@@ -66,11 +86,10 @@ class SitemapUrl
 		foreach ($alternates as $alternate) {
 			foreach (['href', 'hreflang'] as $key) {
 				if (!array_key_exists($key, $alternate)) {
-					new Exception("[kirby-seo] The alternate link to '{$this->loc()} is missing the '{$key}' attribute");
+					throw new Exception("[Kirby SEO] The alternate link to '{$this->loc}' is missing the '{$key}' attribute");
 				}
 			}
 		}
-
 
 		$this->alternates = $alternates;
 		return $this;
@@ -80,21 +99,29 @@ class SitemapUrl
 	{
 		$doc->formatOutput = true;
 
+		/** @var DOMElement $node */
 		$node = $doc->createElement('url');
 
-		foreach (array_diff_key(get_object_vars($this), array_flip(['alternates'])) as $key => $value) {
-			$node->appendChild($doc->createElement($key, $value));
+		foreach (['loc', 'lastmod', 'changefreq', 'priority'] as $key) {
+			if (!isset($this->$key)) {
+				continue;
+			}
+
+			// the value of `createElement()` is not escaped, a `&` would start an entity
+			/** @var DOMElement $element */
+			$element = $doc->createElement($key);
+			$element->textContent = $this->$key;
+			$node->appendChild($element);
 		}
 
-		if (!empty($this->alternates())) {
-			foreach ($this->alternates() as $alternate) {
-				$alternateNode = $doc->createElement('xhtml:link');
-				foreach ($alternate as $key => $value) {
-					$alternateNode->setAttribute($key, $value);
-				}
-
-				$node->appendChild($alternateNode);
+		foreach ($this->alternates as $alternate) {
+			/** @var DOMElement $alternateNode */
+			$alternateNode = $doc->createElement('xhtml:link');
+			foreach ($alternate as $key => $value) {
+				$alternateNode->setAttribute($key, $value);
 			}
+
+			$node->appendChild($alternateNode);
 		}
 
 		return $node;
@@ -105,9 +132,9 @@ class SitemapUrl
 		$doc = new DOMDocument('1.0', 'UTF-8');
 		$doc->formatOutput = true;
 
-		$node = $this->toDOMNode();
+		$node = $this->toDOMNode($doc);
 		$doc->appendChild($node);
 
-		return $doc->saveXML($node);
+		return $doc->saveXML($node) ?: throw new Exception('[Kirby SEO] Could not render the sitemap URL');
 	}
 }

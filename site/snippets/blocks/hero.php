@@ -22,8 +22,8 @@ $image = $block->heroimage()->toFile();
               class="responsive-img"
               src="<?= $image->url() ?>"
               srcset="<?= $image->srcset([
-                        '1x' => ['width' => 600, 'height' => 400, 'crop' => 'true', 'quality' => 90],
-                        '2x' => ['width' => 1200, 'height' => 800, 'crop' => 'true', 'quality' => 90]
+                        '1x' => ['width' => 600, 'height' => 400, 'crop' => true, 'quality' => 90],
+                        '2x' => ['width' => 1200, 'height' => 800, 'crop' => true, 'quality' => 90]
                       ]) ?>">
           </figure>
         </div>

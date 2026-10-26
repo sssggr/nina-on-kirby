@@ -41,8 +41,8 @@
                   class="responsive-img"
                   src="<?= $heroimage->url() ?>"
                   srcset="<?= $heroimage->srcset([
-                            '1x' => ['width' => 600, 'height' => 480, 'crop' => 'true', 'quality' => 90],
-                            '2x' => ['width' => 1200, 'height' => 960, 'crop' => 'true', 'quality' => 90]
+                            '1x' => ['width' => 600, 'height' => 480, 'crop' => true, 'quality' => 90],
+                            '2x' => ['width' => 1200, 'height' => 960, 'crop' => true, 'quality' => 90]
                           ]) ?>"
                 >
               </div>
@@ -81,8 +81,8 @@
                         class="responsive-img"
                         src="<?= $offerimage->url() ?>"
                         srcset="<?= $offerimage->srcset([
-                                  '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
-                                  '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
+                                  '1x' => ['width' => 640, 'height' => 432, 'crop' => true, 'quality' => 90],
+                                  '2x' => ['width' => 1280, 'height' => 864, 'crop' => true, 'quality' => 90]
                                 ]) ?>">
                     <?php endif ?>
                     <div class="teaser-text-container">
@@ -125,8 +125,8 @@
                             class="responsive-img"
                             src="<?= $offerimage->url() ?>"
                             srcset="<?= $offerimage->srcset([
-                                      '1x' => ['width' => 640, 'height' => 432, 'crop' => 'true', 'quality' => 90],
-                                      '2x' => ['width' => 1280, 'height' => 864, 'crop' => 'true', 'quality' => 90]
+                                      '1x' => ['width' => 640, 'height' => 432, 'crop' => true, 'quality' => 90],
+                                      '2x' => ['width' => 1280, 'height' => 864, 'crop' => true, 'quality' => 90]
                                     ]) ?>"
                           >
                         <?php endif ?>
@@ -173,7 +173,7 @@
                   loading="lazy"
                   src="<?= $aboutmeimage->url() ?>"
                   srcset="<?= $aboutmeimage->srcset([
-                    '1x' => ['width' => 320, 'height' => 320, 'crop' => 'true', 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => 'true', 'quality' => 90]]) ?>"
+                    '1x' => ['width' => 320, 'height' => 320, 'crop' => true, 'quality' => 90], '2x' => ['width' => 640, 'height' => 640, 'crop' => true, 'quality' => 90]]) ?>"
                 />
               <?php endif; ?>
             </div>
@@ -225,8 +225,8 @@
                             alt="<?= $post->title() ?>" class="responsive-img"
                             src="<?= $image->url() ?>"
                             srcset="<?= $image->srcset([
-                              '1x' => ['width' => 400, 'height' => 320, 'crop' => 'true', 'quality' => 90],
-                              '2x' => ['width' => 800, 'height' => 640, 'crop' => 'true', 'quality' => 90]
+                              '1x' => ['width' => 400, 'height' => 320, 'crop' => true, 'quality' => 90],
+                              '2x' => ['width' => 800, 'height' => 640, 'crop' => true, 'quality' => 90]
                             ]) ?>"
                           />
                         <?php endif ?>

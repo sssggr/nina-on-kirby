@@ -1,0 +1,538 @@
+<?php
+
+namespace tobimori\Seo\Audit\Links;
+
+use Closure;
+use Kirby\Cms\App;
+use Kirby\Cms\Page;
+use Kirby\Data\Json;
+use Kirby\Exception\Exception;
+use tobimori\Seo\Jobs\CheckLinksJob;
+use tobimori\Seo\Seo;
+
+/**
+ * Coordinates page scans and external URL checks for the link audit
+ *
+ * @psalm-import-type Data from Index
+ * @psalm-import-type UrlResult from Index
+ * @psalm-import-type Result from Crawler
+ */
+class Checker
+{
+	protected Index $index;
+
+	/**
+	 * The index, read by a scan step or for the progress
+	 *
+	 * @var Data
+	 */
+	protected array $data;
+
+	/** @var array<string, string> */
+	protected array $fingerprints = [];
+
+	/**
+	 * Normalized scan target URLs, stored as array keys
+	 *
+	 * @var array<string, true>
+	 */
+	protected array $urls = [];
+
+	/** @var array<string, int>|null */
+	protected array|null $lookup = null;
+
+	public function __construct()
+	{
+		$this->index = new Index();
+	}
+
+	public static function usesQueue(): bool
+	{
+		return class_exists('tobimori\Queues\Queues') && Seo::option('links.queue') !== false;
+	}
+
+	/**
+	 * Enqueues a scan if queue processing is enabled.
+	 * `$full` invalidates all results when the job starts; `$now` bypasses the batch window
+	 */
+	public static function dispatch(bool $full = false, bool $now = false): void
+	{
+		if (!static::usesQueue()) {
+			return;
+		}
+
+		if ($now) {
+			\tobimori\Queues\Queues::later(0, CheckLinksJob::class, ['full' => $full]);
+		} else {
+			\tobimori\Queues\Queues::push(CheckLinksJob::class, ['full' => $full]);
+		}
+	}
+
+	/**
+	 * Replaces obsolete persisted schedules to match the current queue settings
+	 */
+	public static function schedule(): void
+	{
+		$scheduler = \tobimori\Queues\Queues::scheduler();
+		$expression = static::usesQueue() ? Seo::option('links.schedule') : null;
+		$type = (new CheckLinksJob())->type();
+		$exists = false;
+
+		foreach ($scheduler->all() as $id => $entry) {
+			if ($entry['job'] !== $type) {
+				continue;
+			}
+
+			if ($entry['expression'] === $expression && !$exists) {
+				$exists = true;
+				continue;
+			}
+
+			$scheduler->unschedule($id);
+		}
+
+		if ($expression && !$exists) {
+			$scheduler->schedule($expression, CheckLinksJob::class, ['full' => true]);
+		}
+	}
+
+	/**
+	 * Invalidates page scans and external URL checks for subsequent scan steps
+	 */
+	public function invalidate(): void
+	{
+		$this->change(static function (array $data) {
+			$data['invalidated'] = time();
+			return $data;
+		});
+	}
+
+	/**
+	 * Marks pages linking to the URL for rescanning and removes its external check result
+	 */
+	public function recheck(string $url): void
+	{
+		$this->change(static function (array $data) use ($url) {
+			$id = array_search($url, $data['strings'], true);
+
+			foreach ($data['pages'] as $key => $entry) {
+				if (in_array($id, $entry['links'], true)) {
+					$data['pages'][$key]['fingerprint'] = null;
+				}
+			}
+
+			unset($data['urls'][Index::withoutFragment($url)]);
+
+			return $data;
+		});
+	}
+
+	/**
+	 * Updates the index under an exclusive lock, waiting for any active scan step
+	 *
+	 * @param Closure(Data): Data $change
+	 */
+	protected function change(Closure $change): void
+	{
+		if (!$this->index->wait()) {
+			throw new Exception(message: Seo::translate('seo.links.busy'));
+		}
+
+		try {
+			$this->index->write($change($this->index->read()));
+		} finally {
+			$this->index->unlock();
+		}
+	}
+
+	/**
+	 * Processes pending page scans and external URL checks within a time budget.
+	 * The deadline is checked between batches; an active batch can exceed it.
+	 * Returns progress without processing if another instance holds the index lock
+	 *
+	 * @return array{pages: array{done: int, total: int}, urls: array{done: int, total: int}, done: bool, running: bool, queue: bool}
+	 */
+	public function step(int $seconds): array
+	{
+		if (!$this->index->lock()) {
+			return [...$this->progress(), 'running' => true];
+		}
+
+		$deadline = microtime(true) + $seconds;
+		$this->data = $this->index->read();
+		// Index compaction can renumber URL IDs between steps
+		$this->lookup = null;
+
+		try {
+			$targets = $this->prepare();
+			$crawler = new Crawler($this->onExit(...));
+
+			$pending = array_filter($targets, fn ($key) => !$this->isScanned($key), ARRAY_FILTER_USE_KEY);
+			$http = Crawler::usesHttp();
+			$concurrency = max(1, (int)Seo::option('links.concurrency'));
+
+			foreach (array_chunk($pending, $http ? $concurrency : 1, true) as $batch) {
+				if (microtime(true) >= $deadline) {
+					break;
+				}
+
+				$results = [];
+
+				if ($http) {
+					$results = Crawler::fetch(array_map(static fn ($target) => $target[0]->url($target[1]), $batch));
+				} else {
+					foreach ($batch as $key => [$page, $language]) {
+						$results[$key] = $crawler->render($key, $page, $language);
+					}
+				}
+
+				foreach ($results as $key => $result) {
+					[$page, $language] = $targets[$key];
+					$this->store($key, $page, $language, $result);
+				}
+			}
+
+			while (microtime(true) < $deadline && ($urls = $this->dueUrls(Index::external($this->data), $this->data['invalidated'])) !== []) {
+				$batch = array_slice($urls, 0, $concurrency * 2);
+				$this->data['urls'] = [...$this->data['urls'], ...static::request($batch)];
+			}
+
+			$this->index->write($this->data);
+		} finally {
+			$this->index->unlock();
+		}
+
+		return $this->progress();
+	}
+
+	/**
+	 * @return array{pages: array{done: int, total: int}, urls: array{done: int, total: int}, done: bool, running: bool, queue: bool}
+	 */
+	public function progress(): array
+	{
+		// a step has the index in memory already, otherwise only its summary is read
+		$state = isset($this->data) ? Index::summarize($this->data) : $this->index->state();
+		$targets = $this->targets($state['invalidated']);
+
+		// pages that don't exist anymore (or have a new URL) mark the pages linking
+		// to them as changed (see `prepare()`), which needs the links of all pages
+		foreach ($state['pages'] as [, $url]) {
+			if (isset($this->urls[$url])) {
+				continue;
+			}
+
+			$this->data ??= $this->index->read();
+			$this->prepare();
+			$state = Index::summarize($this->data);
+			break;
+		}
+
+		$done = count(array_filter(
+			array_keys($targets),
+			fn ($key) => ($state['pages'][$key][0] ?? null) === $this->fingerprints[$key]
+		));
+		$due = count($this->dueUrls($state['external'], $state['invalidated']));
+
+		return [
+			'pages' => ['done' => $done, 'total' => count($targets)],
+			'urls' => ['done' => count($state['external']) - $due, 'total' => count($state['external'])],
+			'done' => $done === count($targets) && $due === 0,
+			'running' => $this->index->isLocked(),
+			'queue' => static::usesQueue()
+		];
+	}
+
+	/**
+	 * Reconciles stored page scans with the current targets.
+	 * Removes results for obsolete targets and invalidates pages linking to removed URLs
+	 *
+	 * @return array<string, array{0: \Kirby\Cms\Page, 1: string|null}>
+	 */
+	protected function prepare(): array
+	{
+		$targets = $this->targets($this->data['invalidated']);
+
+		$removed = [];
+		foreach ($this->data['pages'] as $entry) {
+			if (!isset($this->urls[$normalized = Report::normalize($entry['url'])])) {
+				$removed[$normalized] = true;
+			}
+		}
+
+		$this->data['pages'] = array_intersect_key($this->data['pages'], $targets);
+		$this->data['targets'] = array_keys($this->urls);
+
+		if ($removed !== []) {
+			$ids = array_filter(
+				$this->data['strings'],
+				static fn ($url) => Report::isInternal($url) && isset($removed[Report::normalize($url)])
+			);
+
+			foreach ($this->data['pages'] as $key => $entry) {
+				foreach ($entry['links'] as $id) {
+					if (isset($ids[$id])) {
+						$this->data['pages'][$key]['fingerprint'] = null;
+						break;
+					}
+				}
+			}
+		}
+
+		return $targets;
+	}
+
+	/**
+	 * Returns indexable pages (see `Seo::indexable()`), keyed by `{language}/{page id}`.
+	 * Populates `$fingerprints` and `$urls` for all page-language pairs
+	 *
+	 * @return array<string, array{0: \Kirby\Cms\Page, 1: string|null}>
+	 */
+	protected function targets(int $invalidated): array
+	{
+		$kirby = App::instance();
+		/** @var list<string|null> $languages */
+		$languages = $kirby->multilang() ? $kirby->languages()->codes() : [null];
+
+		// Site content can supply shared links, so changes must invalidate every page
+		$site = [$invalidated];
+		foreach ($languages as $language) {
+			$site[] = $kirby
+				->site()
+				->version('latest')
+				->modified($language ?? 'default');
+		}
+
+		$targets = [];
+		$this->urls = [];
+
+		foreach ($languages as $language) {
+			foreach (Seo::indexable($kirby->language($language)) as $page) {
+				$key = ($language ?? '') . '/' . $page->id();
+				$url = $page->url($language);
+				$targets[$key] = [$page, $language];
+				$this->urls[Report::normalize($url)] = true;
+				$this->fingerprints[$key] = md5(Json::encode([
+					$site,
+					$url,
+					$page->status(),
+					$page->intendedTemplate()->name(),
+					$page->version('latest')->modified($language ?? 'default')
+				]));
+			}
+		}
+
+		return $targets;
+	}
+
+	protected function isScanned(string $key): bool
+	{
+		return ($this->data['pages'][$key]['fingerprint'] ?? null) === $this->fingerprints[$key];
+	}
+
+	/**
+	 * @param Result $result
+	 */
+	protected function store(string $key, Page $page, string|null $language, array $result): void
+	{
+		$this->data['pages'][$key] = [
+			'page' => $page->id(),
+			'language' => $language,
+			'url' => $page->url($language),
+			'fingerprint' => $this->fingerprints[$key],
+			'status' => $result['status'],
+			'location' => $result['location'],
+			'error' => $result['error'],
+			'links' => $this->intern($result['links']),
+			'ids' => $result['ids']
+		];
+	}
+
+	/**
+	 * Saves the interrupted scan and releases the lock when a template exits.
+	 * Enqueues a continuation in CLI mode if queue processing is enabled
+	 */
+	protected function onExit(string $key, int $code, string|null $location): void
+	{
+		[$language, $id] = explode('/', $key, 2);
+		$page = App::instance()->page($id);
+
+		if (isset($this->data) && $page !== null) {
+			$this->store($key, $page, $language ?: null, [
+				'status' => $location && $code < 300 ? 302 : $code,
+				'location' => $location,
+				'error' => null,
+				'links' => [],
+				'ids' => []
+			]);
+			$this->index->write($this->data);
+		}
+
+		$this->index->unlock();
+
+		if (PHP_SAPI === 'cli') {
+			static::dispatch(now: true);
+		}
+	}
+
+	/**
+	 * Maps URLs to IDs in the index's shared string table, adding new URLs as needed
+	 *
+	 * @param list<string> $urls
+	 * @return list<int>
+	 */
+	protected function intern(array $urls): array
+	{
+		$this->lookup ??= array_flip($this->data['strings']);
+
+		return array_map(function ($url) {
+			if (!isset($this->lookup[$url])) {
+				$this->lookup[$url] = count($this->data['strings']);
+				$this->data['strings'][] = $url;
+			}
+
+			return $this->lookup[$url];
+		}, $urls);
+	}
+
+	/**
+	 * Returns external URLs whose checks have expired or predate the last invalidation
+	 *
+	 * @param array<string, int> $external Check times by URL, see `Index::external()`
+	 * @return list<string>
+	 */
+	protected function dueUrls(array $external, int $invalidated): array
+	{
+		$since = max(time() - ((int)Seo::option('links.ttl') * 3600), $invalidated);
+
+		return array_keys(array_filter($external, static fn ($checked) => $checked < $since));
+	}
+
+	/**
+	 * Checks external HTTP statuses without following redirects or downloading bodies.
+	 * Retries HEAD errors with GET and pins resolved public addresses to prevent DNS changes
+	 *
+	 * @param list<string> $urls
+	 * @return array<string, UrlResult>
+	 */
+	protected static function request(array $urls): array
+	{
+		$results = [];
+
+		if (!function_exists('curl_multi_init')) {
+			return array_fill_keys($urls, ['code' => 0, 'location' => null, 'error' => 'curl', 'checked' => time()]);
+		}
+
+		$addresses = [];
+		$resolve = [];
+
+		foreach ($urls as $url) {
+			$host = strtolower(trim((string)parse_url($url, PHP_URL_HOST), '[]'));
+			$addresses[$host] ??= static::address($host);
+			$address = $addresses[$host];
+
+			if ($address === null) {
+				$results[$url] = ['code' => 0, 'location' => null, 'error' => 'private', 'checked' => time()];
+			} elseif ($address !== false) {
+				$port = parse_url($url, PHP_URL_PORT) ?? (str_starts_with(strtolower($url), 'https:') ? 443 : 80);
+				$resolve[$url] = ["{$host}:{$port}:" . (str_contains($address, ':') ? "[{$address}]" : $address)];
+			}
+		}
+
+		$urls = array_values(array_diff($urls, array_keys($results)));
+
+		foreach (['HEAD', 'GET'] as $method) {
+			if ($urls === []) {
+				break;
+			}
+
+			$multi = curl_multi_init();
+			$handles = [];
+
+			foreach ($urls as $url) {
+				$handle = curl_init($url);
+				curl_setopt_array($handle, [
+					CURLOPT_NOBODY => $method === 'HEAD',
+					CURLOPT_RETURNTRANSFER => false,
+					CURLOPT_HEADER => false,
+					CURLOPT_FOLLOWLOCATION => false,
+					CURLOPT_PROTOCOLS => CURLPROTO_HTTP | CURLPROTO_HTTPS,
+					CURLOPT_RESOLVE => $resolve[$url] ?? [],
+					CURLOPT_CONNECTTIMEOUT => 5,
+					CURLOPT_TIMEOUT => (int)Seo::option('links.timeout'),
+					CURLOPT_USERAGENT => Crawler::userAgent(),
+					CURLOPT_HTTPHEADER => ['Accept: text/html,application/xhtml+xml,*/*;q=0.8'],
+					// only the status is needed: stop at the first bytes of the body
+					CURLOPT_WRITEFUNCTION => static fn () => 0
+				]);
+				curl_multi_add_handle($multi, $handle);
+				$handles[$url] = $handle;
+			}
+
+			Crawler::perform($multi);
+
+			$retry = [];
+
+			foreach ($handles as $url => $handle) {
+				$code = (int)curl_getinfo($handle, CURLINFO_RESPONSE_CODE);
+				$error = curl_errno($handle);
+
+				// aborting the body is expected, everything else (DNS, timeout, …) isn't
+				$errorType = match (true) {
+					$code !== 0 || $error === 0 => null,
+					$error === CURLE_OPERATION_TIMEDOUT => 'timeout',
+					$error === CURLE_COULDNT_RESOLVE_HOST => 'dns',
+					default => 'connection'
+				};
+
+				$location = curl_getinfo($handle, CURLINFO_REDIRECT_URL);
+				$results[$url] = [
+					'code' => $code,
+					'location' => is_string($location) && $location !== '' ? $location : null,
+					'error' => $errorType,
+					'checked' => time()
+				];
+
+				// servers that don't (properly) support HEAD requests
+				if ($method === 'HEAD' && $code >= 400) {
+					$retry[] = $url;
+				}
+
+				curl_multi_remove_handle($multi, $handle);
+			}
+
+			curl_multi_close($multi);
+			$urls = $retry;
+		}
+
+		return $results;
+	}
+
+	/**
+	 * Returns a resolved public address, `null` for a blocked address, or `false` on DNS failure
+	 */
+	protected static function address(string $host): string|false|null
+	{
+		if (filter_var($host, FILTER_VALIDATE_IP) !== false) {
+			$addresses = [$host];
+		} else {
+			// @mago-expect lint:no-error-control-operator
+			// @mago-expect lint:no-error-control-operator
+			// @mago-expect analysis:less-specific-nested-argument-type
+			$addresses = @gethostbynamel($host) ?: array_column(@dns_get_record($host, DNS_AAAA) ?: [], 'ipv6');
+		}
+
+		/** @var list<string> $addresses */
+
+		if ($addresses === []) {
+			return false;
+		}
+
+		foreach ($addresses as $address) {
+			if (filter_var($address, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) === false) {
+				return null;
+			}
+		}
+
+		return $addresses[0];
+	}
+}

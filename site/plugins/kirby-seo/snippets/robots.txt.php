@@ -1,12 +1,10 @@
 <?php
 
+use Kirby\Cms\App;
 use Kirby\Toolkit\A;
+use tobimori\Seo\Seo;
 
-if ($content = option('tobimori.seo.robots.content')) {
-	if (is_callable($content)) {
-		$content = $content();
-	}
-
+if ($content = Seo::option('robots.content')) {
 	if (is_array($content)) {
 		$str = [];
 
@@ -27,10 +25,7 @@ if ($content = option('tobimori.seo.robots.content')) {
 	// output default
 	echo "User-agent: *\n";
 
-	$index = option('tobimori.seo.robots.index');
-	if (is_callable($index)) {
-		$index = $index();
-	}
+	$index = Seo::option('robots.index');
 
 	if ($index) {
 		echo 'Allow: /';
@@ -40,19 +35,12 @@ if ($content = option('tobimori.seo.robots.content')) {
 	}
 }
 
-if (($sitemap = option('tobimori.seo.robots.sitemap')) || ($sitemapModule = option('tobimori.seo.sitemap.active'))) {
-	// Allow closure to be used
-	if (is_callable($sitemap)) {
-		$sitemap = $sitemap();
-	}
+// Use the sitemap of the plugin if none is set
+$sitemap = Seo::option('robots.sitemap');
+if (!$sitemap && Seo::option('sitemap.active')) {
+	$sitemap = App::instance()->site()->canonicalFor('/sitemap.xml', true);
+}
 
-	// Use default sitemap if none is set
-	if (!$sitemap && $sitemapModule) {
-		$sitemap = site()->canonicalFor('/sitemap.xml');
-	}
-
-	// Check again, so falsy values can't be used
-	if ($sitemap) {
-		echo "\n\nSitemap: {$sitemap}";
-	}
+if ($sitemap) {
+	echo "\n\nSitemap: {$sitemap}";
 }

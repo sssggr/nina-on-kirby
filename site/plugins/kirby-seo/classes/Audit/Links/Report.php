@@ -1,0 +1,546 @@
+<?php
+
+namespace tobimori\Seo\Audit\Links;
+
+use Closure;
+use Kirby\Cms\App;
+use Kirby\Cms\Language;
+use Kirby\Cms\Page;
+use Kirby\Http\Router;
+use Kirby\Uuid\Uuid;
+use Throwable;
+use tobimori\Seo\Seo;
+
+/**
+ * Classifies indexed links and groups their source pages for a single-language audit report
+ *
+ * @psalm-import-type Data from Index
+ * @psalm-import-type PageEntry from Index
+ * @psalm-type Check = array{state: string, reason?: string, code?: int, target?: string|null}
+ * @psalm-type Link = array{url: string, state: string, reason: string|null, target: string|null, code: int|null, internal: bool, total: int, pages: string}
+ * @psalm-type Results = array{revision: string|null, scanned: bool, links: array<string, Link>}
+ */
+class Report
+{
+	/**
+	 * States of links, by severity
+	 */
+	public const STATES = ['broken', 'anchor', 'redirect', 'unknown', 'ok'];
+
+	public const SEVERITY = [
+		'broken' => 'negative',
+		'anchor' => 'notice',
+		'redirect' => 'notice',
+		'unknown' => 'unknown',
+		'ok' => 'ok'
+	];
+
+	public const FILTERS = ['broken', 'anchor', 'redirect', 'unknown'];
+	public const ISSUES = ['broken', 'anchor', 'redirect'];
+
+	protected App $kirby;
+
+	/** @var Data|null */
+	protected array|null $data = null;
+
+	/** @var Results|null */
+	protected array|null $results = null;
+
+	/** @var array<string, PageEntry>|null */
+	protected array|null $entries = null;
+
+	/** @var array<string, int>|null */
+	protected array|null $targets = null;
+	protected Router|null $router = null;
+
+	public function __construct(protected string|null $language = null)
+	{
+		$this->kirby = App::instance();
+		$this->language ??= $this->kirby->language()?->code();
+	}
+
+	/**
+	 * @return Data
+	 */
+	protected function data(): array
+	{
+		return $this->data ??= (new Index())->read();
+	}
+
+	/**
+	 * Hosts of the site: links to them are checked without requests
+	 *
+	 * @return list<string>
+	 */
+	protected static function hosts(): array
+	{
+		$kirby = App::instance();
+		/** @var list<string|null> $urls */
+		$urls = [$kirby->url(), ...($kirby->multilang() ? $kirby->languages()->values(static fn (Language $language) => $language->url()) : [])];
+		$hosts = array_map(static fn ($url) => parse_url((string)$url, PHP_URL_HOST), $urls);
+
+		return array_values(array_unique(array_map('strtolower', array_filter([...$hosts, ...(Seo::option('links.hosts') ?? [])]))));
+	}
+
+	public static function isInternal(string $url): bool
+	{
+		static $hosts = null;
+		$hosts ??= static::hosts();
+
+		return in_array(strtolower(parse_url($url, PHP_URL_HOST) ?: ''), $hosts, true);
+	}
+
+	public function isEmpty(): bool
+	{
+		return !$this->results()['scanned'];
+	}
+
+	/**
+	 * @return array<string, Link>
+	 */
+	public function links(): array
+	{
+		return $this->results()['links'];
+	}
+
+	/**
+	 * @param Link $link
+	 */
+	public static function has(array $link, string $filter): bool
+	{
+		return $filter === 'issues'
+			? in_array($link['state'], self::ISSUES, true)
+			: $link['state'] === $filter;
+	}
+
+	/**
+	 * @param array<string, Link> $links
+	 * @return array<string, int>
+	 */
+	public static function summary(array $links): array
+	{
+		$summary = array_fill_keys(self::FILTERS, 0);
+
+		foreach ($links as $link) {
+			if (isset($summary[$link['state']])) {
+				$summary[$link['state']]++;
+			}
+		}
+
+		return $summary;
+	}
+
+	/**
+	 * Caches classified links per language and index revision.
+	 * Source page IDs use newline-separated strings to reduce memory use for shared links
+	 *
+	 * @return Results
+	 */
+	protected function results(): array
+	{
+		if ($this->results !== null) {
+			return $this->results;
+		}
+
+		$cache = Index::cache();
+		$key = 'links/report/' . ($this->language ?? 'default');
+		/** @var Results|null $cached */
+		$cached = $cache->get($key);
+
+		if ($cached !== null && $cached['revision'] === Index::revision()) {
+			return $this->results = $cached;
+		}
+
+		$this->results = [
+			'revision' => $this->data()['revision'],
+			'scanned' => $this->data()['pages'] !== [],
+			'links' => $this->build()
+		];
+
+		$cache->set($key, $this->results);
+
+		$this->data = null;
+		$this->entries = null;
+		$this->targets = null;
+
+		return $this->results;
+	}
+
+	/**
+	 * @return array<string, Link>
+	 */
+	protected function build(): array
+	{
+		$pages = [];
+
+		foreach ($this->data()['pages'] as $entry) {
+			if ($entry['language'] !== $this->language) {
+				continue;
+			}
+
+			foreach ($entry['links'] as $id) {
+				$pages[$id][$entry['page']] = true;
+			}
+		}
+
+		$links = [];
+
+		foreach ($pages as $id => $linking) {
+			$url = $this->data()['strings'][$id];
+
+			// e.g. links scanned before a scheme was ignored
+			if (Crawler::isIgnored($url)) {
+				continue;
+			}
+
+			$links[$url] = [
+				'url' => $url,
+				'internal' => static::isInternal($url),
+				'total' => count($linking),
+				'pages' => implode("\n", array_keys($linking)),
+				'code' => null,
+				'target' => null,
+				'reason' => null,
+				...$this->check($url)
+			];
+		}
+
+		return $links;
+	}
+
+	/**
+	 * Number of linked URLs per severity, cached until the index changes
+	 *
+	 * @return array{ok: int, notice: int, negative: int, unknown: int}
+	 */
+	public function stats(): array
+	{
+		$cache = Index::cache();
+		$key = 'links/stats/' . ($this->language ?? 'default');
+		/** @var array{revision: string|null, stats: array{ok: int, notice: int, negative: int, unknown: int}}|null $cached */
+		$cached = $cache->get($key);
+
+		if ($cached !== null && $cached['revision'] === Index::revision()) {
+			return $cached['stats'];
+		}
+
+		$stats = ['ok' => 0, 'notice' => 0, 'negative' => 0, 'unknown' => 0];
+
+		foreach ($this->links() as $link) {
+			$stats[self::SEVERITY[$link['state']]]++;
+		}
+
+		$cache->set($key, ['revision' => $this->results()['revision'], 'stats' => $stats]);
+
+		return $stats;
+	}
+
+	/**
+	 * Classifies a URL from stored scan results; does not make network requests
+	 *
+	 * @return Check
+	 */
+	protected function check(string $url): array
+	{
+		// Kirby couldn't find the model, e.g. a deleted page linked in a writer field
+		if (preg_match('#^(page|file)://#i', $url)) {
+			return ['state' => 'broken', 'reason' => 'uuid'];
+		}
+
+		// links to other protocols that can't be checked, other schemes are
+		// most likely errors, e.g. internal links of a previous CMS (`t3://page?uid=1`)
+		if (!preg_match('#^https?://#i', $url)) {
+			return (
+				preg_match('#^s?ftps?:#i', $url)
+					? ['state' => 'unknown', 'reason' => 'scheme']
+					: ['state' => 'broken', 'reason' => 'invalid']
+			);
+		}
+
+		$parts = explode('#', $url, 2);
+		$url = $parts[0];
+		$fragment = $parts[1] ?? null;
+
+		return static::isInternal($url) ? $this->checkInternal($url, $fragment) : $this->checkExternal($url);
+	}
+
+	/**
+	 * @return Check
+	 */
+	protected function checkInternal(string $url, string|null $fragment): array
+	{
+		if ($entry = $this->entries()[static::normalize($url)] ?? null) {
+			return $this->checkPage($entry, $fragment);
+		}
+
+		// content representations, e.g. `/team/jane.vcf` for the template `team.vcf.php`
+		$match = [];
+		if (
+			preg_match('#\.([a-z0-9]+)$#i', parse_url($url, PHP_URL_PATH) ?: '', $match) &&
+			($entry = $this->entries()[static::normalize(substr(explode('?', $url, 2)[0], 0, -strlen($match[0])))] ?? null)
+		) {
+			try {
+				$this->kirby->page($entry['page'])?->representation($match[1]);
+				return ['state' => 'ok'];
+			} catch (Throwable) {
+				return ['state' => 'broken', 'reason' => 'notFound', 'code' => 404];
+			}
+		}
+
+		// a page that hasn't been scanned yet, e.g. during the first scan or right after publishing it
+		if (isset($this->targets()[static::normalize($url)])) {
+			return ['state' => 'unknown', 'reason' => 'unchecked'];
+		}
+
+		$path = $this->path($url);
+
+		// permalinks redirect to the current URL of the model
+		if (preg_match('#^@/(page|file)/([^/?]+)#', $path, $match)) {
+			/** @var \Kirby\Cms\Page|\Kirby\Cms\File|null $model */
+			$model = Uuid::for("{$match[1]}://{$match[2]}")?->model();
+			return (
+				$model
+					? ['state' => 'redirect', 'reason' => 'permalink', 'target' => $model->url()]
+					: ['state' => 'broken', 'reason' => 'uuid']
+			);
+		}
+
+		$file = parse_url($url, PHP_URL_PATH) ?: '/';
+
+		if ($this->isMedia($url) || $this->isStatic($file)) {
+			return ['state' => 'ok'];
+		}
+
+		// only indexable pages are scanned, e.g. not an unlisted imprint
+		if ($page = $this->find($path)) {
+			return (
+				$page->isDraft()
+					? ['state' => 'broken', 'reason' => 'draft', 'code' => 404]
+					: ['state' => 'ok']
+			);
+		}
+
+		// routes of plugins & the config, e.g. the sitemap
+		if ($this->hasRoute($path) || $this->hasRoute(trim(rawurldecode($file), '/'))) {
+			return ['state' => 'unknown', 'reason' => 'route'];
+		}
+
+		return ['state' => 'broken', 'reason' => 'notFound', 'code' => 404];
+	}
+
+	/**
+	 * @param PageEntry $entry
+	 * @return Check
+	 */
+	protected function checkPage(array $entry, string|null $fragment): array
+	{
+		$status = $entry['status'];
+
+		return match (true) {
+			$entry['error'] !== null => ['state' => 'unknown', 'reason' => 'render'],
+			$status >= 300 && $status < 400 => ['state' => 'redirect', 'reason' => 'redirect', 'code' => $status, 'target' => $entry['location']],
+			$status >= 400 => ['state' => 'broken', 'reason' => 'status', 'code' => $status],
+			!$this->hasAnchor($entry, $fragment) => ['state' => 'anchor', 'reason' => 'anchor', 'target' => $fragment],
+			default => ['state' => 'ok', 'code' => $status]
+		};
+	}
+
+	/**
+	 * @param array{ids: list<int|string>, ...} $entry
+	 */
+	protected function hasAnchor(array $entry, string|null $fragment): bool
+	{
+		if ($fragment === null || $fragment === '') {
+			return true;
+		}
+
+		$fragment = rawurldecode($fragment);
+
+		// browsers scroll to the top & support text fragments without matching elements
+		// numeric IDs are stored as integers, they were array keys
+		return (
+			$fragment === 'top' ||
+				str_starts_with($fragment, ':~:') ||
+				in_array($fragment, array_map(strval(...), $entry['ids']), true)
+		);
+	}
+
+	/**
+	 * @return Check
+	 */
+	protected function checkExternal(string $url): array
+	{
+		$result = $this->data()['urls'][$url] ?? null;
+		$code = $result['code'] ?? 0;
+
+		return match (true) {
+			$result === null, $result['error'] === 'curl' => ['state' => 'unknown', 'reason' => 'unchecked'],
+			$result['error'] === 'timeout' => ['state' => 'unknown', 'reason' => 'timeout'],
+			// not requested, e.g. a server in the network of the site
+			$result['error'] === 'private' => ['state' => 'unknown', 'reason' => 'private'],
+			$result['error'] !== null => ['state' => 'broken', 'reason' => 'unreachable'],
+			$code >= 200 && $code < 300 => ['state' => 'ok', 'code' => $code],
+			$code >= 300 && $code < 400 => ['state' => 'redirect', 'reason' => 'redirect', 'code' => $code, 'target' => $result['location']],
+			in_array($code, [404, 410], true) || $code >= 500 => ['state' => 'broken', 'reason' => 'status', 'code' => $code],
+			// e.g. 403 or 429: the server doesn't answer requests of bots
+			default => ['state' => 'unknown', 'reason' => 'blocked', 'code' => $code]
+		};
+	}
+
+	/**
+	 * Scanned pages of all languages by their URL, as pages might link to other languages
+	 *
+	 * @return array<string, PageEntry>
+	 */
+	protected function entries(): array
+	{
+		if ($this->entries === null) {
+			$this->entries = [];
+
+			foreach ($this->data()['pages'] as $entry) {
+				$this->entries[static::normalize($entry['url'])] = $entry;
+			}
+		}
+
+		return $this->entries;
+	}
+
+	/**
+	 * @return array<string, int>
+	 */
+	protected function targets(): array
+	{
+		return $this->targets ??= array_flip($this->data()['targets']);
+	}
+
+	/**
+	 * Comparable form of page URLs: without query, fragment, Kirby's params & trailing slashes
+	 */
+	public static function normalize(string $url): string
+	{
+		$parts = parse_url($url);
+		$path = rawurldecode($parts['path'] ?? '');
+		// params, e.g. `/blog/tag:kirby`
+		$path = (string)preg_replace('#(/[^/]+:[^/]*)+/?$#', '', $path);
+
+		return strtolower($parts['host'] ?? '') . (isset($parts['port']) ? ":{$parts['port']}" : '') . '/' . trim($path, '/');
+	}
+
+	/**
+	 * Path of an internal URL without the language prefix
+	 */
+	protected function path(string $url): string
+	{
+		$path = trim(rawurldecode(parse_url($url, PHP_URL_PATH) ?: ''), '/');
+
+		if ($this->kirby->multilang()) {
+			foreach ($this->kirby->languages() as $language) {
+				$prefix = trim(parse_url($language->url(), PHP_URL_PATH) ?: '', '/');
+
+				if ($prefix !== '' && ($path === $prefix || str_starts_with($path, "{$prefix}/"))) {
+					return ltrim(substr($path, strlen($prefix)), '/');
+				}
+			}
+		}
+
+		return $path;
+	}
+
+	/**
+	 * Page or draft of the path, by the slugs of any language
+	 */
+	protected function find(string $path): Page|null
+	{
+		if ($path === '') {
+			return $this->kirby->site()->homePage();
+		}
+
+		/** @var list<string|null> $languages */
+		$languages = $this->kirby->multilang() ? $this->kirby->languages()->codes() : [null];
+		$model = $this->kirby->site();
+
+		foreach (explode('/', $path) as $segment) {
+			$model = $model
+				->childrenAndDrafts()
+				->filter(
+					static fn (Page $page) => in_array($segment, array_map($page->slug(...), $languages), true)
+				)
+				->first();
+
+			if (!$model instanceof Page) {
+				return null;
+			}
+		}
+
+		return $model;
+	}
+
+	/**
+	 * Files & thumbs in the media folder: they are created on the first request,
+	 * so the file needs to exist in the content (thumbs start with the file's name)
+	 */
+	protected function isMedia(string $url): bool
+	{
+		$media = rtrim((string)$this->kirby->url('media'), '/') . '/';
+
+		if (!str_starts_with($url, $media)) {
+			return false;
+		}
+
+		$segments = explode('/', rawurldecode(explode('?', substr($url, strlen($media)), 2)[0]));
+		$filename = array_pop($segments);
+		// the hash of the file version
+		array_pop($segments);
+
+		$parent = match (array_shift($segments)) {
+			'pages' => $this->kirby->page(implode('/', $segments)),
+			'site' => $this->kirby->site(),
+			default => null
+		};
+
+		if ($parent === null) {
+			return false;
+		}
+
+		foreach ($parent->files() as $file) {
+			if ($file->filename() === $filename || str_starts_with($filename, $file->name() . '-')) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	protected function isStatic(string $path): bool
+	{
+		$root = realpath((string)$this->kirby->root('index'));
+		if ($root === false) {
+			return false;
+		}
+
+		$file = realpath($root . '/' . rawurldecode(ltrim($path, '/')));
+
+		return $file !== false && is_file($file) && str_starts_with($file, $root . DIRECTORY_SEPARATOR);
+	}
+
+	protected function hasRoute(string $path): bool
+	{
+		if ($this->router === null) {
+			/** @var list<array<string, mixed>>|Closure(App): list<array<string, mixed>> $config */
+			$config = $this->kirby->option('routes', []);
+			$routes = [
+				...$this->kirby->extensions('routes'),
+				...($config instanceof Closure ? $config($this->kirby) : $config)
+			];
+
+			$this->router = new Router(array_filter($routes, static fn ($route) => isset($route['pattern'], $route['action'])));
+		}
+
+		try {
+			$this->router->find($path, 'GET');
+			return true;
+		} catch (Throwable) {
+			return false;
+		}
+	}
+}

@@ -2,12 +2,12 @@
 
 return [
     'debug'  => true,
-    'tobimori.seo.canonicalBase' => 'https://ninasiessegger.de',
+    'tobimori.seo.canonical.base' => 'https://ninasiessegger.de',
     'languages' => [
         'detect' => true
     ],
     'tobimori.seo.robots' => [
-        'active' => true,
+        'enabled' => true,
         'content' => [
             '*' => [
                 'Allow' => ['/'],
