@@ -97,6 +97,12 @@ You have the right to request the restriction of the processing of your personal
 
 If you have restricted the processing of your personal data, this data may – apart from being stored – only be processed with your consent or for the assertion, exercise or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or a Member State.
 
+##4. Analysis Tools
+###SimpleStats
+This website uses the statistics plugin SimpleStats to analyse how the website is used. SimpleStats runs exclusively on our own web server. No cookies are set and no data is transferred to third parties.
+When you access a page, your IP address is shortened and, together with your browser identifier (user agent), converted into an irreversible hash value. This value is used only to avoid counting repeated visits by the same person within one day more than once, and is deleted after about 24 hours. Only aggregated statistics without reference to individual persons are stored permanently: pages visited, referring websites, device type, operating system, browser and language.
+Processing is based on Art. 6 para. 1 lit. f GDPR. We have a legitimate interest in analysing the use of our website in order to improve our services. You can object to this processing at any time pursuant to Art. 21 GDPR.
+
 Source:
 https://www.e-recht24.de
 
