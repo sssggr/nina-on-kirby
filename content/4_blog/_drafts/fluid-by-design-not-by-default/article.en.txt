@@ -1,0 +1,89 @@
+Title: Fluid by Design, not by Default
+
+----
+
+Slug: fluid-by-design-not-by-default
+
+----
+
+Teasertext: Freeze or reorg rush? How to tell when your teams need to change, and how to make team change a good experience.
+
+----
+
+Headline: Fluid by Design, not by Default: How Teams Learn to Change
+
+----
+
+Modules: [{"content": {"text": "A lot of organizations are in crisis mode right now: budgets are frozen, priorities keep shifting, and you can really feel how much pressure everyone is under. When I talk to leaders about what this means for how their teams are set up, I usually hear one of two things.\n\nSome say: There's already so much change going on. There's the crisis, AI is changing how we build software and how we work, and on top of that, people are worried about their jobs. We can't ask even more of them. So let's leave the teams as they are. I call this the **freeze**.\n\nOthers say: We need to adapt much faster. Teams need to change faster and become a lot more fluid. And then the reorganizing starts, again and again, often just a few months apart. Most of the time, the underlying problems don't get solved. I'd call that the **reorg rush**.\n\nBoth reactions tend to be driven by the moment, and there's often cost pressure behind them. Yet right now, with markets shifting, organizations need to stay close to their customers. That only works with teams that can deliver what matters. Teams are the building blocks of our organizations: if an organization wants to be adaptable, its teams need to be adaptable too.\n\nI'm convinced that effective teams are designed on purpose. Who works on what, with whom, and how do teams work together? This post is about how to set your teams up well for the future. It's based on my talk *Fluid by Design, not by Default*, which I gave at code.talks 2026 in Hamburg."}, "id": "779c6e30-f9b6-44af-a1fb-785cfd228750", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "Will We Still Have Teams?"}, "id": "8eb74e99-da22-4224-8dc5-c3cab218cdf3", "isHidden": false, "type": "subheading"}, {"content": {"text": "With all the AI hype, some people may be wondering whether we still need teams at all. I know startups that are building software with just two people. And at meetups, I often hear about teams taking on big projects with far fewer people, or simply getting a lot more done.\n\nThis summer, Katelyn Lesse, Head of Engineering for the Claude Platform at Anthropic, told Gergely Orosz in (link: https://newsletter.pragmaticengineer.com/p/inside-anthropic text: The Pragmatic Engineer):\n\n> \"I still have teams whose job it is to own a piece of software, iterate on it, own oncall, and so on. While each of these humans are supercharged by AI, the size and shape of the team is still similar. We still have two-pizza teams.\"\n\nI think there's a good reason to keep having teams. A team is more than the combined capacity of its members. Teams are where different perspectives meet: Do customers actually want this? Will it pay off? Can we build it? How do we build it? And are we building it securely? When you're working alone with a handful of agents, it's easy to skip those trade-offs. Which raises a real question: Who's challenging your assumptions?\n\nNobody knows exactly what teams will look like a few years from now. But I'm pretty sure there will still be teams. And that we'll need to adapt them more often than we do today."}, "id": "e0561d3d-2362-4952-bab3-4d942f3aa09a", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "Stable, Not Static"}, "id": "72054e61-9489-4ead-b812-c4bf7a75b58b", "isHidden": false, "type": "subheading"}, {"content": {"text": "In my work, I see the freeze far more often than the reorg rush. I can't back that up with statistics, of course. But I think there are three good reasons for it:\n\n1. **We hold on to what we know.** That's status quo bias. Team structures often stay in place even when they no longer work, simply because they're familiar and feel reliable.\n2. **Stability gets misunderstood.** Over the past few years, many organizations have moved from project teams to long-lived product teams. There are good reasons for that: trust builds over time, domain knowledge can deepen, and teams take end-to-end ownership and learn what their customers need. Stable teams have a lot going for them, but the point was never for them to stay together forever. Teams should be relatively stable, but not static, and change when they need to.\n3. **Many people have had bad experiences with change.** Top-down reorgs that nobody understood and that didn't fix anything. Change initiatives that fizzled out or were poorly communicated. Plenty of people have been through that. So holding on to what's there is an understandable reaction. Bad change teaches people to hold on.\n\nThe opposite of stable teams is fluid team models. That can mean team membership changes, or that the structure itself changes: teams split, merge, or keep re-forming around new work. I believe most organizations need both, depending on the context:\n\n• **Stability** helps with business as usual and wherever deep domain knowledge matters.\n• **Fluidity** helps when you want to explore something new, when markets shift, or when knowledge needs to spread.\n\nLike I said, in most organizations I work with, the balance tips heavily toward stability. So do we need more fluid team models, like mission teams, rotation, or dynamic reteaming? Sometimes, yes. But most of the time, it's more about accepting that teams change anyway. The question is whether we shape that change or whether it just happens to us. That takes two things: noticing when change is needed, and getting better at changing teams."}, "id": "7f0ce813-8f18-4e25-b7b6-c673d884d62f", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "Step 1: Notice When Change Is Needed"}, "id": "b657d4be-6acf-4594-bdd1-ef50c8ef4acc", "isHidden": false, "type": "subheading"}, {"content": {"text": "Most of us know the signs when a team isn't running smoothly. At the organizational level, you see teams delivering slowly, issues getting escalated more often, and, if it goes on long enough, people leaving.\n\n• **What the organization sees:** slower delivery, escalations, people leaving\n• **What teams feel:** handoffs and waiting, unclear ownership, too much for one head\n\nPeople on the teams usually sense very early that something's off. Nobody's quite sure who owns what. There's simply too much work for the team, and the range of topics is far too broad. Team Topologies calls this cognitive load.\n\nFor these signals to get through, teams need to be able to raise them without it being seen as complaining. Timothy Clark calls this *challenger safety*: the safety to question the status quo. Without it, nobody speaks up.\n\nBut a signal isn't a diagnosis. An overloaded team doesn't automatically need to be reorganized. Start by finding out where the friction really comes from. Where exactly are the bottlenecks? \"It's too much\" is a feeling. A shared map of your domain and your dependencies is something you can actually talk about together. And for that, you need thinking tools."}, "id": "24e5b141-f72d-4dc8-992a-8f3f2d300535", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "An Example: Pirate Ship"}, "id": "100b2c3a-6aae-4817-b3b1-636f3dff8ada", "isHidden": false, "type": "subheading"}, {"content": {"text": "Pirate Ship builds shipping software for the US market, with software development based in Hamburg. In 2023, they were seeing exactly these signals: the teams were overloaded, the domains were too big, and ownership was unclear. At the same time, ten new developers were about to join. It was clear that just adding ten people would only make the problems bigger.\n\nTogether with my colleague Susanne Kaiser, I helped Pirate Ship restructure its teams. As our thinking tool, we used Architecture for Flow, the approach Susanne developed. It brings together business strategy, software architecture, and team organization:\n\n• **Wardley Maps** help you understand the strategic landscape and make value chains visible.\n• **Domain-Driven Design** translates these value streams into bounded contexts. At Pirate Ship, the teams worked them out together through EventStorming.\n• **Team Topologies** provides the tools to organize teams around these bounded contexts: stream-aligned teams and a platform team, with the interaction modes as a shared language.\n\nWe developed the solutions together with leadership, the development teams, and the product people. I describe exactly how we went about it in my (link: https://ninasiessegger.de/en/blog/re-teaming-for-faster-flow text: case study)."}, "id": "bd85a59d-5a67-4bdb-a241-0754a88a8fe5", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "Step 2: Get Better at Changing Teams"}, "id": "8f75ec69-9d31-4b8c-9bcf-6159bbffeb20", "isHidden": false, "type": "subheading"}, {"content": {"text": "Teams change all the time. People join and leave, teams grow, domains shift. And AI is speeding all of this up. Heidi Helfand sums it up in *Dynamic Reteaming*:\n\n> \"In essence, team change is inevitable, so we might as well get good at it.\"\n\nSo how do organizations get better at it? There's research on a lot of aspects of change, and here's one finding: organizations become more capable of change when people have had good experiences with change before. How often they've been through change hardly matters. Good change builds the change muscle. And the reverse is true too: bad change teaches people to hold on."}, "id": "486e855e-67cb-4abc-9b7c-10d17b714a3d", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "What Makes Change a Good Experience"}, "id": "d38d5277-f275-4aef-ab96-153a3b7042f8", "isHidden": false, "type": "subheading"}, {"content": {"text": "• **Involve the team from the start**, before the new org chart is finished. Involvement doesn't mean everyone gets a say in every decision. It can mean keeping people informed, drawing on their expertise, or making decisions together.\n• **Talk openly about hopes and fears.** At Pirate Ship, that's exactly how we kicked off the team formation workshop. The fears are there anyway, so why not talk about them? In my experience, focusing only on the positives makes people suspicious. After all, everything has its downsides.\n• **Build in feedback loops**, such as retrospectives, so you can course-correct along the way."}, "id": "3cfc118f-3699-4a6b-b97b-e78a0f9233af", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "What Stays When Everything Else Changes?"}, "id": "a01adce0-3b5f-4bb7-b0f1-07cd260c7683", "isHidden": false, "type": "subheading"}, {"content": {"text": "Change in teams is rarely met with pure enthusiasm. People leave behind what's familiar, like the colleague they love working with, and they wonder what it's going to be like. Many are skeptical at first, and that makes sense. Behind it is a simple question: What stays when everything else changes?\n\nAt Thoughtworks, I was a developer and tech lead. As is common in consulting, we switched teams every few months. New client, new project, new people. You'd think we were constantly storming. We weren't. Because some things were the same on every team: we paired, wrote tests first, and integrated continuously (CI/CD). So on my very first day on a new team, I could already contribute.\n\nI call these things **anchors**. They give people something to hold on to while the team changes.\n\n• **Shared practices** provide orientation: I know how we work here.\n• **Clear responsibilities** provide clarity: I know who on my team is responsible for what and how we work with other teams.\n• **A shared identity** provides belonging: I know where I belong, even beyond my own team.\n• **Reflection routines** provide agency: if something isn't working, we can change it.\n\nThere's research on this, too: people are more likely to support change when they can see what stays the same (Venus, Stam & van Knippenberg: \"Visions of Change as Visions of Continuity\")."}, "id": "328b3143-6e99-4502-9cb8-5bb28f3aca9d", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "What Happened at Pirate Ship"}, "id": "3231cc22-9eb3-4c7b-bb9f-55c1128c207d", "isHidden": false, "type": "subheading"}, {"content": {"text": "At Pirate Ship, we mapped the domain together, the teams helped shape the new structure, and we split the teams step by step, like cell division. In other words, we took an evolutionary approach. A few months later, one of the new teams proposed its own split. Nobody had asked them to, and Susanne and I had already wrapped up the project. The team had learned to recognize when change was needed, and how to make it happen.\n\nWhy did that happen? I think part of the reason is that the first change was a good experience. Good change makes people more willing to take the risk of changing again.\n\nThat said, not everything went smoothly or according to plan. In retrospectives, the teams themselves raised what still wasn't working: knowledge still needed to be spread more widely, the codebase didn't yet reflect the new domains, and many shared components had no clear owner. That later led to a platform team. And that's part of good change too: it doesn't end with the new structure. It's always a work in progress."}, "id": "3c4d04fc-4f0c-4536-bebd-5b4cc42a6735", "isHidden": false, "type": "bodytext"}, {"content": {"subheading": "Team Change Isn't a One-Off Project"}, "id": "34208b3f-d265-43b7-9409-0fdc6ea55ac6", "isHidden": false, "type": "subheading"}, {"content": {"text": "How do you set your teams up well for the future? I don't think it's with one big reorg. The structure we design is always our best guess for the moment. That's why you need two capabilities: noticing when change is needed, and getting better at changing teams. That way, every change makes the next one easier.\n\nThat's what I mean by *fluid by design*: changing teams deliberately, when it's needed, and together with the people on them. It explicitly doesn't mean constant restructuring, and it doesn't mean a knee-jerk reaction to cost pressure or the next wave of reorgs.\n\nMy suggestion for your next step: **Slow down before you speed up.** Right now, AI is pushing us to go faster and faster, or at least giving us the illusion of speed. But if the priorities aren't right, more speed just means more output. And that may not be worth much. That's why I believe teams and organizations need more time to identify problems and develop solutions together. Concrete steps for your team:\n\n1. Map out together what's slowing you down right now.\n2. Understand the root causes.\n3. Then take the next step.\n\nAnd ask yourselves more often: Are our teams set up to deliver what matters right now?"}, "id": "41ab97ee-3af6-4edd-b87b-af8165852ca1", "isHidden": false, "type": "bodytext"}, {"content": {"headline": "Are your teams growing, is coordination getting harder, and are you wondering whether your structure still fits? Do you want to change your teams without it turning into yet another reorg that doesn't fix anything?", "buttontext": "Let's talk.", "buttonlink": ["page://QjQlA0CmqokWM3F5"]}, "id": "34d9eecf-6c32-4b71-9272-56def8983afe", "isHidden": false, "type": "contacthighlight"}, {"content": {"subheading": "Slides, Sources, and Further Reading"}, "id": "944170c2-26e1-4b24-a99f-2a711797053e", "isHidden": false, "type": "subheading"}, {"content": {"text": "• Talk slides: link coming soon\n• Pirate Ship case study: (link: https://ninasiessegger.de/en/blog/re-teaming-for-faster-flow text: Reteaming for Faster Flow)\n• Clark, T. R. (2020). The 4 stages of psychological safety. Berrett-Koehler.\n• Heckmann, N., Steger, T. & Dowling, M. (2016). Organizational capacity for change, change experience, and change project performance. Journal of Business Research, 69(2).\n• Helfand, H. (2020). Dynamic reteaming: The art and wisdom of changing teams. O'Reilly.\n• Kaiser, S. (2025). Architecture for Flow. Addison-Wesley. See also the (link: https://susannekaiser.net/architecture-for-flow-canvas/ text: Architecture for Flow Canvas).\n• Orosz, G. (2026, July 28). How building software is changing at Anthropic. (link: https://newsletter.pragmaticengineer.com/p/inside-anthropic text: The Pragmatic Engineer).\n• Skelton, M. & Pais, M. (2025). Team Topologies (2nd ed.). IT Revolution.\n• Venus, M., Stam, D. & van Knippenberg, D. (2019). Visions of change as visions of continuity. Academy of Management Journal, 62(3)."}, "id": "79ec54da-1fce-4e32-a87a-b8d65ba07afc", "isHidden": false, "type": "bodytext"}]
+
+----
+
+Date: 2026-10-26
+
+----
+
+Headerimage: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Freeze or reorg rush? How to tell when your teams need to change, and how to make team change a good experience.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: 
