@@ -1,0 +1,60 @@
+name: 💾 Back up content from server
+on:
+  schedule:
+    - cron: '17 2 * * *' # every night at 02:17 UTC
+  workflow_dispatch: # allows starting it by hand on GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-backup
+
+jobs:
+  backup:
+    name: 💾 Backup
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: 🧰 Install lftp
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+    - name: 📥 Download content from server
+      env:
+        FTP_SERVER: ${{ secrets.ftp_server }}
+        FTP_USERNAME: ${{ secrets.ftp_username }}
+        FTP_PASSWORD: ${{ secrets.ftp_password }}
+      run: |
+        # mirror the server's content folder into ./content;
+        # files that were deleted on the server are deleted here too
+        lftp -u "$FTP_USERNAME,$FTP_PASSWORD" "$FTP_SERVER" <<'EOF'
+        set ftp:ssl-force true
+        set ftp:ssl-protect-data true
+        set net:max-retries 3
+        mirror --delete --parallel=4 --exclude '(^|/)\.lock$' --exclude '(^|/)_changes/' ninasiessegger.de/content ./content
+        EOF
+
+    - name: 🛟 Stop if the download looks wrong
+      run: |
+        # an empty or tiny result means something went wrong; never commit that
+        count=$(find content -type f | wc -l)
+        echo "Files in content: $count"
+        if [ "$count" -lt 50 ]; then
+          echo "::error::Only $count files downloaded, not committing."
+          exit 1
+        fi
+
+    - name: 📝 Commit changes
+      run: |
+        git add -A content
+        if git diff --cached --quiet; then
+          echo "No content changes."
+          exit 0
+        fi
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit -m "Back up content from server"
+        git pull --rebase
+        git push

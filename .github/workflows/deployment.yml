@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-    
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -15,3 +15,10 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: ./ninasiessegger.de/
+        # content is edited in the Panel on the server and never deployed;
+        # the first three entries are the action's defaults
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          content/**
