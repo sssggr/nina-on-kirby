@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'debug'  => true,
+    'debug'  => false,
     'tobimori.seo.canonical.base' => 'https://ninasiessegger.de',
     'languages' => [
         'detect' => true
@@ -31,14 +31,14 @@ return [
             'pattern' => 'mein-angebot/(:any)',
             'language' => '*',
             'action'  => function($lang, $uid) {
-                go($lang .  '/' . $uid);
+                go($lang->url() . '/' . $uid, 301);
             }
         ],
         [
             'pattern' => 'my-services/(:any)',
             'language' => '*',
             'action'  => function($lang, $uid) {
-                go($lang .  '/' . $uid);
+                go($lang->url() . '/' . $uid, 301);
             }
         ],
         [
