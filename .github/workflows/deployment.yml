@@ -11,9 +11,13 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.ftp_server }}
+        # the server's TLS certificate is issued for *.netcup.net, so connect
+        # via this name (same machine as ninasiessegger.de) to keep verification on
+        server: ae909.netcup.net
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        protocol: ftps
+        security: strict
         server-dir: ./ninasiessegger.de/
         # content is edited in the Panel on the server and never deployed;
         # the first three entries are the action's defaults
