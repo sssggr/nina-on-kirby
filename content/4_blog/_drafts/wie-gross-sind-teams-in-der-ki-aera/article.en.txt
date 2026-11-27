@@ -1,0 +1,85 @@
+Title: How Big Are Teams in the AI Era?
+
+----
+
+Slug: how-big-are-teams-in-the-ai-era
+
+----
+
+Teasertext: With AI, startups are building software with fewer and fewer people. Are two enough now? Why I think teams still matter in the AI era, and when a pair works just fine.
+
+----
+
+Headline: Zwei Leute und ganz viel KI: Brauchen wir noch Teams?
+
+----
+
+Modules: [{"content":{"text":"Lately I keep hearing from startups that they're building software with far fewer people than just two years ago. A handful of developers, plus AI agents. And it works really well, and it's fast. Anthropic CEO Dario Amodei even predicted in early 2025 that AI would soon be writing 90 percent of all code.\n\nSo the obvious question is: Do we even need teams anymore? Or are two people enough now?"},"id":"dcaed922-0542-41d8-af50-f2f973c20c85","isHidden":false,"type":"bodytext"},{"content":{"subheading":"A Look Inside Anthropic"},"id":"0b29647a-f9cc-4cff-8b2e-ccd569e03558","isHidden":false,"type":"subheading"},{"content":{"text":"Anthropic itself uses AI more intensively than almost any other company. For his newsletter (link: https://www.pragmaticengineer.com/ text: The Pragmatic Engineer), Gergely Orosz has spoken twice with Katelyn Lesse, who leads engineering for the Claude Platform at Anthropic. In those conversations, she describes how much has changed: Everyone works with multiple AI agents in parallel, prototypes come together much faster, and new colleagues have AI walk them through the systems.\n\nBut the teams are still two-pizza teams, meaning teams small enough to be fed with two pizzas. She talks about five to ten people. According to Lesse, that's the size you need to truly understand a complex system and to staff an on-call rotation. People go on vacation, after all, and you need a fallback. A system is always owned by a team, never by a single person. Lesse also stresses that planning and coordination take just as much time as they did before AI, and that alignment is one of the most time-consuming steps.\nI find that interesting, and maybe even a little reassuring. Right where AI is used most intensively, teams are here to stay."},"id":"8c485620-e14e-49e8-b4c3-a30517feab66","isHidden":false,"type":"bodytext"},{"content":{"subheading":"Why I Still Believe in Teams"},"id":"c92b4ce6-c935-4c61-b710-576f40031f2c","isHidden":false,"type":"subheading"},{"content":{"text":"To me, teams are more than a way of dividing up work. A team brings different perspectives together. People have each other's backs and learn from one another. If anything, I think AI makes that even more important. I see at least three reasons why teams still matter.\n\n**Different perspectives:** In a pair, you quickly get used to the other person's way of seeing things. What's missing is a third perspective: someone who pushes back, asks questions, or takes an idea in a completely different direction. When AI produces a lot in a short time, that pushback matters even more. Someone has to ask whether what's being created is actually the right thing.\n\n**Different roles: **In small development teams, product and engineering often work side by side. But there's frequently no one covering UX or the domain knowledge of the field the software is being built for. It's similar outside of software development: Good results usually come from bringing different skills to the same table. That's why, even with AI, I believe in cross-functional teams that are aligned with what truly creates value for customers.\n\n**The bus factor: **What happens if one of two people gets sick, goes on parental leave, or quits? Suddenly half of the knowledge is gone. For a company, that's a real risk.\n\nAnd then there's another question: Where do junior team members learn? Yes, AI can explain a lot. At Anthropic, new colleagues now have Claude show them around their systems. But explanations are no substitute for learning by working together: asking questions, thinking things through, and sometimes failing with someone by your side. If only two experienced people are working with AI, that space disappears. And if teams become more senior overall, as Lesse describes at Anthropic, the question becomes even more pressing: Where will tomorrow's senior people come from?"},"id":"5cb28a17-cefe-4c7a-9661-39cdcbfeea1a","isHidden":false,"type":"bodytext"},{"content":{"subheading":"When Two People Are Enough"},"id":"e69a5412-bf6a-4707-a20d-677ef9cf34fc","isHidden":false,"type":"subheading"},{"content":{"text":"I don't want to knock the two-person model. In the early days of a startup, when the goal is to get a market-ready product out the door quickly, it can work well for a while. The same goes for a project where a company is deliberately experimenting.\n\nThings get more interesting as the company grows. With two or three two-person units, a lot can be handled informally. But what happens when there are ten of them, the product gets bigger, and more customers depend on it? Who coordinates the units then? Who keeps track of the big picture, and who takes care of the interfaces? Today, teams handle part of that coordination themselves. With many small units, it multiplies.\n\nAnd I think two-person units require quite a lot. You need people who combine product thinking and engineering really well. People who understand what customers need and can also build it with AI. Those people exist, but I don't think there are many of them.\n\nThat's why I see it as risky as a long-term model, and not particularly sustainable in larger organizations. As soon as a product grows, there are lots of users, and more people depend on it, you need more perspectives again, more resilience, and simply more capacity for operations and coordination."},"id":"16f2b4fd-2347-4c4b-bcbe-4f1e24fad8d4","isHidden":false,"type":"bodytext"},{"content":{"subheading":"What Changes and What Stays"},"id":"51cd081b-8caa-4c72-aaf0-9b13f564d506","isHidden":false,"type":"subheading"},{"content":{"text":"My impression: AI is mainly changing how teams are put together and how they work. They work on more projects at once, and different skills are needed. Teams are going to change over the next few years. No one knows yet exactly what that will look like, myself included. But I do believe what matters is shaping this change deliberately, together with the people involved.\n\nThere's no blueprint for this. But here are a few questions every organization should ask itself:\n• What do we need people for, and what can AI take over?\n• Who questions whether we're building or doing the right thing?\n• How do we share knowledge when everyone works with their own AI agents?\n• How do we coordinate work across teams?\n• And where do newcomers learn?\n\nFor me, the team remains the foundation. It's where shared understanding grows, where people can disagree, maybe even argue, and learn from each other. And it's where others pick up the slack when someone is out.\n\n**Further reading:**\n• (link: page://K8VxIuKL66UUiny0 text: When Is a Team Too Big? )\n• (link: page://smrjoqzrkqm1mpj5 text: Fluid by Design, not by Default)\n\nSources: Gergely Orosz, The Pragmatic Engineer, (link: https://newsletter.pragmaticengineer.com/p/inside-anthropic text: How building software is changing at Anthropic) and (link: https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in text: How Anthropic builds software in 2026 with Katelyn Lesse)"},"id":"c3c7f6ba-d5b7-4a29-a617-869ec3bd56f8","isHidden":false,"type":"bodytext"}]
+
+----
+
+Date: 2026-11-26
+
+----
+
+Headerimage: - file://nfwwimkhwsbg5sen
+
+----
+
+Metatitle: How Big Are Teams in the AI Era?
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: Startups are building software with fewer people thanks to AI. Do we still need teams? Why I still believe in teams and when two people are enough.
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
